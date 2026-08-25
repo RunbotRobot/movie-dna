@@ -1,19 +1,26 @@
 import { loadData } from './data.js';
-import { resolveSeed, combineSeeds, scoreMovies } from './similarity.js';
+import { resolveSeed, combineSeeds, scoreMovies, explainMatch } from './similarity.js';
 import { sampleResults } from './sampling.js';
 import { observeFullyVisible } from './history.js';
 
 let taxonomy = null;
 let movies = null;
+let tagLookup = new Map();
 let seeds = [];
 let activeObservers = [];
+let hasResults = false;
 
 const seedInput = document.getElementById('seed-input');
 const addSeedBtn = document.getElementById('add-seed-btn');
+const seedErrorEl = document.getElementById('seed-error');
 const seedChipsEl = document.getElementById('seed-chips');
 const tempSlider = document.getElementById('temperature-slider');
+const searchBtn = document.getElementById('search-btn');
 const resultsGrid = document.getElementById('results-grid');
 const resultsStatus = document.getElementById('results-status');
+const explainDialog = document.getElementById('explain-dialog');
+const explainTitle = document.getElementById('explain-title');
+const explainBody = document.getElementById('explain-body');
 
 function temperatureFromSlider() {
   const v = Number(tempSlider.value);
@@ -26,21 +33,33 @@ function seedTypeLabel(type) {
   return 'theme';
 }
 
+function markSettingsChanged() {
+  if (hasResults) {
+    resultsStatus.textContent = 'Data points changed — press "Get suggestions" to refresh.';
+  }
+}
+
 function addSeedFromInput() {
   const value = seedInput.value.trim();
+  seedErrorEl.textContent = '';
   if (!value) return;
+
   const resolved = resolveSeed(value, movies, taxonomy);
-  if (!resolved) return;
+  if (!resolved || resolved.matched === false) {
+    seedErrorEl.textContent = `No match found for "${value}" — try a different movie, actor/director, or theme. (Our catalog is small for this proof of concept, so lesser-known titles or people may not be included yet.)`;
+    return;
+  }
+
   seeds.push({ query: value, resolved });
   seedInput.value = '';
   renderSeedChips();
-  render();
+  markSettingsChanged();
 }
 
 function removeSeed(index) {
   seeds.splice(index, 1);
   renderSeedChips();
-  render();
+  markSettingsChanged();
 }
 
 function renderSeedChips() {
@@ -69,10 +88,65 @@ function renderSeedChips() {
   });
 }
 
-function renderCard(movie) {
+function openExplainDialog(movie, reason, query) {
+  const explanation = explainMatch(query, movie, tagLookup);
+  explainTitle.textContent = `${movie.title} (${movie.year})`;
+  explainBody.innerHTML = '';
+
+  if (explanation.isWeak) {
+    const p = document.createElement('p');
+    p.textContent =
+      reason === 'novelty'
+        ? "This one doesn't closely match your current data points — it's included on purpose, to introduce you to something outside your usual pattern."
+        : 'No strong thematic overlap was found with your current data points — this made the list mostly by chance in this sampling round. Try pressing "Get suggestions" again for a different set.';
+    explainBody.appendChild(p);
+    return;
+  }
+
+  if (reason === 'novelty') {
+    const note = document.createElement('p');
+    note.className = 'explain-novelty-note';
+    note.textContent = 'Included partly as a novelty pick — but it does share real DNA with your data points:';
+    explainBody.appendChild(note);
+  } else {
+    const note = document.createElement('p');
+    note.textContent = 'Suggested because it shares this DNA with your data points:';
+    explainBody.appendChild(note);
+  }
+
+  if (explanation.sharedTags.length > 0) {
+    const ul = document.createElement('ul');
+    ul.className = 'explain-tag-list';
+    for (const tag of explanation.sharedTags) {
+      const li = document.createElement('li');
+      li.textContent = tag.label;
+      ul.appendChild(li);
+    }
+    explainBody.appendChild(ul);
+  }
+
+  if (explanation.sharedGenres.length > 0) {
+    const p = document.createElement('p');
+    p.className = 'explain-genres';
+    p.textContent = `Shared genres: ${explanation.sharedGenres.join(', ')}`;
+    explainBody.appendChild(p);
+  }
+}
+
+function renderCard(movie, reason, query) {
   const card = document.createElement('article');
   card.className = 'movie-card';
   card.dataset.movieId = movie.id;
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.setAttribute('aria-label', `Why was ${movie.title} suggested?`);
+
+  if (reason === 'novelty') {
+    const badge = document.createElement('span');
+    badge.className = 'novelty-badge';
+    badge.textContent = '✨ New pick';
+    card.appendChild(badge);
+  }
 
   const title = document.createElement('h3');
   title.className = 'movie-title';
@@ -94,17 +168,35 @@ function renderCard(movie) {
   cast.className = 'movie-cast';
   cast.textContent = movie.cast.join(', ');
 
-  card.append(title, genres, synopsis, cast);
+  const whyHint = document.createElement('p');
+  whyHint.className = 'movie-why-hint';
+  whyHint.textContent = 'Why this? →';
+
+  card.append(title, genres, synopsis, cast, whyHint);
+
+  const open = () => {
+    openExplainDialog(movie, reason, query);
+    explainDialog.showModal();
+  };
+  card.addEventListener('click', open);
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      open();
+    }
+  });
+
   return card;
 }
 
-function render() {
+function runSearch() {
   activeObservers.forEach((o) => o.disconnect());
   activeObservers = [];
   resultsGrid.innerHTML = '';
 
   if (seeds.length === 0) {
     resultsStatus.textContent = 'Add a movie, actor, director, or a plot dynamic to see suggestions.';
+    hasResults = false;
     return;
   }
 
@@ -115,12 +207,14 @@ function render() {
 
   if (results.length === 0) {
     resultsStatus.textContent = 'No matches yet — try a different data point.';
+    hasResults = false;
     return;
   }
 
-  resultsStatus.textContent = `Suggestions based on ${seeds.length} data point${seeds.length > 1 ? 's' : ''}:`;
-  for (const movie of results) {
-    const card = renderCard(movie);
+  resultsStatus.textContent = `Suggestions based on ${seeds.length} data point${seeds.length > 1 ? 's' : ''}. Tap a card to see why.`;
+  hasResults = true;
+  for (const { movie, reason } of results) {
+    const card = renderCard(movie, reason, combined);
     resultsGrid.appendChild(card);
     activeObservers.push(observeFullyVisible(card, movie.id));
   }
@@ -130,6 +224,7 @@ async function init() {
   const data = await loadData();
   taxonomy = data.taxonomy;
   movies = data.movies;
+  tagLookup = new Map(taxonomy.tags.map((t) => [t.id, t.label]));
 
   addSeedBtn.addEventListener('click', addSeedFromInput);
   seedInput.addEventListener('keydown', (e) => {
@@ -138,9 +233,14 @@ async function init() {
       addSeedFromInput();
     }
   });
-  tempSlider.addEventListener('input', render);
+  tempSlider.addEventListener('input', markSettingsChanged);
+  searchBtn.addEventListener('click', runSearch);
 
-  render();
+  explainDialog.addEventListener('click', (e) => {
+    if (e.target === explainDialog) explainDialog.close();
+  });
+
+  resultsStatus.textContent = 'Add a movie, actor, director, or a plot dynamic to see suggestions.';
 }
 
 init();

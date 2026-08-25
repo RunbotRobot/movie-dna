@@ -11,7 +11,7 @@
 <body>
   <header class="site-header">
     <h1>movie-dna</h1>
-    <p class="tagline">Start with one thing you like. See what shares its DNA.</p>
+    <p class="tagline">Start with one thing you like.<br />See what shares its DNA.</p>
   </header>
 
   <main>
@@ -21,11 +21,12 @@
         <input
           id="seed-input"
           type="text"
-          placeholder="e.g. Keanu Reeves, The Matrix, slow-burn revenge..."
+          placeholder="Movie, actor, or vibe…"
           autocomplete="off"
         />
         <button id="add-seed-btn" type="button">Add</button>
       </div>
+      <p id="seed-error" class="seed-error" role="alert"></p>
       <ul id="seed-chips" class="seed-chips"></ul>
     </section>
 
@@ -37,11 +38,25 @@
       </label>
     </section>
 
+    <section class="action-panel">
+      <button id="search-btn" type="button" class="primary-btn" title="Press again anytime for a fresh set of suggestions">
+        Get suggestions
+      </button>
+    </section>
+
     <section class="results-panel" aria-label="Suggestions">
       <p id="results-status" class="results-status"></p>
       <div id="results-grid" class="results-grid"></div>
     </section>
   </main>
+
+  <dialog id="explain-dialog" class="explain-dialog">
+    <h2 id="explain-title"></h2>
+    <div id="explain-body" class="explain-body"></div>
+    <form method="dialog">
+      <button type="submit" class="dialog-close">Close</button>
+    </form>
+  </dialog>
 
   <script type="module" src="js/app.js"></script>
 </body>

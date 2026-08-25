@@ -46,7 +46,7 @@ function buildPersonSeed(label, personMovies) {
   for (const movie of personMovies) {
     for (const genre of movie.genres) genreSet.add(genre);
   }
-  return { type: 'person', label, tagVector, genreSet, excludeIds: new Set() };
+  return { type: 'person', label, tagVector, genreSet, excludeIds: new Set(), matched: true };
 }
 
 function buildTextSeed(query, taxonomy) {
@@ -64,7 +64,14 @@ function buildTextSeed(query, taxonomy) {
       tagVector[tag.id] = Math.min(1, matches / Math.max(1, words.length));
     }
   }
-  return { type: 'text', label: query, tagVector, genreSet: new Set(), excludeIds: new Set() };
+  return {
+    type: 'text',
+    label: query,
+    tagVector,
+    genreSet: new Set(),
+    excludeIds: new Set(),
+    matched: Object.keys(tagVector).length > 0,
+  };
 }
 
 export function resolveSeed(query, movies, taxonomy) {
@@ -80,6 +87,7 @@ export function resolveSeed(query, movies, taxonomy) {
       tagVector: looseMovie.tags,
       genreSet: new Set(looseMovie.genres),
       excludeIds: new Set([looseMovie.id]),
+      matched: true,
     };
   }
 
@@ -125,6 +133,28 @@ export function combineSeeds(seedObjs) {
   }
 
   return { tagVector, genreSet, excludeIds };
+}
+
+// Explains why `movie` scored the way it did against `query`, for the
+// per-card "why was this suggested" popup. `tagLookup` maps tag id -> label.
+export function explainMatch(query, movie, tagLookup) {
+  const sharedTags = [];
+  for (const [tag, queryWeight] of Object.entries(query.tagVector)) {
+    const movieWeight = movie.tags[tag] || 0;
+    const contribution = queryWeight * movieWeight;
+    if (contribution >= 0.03) {
+      sharedTags.push({ id: tag, label: tagLookup.get(tag) || tag, contribution });
+    }
+  }
+  sharedTags.sort((a, b) => b.contribution - a.contribution);
+
+  const sharedGenres = movie.genres.filter((g) => query.genreSet.has(g));
+
+  return {
+    sharedTags: sharedTags.slice(0, 4),
+    sharedGenres,
+    isWeak: sharedTags.length === 0 && sharedGenres.length === 0,
+  };
 }
 
 export function scoreMovies(query, movies) {

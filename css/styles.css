@@ -65,12 +65,13 @@ section {
 
 #seed-input {
   flex: 1;
+  min-width: 0;
   padding: 0.65rem 0.8rem;
   border-radius: var(--radius);
   border: 1px solid var(--panel-border);
   background: var(--panel);
   color: var(--text);
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 3.6vw, 1rem);
 }
 
 #seed-input:focus {
@@ -84,13 +85,24 @@ section {
   border: 1px solid var(--accent-dim);
   background: var(--accent-dim);
   color: var(--text);
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 3.6vw, 1rem);
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 #add-seed-btn:hover {
   background: var(--accent);
   color: #0f1115;
+}
+
+.seed-error {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  color: #ff9d9d;
+  min-height: 0;
+}
+.seed-error:empty {
+  display: none;
 }
 
 .seed-chips {
@@ -169,6 +181,28 @@ section {
   accent-color: var(--accent);
 }
 
+.action-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-btn {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #0f1115;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  filter: brightness(1.08);
+}
+
 .results-status {
   color: var(--text-dim);
   font-size: 0.9rem;
@@ -177,15 +211,40 @@ section {
 
 .results-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
 }
 
 .movie-card {
+  position: relative;
   background: var(--panel);
   border: 1px solid var(--panel-border);
   border-radius: var(--radius);
   padding: 1rem;
+  cursor: pointer;
+}
+
+.movie-card:hover,
+.movie-card:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.novelty-badge {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent-dim);
+  color: #cfe0ff;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+}
+
+.movie-why-hint {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  color: var(--accent);
 }
 
 .movie-title {
@@ -217,4 +276,87 @@ section {
   margin: 0;
   font-size: 0.8rem;
   color: var(--text-dim);
+}
+
+.explain-dialog {
+  width: min(420px, 90vw);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: var(--text);
+  padding: 1.25rem;
+}
+
+.explain-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.explain-dialog h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.explain-body p {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.explain-novelty-note {
+  color: var(--accent) !important;
+}
+
+.explain-tag-list {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+}
+
+.explain-tag-list li {
+  margin-bottom: 0.3rem;
+}
+
+.explain-genres {
+  font-size: 0.85rem;
+}
+
+.dialog-close {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--panel-border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.dialog-close:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    padding: 1.5rem 1rem 0.75rem;
+  }
+
+  .site-header h1 {
+    font-size: 1.6rem;
+  }
+
+  main {
+    padding: 0 1rem 2rem;
+  }
+
+  .temperature-label {
+    gap: 0.5rem;
+  }
+
+  .temperature-label span {
+    font-size: 0.7rem;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
 }

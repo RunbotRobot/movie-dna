@@ -54,7 +54,7 @@ export function sampleResults(scored, { count = 10, temperature = 0.5, noveltyQu
       temperature
     );
     for (const p of weightedSampleWithoutReplacement(noveltyCandidates, weights, noveltySlots)) {
-      results.push(p.movie);
+      results.push({ movie: p.movie, reason: 'novelty' });
       usedIds.add(p.movie.id);
     }
   }
@@ -67,7 +67,7 @@ export function sampleResults(scored, { count = 10, temperature = 0.5, noveltyQu
       temperature
     );
     for (const p of weightedSampleWithoutReplacement(remainingPool, weights, remainingCount)) {
-      results.push(p.movie);
+      results.push({ movie: p.movie, reason: 'match' });
       usedIds.add(p.movie.id);
     }
   }
