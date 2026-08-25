@@ -150,6 +150,12 @@ section {
   color: #dcdfff;
 }
 
+.seed-chip-learned {
+  font-size: 0.72rem;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .seed-chip-remove {
   border: none;
   background: transparent;

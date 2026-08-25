@@ -1,7 +1,8 @@
 import { loadData } from './data.js';
-import { resolveSeed, combineSeeds, scoreMovies, explainMatch } from './similarity.js';
+import { resolveSeed, combineSeeds, scoreMovies, explainMatch, buildLearnedSeed } from './similarity.js';
 import { sampleResults } from './sampling.js';
 import { observeFullyVisible } from './history.js';
+import { tryLearnTag } from './learn.js';
 
 let taxonomy = null;
 let movies = null;
@@ -39,21 +40,41 @@ function markSettingsChanged() {
   }
 }
 
-function addSeedFromInput() {
+function addResolvedSeed(value, resolved) {
+  seeds.push({ query: value, resolved });
+  seedInput.value = '';
+  seedErrorEl.textContent = '';
+  renderSeedChips();
+  markSettingsChanged();
+}
+
+async function addSeedFromInput() {
   const value = seedInput.value.trim();
   seedErrorEl.textContent = '';
   if (!value) return;
 
   const resolved = resolveSeed(value, movies, taxonomy);
-  if (!resolved || resolved.matched === false) {
-    seedErrorEl.textContent = `No match found for "${value}" — try a different movie, actor/director, or theme. (Our catalog is small for this proof of concept, so lesser-known titles or people may not be included yet.)`;
+  if (resolved && resolved.matched !== false) {
+    addResolvedSeed(value, resolved);
     return;
   }
 
-  seeds.push({ query: value, resolved });
-  seedInput.value = '';
-  renderSeedChips();
-  markSettingsChanged();
+  // No local match — ask the Worker's free, non-LLM tag-learning fallback
+  // before giving up (see js/learn.js). No-ops instantly if unconfigured.
+  addSeedBtn.disabled = true;
+  addSeedBtn.textContent = 'Checking…';
+  try {
+    const learned = await tryLearnTag(value);
+    if (learned.matched) {
+      addResolvedSeed(value, buildLearnedSeed(value, learned.tagId, learned.tagLabel));
+      return;
+    }
+  } finally {
+    addSeedBtn.disabled = false;
+    addSeedBtn.textContent = 'Add';
+  }
+
+  seedErrorEl.textContent = `No match found for "${value}" — try a different movie, actor/director, or theme. (Our catalog is small for this proof of concept, so lesser-known titles or people may not be included yet.)`;
 }
 
 function removeSeed(index) {
@@ -83,7 +104,14 @@ function renderSeedChips() {
     removeBtn.setAttribute('aria-label', `Remove ${seed.resolved.label}`);
     removeBtn.addEventListener('click', () => removeSeed(i));
 
-    li.append(label, type, removeBtn);
+    li.append(label, type);
+    if (seed.resolved.learnedTagLabel) {
+      const learned = document.createElement('span');
+      learned.className = 'seed-chip-learned';
+      learned.textContent = `✨ learned: ${seed.resolved.learnedTagLabel}`;
+      li.appendChild(learned);
+    }
+    li.appendChild(removeBtn);
     seedChipsEl.appendChild(li);
   });
 }

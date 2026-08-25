@@ -1,0 +1,15 @@
+{
+  "name": "movie-dna-tag-learner",
+  "main": "src/index.js",
+  "compatibility_date": "2024-11-01",
+  "kv_namespaces": [
+    { "binding": "LEARNED_TAGS", "id": "ecd798fc9e934f48a651cfaebefe5610" }
+  ],
+  "vars": {
+    "GITHUB_OWNER": "RunbotRobot",
+    "GITHUB_REPO": "movie-dna",
+    "GITHUB_BRANCH": "main",
+    "TAXONOMY_PATH": "data/taxonomy.json",
+    "ALLOWED_ORIGINS": "https://runbotrobot.github.io,http://localhost:8765,http://localhost:3000"
+  }
+}

@@ -195,6 +195,21 @@ export function resolveSeed(query, movies, taxonomy) {
   return buildTextSeed(query, taxonomy);
 }
 
+// Builds a seed from a mapping the Worker's tag-learning fallback found
+// (see js/learn.js) — same shape as a regular text seed, just pre-resolved
+// to one tag instead of being derived from taxonomy word-matching.
+export function buildLearnedSeed(query, tagId, tagLabel) {
+  return {
+    type: 'text',
+    label: query,
+    tagVector: { [tagId]: 1 },
+    genreSet: new Set(),
+    excludeIds: new Set(),
+    matched: true,
+    learnedTagLabel: tagLabel,
+  };
+}
+
 export function combineSeeds(seedObjs) {
   const valid = seedObjs.filter(Boolean);
   if (valid.length === 0) return null;
