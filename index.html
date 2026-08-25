@@ -4,9 +4,45 @@
   <meta charset="utf-8" />
   <title>movie-dna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Movie suggestions based on shared DNA — cast, tone, and narrative dynamics — not thumbs up/down." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>movie-dna</h1>
-  <p>Proof of concept in progress. Nothing to see yet.</p>
+  <header class="site-header">
+    <h1>movie-dna</h1>
+    <p class="tagline">Start with one thing you like. See what shares its DNA.</p>
+  </header>
+
+  <main>
+    <section class="seed-panel" aria-label="Search inputs">
+      <label for="seed-input">Add a movie, actor, director, or a plot dynamic</label>
+      <div class="seed-input-row">
+        <input
+          id="seed-input"
+          type="text"
+          placeholder="e.g. Keanu Reeves, The Matrix, slow-burn revenge..."
+          autocomplete="off"
+        />
+        <button id="add-seed-btn" type="button">Add</button>
+      </div>
+      <ul id="seed-chips" class="seed-chips"></ul>
+    </section>
+
+    <section class="controls-panel" aria-label="Result tuning">
+      <label for="temperature-slider" class="temperature-label">
+        <span>Focused</span>
+        <input id="temperature-slider" type="range" min="0" max="100" value="35" />
+        <span>Adventurous</span>
+      </label>
+    </section>
+
+    <section class="results-panel" aria-label="Suggestions">
+      <p id="results-status" class="results-status"></p>
+      <div id="results-grid" class="results-grid"></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
