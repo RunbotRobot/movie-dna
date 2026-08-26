@@ -44,7 +44,12 @@ export function buildTagVocab(taxonomy) {
 
 // Scores every tag against a list of related words drawn from one synonym
 // cluster, rank-weighted so earlier entries count more than later ones.
-// Returns a Map<tagId, score>.
+// Returns a Map<tagId, { score, words: Set<string> }> — `words` is which of
+// the tag's own vocabulary terms actually matched, which the accept gate
+// uses as its multi-signal requirement (see index.js): several *clusters*
+// can all restate the very same one matching word, so cluster count alone
+// overstates confidence, but several *distinct* matching words is real,
+// independent evidence.
 export function scoreTagsAgainstRelatedWords(tagVocab, relatedWords) {
   const scores = new Map();
   relatedWords.forEach((entry, rank) => {
@@ -52,8 +57,12 @@ export function scoreTagsAgainstRelatedWords(tagVocab, relatedWords) {
     if (w.length < 4) return;
     const weight = 1 / (rank + 1);
     for (const tag of tagVocab) {
-      if (tag.words.some((vocabWord) => wordsMatch(w, vocabWord))) {
-        scores.set(tag.id, (scores.get(tag.id) || 0) + weight);
+      const matchedVocabWord = tag.words.find((vocabWord) => wordsMatch(w, vocabWord));
+      if (matchedVocabWord) {
+        const existing = scores.get(tag.id) || { score: 0, words: new Set() };
+        existing.score += weight;
+        existing.words.add(matchedVocabWord);
+        scores.set(tag.id, existing);
       }
     }
   });

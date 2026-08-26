@@ -5,9 +5,16 @@ import { getTaxonomyFile, commitTaxonomy } from './github.js';
 // --- Auto-apply accept gate -------------------------------------------------
 // No human reviews these before they go live, so acceptance requires several
 // independent signals to agree rather than trusting a single lookup:
-//   1. At least two distinct synonym clusters (see relations.js) must each
-//      independently point to the same tag — one cluster alone isn't enough
-//      evidence to auto-commit a mapping nobody will review.
+//   1. At least two DISTINCT tag-vocabulary words (not just cluster count —
+//      Moby Thesaurus is unsensed, so several of its synonym clusters often
+//      restate the exact same one matching word: e.g. "evil" only ever
+//      overlapped investigation_driven's vocab via the single word "crime",
+//      repeated across three separate but redundant "wrongdoing" clusters,
+//      which looked like triple-confirmed evidence but was really one
+//      coincidental collision. Requiring distinct *words*, not clusters,
+//      caught and rejected that case — and every other false positive found
+//      during testing — while still passing genuine matches like "eerie"
+//      (creepy + spooky) and "macabre" (spooky + creepy + terrifying).
 //   2. The winning tag's score must clear an absolute floor, not just be
 //      "the best of a weak field."
 //   3. The winning tag must beat the runner-up by a healthy margin, so
@@ -15,7 +22,7 @@ import { getTaxonomyFile, commitTaxonomy } from './github.js';
 // A word our word-relations index has never heard of (gibberish, typos,
 // genuinely absent from the source thesaurus) simply returns no clusters and
 // is rejected for free, before any tag-scoring happens at all.
-const MIN_CLUSTER_HITS = 2;
+const MIN_DISTINCT_WORDS = 2;
 const MIN_ABS_SCORE = 0.3;
 const MARGIN_RATIO = 1.4;
 
@@ -77,19 +84,19 @@ async function classifyQuery(query, taxonomy, env) {
   }
 
   const combinedScores = new Map(); // tagId -> total score
-  const clusterHits = new Map(); // tagId -> Set of cluster indices that contributed
+  const wordHits = new Map(); // tagId -> Set of the tag's own vocab words that matched
   let anyClusterData = false;
 
   for (const word of words) {
     const clusters = clustersForWord(relations, word);
-    for (const { idx, tokens } of clusters) {
+    for (const { tokens } of clusters) {
       anyClusterData = true;
       const relatedWords = tokens.filter((t) => t !== word).map((t) => ({ word: t }));
       const perClusterScores = scoreTagsAgainstRelatedWords(tagVocab, relatedWords);
-      for (const [tagId, score] of perClusterScores) {
+      for (const [tagId, { score, words: matchedWords }] of perClusterScores) {
         combinedScores.set(tagId, (combinedScores.get(tagId) || 0) + score);
-        if (!clusterHits.has(tagId)) clusterHits.set(tagId, new Set());
-        clusterHits.get(tagId).add(idx);
+        if (!wordHits.has(tagId)) wordHits.set(tagId, new Set());
+        for (const w of matchedWords) wordHits.get(tagId).add(w);
       }
     }
   }
@@ -104,17 +111,17 @@ async function classifyQuery(query, taxonomy, env) {
   const ranked = [...combinedScores.entries()].sort((a, b) => b[1] - a[1]);
   const [winnerId, winnerScore] = ranked[0];
   const runnerUpScore = ranked[1]?.[1] || 0;
-  const winnerClusters = clusterHits.get(winnerId).size;
+  const winnerDistinctWords = wordHits.get(winnerId).size;
 
-  const passesClusterGate = winnerClusters >= MIN_CLUSTER_HITS;
+  const passesWordGate = winnerDistinctWords >= MIN_DISTINCT_WORDS;
   const passesAbsoluteFloor = winnerScore >= MIN_ABS_SCORE;
   const passesMargin = runnerUpScore === 0 || winnerScore / runnerUpScore >= MARGIN_RATIO;
 
-  if (!passesClusterGate || !passesAbsoluteFloor || !passesMargin) {
+  if (!passesWordGate || !passesAbsoluteFloor || !passesMargin) {
     return {
       matched: false,
       reason: 'gate_failed',
-      evidence: { winnerId, winnerScore, runnerUpScore, winnerClusters },
+      evidence: { winnerId, winnerScore, runnerUpScore, winnerDistinctWords },
     };
   }
 
@@ -123,7 +130,7 @@ async function classifyQuery(query, taxonomy, env) {
     matched: true,
     tagId: winnerId,
     tagLabel: winnerTag.label,
-    evidence: { winnerScore, runnerUpScore, winnerClusters },
+    evidence: { winnerScore, runnerUpScore, matchedWords: [...wordHits.get(winnerId)] },
   };
 }
 
