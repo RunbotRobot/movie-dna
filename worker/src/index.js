@@ -1,22 +1,22 @@
 import { normalize, buildTagVocab, scoreTagsAgainstRelatedWords } from './lexical.js';
-import { fetchRelated, RELATION_KEYS } from './datamuse.js';
+import { loadRelations, clustersForWord } from './relations.js';
 import { getTaxonomyFile, commitTaxonomy } from './github.js';
 
 // --- Auto-apply accept gate -------------------------------------------------
 // No human reviews these before they go live, so acceptance requires several
 // independent signals to agree rather than trusting a single lookup:
-//   1. At least two of the three Datamuse relation types (synonym / means-
-//      like / statistical trigger) must each independently point to the
-//      same tag.
+//   1. At least two distinct synonym clusters (see relations.js) must each
+//      independently point to the same tag — one cluster alone isn't enough
+//      evidence to auto-commit a mapping nobody will review.
 //   2. The winning tag's score must clear an absolute floor, not just be
 //      "the best of a weak field."
 //   3. The winning tag must beat the runner-up by a healthy margin, so
 //      genuinely ambiguous words don't get force-fit onto one tag.
-// A word Datamuse has never heard of (gibberish, typos it can't place)
-// simply returns no data on any relation type and is rejected for free,
-// before any tag-scoring happens at all.
-const MIN_RELATION_TYPES = 2;
-const MIN_ABS_SCORE = 1.1;
+// A word our word-relations index has never heard of (gibberish, typos,
+// genuinely absent from the source thesaurus) simply returns no clusters and
+// is rejected for free, before any tag-scoring happens at all.
+const MIN_CLUSTER_HITS = 2;
+const MIN_ABS_SCORE = 0.3;
 const MARGIN_RATIO = 1.4;
 
 const RATE_LIMIT_PER_HOUR = 30; // per IP
@@ -61,32 +61,40 @@ async function checkDailyCommitCap(env) {
 
 // Decide which tag (if any) `query` should map to, using rank-weighted
 // evidence pooled across every significant word in the query and every
-// Datamuse relation type.
-async function classifyQuery(query, taxonomy) {
+// synonym cluster (see relations.js) any of those words belongs to.
+async function classifyQuery(query, taxonomy, env) {
   const tagVocab = buildTagVocab(taxonomy);
   const words = normalize(query)
     .split(/[^a-z0-9]+/)
     .filter((w) => w.length >= 3);
   if (words.length === 0) return { matched: false };
 
+  let relations;
+  try {
+    relations = await loadRelations(env);
+  } catch {
+    return { matched: false, reason: 'relations_unavailable' };
+  }
+
   const combinedScores = new Map(); // tagId -> total score
-  const relationHits = new Map(); // tagId -> Set of relation keys that contributed
-  let anyDatamuseData = false;
+  const clusterHits = new Map(); // tagId -> Set of cluster indices that contributed
+  let anyClusterData = false;
 
   for (const word of words) {
-    for (const relationKey of RELATION_KEYS) {
-      const related = await fetchRelated(word, relationKey);
-      if (related.length > 0) anyDatamuseData = true;
-      const perRelationScores = scoreTagsAgainstRelatedWords(tagVocab, related);
-      for (const [tagId, score] of perRelationScores) {
+    const clusters = clustersForWord(relations, word);
+    for (const { idx, tokens } of clusters) {
+      anyClusterData = true;
+      const relatedWords = tokens.filter((t) => t !== word).map((t) => ({ word: t }));
+      const perClusterScores = scoreTagsAgainstRelatedWords(tagVocab, relatedWords);
+      for (const [tagId, score] of perClusterScores) {
         combinedScores.set(tagId, (combinedScores.get(tagId) || 0) + score);
-        if (!relationHits.has(tagId)) relationHits.set(tagId, new Set());
-        relationHits.get(tagId).add(relationKey);
+        if (!clusterHits.has(tagId)) clusterHits.set(tagId, new Set());
+        clusterHits.get(tagId).add(idx);
       }
     }
   }
 
-  if (!anyDatamuseData) {
+  if (!anyClusterData) {
     return { matched: false, reason: 'unrecognized_word' };
   }
   if (combinedScores.size === 0) {
@@ -96,17 +104,17 @@ async function classifyQuery(query, taxonomy) {
   const ranked = [...combinedScores.entries()].sort((a, b) => b[1] - a[1]);
   const [winnerId, winnerScore] = ranked[0];
   const runnerUpScore = ranked[1]?.[1] || 0;
-  const winnerRelations = relationHits.get(winnerId).size;
+  const winnerClusters = clusterHits.get(winnerId).size;
 
-  const passesRelationGate = winnerRelations >= MIN_RELATION_TYPES;
+  const passesClusterGate = winnerClusters >= MIN_CLUSTER_HITS;
   const passesAbsoluteFloor = winnerScore >= MIN_ABS_SCORE;
   const passesMargin = runnerUpScore === 0 || winnerScore / runnerUpScore >= MARGIN_RATIO;
 
-  if (!passesRelationGate || !passesAbsoluteFloor || !passesMargin) {
+  if (!passesClusterGate || !passesAbsoluteFloor || !passesMargin) {
     return {
       matched: false,
       reason: 'gate_failed',
-      evidence: { winnerId, winnerScore, runnerUpScore, winnerRelations },
+      evidence: { winnerId, winnerScore, runnerUpScore, winnerClusters },
     };
   }
 
@@ -115,7 +123,7 @@ async function classifyQuery(query, taxonomy) {
     matched: true,
     tagId: winnerId,
     tagLabel: winnerTag.label,
-    evidence: { winnerScore, runnerUpScore, relationTypes: [...relationHits.get(winnerId)] },
+    evidence: { winnerScore, runnerUpScore, winnerClusters },
   };
 }
 
@@ -152,7 +160,7 @@ async function handleLearn(request, env) {
     return json({ matched: false, error: 'taxonomy_unavailable' }, 502, corsHeaders(request, env));
   }
 
-  const result = await classifyQuery(query, taxonomy);
+  const result = await classifyQuery(query, taxonomy, env);
 
   if (!result.matched) {
     await env.LEARNED_TAGS.put(cacheKey, JSON.stringify({ matched: false }), { expirationTtl: 60 * 60 * 24 * 7 });

@@ -1,14 +1,14 @@
-// Update this once the Cloudflare Worker is deployed (see worker/README.md).
-// Left unset/placeholder, the tag-learning fallback silently no-ops and the
-// app behaves exactly as it did before this feature existed.
-export const WORKER_URL = 'https://movie-dna-tag-learner.YOUR-SUBDOMAIN.workers.dev/learn';
+// The deployed Cloudflare Worker (see worker/README.md). Left unset/
+// placeholder, the tag-learning fallback silently no-ops and the app
+// behaves exactly as it did before this feature existed.
+export const WORKER_URL = 'https://movie-dna-tag-learner.runbotrobot.workers.dev/learn';
 
 function isConfigured() {
   return typeof WORKER_URL === 'string' && WORKER_URL.length > 0 && !WORKER_URL.includes('YOUR-SUBDOMAIN');
 }
 
 // Asks the Worker whether `query` maps to an existing taxonomy tag via the
-// free, non-LLM Datamuse-based accept gate. Always resolves (never throws) —
+// free, non-LLM word-relations accept gate. Always resolves (never throws) —
 // any failure (unconfigured, offline, Worker error, timeout) resolves to
 // { matched: false } so the caller can fall back to the normal "no match"
 // message without special-casing network errors.

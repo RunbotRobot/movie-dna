@@ -9,21 +9,23 @@
 // one for "are these two different words related in meaning" — two
 // unrelated words can coincidentally share a suffix (e.g. "alarming" and
 // "charming" are 0.75 similar by edit distance, but have nothing to do with
-// each other). Word relatedness here comes entirely from Datamuse; this
-// file only checks whether a word Datamuse already told us is related to
-// the query also literally appears (or stems into) a tag's own vocabulary.
+// each other).
+//
+// Also deliberately exact-match only, not stem-style substring containment
+// either: the word-relations data (see relations.js) comes from Moby
+// Thesaurus synonym clusters, which are broader and less relevance-ranked
+// than Datamuse's per-query results were, so substring containment picks up
+// real false positives against this source (e.g. "mysterious" wrongly
+// matching into "skill_asymmetry" via an incidental substring elsewhere in
+// its cluster). Exact matching only, verified clean against the same test
+// corpus, is the safer default when nothing auto-applied is ever reviewed.
 
 export function normalize(str) {
   return str.trim().toLowerCase();
 }
 
 function wordsMatch(a, b) {
-  if (a === b) return true;
-  // Stem-style containment (e.g. "dread" vs "dreadful") — still a literal
-  // substring relationship, not a similarity score, so no coincidental
-  // cross-word collisions like the alarming/charming case above.
-  if (a.length >= 4 && b.length >= 4 && (a.includes(b) || b.includes(a))) return true;
-  return false;
+  return a === b;
 }
 
 // One vocab word-set per taxonomy tag, built ONLY from curated fields (id,
@@ -40,9 +42,9 @@ export function buildTagVocab(taxonomy) {
   }));
 }
 
-// Scores every tag against a list of Datamuse-returned related words for one
-// relation type (rel_syn / ml / rel_trg), rank-weighted so the strongest
-// associations count more than distant ones. Returns a Map<tagId, score>.
+// Scores every tag against a list of related words drawn from one synonym
+// cluster, rank-weighted so earlier entries count more than later ones.
+// Returns a Map<tagId, score>.
 export function scoreTagsAgainstRelatedWords(tagVocab, relatedWords) {
   const scores = new Map();
   relatedWords.forEach((entry, rank) => {
