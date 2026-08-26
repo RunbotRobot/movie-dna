@@ -135,7 +135,19 @@
         "heist",
         "robbery",
         "con artist",
-        "caper"
+        "caper",
+        "banditry",
+        "break-in",
+        "burglary",
+        "extortion",
+        "hijacking",
+        "holdup",
+        "housebreaking",
+        "mugging",
+        "rip-off",
+        "robbing",
+        "safeblowing",
+        "stickup"
       ]
     },
     {
@@ -203,7 +215,10 @@
       "synonyms": [
         "chase",
         "pursuit",
-        "car chase"
+        "car chase",
+        "hunting",
+        "pursuing",
+        "quest"
       ]
     },
     {
@@ -240,7 +255,19 @@
         "dark",
         "hopeless",
         "sad",
-        "downer"
+        "downer",
+        "bitter",
+        "cheerless",
+        "comfortless",
+        "dejected",
+        "deplorable",
+        "discomforting",
+        "discouraging",
+        "disheartening",
+        "dismal",
+        "dismaying",
+        "distressful",
+        "distressing"
       ]
     },
     {
@@ -331,7 +358,30 @@
         "terrifying",
         "eerie",
         "macabre",
-        "gruesome"
+        "gruesome",
+        "bloodcurdling",
+        "cadaverous",
+        "corpselike",
+        "crawly",
+        "deathlike",
+        "deathly",
+        "eldritch",
+        "fidgety",
+        "formicative",
+        "ghost-haunted",
+        "ghost-ridden",
+        "grisly",
+        "hair-raising",
+        "haunted",
+        "hideous",
+        "high-strung",
+        "horrible",
+        "horrid",
+        "horrifying",
+        "jittery",
+        "jumpy",
+        "nervy",
+        "paralyzing"
       ]
     },
     {
@@ -347,7 +397,11 @@
         "lighthearted",
         "fun",
         "funny",
-        "hilarious"
+        "hilarious",
+        "beguiling",
+        "comical",
+        "droll",
+        "humorous"
       ]
     },
     {
@@ -433,7 +487,13 @@
         "mourning",
         "loss",
         "heartbreaking",
-        "processing loss"
+        "processing loss",
+        "bemoaning",
+        "bewailing",
+        "despair",
+        "despondency",
+        "grieving",
+        "heartache"
       ]
     },
     {
