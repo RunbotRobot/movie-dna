@@ -1,10 +1,17 @@
 // Cache-first service worker so the app (including the movie catalog data)
 // keeps working offline once installed — everything here is already static,
 // no live API dependency at runtime, so this is a natural fit.
-const CACHE_NAME = 'movie-dna-v2';
+importScripts('./version.js');
+// Deriving the cache name from APP_VERSION means bumping the version (see
+// version.js) is the *only* thing needed to force every installed copy of
+// the PWA to fetch fresh assets instead of serving a stale cache forever —
+// forgetting this bump is exactly what silently kept old code alive across
+// several earlier deploys.
+const CACHE_NAME = 'movie-dna-' + self.APP_VERSION;
 const CORE_ASSETS = [
   './',
   './index.html',
+  './version.js',
   './manifest.webmanifest',
   './css/styles.css',
   './js/app.js',

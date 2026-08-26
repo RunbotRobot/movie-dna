@@ -390,3 +390,10 @@ body.body-scroll-locked {
     grid-template-columns: 1fr;
   }
 }
+
+.app-footer {
+  padding: 1.5rem 1.25rem 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
