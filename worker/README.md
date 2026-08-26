@@ -2,88 +2,91 @@
 
 A Cloudflare Worker that backs the "learn a new synonym mapping" fallback:
 when a search on the site matches nothing locally, the frontend calls this
-Worker instead of just failing. It uses [Datamuse](https://www.datamuse.com/api/)
-(free, keyless, non-LLM word-relations API) to check whether the term is
-related to an existing taxonomy tag, and if a multi-signal accept gate is
-satisfied (see `src/index.js`), commits the new synonym straight into
-`data/taxonomy.json` on `main` — so every future user, not just the one who
-typed it, benefits from that search immediately.
+Worker instead of just failing. It checks whether the term is related to an
+existing taxonomy tag using a bundled, offline word-relations index (see
+below), and if a multi-signal accept gate is satisfied (see `src/index.js`),
+commits the new synonym straight into `data/taxonomy.json` on `main` — so
+every future user, not just the one who typed it, benefits from that search
+immediately.
 
 No LLM, no API key, no billing. The only cost is Cloudflare's (generous)
 free tier and a GitHub token with write access to this one repo.
 
-## Why this needs deploying manually
+**Status: deployed and live** at
+`https://movie-dna-tag-learner.runbotrobot.workers.dev`, wired into
+`js/learn.js`.
 
-This Worker was built and tested (see below) from an automated coding
-session that doesn't hold your Cloudflare or GitHub write credentials — so
-the deploy step and the GitHub token need to come from you. Everything else
-(the KV namespace, the code, the config) is already done.
+## Why Datamuse isn't used
 
-## One-time setup
+The original design called the live [Datamuse](https://www.datamuse.com/api/)
+API for word relations. That doesn't work: Datamuse sits behind Amazon
+CloudFront, and CloudFront returns a flat 403 to every request that
+originates from a Cloudflare Worker's network, regardless of headers —
+confirmed live via `wrangler tail` (identical queries succeed from curl or a
+local Node script, and fail 100% of the time from inside the deployed
+Worker). This isn't fixable from our side; it's Datamuse's edge blocking
+Cloudflare's egress ranges outright.
 
-1. **Create a GitHub token** the Worker can use to commit `taxonomy.json`:
-   GitHub → Settings → Developer settings → Fine-grained personal access
-   tokens → Generate new token, scoped to **only** the `movie-dna`
-   repository, with **Contents: Read and write** permission and nothing else.
+Instead, `src/relations.js` fetches a self-hosted word-relations index —
+`data/word-relations.json`, built offline from the public-domain Moby
+Thesaurus by `scripts/build-word-relations.mjs` — from GitHub raw (the same
+infrastructure the taxonomy commit already talks to successfully) and
+caches it in KV plus in-memory per isolate. Rebuild it with:
+```
+node scripts/build-word-relations.mjs
+```
+then commit the regenerated `data/word-relations.json`.
 
-2. **Log in to Cloudflare** (opens a browser once):
-   ```
-   cd worker
-   npx wrangler login
-   ```
+## One-time setup (already done)
 
-3. **Set the GitHub token as a Worker secret** (never goes in a file, never
-   gets committed):
-   ```
-   npx wrangler secret put GITHUB_TOKEN
-   ```
-   Paste the token from step 1 when prompted.
+1. GitHub fine-grained PAT, scoped to this repo only, Contents: Read and
+   write, stored as the `GITHUB_TOKEN` Worker secret (`wrangler secret put`).
+2. `npx wrangler deploy` from `worker/`.
+3. `WORKER_URL` in `js/learn.js` points at the deployed Worker.
 
-4. **Deploy**:
-   ```
-   npx wrangler deploy
-   ```
-   This prints the Worker's URL, e.g.
-   `https://movie-dna-tag-learner.<your-subdomain>.workers.dev`.
+The KV namespace and `wrangler.jsonc` are already configured with their
+real IDs.
 
-5. **Wire the URL into the frontend**: update `WORKER_URL` in
-   `js/learn.js` to that URL (with `/learn` appended) and push. Until this
-   is set, the site works exactly as it does today — the fallback silently
-   no-ops.
+## What's been tested
 
-The KV namespace (`movie-dna-learned-tags`) and `wrangler.jsonc` are already
-configured with its real ID — no setup needed there.
+Both the classification logic and the GitHub commit step have been
+exercised end-to-end against the live deployment (not just locally) —
+confirmed real commits landing on `main` for genuine matches (e.g. "eerie",
+"macabre", "gruesome" → `tense_dread`) and confirmed rejections for
+words that don't belong (e.g. "evil", "fast").
 
-## What's already been tested
+Two real bugs were found and fixed along the way, both worth knowing about
+if you touch the matching logic:
 
-The classification/accept-gate logic (`src/lexical.js`, `src/datamuse.js`,
-and the gate in `src/index.js`) was tested locally against ~30 real queries,
-including the three cases that originally motivated this feature ("funny",
-"scary", and gibberish like "fdsa"). An earlier version of the matching
-logic had a real bug — it used edit-distance fuzzy matching to compare
-*different* English words for relatedness, which is the wrong tool for that
-job (it once mapped "terrifying" to **"Whimsical charm"** because
-"alarming" and "charming" happen to be spelled similarly). That's fixed:
-relatedness now comes only from Datamuse, and tag-vocabulary matching is
-exact-or-stem-substring, not fuzzy. Re-tested clean with no false positives
-across the same query set afterward.
-
-What has **not** been tested end-to-end yet: the actual GitHub commit step,
-since this sandbox's network proxy blocks direct calls to `api.github.com`
-(Datamuse and `raw.githubusercontent.com` both work fine — only the GitHub
-API itself is gated here). The commit code is a standard, small use of the
-GitHub Contents API (read file + sha, then PUT with the updated content),
-but it's worth doing one supervised test after deploying — search a term
-you're confident should map somewhere (e.g. "hilarious") and check that a
-commit actually lands on `main` with the expected synonym — before trusting
-it fully hands-off.
+1. **Edit-distance fuzzy matching is the wrong tool for word relatedness**
+   (still true from the original Datamuse design) — it once mapped
+   "terrifying" to "Whimsical charm" because "alarming" and "charming"
+   happen to be spelled similarly. Fixed: tag-vocabulary matching is exact
+   only, not fuzzy, not stem-substring.
+2. **Cluster count overstates confidence against an unsensed thesaurus.**
+   Moby doesn't disambiguate word senses, so a query word's synonym rings
+   often contain several near-duplicate clusters that all restate the exact
+   same one overlapping word — e.g. "evil" only ever touched
+   `investigation_driven`'s vocab via the single word "crime", repeated
+   across three separate "wrongdoing" clusters. That looked like
+   triple-confirmed evidence under a cluster-count gate but was really one
+   coincidental collision. Fixed: the gate now requires >=2 *distinct*
+   matching vocabulary words, not >=2 contributing clusters. Verified
+   clean across ~250 test queries with zero remaining false positives.
 
 ## Tunable safety knobs (in `src/index.js`)
 
-- `MIN_RELATION_TYPES` (2) — how many of Datamuse's 3 relation types must
-  independently agree before a mapping is accepted.
-- `MIN_ABS_SCORE` (1.1) / `MARGIN_RATIO` (1.4) — absolute and relative
+- `MIN_DISTINCT_WORDS` (2) — how many of the tag's own vocabulary words
+  must be independently hit (not just how many synonym clusters happened
+  to contribute) before a mapping is accepted.
+- `MIN_ABS_SCORE` (0.3) / `MARGIN_RATIO` (1.4) — absolute and relative
   confidence floors for the winning tag.
 - `RATE_LIMIT_PER_HOUR` (30, per IP) and `DAILY_COMMIT_CAP` (50, global) —
   abuse/cost protection. A capped-out day still resolves the mapping for
   that user's current session; it just isn't persisted until the cap resets.
+
+If you want to widen or narrow vocabulary coverage, the levers are in
+`scripts/build-word-relations.mjs`: `COMMON_WORD_CUTOFF` (how far down the
+frequency list still counts as "common enough to index"), and
+`MAX_CLUSTER_TOKENS` / `MAX_MEMBER_FANOUT` (how much of each Moby entry gets
+kept).
