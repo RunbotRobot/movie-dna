@@ -1,7 +1,7 @@
 // Cache-first service worker so the app (including the movie catalog data)
 // keeps working offline once installed — everything here is already static,
 // no live API dependency at runtime, so this is a natural fit.
-const CACHE_NAME = 'movie-dna-v1';
+const CACHE_NAME = 'movie-dna-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
