@@ -209,6 +209,30 @@ section {
   filter: brightness(1.08);
 }
 
+.primary-btn--pressed {
+  animation: primary-btn-pulse 0.5s ease;
+}
+
+@keyframes primary-btn-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(124, 159, 255, 0.6);
+  }
+  30% {
+    transform: scale(0.96);
+    box-shadow: 0 0 0 6px rgba(124, 159, 255, 0.25);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(124, 159, 255, 0);
+  }
+}
+
+body.body-scroll-locked {
+  overflow: hidden;
+  touch-action: none;
+}
+
 .results-status {
   color: var(--text-dim);
   font-size: 0.9rem;

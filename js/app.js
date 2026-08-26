@@ -205,6 +205,7 @@ function renderCard(movie, reason, query) {
   const open = () => {
     openExplainDialog(movie, reason, query);
     explainDialog.showModal();
+    document.body.classList.add('body-scroll-locked');
   };
   card.addEventListener('click', open);
   card.addEventListener('keydown', (e) => {
@@ -217,7 +218,22 @@ function renderCard(movie, reason, query) {
   return card;
 }
 
+let pulseTimeout = null;
+function pulseSearchButton() {
+  searchBtn.classList.remove('primary-btn--pressed');
+  void searchBtn.offsetWidth; // restart the CSS animation even if it's still running
+  searchBtn.classList.add('primary-btn--pressed');
+  const originalLabel = 'Get suggestions';
+  searchBtn.textContent = '✓ Updated';
+  clearTimeout(pulseTimeout);
+  pulseTimeout = setTimeout(() => {
+    searchBtn.textContent = originalLabel;
+    searchBtn.classList.remove('primary-btn--pressed');
+  }, 650);
+}
+
 function runSearch() {
+  pulseSearchButton();
   activeObservers.forEach((o) => o.disconnect());
   activeObservers = [];
   resultsGrid.innerHTML = '';
@@ -266,6 +282,12 @@ async function init() {
 
   explainDialog.addEventListener('click', (e) => {
     if (e.target === explainDialog) explainDialog.close();
+  });
+  // Fires for every way the dialog can close (Esc, the close button's form
+  // submit, backdrop click, or a future programmatic .close()) so scroll
+  // never stays locked no matter how the user dismisses it.
+  explainDialog.addEventListener('close', () => {
+    document.body.classList.remove('body-scroll-locked');
   });
 
   resultsStatus.textContent = 'Add a movie, actor, director, or a plot dynamic to see suggestions.';
