@@ -32,6 +32,13 @@ function similarityRatio(a, b) {
 
 const FUZZY_THRESHOLD = 0.72;
 const FUZZY_MIN_LENGTH = 4;
+// Individual name tokens (first name alone, last name alone) get a higher
+// length floor than full titles/names: short common words routinely sit one
+// edit away from a short first name by pure coincidence (e.g. "epic" vs
+// "eric" — one substitution, ratio 0.75, well past FUZZY_THRESHOLD), which
+// hijacked free-text theme searches into a random actor match. Full names
+// ("eric bana") are long enough that this collision risk is much smaller.
+const FUZZY_PERSON_TOKEN_MIN_LENGTH = 5;
 
 function bestFuzzyTitleMatch(q, movies) {
   let best = null;
@@ -50,7 +57,8 @@ function bestFuzzyPersonName(q, movies) {
     const names = [...movie.cast, ...movie.director.split(',').map((d) => d.trim())];
     for (const name of names) {
       const norm = normalize(name);
-      for (const candidate of [norm, ...norm.split(' ')]) {
+      const candidates = [norm, ...norm.split(' ').filter((token) => token.length >= FUZZY_PERSON_TOKEN_MIN_LENGTH)];
+      for (const candidate of candidates) {
         const ratio = similarityRatio(q, candidate);
         if (ratio >= FUZZY_THRESHOLD && (!best || ratio > best.ratio)) {
           best = { name, ratio };
@@ -145,54 +153,66 @@ function buildTextSeed(query, taxonomy) {
   };
 }
 
+function movieSeed(movie) {
+  return {
+    type: 'movie',
+    label: movie.title,
+    tagVector: movie.tags,
+    genreSet: new Set(movie.genres),
+    excludeIds: new Set([movie.id]),
+    matched: true,
+  };
+}
+
+// Resolution goes from most to least precise, and only reaches for an
+// approximate (fuzzy) guess once every exact/substring option — including a
+// real free-text tag match — has come up empty. Fuzzy matching is the
+// least precise signal here: an approximate match can coincidentally hit a
+// totally unrelated short title or name (e.g. "epic" one edit away from the
+// actor first name "eric"), so a real match of any other kind always wins.
 export function resolveSeed(query, movies, taxonomy) {
   const q = normalize(query);
   if (!q) return null;
 
   const exactMovie = movies.find((m) => normalize(m.title) === q);
   const looseMovie = exactMovie || (q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null);
-  const fuzzyTitleMatch = q.length >= FUZZY_MIN_LENGTH ? bestFuzzyTitleMatch(q, movies) : null;
-  const movie = looseMovie || fuzzyTitleMatch?.movie;
-  if (movie) {
-    return {
-      type: 'movie',
-      label: movie.title,
-      tagVector: movie.tags,
-      genreSet: new Set(movie.genres),
-      excludeIds: new Set([movie.id]),
-      matched: true,
-    };
-  }
+  if (looseMovie) return movieSeed(looseMovie);
 
   const exactPersonMovies = movies.filter(
     (m) => m.cast.some((c) => normalize(c) === q) || directorNames(m).some((d) => normalize(d) === q)
   );
   let personMovies = exactPersonMovies;
-  let canonicalName = null;
   if (personMovies.length === 0 && q.length >= 3) {
     personMovies = movies.filter(
       (m) => m.cast.some((c) => normalize(c).includes(q)) || directorNames(m).some((d) => normalize(d).includes(q))
     );
   }
-  if (personMovies.length === 0 && q.length >= FUZZY_MIN_LENGTH) {
-    const fuzzyPerson = bestFuzzyPersonName(q, movies);
-    if (fuzzyPerson) {
-      canonicalName = fuzzyPerson.name;
-      const canonNorm = normalize(fuzzyPerson.name);
-      personMovies = movies.filter(
-        (m) => m.cast.some((c) => normalize(c) === canonNorm) || directorNames(m).some((d) => normalize(d) === canonNorm)
-      );
-    }
-  }
   if (personMovies.length > 0) {
     const first = personMovies[0];
-    const matchedCast = canonicalName || first.cast.find((c) => normalize(c).includes(q));
+    const matchedCast = first.cast.find((c) => normalize(c).includes(q));
     const matchedDirector = directorNames(first).find((d) => normalize(d).includes(q));
     const label = matchedCast || matchedDirector || query;
     return buildPersonSeed(label, personMovies);
   }
 
-  return buildTextSeed(query, taxonomy);
+  const textSeed = buildTextSeed(query, taxonomy);
+  if (textSeed.matched) return textSeed;
+
+  const fuzzyTitleMatch = q.length >= FUZZY_MIN_LENGTH ? bestFuzzyTitleMatch(q, movies) : null;
+  if (fuzzyTitleMatch) return movieSeed(fuzzyTitleMatch.movie);
+
+  if (q.length >= FUZZY_MIN_LENGTH) {
+    const fuzzyPerson = bestFuzzyPersonName(q, movies);
+    if (fuzzyPerson) {
+      const canonNorm = normalize(fuzzyPerson.name);
+      const fuzzyPersonMovies = movies.filter(
+        (m) => m.cast.some((c) => normalize(c) === canonNorm) || directorNames(m).some((d) => normalize(d) === canonNorm)
+      );
+      if (fuzzyPersonMovies.length > 0) return buildPersonSeed(fuzzyPerson.name, fuzzyPersonMovies);
+    }
+  }
+
+  return textSeed;
 }
 
 // Builds a seed from a mapping the Worker's tag-learning fallback found
