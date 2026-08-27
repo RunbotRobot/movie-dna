@@ -5,10 +5,10 @@
   <title>movie-dna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Movie suggestions based on shared DNA — cast, tone, and narrative dynamics — not thumbs up/down." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22><rect width=%22512%22 height=%22512%22 rx=%2296%22 fill=%22%230f1115%22/><g stroke-linecap=%22round%22 fill=%22none%22 transform=%22translate(256,256) scale(0.72) translate(-256,-256)%22><path d=%22M 186 50 C 246 130, 246 130, 186 210 C 126 290, 126 290, 186 370 C 226 423, 226 423, 256 462%22 stroke=%22%237c9fff%22 stroke-width=%2226%22/><path d=%22M 326 50 C 266 130, 266 130, 326 210 C 386 290, 386 290, 326 370 C 286 423, 286 423, 256 462%22 stroke=%22%234a9d7f%22 stroke-width=%2226%22/></g></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22><rect width=%22512%22 height=%22512%22 rx=%2296%22 fill=%22%230a0a0a%22/><g stroke-linecap=%22round%22 fill=%22none%22 transform=%22translate(256,256) scale(0.72) translate(-256,-256)%22><path d=%22M 186 50 C 246 130, 246 130, 186 210 C 126 290, 126 290, 186 370 C 226 423, 226 423, 256 462%22 stroke=%22%23e72a31%22 stroke-width=%2226%22/><path d=%22M 326 50 C 266 130, 266 130, 326 210 C 386 290, 386 290, 326 370 C 286 423, 286 423, 256 462%22 stroke=%22%2301b4b4%22 stroke-width=%2226%22/></g></svg>" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <meta name="theme-color" content="#0f1115" />
+  <meta name="theme-color" content="#0a0a0a" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -22,6 +22,14 @@
   </header>
 
   <main>
+    <section class="catalog-panel" aria-label="Catalog selection">
+      <div class="catalog-toggle" role="radiogroup" aria-label="Movie catalog">
+        <button type="button" id="catalog-main-btn" class="catalog-btn" role="radio" aria-checked="true">My Catalog</button>
+        <button type="button" id="catalog-artiflix-btn" class="catalog-btn" role="radio" aria-checked="false">Artiflix Classics</button>
+      </div>
+      <p id="catalog-note" class="catalog-note"></p>
+    </section>
+
     <section class="seed-panel" aria-label="Search inputs">
       <label for="seed-input">Add a movie, actor, director, or a plot dynamic — separate several with commas</label>
       <div class="seed-input-row">

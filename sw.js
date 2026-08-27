@@ -21,6 +21,7 @@ const CORE_ASSETS = [
   './js/sampling.js',
   './js/similarity.js',
   './data/movies.json',
+  './data/artiflix-movies.json',
   './data/taxonomy.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
