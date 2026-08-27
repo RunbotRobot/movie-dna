@@ -199,6 +199,7 @@ function openExplainDialog(movie, reason, query) {
         ? "This one doesn't closely match your current data points — it's included on purpose, to introduce you to something outside your usual pattern."
         : 'No strong thematic overlap was found with your current data points — this made the list mostly by chance in this sampling round. Try pressing "Get suggestions" again for a different set.';
     explainBody.appendChild(p);
+    explainBody.appendChild(buildFullDnaSection(movie));
     return;
   }
 
@@ -230,6 +231,52 @@ function openExplainDialog(movie, reason, query) {
     p.textContent = `Shared genres: ${explanation.sharedGenres.join(', ')}`;
     explainBody.appendChild(p);
   }
+
+  explainBody.appendChild(buildFullDnaSection(movie));
+}
+
+// Every data point this movie actually carries, not just the ones it shares
+// with the current query — sorted strongest-first so the most defining
+// traits read at a glance instead of an alphabetical dump.
+function buildFullDnaSection(movie) {
+  const details = document.createElement('details');
+  details.className = 'full-dna';
+
+  const summary = document.createElement('summary');
+  summary.textContent = `View full DNA profile (${movie.title})`;
+  details.appendChild(summary);
+
+  const tagEntries = Object.entries(movie.tags).sort((a, b) => b[1] - a[1]);
+  if (tagEntries.length > 0) {
+    const ul = document.createElement('ul');
+    ul.className = 'full-dna-tag-list';
+    for (const [tagId, weight] of tagEntries) {
+      const li = document.createElement('li');
+      const bar = document.createElement('span');
+      bar.className = 'full-dna-bar';
+      bar.style.width = `${Math.round(weight * 100)}%`;
+      const label = document.createElement('span');
+      label.className = 'full-dna-label';
+      label.textContent = `${tagLookup.get(tagId) || tagId} (${Math.round(weight * 100)}%)`;
+      li.appendChild(bar);
+      li.appendChild(label);
+      ul.appendChild(li);
+    }
+    details.appendChild(ul);
+  } else {
+    const p = document.createElement('p');
+    p.textContent = 'This catalog hasn’t been DNA-tagged yet, so there are no data points to show.';
+    details.appendChild(p);
+  }
+
+  const meta = document.createElement('p');
+  meta.className = 'full-dna-meta';
+  const metaParts = [`Genres: ${movie.genres.join(', ') || '—'}`, `Director: ${movie.director}`];
+  if (movie.studio) metaParts.push(`Studio: ${movie.studio}`);
+  meta.textContent = metaParts.join(' · ');
+  details.appendChild(meta);
+
+  return details;
 }
 
 function renderCard(movie, reason, query) {
@@ -337,7 +384,7 @@ function runSearch() {
 
 function catalogNote(key) {
   if (key === 'artiflix') {
-    return 'Classic films sourced from artiflix.com. DNA tagging for this catalog is still in progress, so theme/plot-dynamic matches will be limited until it is — movie and person search work now.';
+    return 'Classic films sourced from artiflix.com. DNA tagging for this catalog is still in progress, so theme/plot-dynamic matches will be limited until it is — movie and person search work now. 41 of the 801 titles on their site aren’t included yet (no confident match in the public data used to build this catalog); those can be filled in once direct API access to artiflix.com is available.';
   }
   return '';
 }
