@@ -22,7 +22,10 @@
       "identity_reinvention": 0.9,
       "systemic_corruption": 0.6,
       "tense_dread": 0.4,
-      "tech_disruption": 0.7
+      "tech_disruption": 0.7,
+      "chosen_one": 0.9,
+      "prophecy_fulfillment": 0.7,
+      "reluctant_hero": 0.5
     },
     "studio": "Village Roadshow Pictures"
   },
@@ -96,7 +99,8 @@
       "whimsical_charm": 0.9,
       "high_camp": 0.6,
       "found_family": 0.4,
-      "coming_of_age": 0.4
+      "coming_of_age": 0.4,
+      "road_journey": 0.7
     },
     "studio": "DEG"
   },
@@ -119,7 +123,8 @@
       "ticking_clock": 0.95,
       "chase_structure": 0.7,
       "one_location": 0.5,
-      "skill_asymmetry": 0.4
+      "skill_asymmetry": 0.4,
+      "real_time": 0.6
     },
     "studio": "20th Century Fox"
   },
@@ -188,7 +193,8 @@
       "underdog_rise": 0.6,
       "stylized_violence": 0.8,
       "identity_reinvention": 0.5,
-      "dark_comedy": 0.4
+      "dark_comedy": 0.4,
+      "reluctant_hero": 0.7
     },
     "studio": "87North Productions"
   },
@@ -257,7 +263,8 @@
       "stylized_violence": 0.9,
       "twist_reveal": 0.5,
       "systemic_corruption": 0.4,
-      "moral_ambiguity": 0.5
+      "moral_ambiguity": 0.5,
+      "espionage_double_cross": 0.8
     },
     "studio": "Focus Features"
   },
@@ -280,7 +287,8 @@
       "found_family": 0.4,
       "ticking_clock": 0.6,
       "stylized_violence": 0.85,
-      "bleak_tone": 0.4
+      "bleak_tone": 0.4,
+      "rescue_mission": 0.9
     },
     "studio": "AGBO"
   },
@@ -349,7 +357,8 @@
       "skill_asymmetry": 0.85,
       "ticking_clock": 0.7,
       "revenge_quest": 0.5,
-      "found_family": 0.3
+      "found_family": 0.3,
+      "rescue_mission": 0.9
     },
     "studio": "EuropaCorp"
   },
@@ -372,7 +381,8 @@
       "heist_plan": 0.95,
       "ensemble_cast": 0.8,
       "high_camp": 0.3,
-      "twist_reveal": 0.4
+      "twist_reveal": 0.4,
+      "criminal_mastermind": 0.7
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -445,7 +455,9 @@
       "gritty_realism": 0.8,
       "lone_wolf": 0.5,
       "moral_ambiguity": 0.5,
-      "plan_unravels": 0.5
+      "plan_unravels": 0.5,
+      "criminal_mastermind": 0.6,
+      "rivalry_driven": 0.7
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -489,7 +501,8 @@
       "love_across_divide": 0.5,
       "found_purpose": 0.7,
       "tender_sincerity": 0.7,
-      "bleak_tone": 0.3
+      "bleak_tone": 0.3,
+      "romantic_tone": 0.9
     },
     "studio": "Summit Entertainment"
   },
@@ -511,7 +524,8 @@
       "nonlinear_timeline": 0.8,
       "tender_sincerity": 0.5,
       "grief_processing": 0.3,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.5
     },
     "studio": "Fox Searchlight Pictures"
   },
@@ -556,9 +570,11 @@
       "love_across_divide": 0.5,
       "tender_sincerity": 0.8,
       "grief_processing": 0.3,
-      "slow_burn": 0.6
+      "slow_burn": 0.6,
+      "romantic_tone": 0.9,
+      "nostalgia_period": 0.6
     },
-    "studio": "La Cinéfacture"
+    "studio": "La Cin\u00e9facture"
   },
   {
     "id": "half-of-it-2020",
@@ -579,7 +595,8 @@
       "odd_couple": 0.6,
       "love_across_divide": 0.4,
       "tender_sincerity": 0.6,
-      "found_purpose": 0.3
+      "found_purpose": 0.3,
+      "romantic_tone": 0.6
     },
     "studio": "Likely Story"
   },
@@ -601,7 +618,9 @@
       "tense_dread": 0.9,
       "grief_processing": 0.8,
       "slow_burn": 0.7,
-      "twist_reveal": 0.5
+      "twist_reveal": 0.5,
+      "descent_into_madness": 0.7,
+      "gothic": 0.5
     },
     "studio": "PalmStar Media"
   },
@@ -624,7 +643,9 @@
       "systemic_corruption": 0.7,
       "twist_reveal": 0.7,
       "class_conflict": 0.5,
-      "survival_against_odds": 0.5
+      "survival_against_odds": 0.5,
+      "forbidden_knowledge": 0.6,
+      "fish_out_of_water": 0.7
     },
     "studio": "Monkeypaw Productions"
   },
@@ -647,7 +668,8 @@
       "tense_dread": 0.9,
       "found_family": 0.6,
       "quiet_minimalism": 0.8,
-      "one_location": 0.5
+      "one_location": 0.5,
+      "claustrophobic_tone": 0.6
     },
     "studio": "Paramount Pictures"
   },
@@ -669,7 +691,9 @@
       "grief_processing": 0.9,
       "tense_dread": 0.8,
       "bleak_tone": 0.6,
-      "one_location": 0.4
+      "one_location": 0.4,
+      "descent_into_madness": 0.6,
+      "mental_illness": 0.5
     },
     "studio": "Screen Australia"
   },
@@ -693,7 +717,8 @@
       "found_family": 0.9,
       "whimsical_charm": 0.6,
       "grief_processing": 0.3,
-      "underdog_rise": 0.4
+      "underdog_rise": 0.4,
+      "epic_scale": 0.6
     },
     "studio": "Marvel Studios"
   },
@@ -717,7 +742,10 @@
       "mentor_student": 0.6,
       "mentor_death_catalyst": 0.5,
       "found_family": 0.6,
-      "ensemble_cast": 0.5
+      "ensemble_cast": 0.5,
+      "epic_scale": 0.9,
+      "chosen_one": 0.6,
+      "reluctant_hero": 0.5
     },
     "studio": "Lucasfilm Ltd."
   },
@@ -738,7 +766,9 @@
       "grief_processing": 0.9,
       "bleak_tone": 0.7,
       "nonlinear_timeline": 0.5,
-      "quiet_minimalism": 0.5
+      "quiet_minimalism": 0.5,
+      "melancholic": 0.8,
+      "isolation_disconnection": 0.7
     },
     "studio": "Pearl Street Films"
   },
@@ -759,7 +789,9 @@
     "tags": {
       "grief_processing": 0.9,
       "bleak_tone": 0.5,
-      "tender_sincerity": 0.4
+      "tender_sincerity": 0.4,
+      "mental_illness": 0.7,
+      "melancholic": 0.6
     },
     "studio": "Paramount Pictures"
   },
@@ -782,7 +814,8 @@
       "plan_unravels": 0.8,
       "twist_reveal": 0.7,
       "dark_comedy": 0.4,
-      "moral_ambiguity": 0.6
+      "moral_ambiguity": 0.6,
+      "betrayal": 0.5
     },
     "studio": "Barunson E&A"
   },
@@ -828,7 +861,8 @@
       "lone_wolf": 0.6,
       "identity_reinvention": 0.5,
       "revenge_quest": 0.5,
-      "moral_ambiguity": 0.5
+      "moral_ambiguity": 0.5,
+      "epic_scale": 0.5
     },
     "studio": "Virtual Studios"
   },
@@ -851,7 +885,8 @@
       "odd_couple": 0.6,
       "moral_ambiguity": 0.6,
       "grief_processing": 0.4,
-      "bleak_tone": 0.4
+      "bleak_tone": 0.4,
+      "melancholic": 0.5
     },
     "studio": "Twins Financing"
   },
@@ -920,7 +955,8 @@
       "twist_reveal": 0.8,
       "class_conflict": 0.5,
       "ensemble_cast": 0.6,
-      "dark_comedy": 0.4
+      "dark_comedy": 0.4,
+      "betrayal": 0.5
     },
     "studio": "MRC"
   },
@@ -3850,7 +3886,7 @@
       "survival_against_odds": 0.5,
       "whimsical_charm": 0.3
     },
-    "studio": "WT² Productions"
+    "studio": "WT\u00b2 Productions"
   },
   {
     "id": "jaws-1975",
@@ -5441,7 +5477,7 @@
     "genres": [
       "horror"
     ],
-    "director": "Sébastien Vaniček",
+    "director": "S\u00e9bastien Vani\u010dek",
     "cast": [
       "Souheila Yacoub",
       "Tandi Wright",
@@ -5513,7 +5549,7 @@
     "director": "Phil Lord",
     "cast": [
       "Ryan Gosling",
-      "Sandra Hüller",
+      "Sandra H\u00fcller",
       "James Ortiz"
     ],
     "synopsis": "An amnesiac scientist wakes alone on a spaceship light years from home and must piece together a mission to save Earth.",
@@ -5651,7 +5687,7 @@
     "director": "James Cameron",
     "cast": [
       "Sam Worthington",
-      "Zoe Saldaña",
+      "Zoe Salda\u00f1a",
       "Sigourney Weaver"
     ],
     "synopsis": "Grieving the loss of their son, a family faces a violent new tribe threatening their fragile peace on an alien world.",
@@ -6071,7 +6107,7 @@
     "cast": [
       "Seth Rogen",
       "Olivia Wilde",
-      "Penélope Cruz"
+      "Pen\u00e9lope Cruz"
     ],
     "synopsis": "A marriage on thin ice spirals into unexpected territory over one strange dinner party with mysterious new neighbors.",
     "tags": {
@@ -6266,7 +6302,7 @@
       "underdog_rise": 0.3,
       "heist_plan": 0.3
     },
-    "studio": "iQIYI Pictures （重复 同 iQiyi Motion Pictures）"
+    "studio": "iQIYI Pictures \uff08\u91cd\u590d \u540c iQiyi Motion Pictures\uff09"
   },
   {
     "id": "captain-america-brave-new-world-2025",
@@ -6633,7 +6669,7 @@
     "cast": [
       "Armie Hammer",
       "Costas Mandylor",
-      "Désirée Giorgetti"
+      "D\u00e9sir\u00e9e Giorgetti"
     ],
     "synopsis": "A man's one-man crusade to hunt down criminals makes him a social media star and a target for the police chief he defies.",
     "tags": {
@@ -6749,7 +6785,7 @@
     "director": "James Cameron",
     "cast": [
       "Sam Worthington",
-      "Zoe Saldaña",
+      "Zoe Salda\u00f1a",
       "Sigourney Weaver"
     ],
     "synopsis": "A family relocates to the ocean reefs of an alien moon to keep their children safe from an old enemy's return.",
@@ -7051,7 +7087,7 @@
     "cast": [
       "Henry Cavill",
       "Jake Gyllenhaal",
-      "Eiza González"
+      "Eiza Gonz\u00e1lez"
     ],
     "synopsis": "A covert team of shadow operatives is sent after a despot who stole a fortune, in a heist that erupts into a deadly game of betrayal.",
     "tags": {
@@ -7119,7 +7155,7 @@
     ],
     "director": "Denis Villeneuve",
     "cast": [
-      "Timothée Chalamet",
+      "Timoth\u00e9e Chalamet",
       "Zendaya",
       "Rebecca Ferguson"
     ],
@@ -7259,7 +7295,7 @@
       "action",
       "comedy"
     ],
-    "director": "Ángel Manuel Soto",
+    "director": "\u00c1ngel Manuel Soto",
     "cast": [
       "Dave Bautista",
       "Jason Momoa",
@@ -7380,7 +7416,7 @@
     "director": "James Gunn",
     "cast": [
       "Chris Pratt",
-      "Zoe Saldaña",
+      "Zoe Salda\u00f1a",
       "Dave Bautista"
     ],
     "synopsis": "Still reeling from loss, a ragtag crew rallies to defend one of their own, risking everything they've built together.",
@@ -8012,7 +8048,7 @@
       "action",
       "thriller"
     ],
-    "director": "Baltasar Kormákur",
+    "director": "Baltasar Korm\u00e1kur",
     "cast": [
       "Charlize Theron",
       "Taron Egerton",
@@ -8152,7 +8188,7 @@
       "fantasy",
       "adventure"
     ],
-    "director": "Alfonso Cuarón",
+    "director": "Alfonso Cuar\u00f3n",
     "cast": [
       "Daniel Radcliffe",
       "Rupert Grint",
@@ -8178,7 +8214,7 @@
     "director": "Quentin Tarantino",
     "cast": [
       "Brad Pitt",
-      "Mélanie Laurent",
+      "M\u00e9lanie Laurent",
       "Christoph Waltz"
     ],
     "synopsis": "A band of Jewish-American soldiers wages a brutal campaign of vengeance across Nazi-occupied France.",
@@ -8247,7 +8283,7 @@
       "romance",
       "drama"
     ],
-    "director": "Domingo González",
+    "director": "Domingo Gonz\u00e1lez",
     "cast": [
       "Nicole Wallace",
       "Gabriel Guevara",
@@ -8296,7 +8332,7 @@
     "director": "Ryan Coogler",
     "cast": [
       "Letitia Wright",
-      "Tenoch Huerta Mejía",
+      "Tenoch Huerta Mej\u00eda",
       "Lupita Nyong'o"
     ],
     "synopsis": "A grieving nation's leaders fight to protect their people from outside powers circling in the wake of their king's death.",
@@ -8365,7 +8401,7 @@
     "director": "Matt Reeves",
     "cast": [
       "Robert Pattinson",
-      "Zoë Kravitz",
+      "Zo\u00eb Kravitz",
       "Jeffrey Wright"
     ],
     "synopsis": "In his second year fighting crime, a vigilante uncovers corruption tied to his own family while hunting a serial killer.",
@@ -8411,7 +8447,7 @@
     "director": "James Gunn",
     "cast": [
       "Chris Pratt",
-      "Zoe Saldaña",
+      "Zoe Salda\u00f1a",
       "Dave Bautista"
     ],
     "synopsis": "A ragtag crew fights to hold their found family together while unraveling the mystery of one member's true parentage.",
@@ -8524,13 +8560,13 @@
       "horror",
       "thriller"
     ],
-    "director": "André Øvredal",
+    "director": "Andr\u00e9 \u00d8vredal",
     "cast": [
       "Jacob Scipio",
       "Lou Llobell",
       "Melissa Leo"
     ],
-    "synopsis": "A young couple who witness a highway accident realize they didn't leave the scene alone — something followed them home.",
+    "synopsis": "A young couple who witness a highway accident realize they didn't leave the scene alone \u2014 something followed them home.",
     "tags": {
       "tense_dread": 0.8,
       "survival_against_odds": 0.5,
@@ -8773,7 +8809,7 @@
   },
   {
     "id": "wall-e-2008",
-    "title": "WALL·E",
+    "title": "WALL\u00b7E",
     "year": 2008,
     "genres": [
       "animation",
@@ -8947,7 +8983,7 @@
     "cast": [
       "Keanu Reeves",
       "Donnie Yen",
-      "Bill Skarsgård"
+      "Bill Skarsg\u00e5rd"
     ],
     "synopsis": "With the price on his head ever rising, a legendary assassin uncovers a path to freedom that requires facing a powerful new enemy.",
     "tags": {
@@ -9106,9 +9142,9 @@
     ],
     "director": "David G. Derrick Jr.",
     "cast": [
-      "Auliʻi Cravalho",
+      "Auli\u02bbi Cravalho",
       "Dwayne Johnson",
-      "Hualālai Chung"
+      "Hual\u0101lai Chung"
     ],
     "synopsis": "Called by her wayfinding ancestors, a voyager sails with a new crew into dangerous, long-lost waters for an adventure beyond anything before.",
     "tags": {
@@ -9251,7 +9287,7 @@
       "Josh Brolin",
       "Alden Ehrenreich"
     ],
-    "synopsis": "When every child but one vanishes from the same class on the same night, a shattered community searches for who — or what — took them.",
+    "synopsis": "When every child but one vanishes from the same class on the same night, a shattered community searches for who \u2014 or what \u2014 took them.",
     "tags": {
       "tense_dread": 0.7,
       "investigation_driven": 0.6,
@@ -9481,7 +9517,7 @@
     "director": "Tim Story",
     "cast": [
       "Kevin Hart",
-      "Marcello Hernández",
+      "Marcello Hern\u00e1ndez",
       "Mason Gooding"
     ],
     "synopsis": "Mistakenly added to a group chat, a 40-year-old ad exec joins a crew of twentysomethings for a wild bachelor weekend that could cost him his career.",
@@ -9570,7 +9606,7 @@
     ],
     "director": "Olivier Nakache",
     "cast": [
-      "François Cluzet",
+      "Fran\u00e7ois Cluzet",
       "Omar Sy",
       "Anne Le Ny"
     ],
@@ -9660,7 +9696,7 @@
       "romance",
       "drama"
     ],
-    "director": "Barbara Białowąs",
+    "director": "Barbara Bia\u0142ow\u0105s",
     "cast": [
       "Anna-Maria Sieklucka",
       "Michele Morrone",
@@ -9803,7 +9839,7 @@
       "Dylan O'Brien",
       "Edyll Ismail"
     ],
-    "synopsis": "The only survivors of a plane crash must set aside old grievances to survive a deserted island — and each other.",
+    "synopsis": "The only survivors of a plane crash must set aside old grievances to survive a deserted island \u2014 and each other.",
     "tags": {
       "survival_against_odds": 0.7,
       "odd_couple": 0.5,
@@ -9914,7 +9950,7 @@
     "director": "Ihtzi Hurtado",
     "cast": [
       "Angelique Boyer",
-      "Bárbara de Regil",
+      "B\u00e1rbara de Regil",
       "Diego Klein"
     ],
     "synopsis": "Two women discover they were both scammed and impregnated by the same man, and form an alliance to make him pay.",
@@ -10277,7 +10313,7 @@
       "romance",
       "drama"
     ],
-    "director": "Domingo González",
+    "director": "Domingo Gonz\u00e1lez",
     "cast": [
       "Nicole Wallace",
       "Gabriel Guevara",
@@ -10879,7 +10915,7 @@
     "cast": [
       "Antonio Banderas",
       "Salma Hayek Pinault",
-      "Harvey Guillén"
+      "Harvey Guill\u00e9n"
     ],
     "synopsis": "Down to his final life after burning through eight of nine, a swashbuckling cat sets out on an epic quest for one more wish.",
     "tags": {
@@ -11220,7 +11256,7 @@
       "romance",
       "drama"
     ],
-    "director": "Domingo González",
+    "director": "Domingo Gonz\u00e1lez",
     "cast": [
       "Nicole Wallace",
       "Gabriel Guevara",
@@ -11453,7 +11489,7 @@
     "director": "Rob Marshall",
     "cast": [
       "Johnny Depp",
-      "Penélope Cruz",
+      "Pen\u00e9lope Cruz",
       "Geoffrey Rush"
     ],
     "synopsis": "A pirate captain crosses paths with a woman from his past who may be using him to find the fabled Fountain of Youth.",
@@ -11582,7 +11618,7 @@
   },
   {
     "id": "the-accountant-2025",
-    "title": "The Accountant²",
+    "title": "The Accountant\u00b2",
     "year": 2025,
     "genres": [
       "mystery",
@@ -11842,7 +11878,7 @@
       "drama",
       "thriller"
     ],
-    "director": "Gaspar Noé",
+    "director": "Gaspar No\u00e9",
     "cast": [
       "Monica Bellucci",
       "Vincent Cassel",
@@ -11985,7 +12021,7 @@
     "director": "Byron Howard",
     "cast": [
       "Stephanie Beatriz",
-      "María Cecilia Botero",
+      "Mar\u00eda Cecilia Botero",
       "John Leguizamo"
     ],
     "synopsis": "The only ungifted member of a magical family discovers the source of their fading power may be tied to her all along.",
@@ -12587,7 +12623,7 @@
       "Ed Helms",
       "Zach Galifianakis"
     ],
-    "synopsis": "No wedding, no bachelor party — yet somehow, everything still goes wrong once the Wolfpack hits the road again.",
+    "synopsis": "No wedding, no bachelor party \u2014 yet somehow, everything still goes wrong once the Wolfpack hits the road again.",
     "tags": {
       "dark_comedy": 0.5,
       "odd_couple": 0.5,
@@ -12742,7 +12778,7 @@
       "drama",
       "family"
     ],
-    "director": "Gábor Csupó",
+    "director": "G\u00e1bor Csup\u00f3",
     "cast": [
       "Josh Hutcherson",
       "AnnaSophia Robb",
@@ -12765,7 +12801,7 @@
       "thriller",
       "crime"
     ],
-    "director": "Elisabeth Röhm",
+    "director": "Elisabeth R\u00f6hm",
     "cast": [
       "Judd Nelson",
       "Stefanie Scott",
@@ -12927,7 +12963,7 @@
       "fantasy",
       "family"
     ],
-    "director": "Joachim Rønning",
+    "director": "Joachim R\u00f8nning",
     "cast": [
       "Angelina Jolie",
       "Elle Fanning",
@@ -13044,7 +13080,7 @@
     ],
     "director": "Josh Safdie",
     "cast": [
-      "Timothée Chalamet",
+      "Timoth\u00e9e Chalamet",
       "Gwyneth Paltrow",
       "Odessa A'zion"
     ],
@@ -13115,7 +13151,7 @@
     "cast": [
       "Lily-Rose Depp",
       "Nicholas Hoult",
-      "Bill Skarsgård"
+      "Bill Skarsg\u00e5rd"
     ],
     "synopsis": "A haunted young woman's obsession with a terrifying vampire draws untold horror down on everyone around her.",
     "tags": {
@@ -13271,7 +13307,7 @@
     ],
     "director": "Adam Wingard",
     "cast": [
-      "Alexander Skarsgård",
+      "Alexander Skarsg\u00e5rd",
       "Rebecca Hall",
       "Kaylee Hottle"
     ],
@@ -13292,7 +13328,7 @@
       "sci-fi",
       "action"
     ],
-    "director": "Chloé Zhao",
+    "director": "Chlo\u00e9 Zhao",
     "cast": [
       "Gemma Chan",
       "Richard Madden",
@@ -13546,7 +13582,7 @@
       "animation",
       "fantasy"
     ],
-    "director": "Carlos López Estrada",
+    "director": "Carlos L\u00f3pez Estrada",
     "cast": [
       "Kelly Marie Tran",
       "Awkwafina",
@@ -13637,7 +13673,7 @@
       "horror",
       "sci-fi"
     ],
-    "director": "Fede Álvarez",
+    "director": "Fede \u00c1lvarez",
     "cast": [
       "Cailee Spaeny",
       "David Jonsson",
@@ -14078,7 +14114,7 @@
     "director": "Luc Besson",
     "cast": [
       "Caleb Landry Jones",
-      "Zoë Bleu Sidel",
+      "Zo\u00eb Bleu Sidel",
       "Christoph Waltz"
     ],
     "synopsis": "After his bride's brutal murder, a prince renounces heaven and is reborn immortal, cursed and consumed by grief and hunger.",
@@ -14237,7 +14273,7 @@
       "sci-fi",
       "action"
     ],
-    "director": "Joachim Rønning",
+    "director": "Joachim R\u00f8nning",
     "cast": [
       "Jared Leto",
       "Greta Lee",
@@ -14254,7 +14290,7 @@
   },
   {
     "id": "joker-folie-deux-2024",
-    "title": "Joker: Folie à Deux",
+    "title": "Joker: Folie \u00e0 Deux",
     "year": 2024,
     "genres": [
       "crime",
@@ -14448,7 +14484,7 @@
     "cast": [
       "Yonas Kibreab",
       "Remy Edgerly",
-      "Zoe Saldaña"
+      "Zoe Salda\u00f1a"
     ],
     "synopsis": "A space-obsessed kid's cosmic misadventure with eccentric aliens spirals into an intergalactic crisis only he can solve.",
     "tags": {
@@ -14495,7 +14531,7 @@
     "cast": [
       "Austin Butler",
       "Regina King",
-      "Zoë Kravitz"
+      "Zo\u00eb Kravitz"
     ],
     "synopsis": "A burned-out former athlete is dragged into New York's criminal underbelly after agreeing to watch a neighbor's cat.",
     "tags": {
@@ -14708,7 +14744,7 @@
       "bleak_tone": 0.6,
       "identity_reinvention": 0.3
     },
-    "studio": "Pathé"
+    "studio": "Path\u00e9"
   },
   {
     "id": "megamind-2010",
@@ -14831,7 +14867,7 @@
     "genres": [
       "drama"
     ],
-    "director": "Miloš Forman",
+    "director": "Milo\u0161 Forman",
     "cast": [
       "Jack Nicholson",
       "Brad Dourif",
@@ -14974,7 +15010,7 @@
     "cast": [
       "Scarlett Johansson",
       "Takeshi Kitano",
-      "Pilou Asbæk"
+      "Pilou Asb\u00e6k"
     ],
     "synopsis": "The first of her kind, a soldier saved from a fatal crash and rebuilt as a cyber-enhanced weapon hunts the world's most dangerous criminals.",
     "tags": {
@@ -15108,7 +15144,7 @@
       "drama",
       "romance"
     ],
-    "director": "Chloé Zhao",
+    "director": "Chlo\u00e9 Zhao",
     "cast": [
       "Jessie Buckley",
       "Paul Mescal",
@@ -15206,7 +15242,7 @@
       "Yamato Kochi",
       "Naru Asanuma"
     ],
-    "synopsis": "Trapped in an endless subway passage, a man must follow one simple rule — never overlook anything strange — to find the way out.",
+    "synopsis": "Trapped in an endless subway passage, a man must follow one simple rule \u2014 never overlook anything strange \u2014 to find the way out.",
     "tags": {
       "tense_dread": 0.7,
       "investigation_driven": 0.5,
@@ -15269,7 +15305,7 @@
       "romance",
       "drama"
     ],
-    "director": "Lucía Alemany",
+    "director": "Luc\u00eda Alemany",
     "cast": [
       "Gabriela Andrada",
       "Mario Ermito",
@@ -15294,7 +15330,7 @@
     "director": "Cary Joji Fukunaga",
     "cast": [
       "Daniel Craig",
-      "Léa Seydoux",
+      "L\u00e9a Seydoux",
       "Rami Malek"
     ],
     "synopsis": "Pulled from a tranquil retirement by an old CIA friend, an ex-agent's rescue mission uncovers a plot with terrifying global stakes.",
@@ -15757,7 +15793,7 @@
     "director": "Corin Hardy",
     "cast": [
       "Dafne Keen",
-      "Sophie Nélisse",
+      "Sophie N\u00e9lisse",
       "Sky Yang"
     ],
     "synopsis": "A group of high schoolers who unwittingly blow a cursed ancient whistle unleash a sound that summons their own deaths to hunt them down.",
@@ -16814,7 +16850,7 @@
     "cast": [
       "Taraji P. Henson",
       "Octavia Spencer",
-      "Janelle Monáe"
+      "Janelle Mon\u00e1e"
     ],
     "synopsis": "Three brilliant women defy segregation to become the hidden brains behind one of history's greatest space missions.",
     "tags": {
@@ -17386,7 +17422,7 @@
     ],
     "director": "Akira Kurosawa",
     "cast": [
-      "Toshirō Mifune",
+      "Toshir\u014d Mifune",
       "Takashi Shimura",
       "Yoshio Inaba"
     ],
@@ -17757,7 +17793,7 @@
     ],
     "director": "Robert Eggers",
     "cast": [
-      "Alexander Skarsgård",
+      "Alexander Skarsg\u00e5rd",
       "Nicole Kidman",
       "Claes Bang"
     ],
@@ -17984,7 +18020,7 @@
       "horror",
       "mystery"
     ],
-    "director": "Alejandro Amenábar",
+    "director": "Alejandro Amen\u00e1bar",
     "cast": [
       "Nicole Kidman",
       "Alakina Mann",
@@ -18491,7 +18527,7 @@
     ],
     "director": "James Mangold",
     "cast": [
-      "Timothée Chalamet",
+      "Timoth\u00e9e Chalamet",
       "Edward Norton",
       "Elle Fanning"
     ],
@@ -18606,7 +18642,7 @@
     ],
     "director": "Paul King",
     "cast": [
-      "Timothée Chalamet",
+      "Timoth\u00e9e Chalamet",
       "Calah Lane",
       "Keegan-Michael Key"
     ],
@@ -18815,7 +18851,7 @@
     "cast": [
       "John Krasinski",
       "Natalie Portman",
-      "Eiza González"
+      "Eiza Gonz\u00e1lez"
     ],
     "synopsis": "A treasure-hunting mastermind assembles a team for a life-changing adventure, needing the one person smarter than he is: his estranged sister.",
     "tags": {
@@ -18833,7 +18869,7 @@
     "genres": [
       "horror"
     ],
-    "director": "Fede Álvarez",
+    "director": "Fede \u00c1lvarez",
     "cast": [
       "Jane Levy",
       "Shiloh Fernandez",
@@ -18906,7 +18942,7 @@
     "cast": [
       "Lea Myren",
       "Ane Dahl Torp",
-      "Thea Sofie Loch Næss"
+      "Thea Sofie Loch N\u00e6ss"
     ],
     "synopsis": "In a kingdom where beauty is a brutal business, a stepsister will go to any length to outshine her stunning stepsister and win the prince.",
     "tags": {
@@ -19090,7 +19126,7 @@
     "cast": [
       "Mel Gibson",
       "Shelley Hennig",
-      "Jordi Mollà"
+      "Jordi Moll\u00e0"
     ],
     "synopsis": "A reclusive survivalist and his daughter rescuing a wounded stranger from a river find themselves pulled into a brutal web of violence.",
     "tags": {
@@ -19296,7 +19332,7 @@
     "director": "Antoine Fuqua",
     "cast": [
       "Mark Wahlberg",
-      "Michael Peña",
+      "Michael Pe\u00f1a",
       "Danny Glover"
     ],
     "synopsis": "A reclusive ex-Marine sniper coaxed back into service after a mission goes wrong finds himself framed for the very crime he was hired to prevent.",
@@ -19408,7 +19444,7 @@
       "action",
       "thriller"
     ],
-    "director": "Adrian Grünberg",
+    "director": "Adrian Gr\u00fcnberg",
     "cast": [
       "Milla Jovovich",
       "Matthew Modine",
@@ -19476,11 +19512,11 @@
       "adventure",
       "drama"
     ],
-    "director": "Alexandre de La Patellière",
+    "director": "Alexandre de La Patelli\u00e8re",
     "cast": [
       "Pierre Niney",
       "Bastien Bouillon",
-      "Anaïs Demoustier"
+      "Ana\u00efs Demoustier"
     ],
     "synopsis": "Framed and imprisoned on his wedding day, a man endures fourteen years in an island prison before a daring escape and a plan for vengeance.",
     "tags": {
@@ -19984,7 +20020,7 @@
     ],
     "director": "Justine Triet",
     "cast": [
-      "Sandra Hüller",
+      "Sandra H\u00fcller",
       "Swann Arlaud",
       "Milo Machado-Graner"
     ],
@@ -20284,7 +20320,7 @@
     "cast": [
       "James Marsden",
       "Vince Vaughn",
-      "Eiza González"
+      "Eiza Gonz\u00e1lez"
     ],
     "synopsis": "Two gangsters and the woman they both love fight to survive the most dangerous night of their lives, with a time machine thrown into the mix.",
     "tags": {
@@ -20307,7 +20343,7 @@
     "cast": [
       "Sumi Shimamoto",
       "Ichiro Nagai",
-      "Gorō Naya"
+      "Gor\u014d Naya"
     ],
     "synopsis": "In a world ravaged by war and poison jungle, a princess fights to protect her valley's fragile peace from a militaristic neighboring kingdom.",
     "tags": {
@@ -20513,7 +20549,7 @@
     "director": "Guy Ritchie",
     "cast": [
       "Henry Cavill",
-      "Eiza González",
+      "Eiza Gonz\u00e1lez",
       "Alan Ritchson"
     ],
     "synopsis": "A secret British WWII unit assigns a crew of unconventional soldiers to a daring mission deep behind Nazi lines.",
@@ -20581,7 +20617,7 @@
     "director": "Corin Hardy",
     "cast": [
       "Taissa Farmiga",
-      "Demián Bichir",
+      "Demi\u00e1n Bichir",
       "Bonnie Aarons"
     ],
     "synopsis": "A priest and a novice nearing her final vows are sent to investigate a nun's death and confront a demonic force at a remote abbey.",
@@ -20899,8 +20935,8 @@
     "director": "Barry Jenkins",
     "cast": [
       "Trevante Rhodes",
-      "André Holland",
-      "Janelle Monáe"
+      "Andr\u00e9 Holland",
+      "Janelle Mon\u00e1e"
     ],
     "synopsis": "A young man's struggle to find himself unfolds across three defining chapters of his life, from childhood through fraught adulthood.",
     "tags": {
@@ -22099,7 +22135,7 @@
   },
   {
     "id": "pok-mon-detective-pikachu-2019",
-    "title": "Pokémon Detective Pikachu",
+    "title": "Pok\u00e9mon Detective Pikachu",
     "year": 2019,
     "genres": [
       "action",
@@ -22266,7 +22302,7 @@
       "drama",
       "comedy"
     ],
-    "director": "Alejandro G. Iñárritu",
+    "director": "Alejandro G. I\u00f1\u00e1rritu",
     "cast": [
       "Michael Keaton",
       "Emma Stone",
@@ -22473,7 +22509,7 @@
       "comedy",
       "romance"
     ],
-    "director": "Matthew López",
+    "director": "Matthew L\u00f3pez",
     "cast": [
       "Taylor Zakhar Perez",
       "Nicholas Galitzine",
@@ -22819,7 +22855,7 @@
     "director": "Denis Villeneuve",
     "cast": [
       "Lubna Azabal",
-      "Mélissa Désormeaux-Poulin",
+      "M\u00e9lissa D\u00e9sormeaux-Poulin",
       "Maxim Gaudette"
     ],
     "synopsis": "A mother's dying wish sends her twin children on a journey into her tangled, war-torn past to uncover the roots of their own identity.",
