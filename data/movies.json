@@ -2911,7 +2911,9 @@
       "odd_couple": 0.5,
       "grief_processing": 0.6,
       "underdog_rise": 0.5,
-      "mentor_student": 0.4
+      "mentor_student": 0.4,
+      "rivalry_driven": 0.7,
+      "redemption_arc": 0.7
     },
     "studio": "Lionsgate"
   },
@@ -2933,7 +2935,9 @@
       "ticking_clock": 0.8,
       "systemic_corruption": 0.4,
       "tense_dread": 0.6,
-      "plan_unravels": 0.3
+      "plan_unravels": 0.3,
+      "espionage_double_cross": 0.7,
+      "rescue_mission": 0.7
     },
     "studio": "GK Films"
   },
@@ -2956,7 +2960,8 @@
       "lone_wolf": 0.6,
       "moral_ambiguity": 0.6,
       "gritty_realism": 0.6,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "obsession": 0.9
     },
     "studio": "Annapurna Pictures"
   },
@@ -2978,7 +2983,9 @@
       "tense_dread": 0.8,
       "survival_against_odds": 0.6,
       "lone_wolf": 0.5,
-      "gritty_realism": 0.7
+      "gritty_realism": 0.7,
+      "war_conflict": 0.8,
+      "addiction_recovery": 0.5
     },
     "studio": "First Light"
   },
@@ -3000,7 +3007,9 @@
       "survival_against_odds": 0.6,
       "grief_processing": 0.5,
       "gritty_realism": 0.7,
-      "moral_ambiguity": 0.5
+      "moral_ambiguity": 0.5,
+      "war_conflict": 0.9,
+      "mental_illness": 0.6
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -3022,7 +3031,9 @@
       "survival_against_odds": 0.9,
       "ensemble_cast": 0.6,
       "tense_dread": 0.6,
-      "gritty_realism": 0.7
+      "gritty_realism": 0.7,
+      "war_conflict": 0.9,
+      "real_time": 0.4
     },
     "studio": "Jerry Bruckheimer Films"
   },
@@ -3044,7 +3055,10 @@
       "love_across_divide": 0.8,
       "moral_ambiguity": 0.5,
       "bleak_tone": 0.4,
-      "tender_sincerity": 0.5
+      "tender_sincerity": 0.5,
+      "romantic_tone": 0.9,
+      "sacrifice_for_others": 0.8,
+      "nostalgia_period": 0.5
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -3066,7 +3080,8 @@
       "whimsical_charm": 0.8,
       "found_purpose": 0.4,
       "tender_sincerity": 0.4,
-      "identity_reinvention": 0.3
+      "identity_reinvention": 0.3,
+      "nostalgia_period": 0.7
     },
     "studio": "Metro-Goldwyn-Mayer"
   },
@@ -3088,7 +3103,9 @@
       "identity_reinvention": 0.7,
       "high_camp": 0.6,
       "odd_couple": 0.5,
-      "dark_comedy": 0.3
+      "dark_comedy": 0.3,
+      "nostalgia_period": 0.6,
+      "escape_plot": 0.4
     },
     "studio": "The Mirisch Company"
   },
@@ -3111,7 +3128,9 @@
       "tender_sincerity": 0.7,
       "whimsical_charm": 0.5,
       "nonlinear_timeline": 0.4,
-      "grief_processing": 0.3
+      "grief_processing": 0.3,
+      "epic_scale": 0.8,
+      "nostalgia_period": 0.6
     },
     "studio": "Paramount Pictures"
   },
@@ -3132,7 +3151,8 @@
     "tags": {
       "identity_reinvention": 0.8,
       "whimsical_charm": 0.7,
-      "coming_of_age": 0.5
+      "coming_of_age": 0.5,
+      "body_swap": 0.6
     },
     "studio": "American Entertainment Partners II L.P."
   },
@@ -3155,7 +3175,9 @@
       "survival_against_odds": 0.9,
       "ensemble_cast": 0.6,
       "ticking_clock": 0.6,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "rescue_mission": 0.8,
+      "disaster_survival": 0.7
     },
     "studio": "Imagine Entertainment"
   },
@@ -3176,7 +3198,9 @@
       "systemic_corruption": 0.6,
       "grief_processing": 0.5,
       "moral_ambiguity": 0.4,
-      "tender_sincerity": 0.5
+      "tender_sincerity": 0.5,
+      "courtroom_drama": 0.8,
+      "justice_vs_law": 0.6
     },
     "studio": "TriStar Pictures"
   },
@@ -3198,7 +3222,9 @@
       "identity_reinvention": 0.7,
       "chase_structure": 0.5,
       "rival_becomes_ally": 0.5,
-      "skill_asymmetry": 0.4
+      "skill_asymmetry": 0.4,
+      "criminal_mastermind": 0.5,
+      "rivalry_driven": 0.6
     },
     "studio": "Kemp Company"
   },
@@ -3220,7 +3246,8 @@
       "underdog_rise": 0.5,
       "class_conflict": 0.4,
       "identity_reinvention": 0.5,
-      "mentor_student": 0.4
+      "mentor_student": 0.4,
+      "fish_out_of_water": 0.6
     },
     "studio": "Fox 2000 Pictures"
   },
@@ -3240,7 +3267,9 @@
     "tags": {
       "bleak_tone": 0.9,
       "grief_processing": 0.8,
-      "moral_ambiguity": 0.6
+      "moral_ambiguity": 0.6,
+      "melancholic": 0.7,
+      "mental_illness": 0.5
     },
     "studio": "ITC Entertainment"
   },
@@ -3261,7 +3290,8 @@
     "tags": {
       "whimsical_charm": 0.8,
       "found_family": 0.5,
-      "tender_sincerity": 0.4
+      "tender_sincerity": 0.4,
+      "romantic_tone": 0.5
     },
     "studio": "Littlestar"
   },
@@ -3284,7 +3314,10 @@
       "antihero_lead": 0.8,
       "identity_reinvention": 0.5,
       "moral_ambiguity": 0.6,
-      "bleak_tone": 0.5
+      "bleak_tone": 0.5,
+      "descent_into_madness": 0.7,
+      "unreliable_narrator": 0.8,
+      "villain_pov": 0.6
     },
     "studio": "Lionsgate"
   },
@@ -3306,7 +3339,8 @@
       "underdog_rise": 0.6,
       "found_family": 0.5,
       "mentor_student": 0.5,
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "addiction_recovery": 0.7
     },
     "studio": "Relativity Media"
   },
@@ -3351,7 +3385,9 @@
       "class_conflict": 0.8,
       "dark_comedy": 0.5,
       "moral_ambiguity": 0.5,
-      "bleak_tone": 0.4
+      "bleak_tone": 0.4,
+      "unreliable_narrator": 0.7,
+      "mockumentary": 0.6
     },
     "studio": "LuckyChap Entertainment"
   },
@@ -3374,7 +3410,9 @@
       "whimsical_charm": 0.6,
       "systemic_corruption": 0.4,
       "found_purpose": 0.5,
-      "high_camp": 0.5
+      "high_camp": 0.5,
+      "fish_out_of_water": 0.8,
+      "absurdist": 0.5
     },
     "studio": "LuckyChap Entertainment"
   },
@@ -3397,7 +3435,9 @@
       "bleak_tone": 0.6,
       "moral_ambiguity": 0.5,
       "class_conflict": 0.5,
-      "dark_comedy": 0.3
+      "dark_comedy": 0.3,
+      "descent_into_madness": 0.7,
+      "mental_illness": 0.5
     },
     "studio": "Gravier Productions"
   },
@@ -3419,7 +3459,9 @@
       "love_across_divide": 0.8,
       "slow_burn": 0.6,
       "tender_sincerity": 0.5,
-      "class_conflict": 0.3
+      "class_conflict": 0.3,
+      "romantic_tone": 0.8,
+      "nostalgia_period": 0.6
     },
     "studio": "Killer Films"
   },
@@ -3441,7 +3483,8 @@
       "grief_processing": 0.4,
       "moral_ambiguity": 0.5,
       "one_location": 0.5,
-      "tender_sincerity": 0.3
+      "tender_sincerity": 0.3,
+      "legacy_and_inheritance": 0.6
     },
     "studio": "Paramount Pictures"
   },
@@ -3486,7 +3529,9 @@
       "grief_processing": 0.5,
       "found_purpose": 0.5,
       "tender_sincerity": 0.4,
-      "dark_comedy": 0.4
+      "dark_comedy": 0.4,
+      "mental_illness": 0.8,
+      "romantic_tone": 0.5
     },
     "studio": "The Weinstein Company"
   },
@@ -3530,7 +3575,8 @@
       "grief_processing": 0.8,
       "found_family": 0.5,
       "moral_ambiguity": 0.4,
-      "bleak_tone": 0.3
+      "bleak_tone": 0.3,
+      "addiction_recovery": 0.7
     },
     "studio": "Clinica Estetico"
   },
@@ -3552,7 +3598,8 @@
       "skill_asymmetry": 0.6,
       "underdog_rise": 0.3,
       "mentor_student": 0.4,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "rivalry_driven": 0.7
     },
     "studio": "Paramount Pictures"
   },
@@ -3575,7 +3622,9 @@
       "identity_reinvention": 0.6,
       "found_purpose": 0.6,
       "love_across_divide": 0.3,
-      "underdog_rise": 0.4
+      "underdog_rise": 0.4,
+      "redemption_arc": 0.6,
+      "romantic_tone": 0.5
     },
     "studio": "TriStar Pictures"
   },
@@ -3596,7 +3645,8 @@
       "odd_couple": 0.8,
       "found_family": 0.6,
       "tender_sincerity": 0.5,
-      "identity_reinvention": 0.3
+      "identity_reinvention": 0.3,
+      "road_journey": 0.8
     },
     "studio": "United Artists"
   },
@@ -3661,7 +3711,9 @@
       "identity_reinvention": 0.6,
       "high_camp": 0.5,
       "underdog_rise": 0.3,
-      "odd_couple": 0.3
+      "odd_couple": 0.3,
+      "fish_out_of_water": 0.7,
+      "espionage_double_cross": 0.4
     },
     "studio": "Village Roadshow Pictures"
   },
@@ -3683,7 +3735,8 @@
       "love_across_divide": 0.8,
       "class_conflict": 0.6,
       "identity_reinvention": 0.4,
-      "tender_sincerity": 0.4
+      "tender_sincerity": 0.4,
+      "romantic_tone": 0.8
     },
     "studio": "Touchstone Pictures"
   },
@@ -3705,7 +3758,9 @@
       "systemic_corruption": 0.8,
       "investigation_driven": 0.6,
       "found_purpose": 0.5,
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "forbidden_knowledge": 0.6,
+      "justice_vs_law": 0.5
     },
     "studio": "Jersey Films"
   },
@@ -3727,7 +3782,9 @@
       "systemic_corruption": 0.7,
       "moral_ambiguity": 0.6,
       "investigation_driven": 0.5,
-      "class_conflict": 0.6
+      "class_conflict": 0.6,
+      "courtroom_drama": 0.9,
+      "justice_vs_law": 0.8
     },
     "studio": "Regency Enterprises"
   },
@@ -3751,7 +3808,8 @@
       "underdog_rise": 0.6,
       "grief_processing": 0.5,
       "bleak_tone": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "sacrifice_for_others": 0.6
     },
     "studio": "Lakeshore Entertainment"
   },
@@ -3774,7 +3832,9 @@
       "bleak_tone": 0.8,
       "coming_of_age": 0.5,
       "systemic_corruption": 0.5,
-      "mentor_student": 0.4
+      "mentor_student": 0.4,
+      "war_conflict": 0.9,
+      "descent_into_madness": 0.7
     },
     "studio": "Participant"
   },
