@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "description": "Narrative-dynamic / trope taxonomy used to tag each movie's DNA. Tags span character dynamics, plot structure, tone, and theme in one flat namespace so they can be compared as a single vector. Each tag carries plain-language synonyms so a free-text search (e.g. 'scary') can reach it without the user knowing the taxonomy's own vocabulary.",
+  "version": 3,
+  "description": "Narrative-dynamic / trope taxonomy used to tag each movie's DNA. 100 tags across character dynamics, plot structure, tone, theme, story scale, and presentation style, in one flat namespace so they can be compared as a single vector. Each tag carries plain-language synonyms so a free-text search (e.g. 'scary') can reach it without the user knowing the taxonomy's own vocabulary.",
   "tags": [
     {
       "id": "skill_asymmetry",
@@ -540,6 +540,693 @@
         "forbidden love",
         "star-crossed",
         "romance across worlds"
+      ]
+    },
+    {
+      "id": "epic_scale",
+      "category": "scale",
+      "label": "Epic scale",
+      "description": "Sweeping scope: spans years, countries, or a huge cast; big canvas storytelling.",
+      "synonyms": [
+        "epic",
+        "sweeping",
+        "grand",
+        "sprawling",
+        "saga",
+        "multigenerational scope"
+      ]
+    },
+    {
+      "id": "intimate_scale",
+      "category": "scale",
+      "label": "Intimate scale",
+      "description": "Small canvas: a handful of characters carry the whole film.",
+      "synonyms": [
+        "intimate",
+        "chamber piece",
+        "two-hander",
+        "minimalist cast"
+      ]
+    },
+    {
+      "id": "meta_fourth_wall",
+      "category": "style",
+      "label": "Meta / fourth wall",
+      "description": "Characters acknowledge the audience or the fact they're in a movie.",
+      "synonyms": [
+        "fourth wall",
+        "breaks the fourth wall",
+        "meta",
+        "self-aware"
+      ]
+    },
+    {
+      "id": "found_footage",
+      "category": "style",
+      "label": "Found footage",
+      "description": "Presented as recovered, in-world recorded footage.",
+      "synonyms": [
+        "found footage",
+        "recovered footage",
+        "shaky cam",
+        "camcorder footage"
+      ]
+    },
+    {
+      "id": "time_loop",
+      "category": "structure",
+      "label": "Time loop",
+      "description": "Character relives the same period repeatedly until something changes.",
+      "synonyms": [
+        "time loop",
+        "groundhog day",
+        "repeating day",
+        "stuck in a loop"
+      ]
+    },
+    {
+      "id": "unreliable_narrator",
+      "category": "structure",
+      "label": "Unreliable narrator",
+      "description": "The narrator's account can't be fully trusted, reshaping how the story reads.",
+      "synonyms": [
+        "unreliable narrator",
+        "deceptive narration",
+        "twist perspective"
+      ]
+    },
+    {
+      "id": "body_swap",
+      "category": "structure",
+      "label": "Body swap",
+      "description": "Identities, minds, or bodies get swapped or transferred.",
+      "synonyms": [
+        "body swap",
+        "mind swap",
+        "switched bodies",
+        "freaky friday"
+      ]
+    },
+    {
+      "id": "courtroom_drama",
+      "category": "structure",
+      "label": "Courtroom drama",
+      "description": "Trial proceedings and legal argument drive the plot.",
+      "synonyms": [
+        "courtroom",
+        "trial",
+        "legal drama",
+        "lawyer movie"
+      ]
+    },
+    {
+      "id": "road_journey",
+      "category": "structure",
+      "label": "Road journey",
+      "description": "Physical travel across distance structures the plot.",
+      "synonyms": [
+        "road trip",
+        "road movie",
+        "cross-country journey"
+      ]
+    },
+    {
+      "id": "real_time",
+      "category": "structure",
+      "label": "Real time",
+      "description": "Told in continuous, unbroken time.",
+      "synonyms": [
+        "real time",
+        "told in real time",
+        "single continuous take"
+      ]
+    },
+    {
+      "id": "war_conflict",
+      "category": "theme",
+      "label": "War / conflict",
+      "description": "Armed conflict or military life drives the story.",
+      "synonyms": [
+        "war",
+        "battle",
+        "military",
+        "combat",
+        "wartime"
+      ]
+    },
+    {
+      "id": "fish_out_of_water",
+      "category": "theme",
+      "label": "Fish out of water",
+      "description": "A character is dropped into an unfamiliar world or culture.",
+      "synonyms": [
+        "fish out of water",
+        "culture clash",
+        "stranger in a strange land"
+      ]
+    },
+    {
+      "id": "sacrifice_for_others",
+      "category": "theme",
+      "label": "Sacrifice for others",
+      "description": "A character gives up something enormous, often their life, for someone else.",
+      "synonyms": [
+        "self-sacrifice",
+        "ultimate sacrifice",
+        "dies for others"
+      ]
+    },
+    {
+      "id": "nostalgia_period",
+      "category": "theme",
+      "label": "Nostalgia / period",
+      "description": "Wistful, lovingly recreated sense of a bygone era.",
+      "synonyms": [
+        "nostalgic",
+        "period piece",
+        "bygone era",
+        "throwback"
+      ]
+    },
+    {
+      "id": "reluctant_hero",
+      "category": "character",
+      "label": "Reluctant hero",
+      "description": "Protagonist doesn't want the responsibility thrust upon them.",
+      "synonyms": [
+        "reluctant hero",
+        "unwilling hero",
+        "didn't ask for this"
+      ]
+    },
+    {
+      "id": "chosen_one",
+      "category": "character",
+      "label": "Chosen one",
+      "description": "Prophecy or destiny singles out the protagonist.",
+      "synonyms": [
+        "chosen one",
+        "the prophecy",
+        "destined"
+      ]
+    },
+    {
+      "id": "villain_pov",
+      "category": "character",
+      "label": "Villain POV",
+      "description": "Story is told substantially from the antagonist's own perspective.",
+      "synonyms": [
+        "villain's perspective",
+        "antagonist's viewpoint",
+        "told from the villain's side"
+      ]
+    },
+    {
+      "id": "rivalry_driven",
+      "category": "character",
+      "label": "Rivalry driven",
+      "description": "An intense, ongoing rivalry between two characters drives the story.",
+      "synonyms": [
+        "rivalry",
+        "arch-rivals",
+        "fierce competition",
+        "nemesis"
+      ]
+    },
+    {
+      "id": "multi_generational_cast",
+      "category": "character",
+      "label": "Multi-generational cast",
+      "description": "Story follows multiple generations of a family.",
+      "synonyms": [
+        "multigenerational",
+        "generations of a family",
+        "grandparents to grandchildren"
+      ]
+    },
+    {
+      "id": "animal_companion",
+      "category": "character",
+      "label": "Animal companion",
+      "description": "A non-human animal plays a major, bonded role.",
+      "synonyms": [
+        "animal companion",
+        "loyal pet",
+        "animal sidekick"
+      ]
+    },
+    {
+      "id": "ai_companion",
+      "category": "character",
+      "label": "AI companion",
+      "description": "An AI or robot serves as a major companion or character.",
+      "synonyms": [
+        "ai companion",
+        "robot companion",
+        "sentient ai",
+        "android friend"
+      ]
+    },
+    {
+      "id": "criminal_mastermind",
+      "category": "character",
+      "label": "Criminal mastermind",
+      "description": "A brilliant schemer plans and orchestrates events from the shadows.",
+      "synonyms": [
+        "criminal mastermind",
+        "evil genius",
+        "master planner"
+      ]
+    },
+    {
+      "id": "dual_timeline",
+      "category": "structure",
+      "label": "Dual timeline",
+      "description": "Two distinct time periods are interwoven, usually converging.",
+      "synonyms": [
+        "dual timeline",
+        "past and present",
+        "two time periods"
+      ]
+    },
+    {
+      "id": "multiple_pov",
+      "category": "structure",
+      "label": "Multiple POV",
+      "description": "Story alternates between several characters' viewpoints.",
+      "synonyms": [
+        "multiple perspectives",
+        "multiple povs",
+        "alternating viewpoints"
+      ]
+    },
+    {
+      "id": "anthology_structure",
+      "category": "structure",
+      "label": "Anthology structure",
+      "description": "Several short, loosely connected stories make up one film.",
+      "synonyms": [
+        "anthology",
+        "interconnected stories",
+        "vignettes"
+      ]
+    },
+    {
+      "id": "reverse_chronology",
+      "category": "structure",
+      "label": "Reverse chronology",
+      "description": "Told backwards, from the end toward the beginning.",
+      "synonyms": [
+        "reverse chronology",
+        "told backwards",
+        "memento-style"
+      ]
+    },
+    {
+      "id": "epistolary",
+      "category": "structure",
+      "label": "Epistolary",
+      "description": "Told through letters, diaries, or recordings.",
+      "synonyms": [
+        "epistolary",
+        "told through letters",
+        "diary format"
+      ]
+    },
+    {
+      "id": "competition_tournament",
+      "category": "structure",
+      "label": "Competition / tournament",
+      "description": "Structured around a contest, tournament, or game.",
+      "synonyms": [
+        "tournament",
+        "competition",
+        "contest structure"
+      ]
+    },
+    {
+      "id": "escape_plot",
+      "category": "structure",
+      "label": "Escape plot",
+      "description": "Protagonists work to escape captivity or a place.",
+      "synonyms": [
+        "escape plot",
+        "prison break",
+        "breakout",
+        "trapped and escaping"
+      ]
+    },
+    {
+      "id": "rescue_mission",
+      "category": "structure",
+      "label": "Rescue mission",
+      "description": "Plot is driven by rescuing someone.",
+      "synonyms": [
+        "rescue mission",
+        "saving someone",
+        "hostage rescue"
+      ]
+    },
+    {
+      "id": "prophecy_fulfillment",
+      "category": "structure",
+      "label": "Prophecy fulfillment",
+      "description": "A foretold event drives and shapes the plot.",
+      "synonyms": [
+        "prophecy",
+        "foretold",
+        "destiny fulfilled"
+      ]
+    },
+    {
+      "id": "descent_into_madness",
+      "category": "structure",
+      "label": "Descent into madness",
+      "description": "Structure follows a character's psychological unraveling.",
+      "synonyms": [
+        "descent into madness",
+        "losing your mind",
+        "psychological unraveling"
+      ]
+    },
+    {
+      "id": "mockumentary",
+      "category": "structure",
+      "label": "Mockumentary",
+      "description": "Presented as a fake documentary, usually comedic.",
+      "synonyms": [
+        "mockumentary",
+        "fake documentary",
+        "parody documentary"
+      ]
+    },
+    {
+      "id": "espionage_double_cross",
+      "category": "structure",
+      "label": "Espionage / double cross",
+      "description": "Spies, secret agents, and shifting loyalties drive the plot.",
+      "synonyms": [
+        "espionage",
+        "spy thriller",
+        "double agent",
+        "double cross"
+      ]
+    },
+    {
+      "id": "disaster_survival",
+      "category": "structure",
+      "label": "Disaster survival",
+      "description": "A catastrophic event, natural or man-made, triggers the plot.",
+      "synonyms": [
+        "disaster movie",
+        "natural disaster",
+        "catastrophe"
+      ]
+    },
+    {
+      "id": "slasher_structure",
+      "category": "structure",
+      "label": "Slasher structure",
+      "description": "A killer stalks and picks off characters one by one.",
+      "synonyms": [
+        "slasher",
+        "killer picks off",
+        "body count movie"
+      ]
+    },
+    {
+      "id": "romantic_tone",
+      "category": "tone",
+      "label": "Romantic tone",
+      "description": "Swoony, romance-forward mood throughout.",
+      "synonyms": [
+        "romantic",
+        "swoony",
+        "love story tone"
+      ]
+    },
+    {
+      "id": "melancholic",
+      "category": "tone",
+      "label": "Melancholic",
+      "description": "Wistful, reflective sadness \u2014 softer and quieter than bleak.",
+      "synonyms": [
+        "melancholic",
+        "wistful",
+        "bittersweet",
+        "pensive"
+      ]
+    },
+    {
+      "id": "absurdist",
+      "category": "tone",
+      "label": "Absurdist",
+      "description": "Reality operates on illogical, nonsensical rules.",
+      "synonyms": [
+        "absurdist",
+        "illogical",
+        "nonsensical",
+        "farcical"
+      ]
+    },
+    {
+      "id": "claustrophobic_tone",
+      "category": "tone",
+      "label": "Claustrophobic",
+      "description": "Oppressive, confined atmosphere.",
+      "synonyms": [
+        "claustrophobic",
+        "confined",
+        "suffocating atmosphere"
+      ]
+    },
+    {
+      "id": "gothic",
+      "category": "tone",
+      "label": "Gothic",
+      "description": "Atmospheric, macabre, romantic-horror aesthetic.",
+      "synonyms": [
+        "gothic",
+        "gothic horror",
+        "dark romantic aesthetic"
+      ]
+    },
+    {
+      "id": "noir_tone",
+      "category": "tone",
+      "label": "Noir",
+      "description": "Cynical, shadowy, hardboiled crime aesthetic.",
+      "synonyms": [
+        "noir",
+        "film noir",
+        "hardboiled",
+        "femme fatale"
+      ]
+    },
+    {
+      "id": "wholesome_family",
+      "category": "tone",
+      "label": "Wholesome / family",
+      "description": "Warm, earnest, explicitly family-friendly tone.",
+      "synonyms": [
+        "wholesome",
+        "family friendly",
+        "all ages",
+        "heartwarming"
+      ]
+    },
+    {
+      "id": "raunchy_irreverent",
+      "category": "tone",
+      "label": "Raunchy / irreverent",
+      "description": "Crude, taboo-breaking humor.",
+      "synonyms": [
+        "raunchy",
+        "crude humor",
+        "irreverent",
+        "r-rated comedy"
+      ]
+    },
+    {
+      "id": "man_vs_nature",
+      "category": "theme",
+      "label": "Man vs. nature",
+      "description": "Humanity or an individual struggles against natural forces.",
+      "synonyms": [
+        "man vs nature",
+        "against nature",
+        "natural forces"
+      ]
+    },
+    {
+      "id": "environmentalism",
+      "category": "theme",
+      "label": "Environmentalism",
+      "description": "Ecological themes and humanity's relationship with the environment.",
+      "synonyms": [
+        "environmentalism",
+        "ecological",
+        "climate",
+        "nature conservation"
+      ]
+    },
+    {
+      "id": "addiction_recovery",
+      "category": "theme",
+      "label": "Addiction / recovery",
+      "description": "Substance abuse and the path to recovery.",
+      "synonyms": [
+        "addiction",
+        "substance abuse",
+        "recovery",
+        "sobriety"
+      ]
+    },
+    {
+      "id": "mental_illness",
+      "category": "theme",
+      "label": "Mental illness",
+      "description": "Psychological or mental health struggles are central to the story.",
+      "synonyms": [
+        "mental illness",
+        "mental health",
+        "psychological struggle"
+      ]
+    },
+    {
+      "id": "faith_and_doubt",
+      "category": "theme",
+      "label": "Faith and doubt",
+      "description": "Religious or spiritual questioning.",
+      "synonyms": [
+        "faith",
+        "religious doubt",
+        "spiritual crisis",
+        "questioning god"
+      ]
+    },
+    {
+      "id": "immigrant_experience",
+      "category": "theme",
+      "label": "Immigrant experience",
+      "description": "Displacement, assimilation, and cultural identity across borders.",
+      "synonyms": [
+        "immigrant experience",
+        "assimilation",
+        "displacement",
+        "crossing borders"
+      ]
+    },
+    {
+      "id": "gender_identity",
+      "category": "theme",
+      "label": "Gender identity",
+      "description": "Themes of gender roles or identity.",
+      "synonyms": [
+        "gender identity",
+        "gender roles",
+        "transgender"
+      ]
+    },
+    {
+      "id": "legacy_and_inheritance",
+      "category": "theme",
+      "label": "Legacy and inheritance",
+      "description": "What one generation leaves behind for the next.",
+      "synonyms": [
+        "legacy",
+        "inheritance",
+        "what we leave behind"
+      ]
+    },
+    {
+      "id": "redemption_arc",
+      "category": "theme",
+      "label": "Redemption arc",
+      "description": "A character seeks to atone for past wrongs.",
+      "synonyms": [
+        "redemption",
+        "atonement",
+        "seeking forgiveness",
+        "redemption arc"
+      ]
+    },
+    {
+      "id": "betrayal",
+      "category": "theme",
+      "label": "Betrayal",
+      "description": "Broken trust drives the emotional core.",
+      "synonyms": [
+        "betrayal",
+        "backstabbed",
+        "broken trust"
+      ]
+    },
+    {
+      "id": "obsession",
+      "category": "theme",
+      "label": "Obsession",
+      "description": "A consuming fixation drives a character.",
+      "synonyms": [
+        "obsession",
+        "fixation",
+        "consumed by"
+      ]
+    },
+    {
+      "id": "forbidden_knowledge",
+      "category": "theme",
+      "label": "Forbidden knowledge",
+      "description": "Seeking or uncovering dangerous truths.",
+      "synonyms": [
+        "forbidden knowledge",
+        "dangerous truth",
+        "shouldn't have known"
+      ]
+    },
+    {
+      "id": "isolation_disconnection",
+      "category": "theme",
+      "label": "Isolation / disconnection",
+      "description": "Thematic loneliness or disconnection from society.",
+      "synonyms": [
+        "isolation",
+        "disconnection",
+        "alienation",
+        "loneliness"
+      ]
+    },
+    {
+      "id": "coming_home",
+      "category": "theme",
+      "label": "Coming home",
+      "description": "A return to one's origins or homecoming.",
+      "synonyms": [
+        "coming home",
+        "homecoming",
+        "returning home"
+      ]
+    },
+    {
+      "id": "justice_vs_law",
+      "category": "theme",
+      "label": "Justice vs. law",
+      "description": "Questioning whether legal justice is true justice.",
+      "synonyms": [
+        "justice vs law",
+        "above the law",
+        "true justice"
+      ]
+    },
+    {
+      "id": "duty_vs_desire",
+      "category": "theme",
+      "label": "Duty vs. desire",
+      "description": "A character torn between obligation and personal want.",
+      "synonyms": [
+        "duty vs desire",
+        "torn between duty and love",
+        "obligation vs want"
       ]
     }
   ]
