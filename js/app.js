@@ -5,12 +5,21 @@ import { observeFullyVisible } from './history.js';
 import { tryLearnTag } from './learn.js';
 
 let taxonomy = null;
-let movies = null;
 let tagLookup = new Map();
-let tagIdf = null;
 let seeds = [];
 let activeObservers = [];
 let hasResults = false;
+
+// Two separate movie catalogs sharing one taxonomy. Only one is "active" at
+// a time — searches, seed resolution, and scoring only ever see the active
+// catalog's movies, so results never mix between them (switching catalogs
+// clears any existing seeds/results, since a seed resolved against one
+// catalog has no meaning in the other).
+let catalogs = null; // { main: {label, movies, tagIdf}, artiflix: {...} }
+let activeCatalogKey = 'main';
+function activeCatalog() {
+  return catalogs[activeCatalogKey];
+}
 
 const seedInput = document.getElementById('seed-input');
 const addSeedBtn = document.getElementById('add-seed-btn');
@@ -26,6 +35,9 @@ const explainBody = document.getElementById('explain-body');
 const disambiguateDialog = document.getElementById('disambiguate-dialog');
 const disambiguateTitle = document.getElementById('disambiguate-title');
 const disambiguateList = document.getElementById('disambiguate-list');
+const catalogMainBtn = document.getElementById('catalog-main-btn');
+const catalogArtiflixBtn = document.getElementById('catalog-artiflix-btn');
+const catalogNoteEl = document.getElementById('catalog-note');
 
 function temperatureFromSlider() {
   const v = Number(tempSlider.value);
@@ -35,6 +47,7 @@ function temperatureFromSlider() {
 function seedTypeLabel(type) {
   if (type === 'movie') return 'movie';
   if (type === 'person') return 'person';
+  if (type === 'studio') return 'studio';
   return 'theme';
 }
 
@@ -82,7 +95,7 @@ function pickCandidate(query, candidates) {
 // { failed: true }, or { skipped: true } if an ambiguous match was
 // dismissed without picking one.
 async function resolveOneTerm(term) {
-  const resolved = resolveSeed(term, movies, taxonomy);
+  const resolved = resolveSeed(term, activeCatalog().movies, taxonomy);
   if (resolved && resolved.type === 'ambiguous') {
     const chosen = await pickCandidate(term, resolved.candidates);
     return chosen ? { resolved: chosen.build() } : { skipped: true };
@@ -175,7 +188,7 @@ function renderSeedChips() {
 }
 
 function openExplainDialog(movie, reason, query) {
-  const explanation = explainMatch(query, movie, tagLookup, tagIdf);
+  const explanation = explainMatch(query, movie, tagLookup, activeCatalog().tagIdf);
   explainTitle.textContent = `${movie.title} (${movie.year})`;
   explainBody.innerHTML = '';
 
@@ -303,7 +316,7 @@ function runSearch() {
   }
 
   const combined = combineSeeds(seeds.map((s) => s.resolved));
-  const scored = scoreMovies(combined, movies, tagIdf);
+  const scored = scoreMovies(combined, activeCatalog().movies, activeCatalog().tagIdf);
   const temperature = temperatureFromSlider();
   const results = sampleResults(scored, { count: 10, temperature, noveltyQuota: 2 });
 
@@ -322,12 +335,43 @@ function runSearch() {
   }
 }
 
+function catalogNote(key) {
+  if (key === 'artiflix') {
+    return 'Classic films sourced from artiflix.com. DNA tagging for this catalog is still in progress, so theme/plot-dynamic matches will be limited until it is — movie and person search work now.';
+  }
+  return '';
+}
+
+function setActiveCatalog(key) {
+  activeCatalogKey = key;
+  catalogMainBtn.setAttribute('aria-checked', String(key === 'main'));
+  catalogArtiflixBtn.setAttribute('aria-checked', String(key === 'artiflix'));
+  catalogNoteEl.textContent = catalogNote(key);
+
+  // Seeds/results are catalog-specific — carrying them across would silently
+  // mix the two catalogs, which is exactly what switching is meant to avoid.
+  seeds = [];
+  renderSeedChips();
+  resultsGrid.innerHTML = '';
+  hasResults = false;
+  resultsStatus.textContent = 'Add a movie, actor, director, or a plot dynamic to see suggestions.';
+}
+
 async function init() {
   const data = await loadData();
   taxonomy = data.taxonomy;
-  movies = data.movies;
   tagLookup = new Map(taxonomy.tags.map((t) => [t.id, t.label]));
-  tagIdf = computeTagIdf(movies, taxonomy);
+  catalogs = {
+    main: { label: 'My Catalog', movies: data.movies, tagIdf: computeTagIdf(data.movies, taxonomy) },
+    artiflix: {
+      label: 'Artiflix Classics',
+      movies: data.artiflixMovies,
+      tagIdf: computeTagIdf(data.artiflixMovies, taxonomy),
+    },
+  };
+
+  catalogMainBtn.addEventListener('click', () => setActiveCatalog('main'));
+  catalogArtiflixBtn.addEventListener('click', () => setActiveCatalog('artiflix'));
 
   addSeedBtn.addEventListener('click', addSeedFromInput);
   seedInput.addEventListener('keydown', (e) => {

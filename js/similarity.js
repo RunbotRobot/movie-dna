@@ -128,21 +128,31 @@ function directorNames(movie) {
   return movie.director.split(',').map((d) => d.trim());
 }
 
-function buildPersonSeed(label, personMovies) {
+// Shared by person and studio seeds: a centroid tag vector averaged across
+// a group of movies, same idea as an actor/director's filmography average.
+function buildCentroidSeed(type, label, groupMovies) {
   const tagVector = {};
-  for (const movie of personMovies) {
+  for (const movie of groupMovies) {
     for (const [tag, weight] of Object.entries(movie.tags)) {
       tagVector[tag] = (tagVector[tag] || 0) + weight;
     }
   }
   for (const tag in tagVector) {
-    tagVector[tag] /= personMovies.length;
+    tagVector[tag] /= groupMovies.length;
   }
   const genreSet = new Set();
-  for (const movie of personMovies) {
+  for (const movie of groupMovies) {
     for (const genre of movie.genres) genreSet.add(genre);
   }
-  return { type: 'person', label, tagVector, genreSet, excludeIds: new Set(), matched: true };
+  return { type, label, tagVector, genreSet, excludeIds: new Set(), matched: true };
+}
+
+function buildPersonSeed(label, personMovies) {
+  return buildCentroidSeed('person', label, personMovies);
+}
+
+function buildStudioSeed(label, studioMovies) {
+  return buildCentroidSeed('studio', label, studioMovies);
 }
 
 // Deliberately exact-word matching only, not substring containment and not
@@ -226,6 +236,18 @@ export function resolveSeed(query, movies, taxonomy) {
   const exactMovie = movies.find((m) => normalize(m.title) === q);
   const looseMovie = exactMovie || (q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null);
   if (looseMovie) return movieSeed(looseMovie);
+
+  const exactStudioMovies = movies.filter((m) => m.studio && normalize(m.studio) === q);
+  const looseStudioMovies =
+    exactStudioMovies.length > 0
+      ? exactStudioMovies
+      : q.length >= 3
+        ? movies.filter((m) => m.studio && normalize(m.studio).includes(q))
+        : [];
+  if (looseStudioMovies.length > 0) {
+    const label = looseStudioMovies[0].studio;
+    return buildStudioSeed(label, looseStudioMovies);
+  }
 
   const exactPersonMovies = movies.filter(
     (m) => m.cast.some((c) => normalize(c) === q) || directorNames(m).some((d) => normalize(d) === q)

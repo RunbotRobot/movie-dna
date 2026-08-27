@@ -1,13 +1,18 @@
+/* Palette matched to artiflix.com: near-black background, red primary
+   accent (#E72A31 in their bundle), teal secondary accent (#01B4B4) used
+   sparingly so the app doesn't read as all-red. */
 :root {
-  --bg: #0f1115;
-  --panel: #171a21;
-  --panel-border: #262b36;
-  --text: #e8e9ed;
-  --text-dim: #9aa1b1;
-  --accent: #7c9fff;
-  --accent-dim: #2c3a5c;
+  --bg: #0a0a0a;
+  --panel: #161616;
+  --panel-border: #2a2a2a;
+  --text: #ececec;
+  --text-dim: #9a9a9a;
+  --accent: #e72a31;
+  --accent-dim: #421318;
+  --accent-secondary: #01b4b4;
   --chip-movie: #3a5b4f;
   --chip-person: #5b4a3a;
+  --chip-studio: #4a3a5b;
   --chip-text: #3a3f5b;
   --radius: 10px;
 }
@@ -143,6 +148,11 @@ section {
 .seed-chip-type--person {
   background: var(--chip-person);
   color: #ffe6c9;
+}
+
+.seed-chip-type--studio {
+  background: var(--chip-studio);
+  color: #ecdcff;
 }
 
 .seed-chip-type--text {
@@ -333,7 +343,7 @@ body.body-scroll-locked {
 }
 
 .explain-novelty-note {
-  color: var(--accent) !important;
+  color: var(--accent-secondary) !important;
 }
 
 .explain-tag-list {
@@ -421,6 +431,46 @@ body.body-scroll-locked {
   .results-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.catalog-panel {
+  padding: 1rem 1.25rem 0;
+}
+
+.catalog-toggle {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.25rem;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius);
+}
+
+.catalog-btn {
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  border-radius: calc(var(--radius) - 4px);
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.catalog-btn[aria-checked='true'] {
+  background: var(--accent-dim);
+  color: var(--text);
+}
+
+.catalog-btn:hover {
+  color: var(--text);
+}
+
+.catalog-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-align: center;
 }
 
 .app-footer {
