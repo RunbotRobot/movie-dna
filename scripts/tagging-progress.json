@@ -3,7 +3,7 @@
   "note": "Tracks retagging progress against the 100-tag taxonomy (v3). main_next_index / artiflix_next_index is the array index in data/movies.json / data/artiflix-movies.json to resume from. Movies before that index in the current pass have been reviewed against all 100 tags (their existing tags kept, new ones added where applicable — absence of a new tag means it was considered and didn't apply, not that it was skipped).",
   "main_catalog": {
     "total": 1000,
-    "next_index": 80
+    "next_index": 120
   },
   "artiflix_catalog": {
     "total": 760,
