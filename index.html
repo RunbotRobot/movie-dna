@@ -23,12 +23,12 @@
 
   <main>
     <section class="seed-panel" aria-label="Search inputs">
-      <label for="seed-input">Add a movie, actor, director, or a plot dynamic</label>
+      <label for="seed-input">Add a movie, actor, director, or a plot dynamic — separate several with commas</label>
       <div class="seed-input-row">
         <input
           id="seed-input"
           type="text"
-          placeholder="Movie, actor, or vibe…"
+          placeholder="Movie, actor, or vibe… (comma-separate for several)"
           autocomplete="off"
         />
         <button id="add-seed-btn" type="button">Add</button>
@@ -62,6 +62,15 @@
     <div id="explain-body" class="explain-body"></div>
     <form method="dialog">
       <button type="submit" class="dialog-close">Close</button>
+    </form>
+  </dialog>
+
+  <dialog id="disambiguate-dialog" class="explain-dialog">
+    <h2 id="disambiguate-title"></h2>
+    <p>Which one did you mean?</p>
+    <ul id="disambiguate-list" class="disambiguate-list"></ul>
+    <form method="dialog">
+      <button type="submit" class="dialog-close">Cancel</button>
     </form>
   </dialog>
 

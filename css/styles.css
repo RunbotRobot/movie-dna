@@ -350,6 +350,38 @@ body.body-scroll-locked {
   font-size: 0.85rem;
 }
 
+.disambiguate-list {
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.disambiguate-option {
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--panel-border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.disambiguate-option:hover,
+.disambiguate-option:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.disambiguate-option-count {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}
+
 .dialog-close {
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;

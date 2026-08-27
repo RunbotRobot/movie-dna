@@ -85,6 +85,35 @@ export function cosineSim(a, b) {
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
+// Corpus-level inverse-document-frequency per tag: without this, cosine
+// similarity treats every shared tag as equally significant regardless of
+// how common it is across the catalog. A tag two movies share that almost
+// every movie also has (e.g. a broadly-applicable tone) is much weaker
+// evidence of similarity than a tag they share that's rare across the whole
+// catalog — a niche structural or thematic device few other movies use at
+// all. This makes rare, specific tags count more than common, general ones
+// when scoring, instead of leaving that entirely to chance (a rare tag
+// otherwise contributes no differently than a common one — nothing before
+// this made specificity actually count for more).
+export function computeTagIdf(movies, taxonomy) {
+  const total = movies.length;
+  const idf = {};
+  for (const tag of taxonomy.tags) {
+    const df = movies.reduce((count, m) => count + (m.tags[tag.id] > 0 ? 1 : 0), 0);
+    idf[tag.id] = df > 0 ? Math.log(total / df) : 0;
+  }
+  return idf;
+}
+
+function weightVector(vector, tagIdf) {
+  if (!tagIdf) return vector;
+  const weighted = {};
+  for (const [tag, weight] of Object.entries(vector)) {
+    weighted[tag] = weight * (tagIdf[tag] ?? 1);
+  }
+  return weighted;
+}
+
 export function jaccard(setA, setB) {
   if (setA.size === 0 && setB.size === 0) return 0;
   let intersection = 0;
@@ -116,28 +145,30 @@ function buildPersonSeed(label, personMovies) {
   return { type: 'person', label, tagVector, genreSet, excludeIds: new Set(), matched: true };
 }
 
+// Deliberately exact-word matching only, not substring containment and not
+// edit-distance fuzzy matching — both cause real false positives here.
+// Substring containment let "mysterious" match into an unrelated tag via a
+// coincidental fragment; fuzzy matching is worse, since two completely
+// unrelated short words routinely sit one edit apart by pure chance (e.g.
+// "food" vs "good" — one substitution, ratio 0.75 — silently matched every
+// "___ food" search to Whimsical charm via its "feel-good" synonym). Also
+// deliberately excludes tag.description from the vocabulary, same reason
+// the Worker's matching does: generic prose words there ("tone", "story")
+// would otherwise match almost anything.
 function buildTextSeed(query, taxonomy) {
   const words = normalize(query)
     .split(/[^a-z0-9]+/)
     .filter((w) => w.length >= 3);
   const tagVector = {};
   for (const tag of taxonomy.tags) {
-    const haystackWords = normalize(
-      `${tag.label} ${tag.description} ${tag.id.replace(/_/g, ' ')} ${(tag.synonyms || []).join(' ')}`
-    )
-      .split(/[^a-z0-9]+/)
-      .filter(Boolean);
+    const haystackWords = new Set(
+      normalize(`${tag.label} ${tag.id.replace(/_/g, ' ')} ${(tag.synonyms || []).join(' ')}`)
+        .split(/[^a-z0-9]+/)
+        .filter(Boolean)
+    );
     let matches = 0;
     for (const word of words) {
-      const isMatch = haystackWords.some((hw) => {
-        if (hw === word) return true;
-        if (hw.length >= 4 && word.length >= 4 && (hw.includes(word) || word.includes(hw))) return true;
-        if (hw.length >= FUZZY_MIN_LENGTH && word.length >= FUZZY_MIN_LENGTH) {
-          return similarityRatio(word, hw) >= FUZZY_THRESHOLD;
-        }
-        return false;
-      });
-      if (isMatch) matches += 1;
+      if (haystackWords.has(word)) matches += 1;
     }
     if (matches > 0) {
       tagVector[tag.id] = Math.min(1, matches / Math.max(1, words.length));
@@ -164,6 +195,24 @@ function movieSeed(movie) {
   };
 }
 
+// A substring match on a name fragment (e.g. "Sutherland") routinely hits
+// more than one real person — groups the candidate movies by which exact
+// cast/director name actually matched, so the caller can ask which one was
+// meant instead of silently picking whichever happened to be first.
+function groupMoviesByMatchedPerson(personMovies, q) {
+  const groups = new Map(); // normalized name -> { label, movies: [] }
+  for (const movie of personMovies) {
+    const names = [...movie.cast, ...directorNames(movie)];
+    for (const name of names) {
+      if (!normalize(name).includes(q)) continue;
+      const key = normalize(name);
+      if (!groups.has(key)) groups.set(key, { label: name, movies: [] });
+      groups.get(key).movies.push(movie);
+    }
+  }
+  return groups;
+}
+
 // Resolution goes from most to least precise, and only reaches for an
 // approximate (fuzzy) guess once every exact/substring option — including a
 // real free-text tag match — has come up empty. Fuzzy matching is the
@@ -188,11 +237,20 @@ export function resolveSeed(query, movies, taxonomy) {
     );
   }
   if (personMovies.length > 0) {
-    const first = personMovies[0];
-    const matchedCast = first.cast.find((c) => normalize(c).includes(q));
-    const matchedDirector = directorNames(first).find((d) => normalize(d).includes(q));
-    const label = matchedCast || matchedDirector || query;
-    return buildPersonSeed(label, personMovies);
+    const groups = groupMoviesByMatchedPerson(personMovies, q);
+    if (groups.size > 1) {
+      return {
+        type: 'ambiguous',
+        label: query,
+        candidates: [...groups.values()].map(({ label, movies: gm }) => ({
+          label,
+          type: 'person',
+          build: () => buildPersonSeed(label, gm),
+        })),
+      };
+    }
+    const [{ label, movies: gm }] = groups.values();
+    return buildPersonSeed(label, gm);
   }
 
   const textSeed = buildTextSeed(query, taxonomy);
@@ -256,13 +314,22 @@ export function combineSeeds(seedObjs) {
 
 // Explains why `movie` scored the way it did against `query`, for the
 // per-card "why was this suggested" popup. `tagLookup` maps tag id -> label.
-export function explainMatch(query, movie, tagLookup) {
+// `tagIdf`, when given, ranks shared tags the same way scoreMovies scores
+// them — a rare shared tag surfaces ahead of a common one — instead of the
+// explanation silently using different weighting than the ranking it's
+// explaining.
+export function explainMatch(query, movie, tagLookup, tagIdf) {
   const sharedTags = [];
   for (const [tag, queryWeight] of Object.entries(query.tagVector)) {
     const movieWeight = movie.tags[tag] || 0;
     const contribution = queryWeight * movieWeight;
     if (contribution >= 0.03) {
-      sharedTags.push({ id: tag, label: tagLookup.get(tag) || tag, contribution });
+      // Qualifying threshold stays on the plain (unweighted) contribution —
+      // it's tuned as an "is this a real, non-trivial shared trait" check.
+      // Rank order among qualifying tags uses the idf-weighted contribution,
+      // so rarer/more distinctive shared traits surface first.
+      const rank = contribution * (tagIdf?.[tag] ?? 1) ** 2;
+      sharedTags.push({ id: tag, label: tagLookup.get(tag) || tag, contribution: rank });
     }
   }
   sharedTags.sort((a, b) => b.contribution - a.contribution);
@@ -276,12 +343,13 @@ export function explainMatch(query, movie, tagLookup) {
   };
 }
 
-export function scoreMovies(query, movies) {
+export function scoreMovies(query, movies, tagIdf) {
   if (!query) return [];
+  const weightedQuery = weightVector(query.tagVector, tagIdf);
   return movies
     .filter((m) => !query.excludeIds.has(m.id))
     .map((movie) => {
-      const tagSim = cosineSim(query.tagVector, movie.tags);
+      const tagSim = cosineSim(weightedQuery, weightVector(movie.tags, tagIdf));
       const genreSim = query.genreSet.size ? jaccard(query.genreSet, new Set(movie.genres)) : 0;
       const score = query.genreSet.size ? 0.8 * tagSim + 0.2 * genreSim : tagSim;
       return { movie, score };

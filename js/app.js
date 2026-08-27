@@ -1,5 +1,5 @@
 import { loadData } from './data.js';
-import { resolveSeed, combineSeeds, scoreMovies, explainMatch, buildLearnedSeed } from './similarity.js';
+import { resolveSeed, combineSeeds, scoreMovies, explainMatch, buildLearnedSeed, computeTagIdf } from './similarity.js';
 import { sampleResults } from './sampling.js';
 import { observeFullyVisible } from './history.js';
 import { tryLearnTag } from './learn.js';
@@ -7,6 +7,7 @@ import { tryLearnTag } from './learn.js';
 let taxonomy = null;
 let movies = null;
 let tagLookup = new Map();
+let tagIdf = null;
 let seeds = [];
 let activeObservers = [];
 let hasResults = false;
@@ -22,6 +23,9 @@ const resultsStatus = document.getElementById('results-status');
 const explainDialog = document.getElementById('explain-dialog');
 const explainTitle = document.getElementById('explain-title');
 const explainBody = document.getElementById('explain-body');
+const disambiguateDialog = document.getElementById('disambiguate-dialog');
+const disambiguateTitle = document.getElementById('disambiguate-title');
+const disambiguateList = document.getElementById('disambiguate-list');
 
 function temperatureFromSlider() {
   const v = Number(tempSlider.value);
@@ -40,41 +44,95 @@ function markSettingsChanged() {
   }
 }
 
-function addResolvedSeed(value, resolved) {
-  seeds.push({ query: value, resolved });
-  seedInput.value = '';
-  seedErrorEl.textContent = '';
-  renderSeedChips();
-  markSettingsChanged();
+// Shows the disambiguation dialog and resolves once the user picks a
+// candidate (or null if they cancel/close it without choosing).
+function pickCandidate(query, candidates) {
+  return new Promise((resolve) => {
+    disambiguateTitle.textContent = `Multiple matches for "${query}"`;
+    disambiguateList.innerHTML = '';
+    candidates.forEach((candidate, i) => {
+      const li = document.createElement('li');
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'disambiguate-option';
+      btn.textContent = candidate.label;
+      btn.addEventListener('click', () => disambiguateDialog.close(String(i)));
+      li.appendChild(btn);
+      disambiguateList.appendChild(li);
+    });
+
+    disambiguateDialog.addEventListener(
+      'close',
+      () => {
+        document.body.classList.remove('body-scroll-locked');
+        const idx = disambiguateDialog.returnValue;
+        resolve(idx === '' ? null : candidates[Number(idx)]);
+      },
+      { once: true }
+    );
+
+    disambiguateDialog.returnValue = '';
+    disambiguateDialog.showModal();
+    document.body.classList.add('body-scroll-locked');
+  });
 }
 
-async function addSeedFromInput() {
-  const value = seedInput.value.trim();
-  seedErrorEl.textContent = '';
-  if (!value) return;
-
-  const resolved = resolveSeed(value, movies, taxonomy);
-  if (resolved && resolved.matched !== false) {
-    addResolvedSeed(value, resolved);
-    return;
+// Resolves one query term (never throws): a local match if there is one,
+// otherwise the Worker's tag-learning fallback. Returns { resolved },
+// { failed: true }, or { skipped: true } if an ambiguous match was
+// dismissed without picking one.
+async function resolveOneTerm(term) {
+  const resolved = resolveSeed(term, movies, taxonomy);
+  if (resolved && resolved.type === 'ambiguous') {
+    const chosen = await pickCandidate(term, resolved.candidates);
+    return chosen ? { resolved: chosen.build() } : { skipped: true };
   }
+  if (resolved && resolved.matched !== false) {
+    return { resolved };
+  }
+  const learned = await tryLearnTag(term);
+  if (learned.matched) {
+    return { resolved: buildLearnedSeed(term, learned.tagId, learned.tagLabel) };
+  }
+  return { failed: true };
+}
 
-  // No local match — ask the Worker's free, non-LLM tag-learning fallback
-  // before giving up (see js/learn.js). No-ops instantly if unconfigured.
+// Splits the input on commas so several data points can be added in one go
+// (e.g. "revenge, dark comedy, heist"), resolving each in turn and reporting
+// every failure together rather than stopping at the first one.
+async function addSeedFromInput() {
+  const terms = seedInput.value
+    .split(',')
+    .map((t) => t.trim())
+    .filter(Boolean);
+  seedErrorEl.textContent = '';
+  if (terms.length === 0) return;
+
   addSeedBtn.disabled = true;
-  addSeedBtn.textContent = 'Checking…';
+  const failures = [];
   try {
-    const learned = await tryLearnTag(value);
-    if (learned.matched) {
-      addResolvedSeed(value, buildLearnedSeed(value, learned.tagId, learned.tagLabel));
-      return;
+    for (const term of terms) {
+      addSeedBtn.textContent = terms.length > 1 ? `Checking "${term}"…` : 'Checking…';
+      const outcome = await resolveOneTerm(term);
+      if (outcome.resolved) {
+        seeds.push({ query: term, resolved: outcome.resolved });
+      } else if (!outcome.skipped) {
+        failures.push(term);
+      }
     }
   } finally {
     addSeedBtn.disabled = false;
     addSeedBtn.textContent = 'Add';
   }
 
-  seedErrorEl.textContent = `No match found for "${value}" — try a different movie, actor/director, or theme. (Our catalog is small for this proof of concept, so lesser-known titles or people may not be included yet.)`;
+  seedInput.value = '';
+  renderSeedChips();
+  markSettingsChanged();
+
+  if (failures.length > 0) {
+    const list = failures.map((f) => `"${f}"`).join(', ');
+    seedErrorEl.textContent = `No match found for ${list} — try a different movie, actor/director, or theme. (Our catalog is small for this proof of concept, so lesser-known titles or people may not be included yet.)`;
+  }
 }
 
 function removeSeed(index) {
@@ -117,7 +175,7 @@ function renderSeedChips() {
 }
 
 function openExplainDialog(movie, reason, query) {
-  const explanation = explainMatch(query, movie, tagLookup);
+  const explanation = explainMatch(query, movie, tagLookup, tagIdf);
   explainTitle.textContent = `${movie.title} (${movie.year})`;
   explainBody.innerHTML = '';
 
@@ -245,7 +303,7 @@ function runSearch() {
   }
 
   const combined = combineSeeds(seeds.map((s) => s.resolved));
-  const scored = scoreMovies(combined, movies);
+  const scored = scoreMovies(combined, movies, tagIdf);
   const temperature = temperatureFromSlider();
   const results = sampleResults(scored, { count: 10, temperature, noveltyQuota: 2 });
 
@@ -269,6 +327,7 @@ async function init() {
   taxonomy = data.taxonomy;
   movies = data.movies;
   tagLookup = new Map(taxonomy.tags.map((t) => [t.id, t.label]));
+  tagIdf = computeTagIdf(movies, taxonomy);
 
   addSeedBtn.addEventListener('click', addSeedFromInput);
   seedInput.addEventListener('keydown', (e) => {
@@ -288,6 +347,10 @@ async function init() {
   // never stays locked no matter how the user dismisses it.
   explainDialog.addEventListener('close', () => {
     document.body.classList.remove('body-scroll-locked');
+  });
+
+  disambiguateDialog.addEventListener('click', (e) => {
+    if (e.target === disambiguateDialog) disambiguateDialog.close();
   });
 
   resultsStatus.textContent = 'Add a movie, actor, director, or a plot dynamic to see suggestions.';
