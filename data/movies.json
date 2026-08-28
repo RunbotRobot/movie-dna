@@ -14749,7 +14749,8 @@
       "odd_couple": 0.6,
       "underdog_rise": 0.5,
       "mentor_student": 0.4,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "rivalry_driven": 0.6
     },
     "studio": "Pixar"
   },
@@ -14772,7 +14773,9 @@
       "underdog_rise": 0.7,
       "found_family": 0.5,
       "skill_asymmetry": 0.5,
-      "high_camp": 0.5
+      "high_camp": 0.5,
+      "absurdist": 0.6,
+      "competition_tournament": 0.6
     },
     "studio": "Star Overseas"
   },
@@ -14795,7 +14798,8 @@
       "mentor_student": 0.6,
       "identity_reinvention": 0.4,
       "found_purpose": 0.4,
-      "underdog_rise": 0.3
+      "underdog_rise": 0.3,
+      "legacy_and_inheritance": 0.6
     },
     "studio": "DreamWorks Animation"
   },
@@ -14818,7 +14822,9 @@
       "survival_against_odds": 0.8,
       "tense_dread": 0.7,
       "ensemble_cast": 0.4,
-      "systemic_corruption": 0.3
+      "systemic_corruption": 0.3,
+      "forbidden_knowledge": 0.5,
+      "slasher_structure": 0.5
     },
     "studio": "20th Century Fox"
   },
@@ -14841,7 +14847,9 @@
       "tense_dread": 0.6,
       "tech_disruption": 0.6,
       "moral_ambiguity": 0.4,
-      "survival_against_odds": 0.4
+      "survival_against_odds": 0.4,
+      "ai_companion": 0.8,
+      "rivalry_driven": 0.4
     },
     "studio": "Millennium Media"
   },
@@ -14865,7 +14873,9 @@
       "grief_processing": 0.5,
       "underdog_rise": 0.5,
       "systemic_corruption": 0.5,
-      "bleak_tone": 0.4
+      "bleak_tone": 0.4,
+      "war_conflict": 0.9,
+      "epic_scale": 0.6
     },
     "studio": "The Ladd Company"
   },
@@ -14933,7 +14943,9 @@
       "identity_reinvention": 0.5,
       "revenge_quest": 0.4,
       "grief_processing": 0.3,
-      "love_across_divide": 0.3
+      "love_across_divide": 0.3,
+      "sacrifice_for_others": 0.7,
+      "redemption_arc": 0.5
     },
     "studio": "Crystal Sky Pictures"
   },
@@ -14956,7 +14968,10 @@
       "ensemble_cast": 0.7,
       "found_purpose": 0.4,
       "skill_asymmetry": 0.4,
-      "mentor_death_catalyst": 0.3
+      "mentor_death_catalyst": 0.3,
+      "reluctant_hero": 0.6,
+      "epic_scale": 0.5,
+      "sacrifice_for_others": 0.4
     },
     "studio": "Cruel & Unusual Films"
   },
@@ -15003,7 +15018,10 @@
       "revenge_quest": 0.7,
       "skill_asymmetry": 0.5,
       "systemic_corruption": 0.5,
-      "grief_processing": 0.3
+      "grief_processing": 0.3,
+      "legacy_and_inheritance": 0.6,
+      "epic_scale": 0.6,
+      "betrayal": 0.4
     },
     "studio": "Paramount Pictures"
   },
@@ -15049,7 +15067,10 @@
       "love_across_divide": 0.5,
       "bleak_tone": 0.6,
       "tense_dread": 0.5,
-      "moral_ambiguity": 0.4
+      "moral_ambiguity": 0.4,
+      "gothic": 0.8,
+      "obsession": 0.6,
+      "romantic_tone": 0.5
     },
     "studio": "EuropaCorp"
   },
@@ -15073,7 +15094,9 @@
       "moral_ambiguity": 0.6,
       "investigation_driven": 0.5,
       "bleak_tone": 0.5,
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "betrayal": 0.8,
+      "forbidden_knowledge": 0.5
     },
     "studio": "Apple Studios"
   },
@@ -15119,7 +15142,9 @@
       "found_family": 0.5,
       "odd_couple": 0.5,
       "whimsical_charm": 0.5,
-      "love_across_divide": 0.3
+      "love_across_divide": 0.3,
+      "fish_out_of_water": 0.6,
+      "wholesome_family": 0.4
     },
     "studio": "Columbia Pictures"
   },
@@ -15143,7 +15168,9 @@
       "twist_reveal": 0.6,
       "ensemble_cast": 0.4,
       "dark_comedy": 0.4,
-      "survival_against_odds": 0.5
+      "survival_against_odds": 0.5,
+      "meta_fourth_wall": 0.7,
+      "forbidden_knowledge": 0.6
     },
     "studio": "Mutant Enemy Productions"
   },
@@ -15188,7 +15215,9 @@
       "love_across_divide": 0.5,
       "moral_ambiguity": 0.6,
       "identity_reinvention": 0.4,
-      "class_conflict": 0.3
+      "class_conflict": 0.3,
+      "obsession": 0.7,
+      "betrayal": 0.6
     },
     "studio": "A24"
   },
@@ -15211,7 +15240,9 @@
       "tech_disruption": 0.7,
       "identity_reinvention": 0.4,
       "survival_against_odds": 0.4,
-      "systemic_corruption": 0.3
+      "systemic_corruption": 0.3,
+      "forbidden_knowledge": 0.5,
+      "epic_scale": 0.4
     },
     "studio": "Walt Disney Pictures"
   },
@@ -15234,7 +15265,11 @@
       "identity_reinvention": 0.6,
       "love_across_divide": 0.4,
       "bleak_tone": 0.6,
-      "moral_ambiguity": 0.5
+      "moral_ambiguity": 0.5,
+      "descent_into_madness": 0.6,
+      "mental_illness": 0.6,
+      "villain_pov": 0.6,
+      "romantic_tone": 0.4
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -15257,7 +15292,8 @@
       "underdog_rise": 0.5,
       "found_purpose": 0.5,
       "love_across_divide": 0.4,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.6
     },
     "studio": "Walt Disney Animation Studios"
   },
@@ -15303,7 +15339,9 @@
       "found_purpose": 0.7,
       "tender_sincerity": 0.6,
       "systemic_corruption": 0.4,
-      "grief_processing": 0.3
+      "grief_processing": 0.3,
+      "sacrifice_for_others": 0.7,
+      "nostalgia_period": 0.5
     },
     "studio": "Liberty Films"
   },
@@ -15326,7 +15364,8 @@
       "ensemble_cast": 0.5,
       "skill_asymmetry": 0.4,
       "systemic_corruption": 0.3,
-      "survival_against_odds": 0.4
+      "survival_against_odds": 0.4,
+      "epic_scale": 0.5
     },
     "studio": "Skydance Media"
   },
@@ -15349,7 +15388,10 @@
       "systemic_corruption": 0.7,
       "investigation_driven": 0.5,
       "moral_ambiguity": 0.4,
-      "skill_asymmetry": 0.4
+      "skill_asymmetry": 0.4,
+      "betrayal": 0.7,
+      "espionage_double_cross": 0.7,
+      "forbidden_knowledge": 0.4
     },
     "studio": "Marvel Studios"
   },
@@ -15372,7 +15414,9 @@
       "underdog_rise": 0.6,
       "identity_reinvention": 0.4,
       "whimsical_charm": 0.6,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "chosen_one": 0.7,
+      "meta_fourth_wall": 0.6
     },
     "studio": "Lin Pictures"
   },
@@ -15395,7 +15439,9 @@
       "underdog_rise": 0.7,
       "found_family": 0.3,
       "class_conflict": 0.4,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.7,
+      "betrayal": 0.4
     },
     "studio": "Walt Disney Pictures"
   },
@@ -15418,7 +15464,9 @@
       "identity_reinvention": 0.4,
       "found_family": 0.4,
       "whimsical_charm": 0.4,
-      "coming_of_age": 0.4
+      "coming_of_age": 0.4,
+      "fish_out_of_water": 0.7,
+      "chosen_one": 0.5
     },
     "studio": "Pixar"
   },
@@ -15442,7 +15490,10 @@
       "moral_ambiguity": 0.5,
       "love_across_divide": 0.4,
       "skill_asymmetry": 0.4,
-      "nonlinear_timeline": 0.4
+      "nonlinear_timeline": 0.4,
+      "rivalry_driven": 0.8,
+      "obsession": 0.6,
+      "competition_tournament": 0.5
     },
     "studio": "Pascal Pictures"
   },
@@ -15465,7 +15516,9 @@
       "survival_against_odds": 0.6,
       "moral_ambiguity": 0.5,
       "dark_comedy": 0.4,
-      "plan_unravels": 0.4
+      "plan_unravels": 0.4,
+      "fish_out_of_water": 0.5,
+      "reluctant_hero": 0.5
     },
     "studio": "Protozoa Pictures"
   },
@@ -15488,7 +15541,8 @@
       "moral_ambiguity": 0.4,
       "love_across_divide": 0.4,
       "systemic_corruption": 0.3,
-      "skill_asymmetry": 0.4
+      "skill_asymmetry": 0.4,
+      "epic_scale": 0.5
     },
     "studio": "Warner Bros. Pictures"
   },
@@ -15510,7 +15564,9 @@
       "tense_dread": 0.6,
       "investigation_driven": 0.4,
       "rival_becomes_ally": 0.3,
-      "survival_against_odds": 0.4
+      "survival_against_odds": 0.4,
+      "forbidden_knowledge": 0.6,
+      "rivalry_driven": 0.5
     },
     "studio": "Suretone Pictures"
   },
@@ -15533,7 +15589,8 @@
       "investigation_driven": 0.9,
       "bleak_tone": 0.5,
       "moral_ambiguity": 0.4,
-      "gritty_realism": 0.5
+      "gritty_realism": 0.5,
+      "obsession": 0.5
     },
     "studio": "CJ Entertainment"
   },
@@ -15556,7 +15613,8 @@
       "identity_reinvention": 0.6,
       "underdog_rise": 0.4,
       "coming_of_age": 0.4,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "legacy_and_inheritance": 0.6
     },
     "studio": "Bottom of the Ninth Productions"
   },
@@ -15579,7 +15637,8 @@
       "identity_reinvention": 0.6,
       "underdog_rise": 0.5,
       "class_conflict": 0.4,
-      "revenge_quest": 0.3
+      "revenge_quest": 0.3,
+      "criminal_mastermind": 0.5
     },
     "studio": "Walt Disney Pictures"
   },
@@ -15602,7 +15661,9 @@
       "antihero_lead": 0.7,
       "moral_ambiguity": 0.7,
       "identity_reinvention": 0.5,
-      "systemic_corruption": 0.3
+      "systemic_corruption": 0.3,
+      "descent_into_madness": 0.7,
+      "obsession": 0.7
     },
     "studio": "Sierra/Affinity"
   },
@@ -15648,7 +15709,10 @@
       "love_across_divide": 0.6,
       "bleak_tone": 0.5,
       "tense_dread": 0.5,
-      "moral_ambiguity": 0.3
+      "moral_ambiguity": 0.3,
+      "gothic": 0.9,
+      "romantic_tone": 0.7,
+      "obsession": 0.6
     },
     "studio": "American Zoetrope"
   },
