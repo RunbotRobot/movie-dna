@@ -15733,7 +15733,10 @@
     "tags": {
       "moral_ambiguity": 0.7,
       "bleak_tone": 0.6,
-      "identity_reinvention": 0.3
+      "identity_reinvention": 0.3,
+      "obsession": 0.9,
+      "unreliable_narrator": 0.6,
+      "descent_into_madness": 0.5
     },
     "studio": "Path\u00e9"
   },
@@ -15756,7 +15759,10 @@
       "identity_reinvention": 0.6,
       "rival_becomes_ally": 0.5,
       "underdog_rise": 0.4,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "villain_pov": 0.7,
+      "redemption_arc": 0.6,
+      "rivalry_driven": 0.5
     },
     "studio": "DreamWorks Animation"
   },
@@ -15779,7 +15785,10 @@
       "ensemble_cast": 0.6,
       "found_purpose": 0.4,
       "skill_asymmetry": 0.4,
-      "mentor_death_catalyst": 0.3
+      "mentor_death_catalyst": 0.3,
+      "epic_scale": 0.6,
+      "chosen_one": 0.6,
+      "legacy_and_inheritance": 0.5
     },
     "studio": "Lucasfilm Ltd."
   },
@@ -15801,7 +15810,8 @@
     "tags": {
       "love_across_divide": 0.6,
       "identity_reinvention": 0.4,
-      "coming_of_age": 0.4
+      "coming_of_age": 0.4,
+      "romantic_tone": 0.8
     },
     "studio": "CalMaple Films"
   },
@@ -15824,7 +15834,8 @@
       "identity_reinvention": 0.5,
       "ensemble_cast": 0.5,
       "underdog_rise": 0.4,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "fish_out_of_water": 0.6
     },
     "studio": "DreamWorks Animation"
   },
@@ -15847,7 +15858,9 @@
       "survival_against_odds": 0.7,
       "found_family": 0.4,
       "ticking_clock": 0.5,
-      "ensemble_cast": 0.4
+      "ensemble_cast": 0.4,
+      "war_conflict": 0.7,
+      "sacrifice_for_others": 0.5
     },
     "studio": "Skydance Media"
   },
@@ -15870,7 +15883,10 @@
       "systemic_corruption": 0.7,
       "underdog_rise": 0.5,
       "found_family": 0.4,
-      "bleak_tone": 0.5
+      "bleak_tone": 0.5,
+      "mental_illness": 0.8,
+      "rivalry_driven": 0.6,
+      "claustrophobic_tone": 0.6
     },
     "studio": "Fantasy Films"
   },
@@ -15893,7 +15909,9 @@
       "odd_couple": 0.5,
       "survival_against_odds": 0.5,
       "whimsical_charm": 0.4,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "disaster_survival": 0.5,
+      "road_journey": 0.5
     },
     "studio": "20th Century Fox Animation"
   },
@@ -15916,7 +15934,9 @@
       "underdog_rise": 0.5,
       "whimsical_charm": 0.6,
       "odd_couple": 0.4,
-      "investigation_driven": 0.3
+      "investigation_driven": 0.3,
+      "road_journey": 0.6,
+      "absurdist": 0.6
     },
     "studio": "Paramount Pictures"
   },
@@ -15939,7 +15959,9 @@
       "investigation_driven": 0.5,
       "tense_dread": 0.6,
       "survival_against_odds": 0.6,
-      "systemic_corruption": 0.3
+      "systemic_corruption": 0.3,
+      "forbidden_knowledge": 0.8,
+      "claustrophobic_tone": 0.5
     },
     "studio": "Dune Entertainment"
   },
@@ -15962,7 +15984,9 @@
       "love_across_divide": 0.5,
       "grief_processing": 0.4,
       "moral_ambiguity": 0.3,
-      "coming_of_age": 0.3
+      "coming_of_age": 0.3,
+      "romantic_tone": 0.7,
+      "rivalry_driven": 0.4
     },
     "studio": "Lotus Production"
   },
@@ -15985,7 +16009,10 @@
       "moral_ambiguity": 0.7,
       "systemic_corruption": 0.5,
       "identity_reinvention": 0.4,
-      "bleak_tone": 0.5
+      "bleak_tone": 0.5,
+      "obsession": 0.9,
+      "betrayal": 0.6,
+      "descent_into_madness": 0.6
     },
     "studio": "Paramount Vantage"
   },
@@ -16008,7 +16035,9 @@
       "identity_reinvention": 0.7,
       "tech_disruption": 0.6,
       "investigation_driven": 0.4,
-      "moral_ambiguity": 0.3
+      "moral_ambiguity": 0.3,
+      "forbidden_knowledge": 0.5,
+      "isolation_disconnection": 0.5
     },
     "studio": "Bandai Visual"
   },
@@ -16031,7 +16060,9 @@
       "odd_couple": 0.6,
       "found_family": 0.5,
       "class_conflict": 0.4,
-      "whimsical_charm": 0.4
+      "whimsical_charm": 0.4,
+      "rivalry_driven": 0.6,
+      "fish_out_of_water": 0.5
     },
     "studio": "DreamWorks Animation"
   },
@@ -16054,7 +16085,10 @@
       "identity_reinvention": 0.6,
       "found_purpose": 0.5,
       "love_across_divide": 0.3,
-      "lone_wolf": 0.4
+      "lone_wolf": 0.4,
+      "fish_out_of_water": 0.6,
+      "isolation_disconnection": 0.5,
+      "war_conflict": 0.4
     },
     "studio": "Tig Productions"
   },
@@ -16077,7 +16111,10 @@
       "survival_against_odds": 0.7,
       "tense_dread": 0.8,
       "twist_reveal": 0.6,
-      "moral_ambiguity": 0.4
+      "moral_ambiguity": 0.4,
+      "claustrophobic_tone": 0.8,
+      "escape_plot": 0.7,
+      "criminal_mastermind": 0.6
     },
     "studio": "Twisted Pictures"
   },
@@ -16100,7 +16137,9 @@
       "mentor_student": 0.6,
       "tender_sincerity": 0.6,
       "grief_processing": 0.4,
-      "nonlinear_timeline": 0.4
+      "nonlinear_timeline": 0.4,
+      "nostalgia_period": 0.8,
+      "coming_home": 0.5
     },
     "studio": "Cristaldifilm"
   },
@@ -16123,7 +16162,9 @@
       "moral_ambiguity": 0.7,
       "systemic_corruption": 0.6,
       "investigation_driven": 0.4,
-      "rival_becomes_ally": 0.3
+      "rival_becomes_ally": 0.3,
+      "courtroom_drama": 0.8,
+      "war_conflict": 0.5
     },
     "studio": "Bluestone Entertainment"
   },
@@ -16146,7 +16187,9 @@
       "grief_processing": 0.7,
       "love_across_divide": 0.4,
       "tender_sincerity": 0.5,
-      "bleak_tone": 0.4
+      "bleak_tone": 0.4,
+      "melancholic": 0.7,
+      "romantic_tone": 0.5
     },
     "studio": "Hera Pictures"
   },
@@ -16169,7 +16212,8 @@
       "love_across_divide": 0.6,
       "class_conflict": 0.4,
       "coming_of_age": 0.3,
-      "odd_couple": 0.3
+      "odd_couple": 0.3,
+      "romantic_tone": 0.8
     },
     "studio": "42"
   },
@@ -16192,7 +16236,9 @@
       "underdog_rise": 0.5,
       "coming_of_age": 0.5,
       "found_family": 0.5,
-      "identity_reinvention": 0.4
+      "identity_reinvention": 0.4,
+      "multi_generational_cast": 0.5,
+      "legacy_and_inheritance": 0.5
     },
     "studio": "Pixar"
   },
@@ -16215,7 +16261,8 @@
       "revenge_quest": 0.5,
       "investigation_driven": 0.5,
       "skill_asymmetry": 0.6,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "betrayal": 0.6
     },
     "studio": "EuropaCorp"
   },
@@ -16238,7 +16285,10 @@
       "tense_dread": 0.7,
       "investigation_driven": 0.5,
       "dreamlike_surreal": 0.5,
-      "one_location": 0.5
+      "one_location": 0.5,
+      "time_loop": 0.8,
+      "claustrophobic_tone": 0.6,
+      "isolation_disconnection": 0.5
     },
     "studio": "TOHO"
   },
@@ -16261,7 +16311,8 @@
       "underdog_rise": 0.5,
       "found_family": 0.4,
       "odd_couple": 0.4,
-      "high_camp": 0.4
+      "high_camp": 0.4,
+      "wholesome_family": 0.4
     },
     "studio": "Rovio Animation"
   },
@@ -16284,7 +16335,9 @@
       "skill_asymmetry": 0.6,
       "tech_disruption": 0.5,
       "ensemble_cast": 0.5,
-      "ticking_clock": 0.5
+      "ticking_clock": 0.5,
+      "espionage_double_cross": 0.6,
+      "forbidden_knowledge": 0.4
     },
     "studio": "Paramount Pictures"
   },
@@ -16306,7 +16359,9 @@
     "tags": {
       "love_across_divide": 0.5,
       "moral_ambiguity": 0.4,
-      "identity_reinvention": 0.3
+      "identity_reinvention": 0.3,
+      "romantic_tone": 0.7,
+      "obsession": 0.5
     },
     "studio": "Versus Entertainment"
   },
@@ -16330,7 +16385,10 @@
       "found_family": 0.4,
       "systemic_corruption": 0.4,
       "grief_processing": 0.4,
-      "love_across_divide": 0.3
+      "love_across_divide": 0.3,
+      "espionage_double_cross": 0.7,
+      "sacrifice_for_others": 0.6,
+      "rescue_mission": 0.4
     },
     "studio": "EON Productions"
   },
@@ -16352,7 +16410,10 @@
       "bleak_tone": 0.7,
       "survival_against_odds": 0.4,
       "found_purpose": 0.6,
-      "moral_ambiguity": 0.3
+      "moral_ambiguity": 0.3,
+      "faith_and_doubt": 0.8,
+      "sacrifice_for_others": 0.9,
+      "real_time": 0.6
     },
     "studio": "Icon Productions"
   },
@@ -16375,7 +16436,10 @@
       "identity_reinvention": 0.5,
       "found_family": 0.6,
       "chase_structure": 0.4,
-      "dark_comedy": 0.3
+      "dark_comedy": 0.3,
+      "fish_out_of_water": 0.4,
+      "road_journey": 0.5,
+      "betrayal": 0.4
     },
     "studio": "Municipal Pictures"
   },
@@ -16399,7 +16463,10 @@
       "odd_couple": 0.5,
       "identity_reinvention": 0.4,
       "systemic_corruption": 0.4,
-      "mentor_death_catalyst": 0.3
+      "mentor_death_catalyst": 0.3,
+      "betrayal": 0.7,
+      "rivalry_driven": 0.6,
+      "forbidden_knowledge": 0.4
     },
     "studio": "Paramount Animation"
   },
@@ -16423,7 +16490,11 @@
       "identity_reinvention": 0.6,
       "dreamlike_surreal": 0.7,
       "tense_dread": 0.5,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "descent_into_madness": 0.9,
+      "mental_illness": 0.7,
+      "epic_scale": 0.5,
+      "isolation_disconnection": 0.7
     },
     "studio": "GAINAX"
   },
@@ -16446,7 +16517,10 @@
       "ensemble_cast": 0.6,
       "skill_asymmetry": 0.4,
       "survival_against_odds": 0.5,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "road_journey": 0.7,
+      "epic_scale": 0.6,
+      "obsession": 0.4
     },
     "studio": "New Line Cinema"
   },
@@ -16469,7 +16543,8 @@
       "ensemble_cast": 0.7,
       "skill_asymmetry": 0.5,
       "underdog_rise": 0.4,
-      "systemic_corruption": 0.5
+      "systemic_corruption": 0.5,
+      "sacrifice_for_others": 0.5
     },
     "studio": "Columbia Pictures"
   },
@@ -16492,7 +16567,10 @@
       "identity_reinvention": 0.7,
       "tech_disruption": 0.6,
       "investigation_driven": 0.5,
-      "dreamlike_surreal": 0.4
+      "dreamlike_surreal": 0.4,
+      "forbidden_knowledge": 0.5,
+      "isolation_disconnection": 0.6,
+      "noir_tone": 0.5
     },
     "studio": "Bandai Visual"
   },
@@ -16516,7 +16594,10 @@
       "dark_comedy": 0.5,
       "chase_structure": 0.4,
       "twist_reveal": 0.4,
-      "one_location": 0.4
+      "one_location": 0.4,
+      "absurdist": 0.5,
+      "rivalry_driven": 0.5,
+      "real_time": 0.5
     },
     "studio": "87North Productions"
   },
@@ -16539,7 +16620,9 @@
       "ensemble_cast": 0.4,
       "systemic_corruption": 0.4,
       "dark_comedy": 0.4,
-      "high_camp": 0.4
+      "high_camp": 0.4,
+      "escape_plot": 0.5,
+      "absurdist": 0.6
     },
     "studio": "Gracie Films"
   },
@@ -16562,7 +16645,8 @@
       "found_family": 0.5,
       "identity_reinvention": 0.5,
       "ensemble_cast": 0.4,
-      "tech_disruption": 0.4
+      "tech_disruption": 0.4,
+      "rivalry_driven": 0.5
     },
     "studio": "Kumar Mobiliengesellschaft mbH & Co. Projekt Nr. 3 KG"
   },
@@ -16585,7 +16669,10 @@
       "love_across_divide": 0.7,
       "lone_wolf": 0.3,
       "systemic_corruption": 0.4,
-      "dreamlike_surreal": 0.4
+      "dreamlike_surreal": 0.4,
+      "romantic_tone": 0.8,
+      "escape_plot": 0.6,
+      "isolation_disconnection": 0.5
     },
     "studio": "Double Dare You"
   },
@@ -16608,7 +16695,10 @@
       "underdog_rise": 0.6,
       "found_family": 0.4,
       "identity_reinvention": 0.5,
-      "odd_couple": 0.4
+      "odd_couple": 0.4,
+      "villain_pov": 0.5,
+      "redemption_arc": 0.6,
+      "fish_out_of_water": 0.5
     },
     "studio": "Walt Disney Animation Studios"
   },
@@ -16631,7 +16721,11 @@
       "identity_reinvention": 0.6,
       "love_across_divide": 0.6,
       "whimsical_charm": 0.4,
-      "bleak_tone": 0.3
+      "bleak_tone": 0.3,
+      "fish_out_of_water": 0.7,
+      "romantic_tone": 0.6,
+      "gothic": 0.5,
+      "isolation_disconnection": 0.6
     },
     "studio": "20th Century Fox"
   },
