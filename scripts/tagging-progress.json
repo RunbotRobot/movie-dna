@@ -1,12 +1,12 @@
 {
   "taxonomy_version": 3,
-  "note": "Tracks retagging progress against the 100-tag taxonomy (v3). main_next_index / artiflix_next_index is the array index in data/movies.json / data/artiflix-movies.json to resume from. Movies before that index in the current pass have been reviewed against all 100 tags (their existing tags kept, new ones added where applicable — absence of a new tag means it was considered and didn't apply, not that it was skipped).",
+  "note": "Tracks tagging progress against the 100-tag taxonomy (v3). main_catalog.next_index / artiflix_catalog.next_index is the array index in data/movies.json / data/artiflix-movies.json to resume from. main_catalog is complete (1000/1000): all movies were retagged additively (existing tags kept, new ones added where applicable). artiflix_catalog is a full tagging pass from scratch (movies started with empty tags: {}) since it wasn't tagged in the original 40-tag build; movies before next_index have a complete, considered set of tags assigned from all 100.",
   "main_catalog": {
     "total": 1000,
     "next_index": 1000
   },
   "artiflix_catalog": {
     "total": 760,
-    "next_index": 0
+    "next_index": 30
   }
 }

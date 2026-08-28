@@ -17,7 +17,13 @@
     ],
     "synopsis": "In 1910s Paris, a sewer worker disillusioned with Christianity feels his prayers have been answered when he chances upon a street waif and they fall in love.",
     "studio": "Fox Film Corporation",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.7,
+      "love_across_divide": 0.6,
+      "faith_and_doubt": 0.5,
+      "class_conflict": 0.5,
+      "intimate_scale": 0.4
+    }
   },
   {
     "id": "artiflix-abbott-and-costello-meet-captain-kidd",
@@ -37,7 +43,12 @@
     ],
     "synopsis": "Two hapless waiters in a tavern on the Spanish Main play cupid between aristocratic Lady Jane and tavern co-worker Bruce Martindale, but the two bumpkins mix-up a love letter with Captain Kidd's treasure map of Skull Island, leading to them being kidnapped and taken off to the notorious pirate's island.",
     "studio": "Woodley Productions Inc.",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "odd_couple": 0.5,
+      "escape_plot": 0.4,
+      "whimsical_charm": 0.4
+    }
   },
   {
     "id": "artiflix-abilene_town",
@@ -55,9 +66,13 @@
       "Rhonda Fleming",
       "Lloyd Bridges"
     ],
-    "synopsis": "Marshall Dan Mitchell, who is the law in Abilene, has the job of keeping peace between two groups. For a long time, the town had been divided, with the cattlemen and cowboys having one end of town to themselves, while townspeople occupied the other end. Mitchell liked it this way, it made things easier for him, and kept problems from arising between the two factions. However…",
+    "synopsis": "Marshall Dan Mitchell, who is the law in Abilene, has the job of keeping peace between two groups. For a long time, the town had been divided, with the cattlemen and cowboys having one end of town to themselves, while townspeople occupied the other end. Mitchell liked it this way, it made things easier for him, and kept problems from arising between the two factions. However\u2026",
     "studio": "Guild Productions Inc.",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "rivalry_driven": 0.5,
+      "systemic_corruption": 0.3
+    }
   },
   {
     "id": "artiflix-a-bolt-of-lightning",
@@ -76,7 +91,10 @@
     ],
     "synopsis": "The story of James Otis who was a part of the American revolution. He contested in court the right of the British to search colonists' homes.",
     "studio": "CBS",
-    "tags": {}
+    "tags": {
+      "courtroom_drama": 0.7,
+      "justice_vs_law": 0.7
+    }
   },
   {
     "id": "artiflix-a-boy-and-his-dog",
@@ -97,7 +115,13 @@
     ],
     "synopsis": "Set in the year 2024 in post-apocalyptic America, 18-year old Vic and his telepathic dog, Blood, are scavengers in the desolate wilderness ravaged by World War IV, where survivors must battle for food and shelter in the desert-like wasteland. Vic and Blood eke out a meager existence, foraging for food and fighting gangs of cutthroats.",
     "studio": "LQ/JAF",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "disaster_survival": 0.6,
+      "survival_against_odds": 0.6,
+      "dark_comedy": 0.5,
+      "bleak_tone": 0.5
+    }
   },
   {
     "id": "artiflix-a-brand-new-life",
@@ -117,7 +141,10 @@
     ],
     "synopsis": "After 18 years of marriage, a middle-aged couple has to face the prospect of having their first child.",
     "studio": "Tomorrow Entertainment",
-    "tags": {}
+    "tags": {
+      "intimate_scale": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-acceptable-risks",
@@ -137,7 +164,12 @@
     ],
     "synopsis": "The manager of a chemical plant and a city manager rise up against their respective bosses to keep a town safe in this ecologically conscientious made-for-TV disaster film. It all begins when the owners of Citichem order the plant manager to enact dangerous cost cuts that compromise the safety of the plant. He protests, but it is to no avail and a worker dies. At the same time, the city manager tries to warn the people that a deadly disaster is imminent, but he ends up gagged by the local politicians. Meanwhile, just when the community is at its most unprepared, a melt-down occurs and the town is drenched in deadly chemicals.",
     "studio": "ABC",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.7,
+      "disaster_survival": 0.6,
+      "environmentalism": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-a-christmas-wish",
@@ -158,7 +190,11 @@
     ],
     "synopsis": "Single mother asks for a miracle for her and her daughter during Christmas.",
     "studio": "BET Pictures",
-    "tags": {}
+    "tags": {
+      "wholesome_family": 0.6,
+      "faith_and_doubt": 0.4,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-a-christmas-without-snow",
@@ -178,9 +214,13 @@
       "James Cromwell",
       "Valerie Curtin"
     ],
-    "synopsis": "Leaving her son behind at her parents' home in Omaha, Nebraska, recent divorcée Zoe attempts to start her life anew by moving to San Francisco. Seeking something to fill her lonely hours, she begins singing with a church choir. When new choirmaster Ephraim Adams is hired, Zoe finds his attitudes and ideas difficult to tolerate. Faced with the challenging task of satisfying Adams' unrelenting perfectionism, Zoe is tempted once more to run away from her problems.",
+    "synopsis": "Leaving her son behind at her parents' home in Omaha, Nebraska, recent divorc\u00e9e Zoe attempts to start her life anew by moving to San Francisco. Seeking something to fill her lonely hours, she begins singing with a church choir. When new choirmaster Ephraim Adams is hired, Zoe finds his attitudes and ideas difficult to tolerate. Faced with the challenging task of satisfying Adams' unrelenting perfectionism, Zoe is tempted once more to run away from her problems.",
     "studio": "Frank Koenigsberg Productions",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "isolation_disconnection": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-a-connecticut-yankee-in-king-arthurs-court",
@@ -200,7 +240,10 @@
     ],
     "synopsis": "A modern-day scientist gets teleported to Medieval England in King Arthur's Court!  He has to adapt to the current times and tries to make improvements as they come.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.8,
+      "whimsical_charm": 0.4
+    }
   },
   {
     "id": "artiflix-a-face-in-the-fog",
@@ -221,7 +264,11 @@
     ],
     "synopsis": "A mysterious killer known as The Fiend uses an unusual bullet as his trademark for his murders.",
     "studio": "Victory Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "noir_tone": 0.5,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-a-farewell-to-arms",
@@ -242,7 +289,11 @@
     ],
     "synopsis": "An English nurse and an American soldier on the Italian front during World War I fall in love, but the horrors surrounding them test their romance to the limit.",
     "studio": "Selznick International Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "romantic_tone": 0.7,
+      "bleak_tone": 0.4
+    }
   },
   {
     "id": "artiflix-against-all-hope",
@@ -260,7 +311,11 @@
     ],
     "synopsis": "Driven to the edge of suicide by alcoholism, and in danger of losing his family, a desperate man is recued by a priest who reaches out to hear his story.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.8,
+      "faith_and_doubt": 0.6,
+      "redemption_arc": 0.5
+    }
   },
   {
     "id": "artiflix-a-hazard-of-hearts",
@@ -281,7 +336,11 @@
     ],
     "synopsis": "In a desperate bid to cover his debts, compulsive gambler Sir Giles Staverley stakes his estate and his daughter's hand on a game of chance. Serena Staverley soon finds herself bound to a mysterious victor and trapped in a cliff-top manor.",
     "studio": "Gainsborough Pictures",
-    "tags": {}
+    "tags": {
+      "gothic": 0.5,
+      "romantic_tone": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-a-killing-affair",
@@ -302,7 +361,10 @@
     ],
     "synopsis": "A white female detective is partnered with a black male detective to find the person who is committing a series of particularly vicious murders. During the course of the investigation the two begin to develop an attraction to each other, but the situation is complicated by the fact that he is married.",
     "studio": "Columbia Pictures Television",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "love_across_divide": 0.6
+    }
   },
   {
     "id": "artiflix-alexander-the-other-side-of-dawn",
@@ -322,7 +384,12 @@
     ],
     "synopsis": "In this sequel to Dawn: Portrait of a Teenage Runaway, Alexander's story is told in both the past and the present. Alexander's parents send him away from home for being too sensitive and not helping enough on their farm. He goes to Los Angeles in hopes of going to art school, but when he can't find a job as a minor, he turns to prostitution. After being arrested, he wants to head to Arizona to marry Dawn, but he falls into a lucrative job/relationship with a gay football star.",
     "studio": "Douglas S. Cramer Company",
-    "tags": {}
+    "tags": {
+      "dual_timeline": 0.6,
+      "bleak_tone": 0.6,
+      "coming_of_age": 0.5,
+      "isolation_disconnection": 0.5
+    }
   },
   {
     "id": "artiflix-alice-of-wonderland-in-paris",
@@ -343,7 +410,10 @@
     ],
     "synopsis": "Alice travels to Paris and hears five stories adapted from children's picture books in this anthology film. The books adapted include: \"Anatole,\" \"Madeline and the Bad Hat,\" \"The Frowning Prince,\" \"Many Moons,\" and \"Madeline and the Gypsies.\"",
     "studio": "Rembrandt Films",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.8,
+      "whimsical_charm": 0.6
+    }
   },
   {
     "id": "artiflix-alien-species",
@@ -365,7 +435,10 @@
     ],
     "synopsis": "Huge Motherships from an alien species sneak ominously into orbit around Earth. Lethal bat-winged fighters descend on the planet. Citizens are abducted. Homes are destroyed. The invasion has begun! A small town sheriff, two deputies and a professor discover the alien plan. With the secret to destroy the attacking ships, there's a chance they could stop the alien invasion... for now!!!!",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.5,
+      "survival_against_odds": 0.5
+    }
   },
   {
     "id": "artiflix-all-american-coed",
@@ -385,7 +458,10 @@
     ],
     "synopsis": "Fraternity brothers enter one of their own into a scholarship lottery after a women's college insults them. Though the Zeta boys are celebrated for their comedy drag revue, staying undercover as a woman at an all-girls' school wasn't part of the rehearsal!",
     "studio": "Hal Roach Studios",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "high_camp": 0.5
+    }
   },
   {
     "id": "artiflix-all-the-kind-strangers",
@@ -406,7 +482,12 @@
     ],
     "synopsis": "An LA photographer, driving through backwoods country, spots a young boy walking on the side of the road and offers him a ride home. After reaching the isolated house, he discovers that the boy and his siblings are keeping a woman prisoner as their \"mom\" and now he is expected to be their \"dad\"...or else.",
     "studio": "Cinemation Industries",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "tense_dread": 0.6,
+      "isolation_disconnection": 0.5,
+      "escape_plot": 0.5
+    }
   },
   {
     "id": "artiflix-almost",
@@ -426,7 +507,11 @@
     ],
     "synopsis": "In 1973, a precocious 15-year-old aspiring rock journalist lands a dream assignment from Rolling Stone to tour with a rising rock band, embarking on a coming-of-age journey as he discovers the exhilarating and heartbreaking realities behind rock stardom.",
     "studio": "DreamWorks Pictures",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.7,
+      "found_family": 0.5,
+      "coming_of_age": 0.6
+    }
   },
   {
     "id": "artiflix-a-minor-miracle",
@@ -440,13 +525,16 @@
     "cast": [
       "John Huston",
       "Peter Fox",
-      "Pelé",
+      "Pel\u00e9",
       "Lisa Wills",
       "David Ruprecht"
     ],
     "synopsis": "A group of orphans and their guardian get together to try to save their orphanage.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "found_family": 0.6,
+      "wholesome_family": 0.5
+    }
   },
   {
     "id": "artiflix-anatomy-of-an-illness",
@@ -466,7 +554,10 @@
     ],
     "synopsis": "Biopic of Saturday Review editor and political journalist Norman Cousins who developed and promoted a self-made health therapy consisting of intake of large quantities of vitamin C and making oneself laugh as much as possible.",
     "studio": "Hamner Productions Inc.",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "survival_against_odds": 0.5
+    }
   },
   {
     "id": "artiflix-anatomy-of-a-psycho",
@@ -487,7 +578,10 @@
     ],
     "synopsis": "The crazed brother of a condemned killer sent to the gas chamber swears vengeance on those he holds responsible for his brother's execution.",
     "studio": "Unitel",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "descent_into_madness": 0.5
+    }
   },
   {
     "id": "artiflix-angel-and-the-badman",
@@ -509,7 +603,11 @@
     ],
     "synopsis": "Notorious shootist and womanizer Quirt Evans' horse collapses as he passes a Quaker family's home. Quirt has been wounded, and the kindly family takes him in to nurse him back to health against the advice of others. The handsome Evans quickly attracts the affections of their beautiful daughter, Penelope. He develops an affection for the family and their faith, but his troubled past follows him.",
     "studio": "John Wayne Productions",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.6,
+      "romantic_tone": 0.6,
+      "faith_and_doubt": 0.5
+    }
   },
   {
     "id": "artiflix-angel-on-my-shoulder",
@@ -529,7 +627,11 @@
     ],
     "synopsis": "The Devil arranges for a deceased gangster to return to Earth as a well-respected judge to make up for his previous life.",
     "studio": "Premier Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "redemption_arc": 0.5,
+      "faith_and_doubt": 0.5
+    }
   },
   {
     "id": "artiflix-angels-hard-as-they-come",
@@ -550,7 +652,9 @@
     ],
     "synopsis": "A group of crazy bikers meet up with a group of drug-addicted hippies in a small town, but the two roving factions are soon at odds with one another and chaos ensues.",
     "studio": "New World Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6
+    }
   },
   {
     "id": "artiflix-animal-farm",
@@ -573,7 +677,10 @@
     ],
     "synopsis": "A group of farm animals rise up against their neglectful owner, dreaming of equality and freedom. But as the pigs take control, the revolution turns into tyranny, with truth rewritten and dissent crushed.",
     "studio": "Aniventure",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.8,
+      "betrayal": 0.6
+    }
   },
   {
     "id": "artiflix-an-innocent-love",
@@ -594,7 +701,10 @@
     ],
     "synopsis": "This romantic drama focuses on the romance between a 14-year-old mathematics genius and a 19-year-old All-American volleyball player.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "love_across_divide": 0.5
+    }
   },
   {
     "id": "artiflix-anna-karenina",
@@ -613,9 +723,14 @@
       "Matthew Macfadyen",
       "Eric MacLennan"
     ],
-    "synopsis": "In Imperial Russia, Anna, wife of the officer Karenin, goes to Moscow to visit her brother. On the way, she meets charming cavalry officer Vronsky, to whom she's immediately attracted. But in St. Petersburg’s high society, a relationship like this could destroy a woman’s reputation.",
+    "synopsis": "In Imperial Russia, Anna, wife of the officer Karenin, goes to Moscow to visit her brother. On the way, she meets charming cavalry officer Vronsky, to whom she's immediately attracted. But in St. Petersburg\u2019s high society, a relationship like this could destroy a woman\u2019s reputation.",
     "studio": "Working Title Films",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.7,
+      "betrayal": 0.6,
+      "class_conflict": 0.5,
+      "obsession": 0.5
+    }
   },
   {
     "id": "artiflix-a-place-to-grow",
@@ -852,13 +967,13 @@
     "genres": [
       "comedy"
     ],
-    "director": "Léo Joannon",
+    "director": "L\u00e9o Joannon",
     "cast": [
       "Stan Laurel",
       "Oliver Hardy",
       "Suzy Delair",
       "Max Elloy",
-      "Félix Oudart"
+      "F\u00e9lix Oudart"
     ],
     "synopsis": "Stan and Ollie are marooned on an island in the south pacific ocean.",
     "studio": "Films EGE",
@@ -1041,7 +1156,7 @@
       "Ralph Cotterill",
       "Claire Benito",
       "Syd Brisbane",
-      "Ullie Birvé"
+      "Ullie Birv\u00e9"
     ],
     "synopsis": "Bad Boy Bubby is just that: a bad boy. So bad, in fact, that his mother has kept him locked in their house for his entire thirty years, convincing him that the air outside is poisonous. After a visit from his estranged father, circumstances force Bubby into the waiting world, a place which is just as unusual to him as he is to the world.",
     "studio": "Australian Film Finance Corporation",
@@ -1508,7 +1623,7 @@
     "cast": [
       "Boris Karloff",
       "Mark Damon",
-      "Michèle Mercier",
+      "Mich\u00e8le Mercier",
       "Susy Andersen",
       "Lidia Alfonsi"
     ],
@@ -1551,7 +1666,7 @@
     "cast": [
       "Burl Ives",
       "Troy Donahue",
-      "Gert Fröbe",
+      "Gert Fr\u00f6be",
       "Hermione Gingold",
       "Lionel Jeffries"
     ],
@@ -1636,7 +1751,7 @@
       "Naoko Watanabe",
       "Toru Furuya"
     ],
-    "synopsis": "The great King Gurumes is searching for the Dragon Balls in order to put a stop to his endless hunger. A young girl named Pansy who lives in the nearby village has had enough of the treachery and decides to seek Muten Rōshi for assistance. Can our heroes save the village and put a stop to the Gurumes Army?",
+    "synopsis": "The great King Gurumes is searching for the Dragon Balls in order to put a stop to his endless hunger. A young girl named Pansy who lives in the nearby village has had enough of the treachery and decides to seek Muten R\u014dshi for assistance. Can our heroes save the village and put a stop to the Gurumes Army?",
     "studio": "Bird Studios",
     "tags": {}
   },
@@ -1673,7 +1788,7 @@
     "director": "Richard Jefferies",
     "cast": [
       "James Earl Jones",
-      "José Ferrer",
+      "Jos\u00e9 Ferrer",
       "Lila Kedrova",
       "Mary Louise Weller",
       "Martin Kove"
@@ -1694,10 +1809,10 @@
       "Jamie Lee Curtis",
       "Ron Silver",
       "Clancy Brown",
-      "Elizabeth Peña",
+      "Elizabeth Pe\u00f1a",
       "Louise Fletcher"
     ],
-    "synopsis": "Rookie cop Megan Turner orders a burglar to drop his gun. He whirls to shoot. Too late. Turner fires, killing him instantly. When someone lifts the assailant's gun from the crime scene, the police hold Turner accountable for killing an unarmed man. That same someone carves Turner's name into the bullets and uses them in a series of murders. Turner teams up with detective Nick Mann to clear her name and catch the killer. But she is drawn into a deadly game of wits with a psychopath who's always one step ahead… and much closer than she thinks!",
+    "synopsis": "Rookie cop Megan Turner orders a burglar to drop his gun. He whirls to shoot. Too late. Turner fires, killing him instantly. When someone lifts the assailant's gun from the crime scene, the police hold Turner accountable for killing an unarmed man. That same someone carves Turner's name into the bullets and uses them in a series of murders. Turner teams up with detective Nick Mann to clear her name and catch the killer. But she is drawn into a deadly game of wits with a psychopath who's always one step ahead\u2026 and much closer than she thinks!",
     "studio": "Lightning Pictures",
     "tags": {}
   },
@@ -1956,7 +2071,7 @@
       "Loretta King",
       "Harvey B. Dunn"
     ],
-    "synopsis": "Dr. Eric Vornoff, with the help of his mute assistant Lobo, captures twelve men for a grisly experiment; His goal to turn them into supermen using atomic energy. Reporter Janet Lawton, fiancée of the local lieutenant, vows to investigate Vornoff's supposedly haunted house.",
+    "synopsis": "Dr. Eric Vornoff, with the help of his mute assistant Lobo, captures twelve men for a grisly experiment; His goal to turn them into supermen using atomic energy. Reporter Janet Lawton, fianc\u00e9e of the local lieutenant, vows to investigate Vornoff's supposedly haunted house.",
     "studio": "Rolling M. Productions",
     "tags": {}
   },
@@ -2121,7 +2236,7 @@
       "Reginald Denny",
       "E. E. Clive"
     ],
-    "synopsis": "Hugh “Bulldog” Drummond is on the precipice of matrimony to his beloved Phyllis -- but a bank robbery and a daring escape is going to get in their way before they reach the altar.",
+    "synopsis": "Hugh \u201cBulldog\u201d Drummond is on the precipice of matrimony to his beloved Phyllis -- but a bank robbery and a daring escape is going to get in their way before they reach the altar.",
     "studio": "Paramount Pictures",
     "tags": {}
   },
@@ -2174,7 +2289,7 @@
       "horror",
       "thriller"
     ],
-    "director": "Gérard Kikoïne",
+    "director": "G\u00e9rard Kiko\u00efne",
     "cast": [
       "Robert Vaughn",
       "Donald Pleasence",
@@ -2203,7 +2318,7 @@
       "Ewen Bremner",
       "Robert Portal"
     ],
-    "synopsis": "Exploring the often hilarious world of a young Jewish lad conscript and how he survives the Russians, the Royal Navy and the relationship with his girl back home – all the while aided and abetted by the most famous sex symbol the world has ever known.",
+    "synopsis": "Exploring the often hilarious world of a young Jewish lad conscript and how he survives the Russians, the Royal Navy and the relationship with his girl back home \u2013 all the while aided and abetted by the most famous sex symbol the world has ever known.",
     "studio": "Paravision Production",
     "tags": {}
   },
@@ -2282,7 +2397,7 @@
       "Leonora Amar",
       "Nedrick Young",
       "Eduardo Noriega",
-      "Carlos Múzquiz"
+      "Carlos M\u00fazquiz"
     ],
     "synopsis": "Captain Scarlett rescues Princess Maria from being abducted while travelling. She's not exactly grateful. He finds out that she is to be married to a man she doesn't like, so Captain Scarlet attempts to help her but winds up in prison for his efforts. He escapes and finally helps the reluctant bride who winds up joining Captain Scarlett and his sidekick and they become something along the lines of the three musketeers.",
     "studio": null,
@@ -2493,7 +2608,7 @@
       "drama",
       "family"
     ],
-    "director": "Ryszard Słapczyński",
+    "director": "Ryszard S\u0142apczy\u0144ski",
     "cast": [
       "Barbara Frawley",
       "Robin Stewart",
@@ -2610,13 +2725,13 @@
     "genres": [
       "comedy"
     ],
-    "director": "Sebastián Borensztein",
+    "director": "Sebasti\u00e1n Borensztein",
     "cast": [
-      "Ricardo Darín",
+      "Ricardo Dar\u00edn",
       "Ignacio Huang",
       "Carolina Hsu",
       "Muriel Santa Ana",
-      "Iván Romanelli"
+      "Iv\u00e1n Romanelli"
     ],
     "synopsis": "A comedy that chronicles a chance encounter between Robert and a Chinese named Jun who wanders lost through the city of Buenos Aires in search of his uncle after being assaulted by a taxi driver and his henchmen.",
     "studio": "Pampa Films",
@@ -2635,7 +2750,7 @@
     "cast": [
       "Milla Fernandez",
       "Lorena Castanheira",
-      "Julio Adrião",
+      "Julio Adri\u00e3o",
       "Alexandre Rodrigues",
       "Nill Marcondes"
     ],
@@ -2882,7 +2997,7 @@
       "Finlay Currie",
       "Adrienne Corri"
     ],
-    "synopsis": "In 1840s London, Dr. Thomas Bolton [Boris Karloff] dares to dream the unthinkable: experimenting with anesthesia gases to make surgery pain-free. While doing so, his demonstration before a panel of his peers ends in a horrific mishap with his patient awakening under the knife; he is forced to leave his position in disgrace. To complicate matters, he becomes addicted to his own chemical experiments and gets involved with a criminal gang led by Black Ben [Francis de Wolff], and a ruthless killer Resurrection Joe [Christopher Lee]. Unfortunately, this shady partnership leads Dr. Bolton to further ruin, culminating in his unwitting participation in murder — for which he becomes the first victim of a blackmail scheme.",
+    "synopsis": "In 1840s London, Dr. Thomas Bolton [Boris Karloff] dares to dream the unthinkable: experimenting with anesthesia gases to make surgery pain-free. While doing so, his demonstration before a panel of his peers ends in a horrific mishap with his patient awakening under the knife; he is forced to leave his position in disgrace. To complicate matters, he becomes addicted to his own chemical experiments and gets involved with a criminal gang led by Black Ben [Francis de Wolff], and a ruthless killer Resurrection Joe [Christopher Lee]. Unfortunately, this shady partnership leads Dr. Bolton to further ruin, culminating in his unwitting participation in murder \u2014 for which he becomes the first victim of a blackmail scheme.",
     "studio": "Producers Associates",
     "tags": {}
   },
@@ -3058,7 +3173,7 @@
       "Hugh Herbert",
       "Frank Sheridan"
     ],
-    "synopsis": "Head railroad man Dan is as ugly as he is honorable. When he spots a drifter who'd hopped a freight held up by a landslide, Dan offers the man a job; then he finds the man was a railroader, too, and takes him under his wing. Engaged to Mary, Dan doesn't notice the growing attraction between his protégé and his intended but focuses instead on running the railroad.",
+    "synopsis": "Head railroad man Dan is as ugly as he is honorable. When he spots a drifter who'd hopped a freight held up by a landslide, Dan offers the man a job; then he finds the man was a railroader, too, and takes him under his wing. Engaged to Mary, Dan doesn't notice the growing attraction between his prot\u00e9g\u00e9 and his intended but focuses instead on running the railroad.",
     "studio": "RKO Radio Pictures",
     "tags": {}
   },
@@ -3138,7 +3253,7 @@
       "Neva Patterson",
       "Clifton James"
     ],
-    "synopsis": "Teenager David Clemens develops a hysterical fear that he will die if he comes into physical contact with another person. Perturbed, David's overbearing mother places him in a home for mentally disturbed young people, but David remains withdrawn from the other patients and his psychiatrist. Over time, however, David grows interested in 15-year-old Lisa, who suffers from multiple personalities – one who can only speak in rhyme, and the other, a mute.",
+    "synopsis": "Teenager David Clemens develops a hysterical fear that he will die if he comes into physical contact with another person. Perturbed, David's overbearing mother places him in a home for mentally disturbed young people, but David remains withdrawn from the other patients and his psychiatrist. Over time, however, David grows interested in 15-year-old Lisa, who suffers from multiple personalities \u2013 one who can only speak in rhyme, and the other, a mute.",
     "studio": "Vision Associates Productions",
     "tags": {}
   },
@@ -3353,7 +3468,7 @@
       "David Hemmings",
       "Daria Nicolodi",
       "Gabriele Lavia",
-      "Macha Méril",
+      "Macha M\u00e9ril",
       "Eros Pagni"
     ],
     "synopsis": "An English pianist living in Rome witnesses the brutal murder of his psychic neighbor. With the help of a tenacious young reporter, he tries to discover the killer using very unconventional methods. The two are soon drawn into a shocking web of dementia and violence.",
@@ -3414,10 +3529,10 @@
       "Tom Hanks",
       "Ewan McGregor",
       "Ayelet Zurer",
-      "Stellan Skarsgård",
+      "Stellan Skarsg\u00e5rd",
       "Pierfrancesco Favino"
     ],
-    "synopsis": "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati – a secret, underground organization – after four cardinals are kidnapped on the night of the papal conclave.",
+    "synopsis": "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati \u2013 a secret, underground organization \u2013 after four cardinals are kidnapped on the night of the papal conclave.",
     "studio": "Columbia Pictures",
     "tags": {}
   },
@@ -3603,7 +3718,7 @@
       "Bruce Abbott",
       "Tom Bower"
     ],
-    "synopsis": "Crime drama based on the real-life story of US gangster John Dillinger, who was hunted by the FBI after a string of armed bank robberies during the Great Depression. When Dillinger's attacks on banks threaten to make him a dangerous folk hero, the pressure mounts on the FBI – even from the White House – for his capture.",
+    "synopsis": "Crime drama based on the real-life story of US gangster John Dillinger, who was hunted by the FBI after a string of armed bank robberies during the Great Depression. When Dillinger's attacks on banks threaten to make him a dangerous folk hero, the pressure mounts on the FBI \u2013 even from the White House \u2013 for his capture.",
     "studio": "Wolper Organization",
     "tags": {}
   },
@@ -3689,7 +3804,7 @@
       "Ayako Kawasumi",
       "Kana Ueda"
     ],
-    "synopsis": "Ten years after the Fourth Holy Grail War, a devastating clash between Masters and Servants, another war erupts. Shirou Emiya, whose father fought in the first battle, was leading a peaceful life with the warmhearted Sakura Matou. But when hidden forces begin to stir, Shirou resolves to fulfill his father’s dying wish, protect Sakura, and fight for the Holy Grail.",
+    "synopsis": "Ten years after the Fourth Holy Grail War, a devastating clash between Masters and Servants, another war erupts. Shirou Emiya, whose father fought in the first battle, was leading a peaceful life with the warmhearted Sakura Matou. But when hidden forces begin to stir, Shirou resolves to fulfill his father\u2019s dying wish, protect Sakura, and fight for the Holy Grail.",
     "studio": "ufotable",
     "tags": {}
   },
@@ -3724,8 +3839,8 @@
     "director": "Michael S. Ojeda",
     "cast": [
       "Oksana Orlan",
-      "Sebastián Carvajal",
-      "María del Rosario",
+      "Sebasti\u00e1n Carvajal",
+      "Mar\u00eda del Rosario",
       "Maurice Compte",
       "Chase Coleman"
     ],
@@ -3768,7 +3883,7 @@
       "Rita Johnson",
       "Louise Allbritton"
     ],
-    "synopsis": "Vincent Doane is in the precarious position of trying to close an advertising account with his rich ex-fiancée. Unfortunately she is more interested in him than in business. Vincent's wife Paula gets suspicious and finally decides to do some flirting of her own to make him jealous. Unknown to her, she chooses cigarette tychoon Claude Kimball. In fact, Kimball hits it off well with both of the Doanes. The question is whether or not their marriage can survive all the shenanigans.",
+    "synopsis": "Vincent Doane is in the precarious position of trying to close an advertising account with his rich ex-fianc\u00e9e. Unfortunately she is more interested in him than in business. Vincent's wife Paula gets suspicious and finally decides to do some flirting of her own to make him jealous. Unknown to her, she chooses cigarette tychoon Claude Kimball. In fact, Kimball hits it off well with both of the Doanes. The question is whether or not their marriage can survive all the shenanigans.",
     "studio": "James Nasser Productions Inc.",
     "tags": {}
   },
@@ -3948,7 +4063,7 @@
       "Keira Knightley",
       "Jack Davenport"
     ],
-    "synopsis": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett—now in control of Davy Jones—the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas.",
+    "synopsis": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett\u2014now in control of Davy Jones\u2014the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas.",
     "studio": "Jerry Bruckheimer Films",
     "tags": {}
   },
@@ -4062,15 +4177,15 @@
     "genres": [
       "horror"
     ],
-    "director": "Gilberto Martínez Solares, Jerry Warren, Rafael Portillo",
+    "director": "Gilberto Mart\u00ednez Solares, Jerry Warren, Rafael Portillo",
     "cast": [
       "Lon Chaney Jr.",
       "Yerye Beirute",
-      "George Mitchell André",
+      "George Mitchell Andr\u00e9",
       "Fred Hoffman",
       "Rosita Arenas"
     ],
-    "synopsis": "A scientist experimenting with past lives finds a reincarnated Aztec who can lead him to lost treasure—and to a creature that should remain lost. (Composed of footage from two unrelated Mexican horror films, LA CASA DEL TERROR and LA MOMIA AZTECA, plus new American-made footage.)",
+    "synopsis": "A scientist experimenting with past lives finds a reincarnated Aztec who can lead him to lost treasure\u2014and to a creature that should remain lost. (Composed of footage from two unrelated Mexican horror films, LA CASA DEL TERROR and LA MOMIA AZTECA, plus new American-made footage.)",
     "studio": "Jerry Warren Productions Inc.",
     "tags": {}
   },
@@ -4228,7 +4343,7 @@
     ],
     "director": "Paul Almond",
     "cast": [
-      "Geneviève Bujold",
+      "Genevi\u00e8ve Bujold",
       "Michael York",
       "Burgess Meredith",
       "Colleen Dewhurst",
@@ -4315,7 +4430,7 @@
       "Aaron Banks",
       "Bill Louie"
     ],
-    "synopsis": "A television reporter interviews fighters and promoters about Bruce Lee in preparation for a tournament to claim the title of “Successor to the Bruce Lee legacy”. Footage from Bruce Lee's films and interviews is repurposed in pseudo-documentary style.",
+    "synopsis": "A television reporter interviews fighters and promoters about Bruce Lee in preparation for a tournament to claim the title of \u201cSuccessor to the Bruce Lee legacy\u201d. Footage from Bruce Lee's films and interviews is repurposed in pseudo-documentary style.",
     "studio": "Aquarius Promotions",
     "tags": {}
   },
@@ -4377,7 +4492,7 @@
       "Harry Fowler",
       "Denis Holmes"
     ],
-    "synopsis": "Two British pilots begin an airline that serves the Singapore-to-Hong Kong route. One of their flights develops problems and crashes in the jungle. What makes matters even worse, is that aboard the crashed plane are desperately needed medical supplies…",
+    "synopsis": "Two British pilots begin an airline that serves the Singapore-to-Hong Kong route. One of their flights develops problems and crashes in the jungle. What makes matters even worse, is that aboard the crashed plane are desperately needed medical supplies\u2026",
     "studio": "President Pictures",
     "tags": {}
   },
@@ -4456,7 +4571,7 @@
       "Cliff DeYoung",
       "Robert Beltran",
       "Viveka Davis",
-      "Renée Estevez"
+      "Ren\u00e9e Estevez"
     ],
     "synopsis": "Olympic gymnastics coach Francine Lake and her twelve gorgeous students train on the Island of Crete. The rigors of training preclude most sexual activity with the locals, thus the girls spend their evenings in quiet frustration.",
     "studio": "Filmscreen Productions Ltd.",
@@ -4744,7 +4859,7 @@
       "Richard Harrison",
       "Loredana Nusciak",
       "Livio Lorenzon",
-      "Gérard Tichy",
+      "G\u00e9rard Tichy",
       "Edoardo Toniolo"
     ],
     "synopsis": "Framed for the escape of five gladiators from the arena, the son of one of Sparta's leading citizens is sentenced to the arena as gladiator himself and forced to fight for his life in the Roman Colosseum. Years later he manages to escape and return to Sparta, only to find out that his father has been murdered--even though it was ruled a \"suicide\"--and the woman he loves is about to marry the evil king who has usurped the throne. He sets out to find six of his fellow gladiators and return to Sparta to save his woman and place the rightful king on the throne.",
@@ -4766,7 +4881,7 @@
       "Lyle Talbot",
       "Dolores Fuller"
     ],
-    "synopsis": "Glen doesn't dare tell his fiancée Barbara that he is a transvestite known as Glenda; in addition, Alan is undergoing medical treatment to become a woman named Anne; both stories are told by a psychiatrist.",
+    "synopsis": "Glen doesn't dare tell his fianc\u00e9e Barbara that he is a transvestite known as Glenda; in addition, Alan is undergoing medical treatment to become a woman named Anne; both stories are told by a psychiatrist.",
     "studio": "Screen Classics (II)",
     "tags": {}
   },
@@ -4823,7 +4938,7 @@
       "Yukari Usami",
       "Rikako Murakami",
       "Mayumi Kuroba",
-      "Yûko Watanabe",
+      "Y\u00fbko Watanabe",
       "Kozue Saito"
     ],
     "synopsis": "At a Japanese school, a desperate student council struggles with a recurring problem. The aggressive and relentless members of the Yagyu biker gang stop by the school each semester to beat up the kids, steal their lunch money and vandalize their belongings. The kids want to fight back but realize they're too weak and undermanned against the bikers, and so they hire a handful of tough gals to train and defend them.",
@@ -4879,7 +4994,7 @@
       "action",
       "horror"
     ],
-    "director": "Eugène Lourié",
+    "director": "Eug\u00e8ne Louri\u00e9",
     "cast": [
       "Bill Travers",
       "William Sylvester",
@@ -4887,7 +5002,7 @@
       "Christopher Rhodes",
       "Joseph O'Conor"
     ],
-    "synopsis": "When an underwater volcanic eruption tears up the sea bed off the coast of Ireland, two treasure hunters make the discovery of a lifetime when they encounter a gigantic prehistoric monster that’s been unleashed from the earth’s crust. After capturing the beast, the pair transport the creature down to London where it’s given the name of “Gorgo” and put on display to an avid public. Little do they realize that Gorgo is just an infant, and that his exponentially larger mother is about to emerge from the depths to avenge the capture of her offspring.",
+    "synopsis": "When an underwater volcanic eruption tears up the sea bed off the coast of Ireland, two treasure hunters make the discovery of a lifetime when they encounter a gigantic prehistoric monster that\u2019s been unleashed from the earth\u2019s crust. After capturing the beast, the pair transport the creature down to London where it\u2019s given the name of \u201cGorgo\u201d and put on display to an avid public. Little do they realize that Gorgo is just an infant, and that his exponentially larger mother is about to emerge from the depths to avenge the capture of her offspring.",
     "studio": "King Brothers Productions",
     "tags": {}
   },
@@ -4919,7 +5034,7 @@
       "drama",
       "romance"
     ],
-    "director": "Alfonso Cuarón",
+    "director": "Alfonso Cuar\u00f3n",
     "cast": [
       "Ethan Hawke",
       "Gwyneth Paltrow",
@@ -5065,7 +5180,7 @@
       "Stephen Forsyth",
       "Dagmar Lassander",
       "Laura Betti",
-      "Jesús Puente",
+      "Jes\u00fas Puente",
       "Femi Benussi"
     ],
     "synopsis": "A madman haunted by the ghost of his ex-wife carves a corpse-laden trail.",
@@ -5107,7 +5222,7 @@
       "Monte Blue",
       "Syd Saylor"
     ],
-    "synopsis": "A cattleman hires his cousin, Dare Rudd, to head a cattle drive. However, he doesn’t bargain for Dare taking an interest in his girlfriend or losing his money to card sharks",
+    "synopsis": "A cattleman hires his cousin, Dare Rudd, to head a cattle drive. However, he doesn\u2019t bargain for Dare taking an interest in his girlfriend or losing his money to card sharks",
     "studio": "Paramount Pictures",
     "tags": {}
   },
@@ -5249,7 +5364,7 @@
       "Gene Lockhart",
       "Porter Hall"
     ],
-    "synopsis": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper’s star reporter, who also happens to be his estranged wife. She’s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can’t resist a juicy scoop.",
+    "synopsis": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper\u2019s star reporter, who also happens to be his estranged wife. She\u2019s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can\u2019t resist a juicy scoop.",
     "studio": "Columbia Pictures",
     "tags": {}
   },
@@ -5262,7 +5377,7 @@
       "adventure",
       "comedy"
     ],
-    "director": "Nick Grindé",
+    "director": "Nick Grind\u00e9",
     "cast": [
       "Ward Bond",
       "Dorothy Tree",
@@ -5313,7 +5428,7 @@
       "Earl Dwire",
       "Charles King"
     ],
-    "synopsis": "When he swaps horses with the Tombstone Kid — a wrongly accused man on the run from the law — singing cowboy Tex Randall gets arrested by the local sheriff in a case of mistaken identity.",
+    "synopsis": "When he swaps horses with the Tombstone Kid \u2014 a wrongly accused man on the run from the law \u2014 singing cowboy Tex Randall gets arrested by the local sheriff in a case of mistaken identity.",
     "studio": "Boots and Saddles Pictures",
     "tags": {}
   },
@@ -5374,7 +5489,7 @@
       "Rod McCullough",
       "William Duff-Griffin"
     ],
-    "synopsis": "Billy, a streetwise kid from New York City, is sent to Nebraska and is taken in by a Swedish farm family, the Andersons. Initially fearful and resentful, Billy doesn’t fit in, and he clashes with his new family and adoptive father (Frank Converse). Not until a terrible crisis occurs does Billy realize that, for the first time in his life, he truly belongs and is Home At Last.",
+    "synopsis": "Billy, a streetwise kid from New York City, is sent to Nebraska and is taken in by a Swedish farm family, the Andersons. Initially fearful and resentful, Billy doesn\u2019t fit in, and he clashes with his new family and adoptive father (Frank Converse). Not until a terrible crisis occurs does Billy realize that, for the first time in his life, he truly belongs and is Home At Last.",
     "studio": "WonderWorks",
     "tags": {}
   },
@@ -5448,7 +5563,7 @@
     "director": "Kevin Asher Green",
     "cast": [
       "Paz de la Huerta",
-      "Isaach de Bankolé",
+      "Isaach de Bankol\u00e9",
       "Evan Neumann",
       "Matthew Bralow",
       "Ann Dowd"
@@ -5675,7 +5790,7 @@
       "Alan Marshal",
       "Carolyn Craig"
     ],
-    "synopsis": "Frederick Loren invites five strangers to the party of a lifetime and offers each of them $10,000 if they can stay the night in the reportedly haunted house. Armed with a gun for protection, each guest arrives in a hearse and will either leave in it much richer…Or dead.",
+    "synopsis": "Frederick Loren invites five strangers to the party of a lifetime and offers each of them $10,000 if they can stay the night in the reportedly haunted house. Armed with a gun for protection, each guest arrives in a hearse and will either leave in it much richer\u2026Or dead.",
     "studio": "William Castle Productions",
     "tags": {}
   },
@@ -5815,7 +5930,7 @@
       "Bruce McGuire",
       "Stefano Antonucci"
     ],
-    "synopsis": "An American diplomat's wife meets an Italian vintner at an embassy soirée. He sees her as more than just her \"husband's hostess\". Her husband has been so focused on advancing his career that he has forgotten how to see her as a woman, which the Italian reminds her that she is.",
+    "synopsis": "An American diplomat's wife meets an Italian vintner at an embassy soir\u00e9e. He sees her as more than just her \"husband's hostess\". Her husband has been so focused on advancing his career that he has forgotten how to see her as a woman, which the Italian reminds her that she is.",
     "studio": "Lifetime",
     "tags": {}
   },
@@ -5914,7 +6029,7 @@
       "Wally Patch",
       "Steven Geray"
     ],
-    "synopsis": "When a landlady finds one of her tenants murdered, Inspector Hornleigh is sent to investigate. Inspector Hornleigh's assistant, Sergeant Bingham, soon finds an attaché case that had been stolen from the murdered man. When Hornleigh examines the case, inside it he finds a bag that was used to carry important government documents. The documents have been taken, and to make things even more confusing, a duplicate of the stolen bag soon turns up.",
+    "synopsis": "When a landlady finds one of her tenants murdered, Inspector Hornleigh is sent to investigate. Inspector Hornleigh's assistant, Sergeant Bingham, soon finds an attach\u00e9 case that had been stolen from the murdered man. When Hornleigh examines the case, inside it he finds a bag that was used to carry important government documents. The documents have been taken, and to make things even more confusing, a duplicate of the stolen bag soon turns up.",
     "studio": "Twentieth Century Productions",
     "tags": {}
   },
@@ -6073,7 +6188,7 @@
       "comedy",
       "romance"
     ],
-    "director": "René Clair",
+    "director": "Ren\u00e9 Clair",
     "cast": [
       "Dick Powell",
       "Linda Darnell",
@@ -6396,11 +6511,11 @@
     ],
     "director": "Peter Keglevic",
     "cast": [
-      "Jürgen Prochnow",
+      "J\u00fcrgen Prochnow",
       "Patsy Kensit",
       "Elizabeth Hurley",
       "Franz Buchrieser",
-      "Grażyna Szapołowska"
+      "Gra\u017cyna Szapo\u0142owska"
     ],
     "synopsis": "Two British beauties go to Barbados with a yacht captain who does not know what he's in for.",
     "studio": "Rialto Film",
@@ -6599,8 +6714,8 @@
     "director": "Christophe Gans",
     "cast": [
       "Vincent Cassel",
-      "Léa Seydoux",
-      "André Dussollier",
+      "L\u00e9a Seydoux",
+      "Andr\u00e9 Dussollier",
       "Eduardo Noriega",
       "Myriam Charleins"
     ],
@@ -6620,9 +6735,9 @@
     "cast": [
       "Joseph Cotten",
       "Rosalba Neri",
-      "Paul Müller",
+      "Paul M\u00fcller",
       "Herbert Fux",
-      "Renate Kasché"
+      "Renate Kasch\u00e9"
     ],
     "synopsis": "When Dr. Frankenstein is killed by a monster he created, his daughter and his lab assistant continue his experiments.",
     "studio": "Condor International Productions",
@@ -6760,10 +6875,10 @@
     "genres": [
       "drama"
     ],
-    "director": "Maria Sødahl",
+    "director": "Maria S\u00f8dahl",
     "cast": [
       "Esben Smed",
-      "Danica Ćurčić",
+      "Danica \u0106ur\u010di\u0107",
       "Sif Lucca Gersby",
       "Chili Olivia Jensen",
       "Antonio Estrada"
@@ -6841,8 +6956,8 @@
     "director": "Eduard von Borsody",
     "cast": [
       "Marion Michael",
-      "Hardy Krüger",
-      "Irène Galter",
+      "Hardy Kr\u00fcger",
+      "Ir\u00e8ne Galter",
       "Peter Mosbacher",
       "Rudolf Forster"
     ],
@@ -6944,7 +7059,7 @@
     "cast": [
       "Greg Kinnear",
       "Jennifer Ehle",
-      "Paulina García",
+      "Paulina Garc\u00eda",
       "Michael Barbieri",
       "Theo Taplitz"
     ],
@@ -7025,7 +7140,7 @@
     "cast": [
       "Michael Landon",
       "Laura Gemser",
-      "Jürgen Prochnow",
+      "J\u00fcrgen Prochnow",
       "Edward Woodward",
       "Priscilla Presley"
     ],
@@ -7067,7 +7182,7 @@
       "Melvil Poupaud",
       "Sylvie Testud",
       "Alexandra Lamy",
-      "Michaël Youn"
+      "Micha\u00ebl Youn"
     ],
     "synopsis": "Fearless gunslinger, Lucky Luke, is ordered by the President to bring peace to Daisy Town.",
     "studio": "Angoa-Agicoa",
@@ -7190,7 +7305,7 @@
       "Stefanie Powers",
       "Jack Kruschen"
     ],
-    "synopsis": "Aging rancher and self-made man, George Washington McLintock is forced to deal with numerous personal and professional problems. Seemingly everyone wants a piece of his enormous farmstead, including high-ranking government men and nearby Native Americans. As McLintock tries to juggle his various adversaries, his wife—who left him two years previously—suddenly returns. But she isn't interested in George; she wants custody of their daughter.",
+    "synopsis": "Aging rancher and self-made man, George Washington McLintock is forced to deal with numerous personal and professional problems. Seemingly everyone wants a piece of his enormous farmstead, including high-ranking government men and nearby Native Americans. As McLintock tries to juggle his various adversaries, his wife\u2014who left him two years previously\u2014suddenly returns. But she isn't interested in George; she wants custody of their daughter.",
     "studio": "United Artists",
     "tags": {}
   },
@@ -7325,7 +7440,7 @@
     ],
     "director": "Fritz Lang",
     "cast": [
-      "Gustav Fröhlich",
+      "Gustav Fr\u00f6hlich",
       "Brigitte Helm",
       "Alfred Abel",
       "Rudolf Klein-Rogge",
@@ -7618,11 +7733,11 @@
       "Dean Jones",
       "Philippe Leroy",
       "Gastone Moschin",
-      "Ingeborg Schöner",
+      "Ingeborg Sch\u00f6ner",
       "Rafael Alonso"
     ],
     "synopsis": "A superhero becomes invisible after he swallows an Indian potion.",
-    "studio": "Producciones Cinematográficas D.I.A.",
+    "studio": "Producciones Cinematogr\u00e1ficas D.I.A.",
     "tags": {}
   },
   {
@@ -7826,7 +7941,7 @@
       "Wanda Hendrix",
       "Robert Preston",
       "Robert Stack",
-      "José Torvay"
+      "Jos\u00e9 Torvay"
     ],
     "synopsis": "Danny, a greenhorn from New York comes to the Mexican border in search for his older brother whom he has always looked up to. A Texas Ranger charged with bringing  in, El Tigre and his gang of bandits,  takes Danny under his wing.",
     "studio": "Benedict Bogeans Production",
@@ -7904,9 +8019,9 @@
     "director": "Mario Caiano",
     "cast": [
       "Barbara Steele",
-      "Paul Müller",
-      "Helga Liné",
-      "Marino Masé",
+      "Paul M\u00fcller",
+      "Helga Lin\u00e9",
+      "Marino Mas\u00e9",
       "Giuseppe Addobbati"
     ],
     "synopsis": "A sadistic count tortures and murders his unfaithful wife and her lover, then removes their hearts from their bodies. Years later, the count remarries and the new wife experiences nightmares and hauntings.",
@@ -7964,7 +8079,7 @@
     "director": "Tonino Ricci",
     "cast": [
       "Treat Williams",
-      "Janet Ågren",
+      "Janet \u00c5gren",
       "Antonio Fargas",
       "John Steiner",
       "Stelio Candelli"
@@ -8126,7 +8241,7 @@
     "cast": [
       "Lily-Rose Depp",
       "Nicholas Hoult",
-      "Bill Skarsgård",
+      "Bill Skarsg\u00e5rd",
       "Aaron Taylor-Johnson",
       "Willem Dafoe"
     ],
@@ -8309,7 +8424,7 @@
       "Chase Sui Wonders",
       "Hank Azaria"
     ],
-    "synopsis": "After spending time in prison following an assault charge, Connor Bates now works in a library and spends his free time running, swimming, and trying to piece his world back together. When he meets Marilyn Chambers, the wife of a wealthy businessman, they collide into an intense physical and emotional relationship that quickly escalates into idle talk about her husband’s murder.",
+    "synopsis": "After spending time in prison following an assault charge, Connor Bates now works in a library and spends his free time running, swimming, and trying to piece his world back together. When he meets Marilyn Chambers, the wife of a wealthy businessman, they collide into an intense physical and emotional relationship that quickly escalates into idle talk about her husband\u2019s murder.",
     "studio": "BondIt Media Capital",
     "tags": {}
   },
@@ -8340,12 +8455,12 @@
     "genres": [
       "western"
     ],
-    "director": "Eugenio Martín",
+    "director": "Eugenio Mart\u00edn",
     "cast": [
       "Telly Savalas",
       "Clint Walker",
-      "José María Prada",
-      "Ángel del Pozo",
+      "Jos\u00e9 Mar\u00eda Prada",
+      "\u00c1ngel del Pozo",
       "Anne Francis"
     ],
     "synopsis": "In 1916, during the Mexican Revolution, General Pancho Villa manages to escape from the clutches of General Goyo, his greatest enemy, only to face an even greater problem when he meets McDermott, a mysterious adventurer who promises to get him weapons and ammunition for his troops.",
@@ -8599,7 +8714,7 @@
     "cast": [
       "William Kerwin",
       "Jean Christopher",
-      "Andrée Champagne",
+      "Andr\u00e9e Champagne",
       "Neil Sedaka",
       "Mary Lou Collier"
     ],
@@ -8609,7 +8724,7 @@
   },
   {
     "id": "artiflix-poco-little-dog-lost",
-    "title": "Poco… Little Dog Lost",
+    "title": "Poco\u2026 Little Dog Lost",
     "year": 1977,
     "genres": [
       "drama",
@@ -8736,7 +8851,7 @@
       "crime",
       "drama"
     ],
-    "director": "László Benedek",
+    "director": "L\u00e1szl\u00f3 Benedek",
     "cast": [
       "Scott Brady",
       "Richard Rober",
@@ -8881,7 +8996,7 @@
     "cast": [
       "Gesine Cukrowski",
       "Mario Adorf",
-      "Steffen Jürgens",
+      "Steffen J\u00fcrgens",
       "Artus-Maria Matthiessen",
       "Marlene Morreis"
     ],
@@ -8983,7 +9098,7 @@
       "J. Carrol Naish",
       "Edgar Buchanan"
     ],
-    "synopsis": "In this film's version of the story, four of the Reno Brothers are corrupt robbers and killers while a fifth, Clint is a respected Indiana farmer. A sister, Laura, who has inherited the family home, serves the outlaw brothers as a housekeeper and cook. One brother is killed when they go after a bank, the men of the town appear to have been waiting for them…",
+    "synopsis": "In this film's version of the story, four of the Reno Brothers are corrupt robbers and killers while a fifth, Clint is a respected Indiana farmer. A sister, Laura, who has inherited the family home, serves the outlaw brothers as a housekeeper and cook. One brother is killed when they go after a bank, the men of the town appear to have been waiting for them\u2026",
     "studio": "Nat Holt Productions",
     "tags": {}
   },
@@ -9041,7 +9156,7 @@
       "Earl Dwire",
       "Artie Ortego"
     ],
-    "synopsis": "Bandits lead by Matt the Mute enter a bar and kill multiple people. Randy Bowers comes to town and is framed by Matt the Mute, who is working with the sheriff (who doesn't know Matt is really a criminal). Randy escapes with the help of the niece of the dead owner of the bar. Bowers ends up running from the sheriff, and ends up in the cave in which the bandits have their hide-out…",
+    "synopsis": "Bandits lead by Matt the Mute enter a bar and kill multiple people. Randy Bowers comes to town and is framed by Matt the Mute, who is working with the sheriff (who doesn't know Matt is really a criminal). Randy escapes with the help of the niece of the dead owner of the bar. Bowers ends up running from the sheriff, and ends up in the cave in which the bandits have their hide-out\u2026",
     "studio": "Lone Star",
     "tags": {}
   },
@@ -9140,7 +9255,7 @@
     "director": "Shigehiro Ozawa",
     "cast": [
       "Sonny Chiba",
-      "Yōko Ichiji",
+      "Y\u014dko Ichiji",
       "Hiroshi Tanaka",
       "Masashi Ishibashi",
       "Claude Gagnon"
@@ -9162,7 +9277,7 @@
     "director": "George McCowan",
     "cast": [
       "Ricardo Montalban",
-      "Hervé Villechaize",
+      "Herv\u00e9 Villechaize",
       "Adrienne Barbeau",
       "Horst Buchholz",
       "Joseph Campanella"
@@ -9209,7 +9324,7 @@
       "Betty Amann",
       "Elsie Randolph"
     ],
-    "synopsis": "After receiving an advance inheritance, a bored London couple set off on a world cruise hoping to rejuvenate their marriage and escape their dull routine. But newfound wealth and freedom only expose deeper cracks in their relationship, as each becomes infatuated with someone else. Their journey through exotic ports and mounting disillusionment ultimately brings them face to face with the fragility—and resilience—of love.",
+    "synopsis": "After receiving an advance inheritance, a bored London couple set off on a world cruise hoping to rejuvenate their marriage and escape their dull routine. But newfound wealth and freedom only expose deeper cracks in their relationship, as each becomes infatuated with someone else. Their journey through exotic ports and mounting disillusionment ultimately brings them face to face with the fragility\u2014and resilience\u2014of love.",
     "studio": "British International Pictures",
     "tags": {}
   },
@@ -9513,7 +9628,7 @@
       "Terrence Howard",
       "Joe Manganiello"
     ],
-    "synopsis": "John 'Breacher' Wharton leads an elite DEA task force that takes on the world's deadliest drug cartels. When the team successfully executes a high-stakes raid on a cartel safe house, they think their work is done – until, one-by-one, the team members mysteriously start to be eliminated. As the body count rises, everyone is a suspect.",
+    "synopsis": "John 'Breacher' Wharton leads an elite DEA task force that takes on the world's deadliest drug cartels. When the team successfully executes a high-stakes raid on a cartel safe house, they think their work is done \u2013 until, one-by-one, the team members mysteriously start to be eliminated. As the body count rises, everyone is a suspect.",
     "studio": "Open Road Films",
     "tags": {}
   },
@@ -9526,14 +9641,14 @@
     ],
     "director": "Juliano Ribeiro Salgado, Wim Wenders",
     "cast": [
-      "Sebastião Salgado",
+      "Sebasti\u00e3o Salgado",
       "Wim Wenders",
       "Juliano Ribeiro Salgado",
       "Hugo Barbier",
-      "Lélia Wanick Salgado"
+      "L\u00e9lia Wanick Salgado"
     ],
-    "synopsis": "During the last forty years, the photographer Sebastião Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus… He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
-    "studio": "Secretaria de Estado de Cultura do Espírito Santo",
+    "synopsis": "During the last forty years, the photographer Sebasti\u00e3o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus\u2026 He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
+    "studio": "Secretaria de Estado de Cultura do Esp\u00edrito Santo",
     "tags": {}
   },
   {
@@ -9614,7 +9729,7 @@
       "Bill McCutcheon",
       "Victor Stiles"
     ],
-    "synopsis": "Martians fear their children have become lazy and joyless due to their newfound obsession with Earth TV shows. After ancient Martian leader Chochem suggests that the children of Mars need more fun—including their own Santa Claus—supreme leader Lord Kimar assembles an expedition to Earth. Once there, they kidnap two children who lead them to the North Pole, then capture the real Santa Claus, taking all three back to Mars in an attempt to bring the Martian children happiness.",
+    "synopsis": "Martians fear their children have become lazy and joyless due to their newfound obsession with Earth TV shows. After ancient Martian leader Chochem suggests that the children of Mars need more fun\u2014including their own Santa Claus\u2014supreme leader Lord Kimar assembles an expedition to Earth. Once there, they kidnap two children who lead them to the North Pole, then capture the real Santa Claus, taking all three back to Mars in an attempt to bring the Martian children happiness.",
     "studio": "Jalor Productions",
     "tags": {}
   },
@@ -9726,13 +9841,13 @@
       "drama",
       "crime"
     ],
-    "director": "Kleber Mendonça Filho",
+    "director": "Kleber Mendon\u00e7a Filho",
     "cast": [
       "Wagner Moura",
       "Alice Carvalho",
       "Gabriel Leone",
-      "Isabél Zuaa",
-      "Maria Fernanda Cândido"
+      "Isab\u00e9l Zuaa",
+      "Maria Fernanda C\u00e2ndido"
     ],
     "synopsis": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. Hoping to reunite with his son, he travels to Recife during Carnival but soon realizes that the city is not the safe haven he was expecting.",
     "studio": "Lemming Film",
@@ -10016,7 +10131,7 @@
     "cast": [
       "Etsuko Shihomi",
       "Emi Hayakawa",
-      "Sanae Ôhori",
+      "Sanae \u00d4hori",
       "Xie Xiuyong",
       "Hideo Kosuge"
     ],
@@ -10292,7 +10407,7 @@
       "Harvey Keitel",
       "Fernando Rey",
       "Maria Lamor",
-      "José Vivó"
+      "Jos\u00e9 Viv\u00f3"
     ],
     "synopsis": "A medieval alchemist (Klaus Kinski), knight (Harvey Keitel) and priest (Fernando Rey) mistake a flying-saucer alien for a dragon.",
     "studio": "Salamandra Producciones",
@@ -10402,9 +10517,9 @@
     "genres": [
       "drama"
     ],
-    "director": "Rolf Hädrich",
+    "director": "Rolf H\u00e4drich",
     "cast": [
-      "José Ferrer",
+      "Jos\u00e9 Ferrer",
       "Nicole Courcel",
       "Arthur Brauss",
       "Sieghardt Rupp",
@@ -10469,7 +10584,7 @@
       "Fay Compton",
       "Frank Vosper"
     ],
-    "synopsis": "In Vienna, aspiring composer Johann Strauss Jr. clashes with his domineering father, who wants him to abandon music for a steady job in a bakery. Torn between his love for the baker’s daughter, Resi, and the encouragement of a wealthy countess, Strauss finds inspiration that leads to the creation of \"The Blue Danube.\"",
+    "synopsis": "In Vienna, aspiring composer Johann Strauss Jr. clashes with his domineering father, who wants him to abandon music for a steady job in a bakery. Torn between his love for the baker\u2019s daughter, Resi, and the encouragement of a wealthy countess, Strauss finds inspiration that leads to the creation of \"The Blue Danube.\"",
     "studio": "Gaumont-British Picture Corporation",
     "tags": {}
   },
@@ -10482,12 +10597,12 @@
       "action",
       "crime"
     ],
-    "director": "Cédric Jimenez",
+    "director": "C\u00e9dric Jimenez",
     "cast": [
       "Gilles Lellouche",
-      "François Civil",
+      "Fran\u00e7ois Civil",
       "Karim Leklou",
-      "Adèle Exarchopoulos",
+      "Ad\u00e8le Exarchopoulos",
       "Cyril Lecomte"
     ],
     "synopsis": "Tired of the small-time grind, three Marseille cops get a chance to bust a major drug network. But lines blur when a key informant makes a big ask.",
@@ -10506,7 +10621,7 @@
       "Jessica Harper",
       "Stefania Casini",
       "Flavio Bucci",
-      "Miguel Bosé",
+      "Miguel Bos\u00e9",
       "Barbara Magnolfi"
     ],
     "synopsis": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
@@ -10786,11 +10901,11 @@
     "cast": [
       "Romain Duris",
       "Paul Kircher",
-      "Adèle Exarchopoulos",
+      "Ad\u00e8le Exarchopoulos",
       "Tom Mercier",
       "Billie Blain"
     ],
-    "synopsis": "In a world hit by a wave of mutations transforming humans into animals, François does everything he can to save his wife. As some of the creatures disappear into a nearby forest, he and their son Émile embark on a quest that will change their lives forever.",
+    "synopsis": "In a world hit by a wave of mutations transforming humans into animals, Fran\u00e7ois does everything he can to save his wife. As some of the creatures disappear into a nearby forest, he and their son \u00c9mile embark on a quest that will change their lives forever.",
     "studio": "StudioCanal",
     "tags": {}
   },
@@ -10991,7 +11106,7 @@
       "Montgomery Clift",
       "Paul Douglas",
       "Cornell Borchers",
-      "Bruni Löbel",
+      "Bruni L\u00f6bel",
       "O.E. Hasse"
     ],
     "synopsis": "The Berlin Air Lift from the point of view of two Air Force NCOs who navigate romance in a bombed out post WW2 Germany.",
@@ -11028,15 +11143,15 @@
       "thriller",
       "mystery"
     ],
-    "director": "Manuel Sanabria, Joaquín Llamas",
+    "director": "Manuel Sanabria, Joaqu\u00edn Llamas",
     "cast": [
       "Alejo Sauras",
       "Maggie Civantos",
-      "Natalia Rodríguez",
+      "Natalia Rodr\u00edguez",
       "Martin Urrutia",
       "Aitziber Luma"
     ],
-    "synopsis": "Unai López de Ayala must immerse himself in the world of art collecting and forgery in order to find the legendary Black Book of Hours and save his mother, whom he had long believed to be dead",
+    "synopsis": "Unai L\u00f3pez de Ayala must immerse himself in the world of art collecting and forgery in order to find the legendary Black Book of Hours and save his mother, whom he had long believed to be dead",
     "studio": "Isla Audiovisual",
     "tags": {}
   },
@@ -11295,11 +11410,11 @@
     "cast": [
       "Werner Krauss",
       "Conrad Veidt",
-      "Friedrich Fehér",
+      "Friedrich Feh\u00e9r",
       "Lil Dagover",
       "Hans Heinrich von Twardowski"
     ],
-    "synopsis": "Francis, a young man, recalls in his memory the horrible experiences he and his fiancée Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-like sleep.",
+    "synopsis": "Francis, a young man, recalls in his memory the horrible experiences he and his fianc\u00e9e Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-like sleep.",
     "studio": "Decla Film Gesellschaft Holz & Co.",
     "tags": {}
   },
@@ -11338,7 +11453,7 @@
       "Rodney Rowland",
       "Annie Monroe"
     ],
-    "synopsis": "A group of scientists perform an unethical experiment bending both space and time –in the process they may have not only changed their lives but also the very fabric of the universe.",
+    "synopsis": "A group of scientists perform an unethical experiment bending both space and time \u2013in the process they may have not only changed their lives but also the very fabric of the universe.",
     "studio": "Science Machine",
     "tags": {}
   },
@@ -11417,7 +11532,7 @@
     "cast": [
       "Jayne Mansfield",
       "Anthony Quayle",
-      "Carl Möhner",
+      "Carl M\u00f6hner",
       "Peter Reynolds",
       "Barbara Mullen"
     ],
@@ -11498,7 +11613,7 @@
     "cast": [
       "Daniel J. Travanti",
       "Lynette Davies",
-      "Siân MacLean",
+      "Si\u00e2n MacLean",
       "Patrick Loomer",
       "Eric Wyn"
     ],
@@ -11561,7 +11676,7 @@
     "cast": [
       "George Segal",
       "Amanda Pays",
-      "Renée Soutendijk",
+      "Ren\u00e9e Soutendijk",
       "Warren Clarke",
       "Elizabeth Spriggs"
     ],
@@ -11809,7 +11924,7 @@
       "Strother Martin"
     ],
     "synopsis": "An ex-army officer accidentally kills a woman's son and tries to make up for it by escorting the funeral procession through dangerous Indian territory.",
-    "studio": "Pathé-America Distributing Company",
+    "studio": "Path\u00e9-America Distributing Company",
     "tags": {}
   },
   {
@@ -11875,7 +11990,7 @@
   },
   {
     "id": "artiflix-the-devils-rain",
-    "title": "The Devil’s Rain",
+    "title": "The Devil\u2019s Rain",
     "year": 1975,
     "genres": [
       "horror"
@@ -11940,7 +12055,7 @@
       "history",
       "war"
     ],
-    "director": "Volker Schlöndorff",
+    "director": "Volker Schl\u00f6ndorff",
     "cast": [
       "Mario Adorf",
       "Angela Winkler",
@@ -12066,7 +12181,7 @@
       "Vivian Prescott",
       "Francis J. Grandon"
     ],
-    "synopsis": "Like his father before him, Ralph is admitted to the Graduate Club upon completing his studies at the university. He is presented with a commemorative stein to mark the occasion. Ralph meets an artist’s model, marries her over his father’s objections, and is disowned by the old man. Eventually, he becomes a drunkard and deserts his wife and their baby, who is taken in by Ralph’s father when the young mother dies. The grandson is raised with the same advantages as his father, graduates from the same university, and is admitted to the same club. During the festivities, Ralph stumbles by the club, is seen through the window by his son and his friends, and is brought inside. He attempts to drink from his old stein, but is shoved aside by the boy, who does not know him. The old man enters and recognizes Ralph. All three are reconciled as Ralph dies.",
+    "synopsis": "Like his father before him, Ralph is admitted to the Graduate Club upon completing his studies at the university. He is presented with a commemorative stein to mark the occasion. Ralph meets an artist\u2019s model, marries her over his father\u2019s objections, and is disowned by the old man. Eventually, he becomes a drunkard and deserts his wife and their baby, who is taken in by Ralph\u2019s father when the young mother dies. The grandson is raised with the same advantages as his father, graduates from the same university, and is admitted to the same club. During the festivities, Ralph stumbles by the club, is seen through the window by his son and his friends, and is brought inside. He attempts to drink from his old stein, but is shoved aside by the boy, who does not know him. The old man enters and recognizes Ralph. All three are reconciled as Ralph dies.",
     "studio": "American Mutoscope & Biograph",
     "tags": {}
   },
@@ -12162,7 +12277,7 @@
       "Donald Pleasence",
       "George Rose",
       "June Laverick",
-      "Renée Houston"
+      "Ren\u00e9e Houston"
     ],
     "synopsis": "Edinburgh surgeon Dr. Robert Knox requires cadavers for his research into the functioning of the human body; local ne'er-do-wells Burke and Hare find ways to provide him with fresh specimens...",
     "studio": "Triad Productions",
@@ -12547,9 +12662,9 @@
     "cast": [
       "Joseph Cotten",
       "Norma Bengell",
-      "Julián Mateos",
+      "Juli\u00e1n Mateos",
       "Gino Pernice",
-      "Ángel Aranda"
+      "\u00c1ngel Aranda"
     ],
     "synopsis": "A Southern Colonel, his three sons, and a card shark embark on an odyssey through the Southwest carrying a coffin full of stolen money with which the Colonel plans to revive the Confederacy.",
     "studio": "Alba Cinematografica",
@@ -12590,7 +12705,7 @@
       "Edmond O'Brien",
       "Frank Lovejoy",
       "William Talman",
-      "José Torvay",
+      "Jos\u00e9 Torvay",
       "Sam Hayes"
     ],
     "synopsis": "Roy and Gilbert's fishing trip takes a terrifying turn when the hitchhiker they pick up turns out to be a sociopath on the run from the law. He's killed before, and he lets the two know that as soon as they're no longer useful, he'll kill again. The two friends plot an escape, but the hitchhiker's peculiar physical affliction, an eye that never closes even when he sleeps, makes it impossible for them to tell when they can make a break for it.",
@@ -12614,7 +12729,7 @@
       "Lilli Palmer",
       "Mario Adorf"
     ],
-    "synopsis": "A man who was a confidant of Adolf Hitler dies and leaves a fortune to make amends for his Nazi past—but his son has to search the world to find it.",
+    "synopsis": "A man who was a confidant of Adolf Hitler dies and leaves a fortune to make amends for his Nazi past\u2014but his son has to search the world to find it.",
     "studio": "Thorn EMI Screen Entertainment",
     "tags": {}
   },
@@ -12629,7 +12744,7 @@
     "cast": [
       "Alec Guinness",
       "Kay Walsh",
-      "Renée Houston",
+      "Ren\u00e9e Houston",
       "Mike Morgan",
       "Robert Coote"
     ],
@@ -13019,7 +13134,7 @@
       "Susan Falcon",
       "Dave Higgins"
     ],
-    "synopsis": "After her divorce, Lili starts a relationship with Jenny, but their lives are so different…",
+    "synopsis": "After her divorce, Lili starts a relationship with Jenny, but their lives are so different\u2026",
     "studio": null,
     "tags": {}
   },
@@ -13560,7 +13675,7 @@
       "Vitaly Biktimirov",
       "Alexander Fadeyechev"
     ],
-    "synopsis": "On Christmas Eve, Marie is given a wooden nutcracker as a gift. When the clock strikes midnight, the Nutcracker transforms into a prince and saves Marie from the Mouse King and his army. This beloved holiday classic will enchant the whole family with its fairytale setting and Tchaikovsky’s timeless score. This live version of The Nutcracker, created for the Bolshoi by Yuri Grigorovich, is full of romanticism and philosophical reflections on ideal love.",
+    "synopsis": "On Christmas Eve, Marie is given a wooden nutcracker as a gift. When the clock strikes midnight, the Nutcracker transforms into a prince and saves Marie from the Mouse King and his army. This beloved holiday classic will enchant the whole family with its fairytale setting and Tchaikovsky\u2019s timeless score. This live version of The Nutcracker, created for the Bolshoi by Yuri Grigorovich, is full of romanticism and philosophical reflections on ideal love.",
     "studio": "Bolshoi Theatre",
     "tags": {}
   },
@@ -13700,7 +13815,7 @@
       "Clark Gable"
     ],
     "synopsis": "Western pardners Jeff and Cash find a baby boy in an otherwise deserted emigrants' camp, and clash over which is to be \"father.\" They are still bitterly feuding years later when they own adjacent ranches. Bill, the foundling whom Cash has raised to young manhood, wants to end the feud and extends an olive branch toward Jeff, who now has a lovely daughter. But during a mining venture, the bitterness escalates. Is Bill to be set against his own adoptive father?",
-    "studio": "Pathé Exchange",
+    "studio": "Path\u00e9 Exchange",
     "tags": {}
   },
   {
@@ -13820,7 +13935,7 @@
       "Stephen Boyd",
       "Yul Brynner",
       "Angie Dickinson",
-      "Georges Géret"
+      "Georges G\u00e9ret"
     ],
     "synopsis": "A special United Nations bureau organises a campaign to trace a drug-smuggling ring across Europe to its source on the Afghanistan-Iran border.",
     "studio": "Comet",
@@ -13891,12 +14006,12 @@
     "genres": [
       "western"
     ],
-    "director": "Ferde Grofé Jr.",
+    "director": "Ferde Grof\u00e9 Jr.",
     "cast": [
       "Chuck Connors",
       "Aron Kincaid",
       "Cesar Romero",
-      "José Greco",
+      "Jos\u00e9 Greco",
       "Smokey Roberds"
     ],
     "synopsis": "A group of five Confederate mercenaries led by Sergeant Will Hansen must choose sides carefully in a small village where they find themselves trapped in the middle of a rebellion. The group is torn as to whether they should honor the powerful military dictator who forces them to spy for him or help the local village fight for its independence. Follow Sergeant Hansen and his men as they make a decision that could cost them their lives.",
@@ -13920,7 +14035,7 @@
       "Kit Guard"
     ],
     "synopsis": "A dapper gangster sponsors an alcoholic violinist in order to win the love of a glamorous divorced socialite.",
-    "studio": "Pathé Exchange",
+    "studio": "Path\u00e9 Exchange",
     "tags": {}
   },
   {
@@ -13974,9 +14089,9 @@
       "Georges Sellier",
       "Vladimir Popov",
       "Paul Perey",
-      "Renée Marion"
+      "Ren\u00e9e Marion"
     ],
-    "synopsis": "A young boy discovers a stray balloon, which seems to have a mind of its own, on the streets of Paris. The two become inseparable, yet the world’s harsh realities finally interfere.",
+    "synopsis": "A young boy discovers a stray balloon, which seems to have a mind of its own, on the streets of Paris. The two become inseparable, yet the world\u2019s harsh realities finally interfere.",
     "studio": "Films Montsouris",
     "tags": {}
   },
@@ -14212,7 +14327,7 @@
       "Peter Sellers",
       "Bernard Miles"
     ],
-    "synopsis": "Jean and Bill are a married couple trying to scrape a living. Out of the blue they receive a telegram informing them Bill's long-lost uncle has died and left them his business—a cinema in the town of Sloughborough. Unfortunately they can't sell it for the fortune they hoped as they discover it is falling down and almost worthless.",
+    "synopsis": "Jean and Bill are a married couple trying to scrape a living. Out of the blue they receive a telegram informing them Bill's long-lost uncle has died and left them his business\u2014a cinema in the town of Sloughborough. Unfortunately they can't sell it for the fortune they hoped as they discover it is falling down and almost worthless.",
     "studio": "Hallmark Productions",
     "tags": {}
   },
@@ -14405,7 +14520,7 @@
     "director": "Rob Marshall",
     "cast": [
       "Johnny Depp",
-      "Penélope Cruz",
+      "Pen\u00e9lope Cruz",
       "Geoffrey Rush",
       "Ian McShane",
       "Kevin McNally"
@@ -14683,12 +14798,12 @@
     "genres": [
       "horror"
     ],
-    "director": "León Klimovsky",
+    "director": "Le\u00f3n Klimovsky",
     "cast": [
       "Paul Naschy",
       "Gaby Fuchs",
       "Patty Shepard",
-      "Andrés Resino",
+      "Andr\u00e9s Resino",
       "Barbara Capell"
     ],
     "synopsis": "Elvira is travelling through the French countryside with her friend Genevieve, searching for the lost tomb of a medieval murderess and possible vampire, Countess Wandessa. They find a likely site in the castle of Waldemar Daninsky, who invites the women to stay as long as they like. As Waldemar shows Elvira the tomb that supposedly houses the countess, she accidentally causes the vampire to come back to life, hungrier than ever. Daninsky has a hidden secret of his own, but will it be enough to save the two girls from becoming Wandessa's next victims?",
@@ -14708,7 +14823,7 @@
     "cast": [
       "Jean Hawkshaw",
       "Mary Ann Webb",
-      "Candé Gerrard",
+      "Cand\u00e9 Gerrard",
       "Adrienne Bourbeau",
       "Johnny Walsh"
     ],
@@ -14834,7 +14949,7 @@
       "Lee Frederick",
       "Katsuhiko Haida",
       "Jun Tazaki",
-      "Heihachirō Ōkawa"
+      "Heihachir\u014d \u014ckawa"
     ],
     "synopsis": "A Communist spy ring in Japan is hard at work trying to sabotage the American war effort during the Korean War, using kidnapping, murder and a disturbed former kamikaze pilot. A U.S. secret agent, posing as a reporter, is dispatched to Tokyo to put a stop to these nefarious activities.",
     "studio": "Tonichi Kogyo K.K.",
@@ -14993,7 +15108,7 @@
     "cast": [
       "Susan Hayward",
       "Robert Preston",
-      "Pedro Armendáriz",
+      "Pedro Armend\u00e1riz",
       "Lloyd Gough",
       "Chill Wills"
     ],
@@ -15013,7 +15128,7 @@
     "cast": [
       "Sophia Loren",
       "Alberto Sordi",
-      "Paul Müller",
+      "Paul M\u00fcller",
       "Nando Bruno",
       "Alberto Talegalli"
     ],
@@ -15173,7 +15288,7 @@
     "director": "Antonio Margheriti",
     "cast": [
       "Anthony Franciosa",
-      "Michèle Mercier",
+      "Mich\u00e8le Mercier",
       "Klaus Kinski",
       "Peter Carsten",
       "Silvano Tranquilli"
@@ -15299,7 +15414,7 @@
       "Robert Frazer",
       "Joseph Cawthorn"
     ],
-    "synopsis": "A wealthy landowner living in Haiti convinces a sorcerer to lure the woman he has fallen for away from her fiancé. The madman later betrays their agreement by keeping the woman for himself…as a zombie.",
+    "synopsis": "A wealthy landowner living in Haiti convinces a sorcerer to lure the woman he has fallen for away from her fianc\u00e9. The madman later betrays their agreement by keeping the woman for himself\u2026as a zombie.",
     "studio": "Victor & Edward Halperin Productions",
     "tags": {}
   },
