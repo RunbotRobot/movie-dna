@@ -16278,7 +16278,10 @@
     ],
     "synopsis": "The Real Bruce Lee is a martial arts documentary. It begins with a brief biography of Bruce Lee, and shows scenes from four of his childhood films, Bad Boy, Orphan Sam, Kid Cheung, and The Carnival, each sepia-toned and dubbed to English. Next, there is a three-minute highlight reel of Lee imitator Bruce Li. Finally, there is a feature-length film starring Lee imitator Dragon Lee, which is obviously modeled after Bruce Lee's Fist of Fury.",
     "studio": "Madison World Films",
-    "tags": {}
+    "tags": {
+      "mockumentary": 0.5,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-the-red-balloon",
@@ -16300,7 +16303,10 @@
     ],
     "synopsis": "A young boy discovers a stray balloon, which seems to have a mind of its own, on the streets of Paris. The two become inseparable, yet the world\u2019s harsh realities finally interfere.",
     "studio": "Films Montsouris",
-    "tags": {}
+    "tags": {
+      "whimsical_charm": 0.7,
+      "melancholic": 0.4
+    }
   },
   {
     "id": "artiflix-the-return-of-dracula",
@@ -16319,7 +16325,10 @@
     ],
     "synopsis": "After a vampire leaves his native Balkans, he murders a Czech artist, assumes his identity, and moves in with the dead man's American cousins.",
     "studio": "Gramercy Pictures, Inc.",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-river-niger",
@@ -16338,7 +16347,11 @@
     ],
     "synopsis": "An intimate look at life in the ghetto: Johnny Williams is a house painter who moonlights as a poet, struggling to financially and emotionally support his cancer-ridden wife Mattie. But times are tough and the poverty-troubled streets are even tougher, and it takes every ounce of Johnny's love and courage for the couple to make it through their strife, finding redemption in the River Niger.",
     "studio": "River Niger Company",
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.6,
+      "redemption_arc": 0.5,
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-runaway-bus",
@@ -16358,7 +16371,10 @@
     ],
     "synopsis": "When heavy fog prevents any flights from leaving London Airport, a group of passengers are put on a bus driven by Percy Lamb to drive to another airport. The fog is that heavy Percy doesn't know where he is going or that he is carrying stolen gold bullion that the robbers and police are relentlessly pursuing.",
     "studio": "Val Guest Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-sailor-who-fell-from-grace-with-the-sea",
@@ -16379,7 +16395,10 @@
     ],
     "synopsis": "When a widowed mother falls in love with an American sailor, her troubled young son is pressured by the bullying leader of his clique to seek revenge.",
     "studio": "Haworth Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-the-screaming-skull",
@@ -16399,7 +16418,11 @@
     ],
     "synopsis": "Constantly demeaned by his wife, Helen, after the death of their son, Dr. Luke Pratt devises a scheme to do away with her, too. But if he thinks that will silence her, he has another think coming. Now taunted by her grimacing skull, he goes slowly mad and must find a way to get rid of her... again.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.7,
+      "betrayal": 0.6,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-sea-wolf",
@@ -16419,7 +16442,11 @@
     ],
     "synopsis": "Jack London's brutal Wolf Larson brings a shipwrecked aristocrat and a con woman aboard his doomed ship, the Ghost.",
     "studio": "Andrew J. Fenady Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.5,
+      "man_vs_nature": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-second-woman",
@@ -16439,7 +16466,11 @@
     ],
     "synopsis": "In flashback from a 'Rebecca'-style beginning: Ellen Foster, visiting her aunt on the California coast, meets neighbor Jeff Cohalan and his ultramodern clifftop house. Ellen is strongly attracted to Jeff, who's being plagued by unexplainable accidents, major and minor. Bad luck, persecution...or paranoia? Warned that Jeff could be dangerous, Ellen fears that he's in danger, as the menacing atmosphere darkens.",
     "studio": "Cardinal Pictures",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "tense_dread": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-seniors",
@@ -16458,7 +16489,9 @@
     ],
     "synopsis": "Four college seniors open a bogus sex clinic, which unexpectedly mushrooms into a multi-million dollar business.",
     "studio": "Cinema Shares International Distribution",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6
+    }
   },
   {
     "id": "artiflix-the-shooting",
@@ -16479,7 +16512,10 @@
     ],
     "synopsis": "Two miners agree to guide a mysterious woman, who has appeared in their camp from nowhere, to a nearby town; but soon, because of her erratic behavior, they begin to suspect that her true purpose is quite different.",
     "studio": "Proteus Films",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-the-sign-of-the-beaver",
@@ -16498,7 +16534,10 @@
     ],
     "synopsis": "A colonial family seeks a better life in Maine's wilderness in this powerful adventure. When William Hallowell leaves behind 13-year-old son Matt to safeguard their claim, the boy relies on his new friendship with the Penobscot Indians for survival.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "found_family": 0.5,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-the-silver-horde",
@@ -16517,7 +16556,10 @@
     ],
     "synopsis": "A salmon fisherman has to choose between a bad girl and a society doll.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-smallest-show-on-earth",
@@ -16536,7 +16578,10 @@
     ],
     "synopsis": "Jean and Bill are a married couple trying to scrape a living. Out of the blue they receive a telegram informing them Bill's long-lost uncle has died and left them his business\u2014a cinema in the town of Sloughborough. Unfortunately they can't sell it for the fortune they hoped as they discover it is falling down and almost worthless.",
     "studio": "Hallmark Productions",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.6,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-snow-creature",
@@ -16556,7 +16601,10 @@
     ],
     "synopsis": "A botanical expedition to the Himalayas captures a Yeti and brings it back alive to Los Angeles, where it escapes and runs amok, seeking food.",
     "studio": "Planet Filmplays",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-son-of-monte-cristo",
@@ -16578,7 +16626,10 @@
     ],
     "synopsis": "Rightful owner of the kingdom, the Duchess of Zona, is engaged in a power struggle with the evil General Gurko. Edmond, the son of Monte Cristo, dons many disguises to come to the aid of the Duchess.",
     "studio": "Edward Small Productions",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-spirit-of-west-point",
@@ -16597,7 +16648,10 @@
     ],
     "synopsis": "The story of Doc Blanchard and Glenn Davis, two All-American football players at the U.S. Army Military Academy at West Point.",
     "studio": "Bro-Rog Pictures",
-    "tags": {}
+    "tags": {
+      "competition_tournament": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-the_star_packer",
@@ -16618,7 +16672,11 @@
     ],
     "synopsis": "John Travers and Yak, his faithful Indian sidekick, pick up where a murdered sheriff leaves off, and try to nab the mysterious Shadow.",
     "studio": "Paul Malvern Productions",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-steagle",
@@ -16637,7 +16695,10 @@
     ],
     "synopsis": "In the midst of the Cuban missile crisis, a mild-mannered professor decides to live out all of his daydreams, travelling across the country and adopting a different persona in each city.",
     "studio": "AVCO Embassy Pictures",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-the-stilwell-road",
@@ -16652,7 +16713,9 @@
     ],
     "synopsis": "Documentary about the construction of the Stilwell Road--originally called The Ledo Road--a 478-mile passage from Assam, India, to Ledo, Burma, during World War II. The road, which was built by 63,000 workers and cost $150 million, was used by the British, Chinese and Indian armies to transport supplies, troops and other essentials from India to Burma in order to keep the Japanese from overrunning the entire theater.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-stork-club",
@@ -16672,7 +16735,10 @@
     ],
     "synopsis": "After aspiring singer Judy Peabody rescues the elderly J.B. Bates from drowning, she assumes that the disheveled man is a vagrant and goes back to her job checking hats at New York City's famed Stork Club. But Bates is actually a grateful millionaire who becomes Judy's anonymous benefactor, and before long the working girl is swathed in minks and diamonds, much to the dismay of her suspicious beau.",
     "studio": "B.G. DeSylva Productions Inc.",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-strange-affair-of-uncle-harry",
@@ -16693,7 +16759,11 @@
     ],
     "synopsis": "George Sanders stars in this engrossing melodrama about a very domineering sister who holds a tight grip on her brother -- especially when he shows signs of falling in love.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-strange-love-of-martha-ivers",
@@ -16713,7 +16783,11 @@
     ],
     "synopsis": "Three childhood friends, Martha, Walter and Sam, share a terrible secret. Over time, the ambitious Martha and the pusillanimous Walter have married. She is a cold businesswoman; he is the district attorney: a perfect combination to dominate the corrupt city of Iverstown at will. But the unexpected return of Sam, after years of absence, deeply disturbs the life of the odd couple.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "betrayal": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-stranger",
@@ -16734,7 +16808,11 @@
     ],
     "synopsis": "When Jack crosses paths with a woman from his past, he's not sure if it's love...or if she's a ruthless con artist using him to find the fabled Fountain of Youth.",
     "studio": "Walt Disney Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "forbidden_knowledge": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-strangers-in-7a",
@@ -16756,7 +16834,11 @@
     ],
     "synopsis": "A building superintendent and his wife are held hostage in their apartment by a sadistic would-be bank robber and his spaced-out accomplices.",
     "studio": "Mark Carliner Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.7,
+      "tense_dread": 0.6,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-the-strangler-of-blackmoor-castle",
@@ -16777,7 +16859,11 @@
     ],
     "synopsis": "A strangler is loose on a British estate, and he not only strangles his victims but brands an \"M\" onto their foreheads before he decapitates them.",
     "studio": "Mosaik Film",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.7,
+      "gothic": 0.4,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-street-fighter",
@@ -16799,7 +16885,11 @@
     ],
     "synopsis": "Takuma Tsurugi takes on the government, the police, the mafia and an international ring of kidnappers who aim to dispossess a beautiful young heiress of her millions.",
     "studio": "Toei Company",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "criminal_mastermind": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-swap",
@@ -16819,7 +16909,10 @@
     ],
     "synopsis": "Based on the book by Megan Shull, The Swap follows the adventures of a rhythmic gymnast named Ellie with a make-it-or-break-it competition, and the younger brother named Jack in a hockey family who's vying for a varsity spot on his school team. But when a simple text causes the two to swap bodies, their paths take an unexpected cross.",
     "studio": "Original Pictures",
-    "tags": {}
+    "tags": {
+      "body_swap": 0.8,
+      "competition_tournament": 0.4
+    }
   },
   {
     "id": "artiflix-the-swiss-conspiracy",
@@ -16840,7 +16933,11 @@
     ],
     "synopsis": "A Swiss bank discovers some of its clients are becoming the victim of a brilliant blackmailer. The bank's president contacts David Christopher, a former agent with the U.S. Treasury, to help discover who the blackmailer is and to foil his plot. As Christopher delves into the mystery, he uncovers a complicated web of intrigue, car chases, and shoot-outs that takes all of his wits to unravel.",
     "studio": "Durham Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "espionage_double_cross": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-teacher",
@@ -16860,7 +16957,11 @@
     ],
     "synopsis": "18-year-old Sean's first summer after completing high school is much spent with 28-year-old teacher Diane, who's husband is too often motorcycle-racing instead of with her. Wacko Ralph also has \"the hots\" for Diane; and it doesn't help that Sean was with Ralph's younger brother, Lou, when Lou died",
     "studio": "Crown International Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "obsession": 0.4,
+      "betrayal": 0.3
+    }
   },
   {
     "id": "artiflix-the-terror-of-tiny-town",
