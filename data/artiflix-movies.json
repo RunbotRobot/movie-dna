@@ -2169,7 +2169,10 @@
     ],
     "synopsis": "A social worker tries to break up a ring of crooks who buy newborn babies from teenaged mothers and sell them to couples who can't obtain them through legal adoption channels.",
     "studio": "Ron Samuels Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-boss-of-bullion-city",
@@ -2189,7 +2192,10 @@
     ],
     "synopsis": "A lawman sets out to disrupt the operations of a crooked town boss.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-brainwaves",
@@ -2210,7 +2216,11 @@
     ],
     "synopsis": "After a traffic accident Kaylie is in coma for months and her doctors want to try a new procedure on her. To regain her consciousness, they stimulate her brain with the neural patterns of a woman who has just died. It works and Kaylie fully recovers. However, she begins to relive the dying moments of her donor and realizes that she was murdered! Along with her husband and mother, she tries to find out what happened.",
     "studio": "CinAmerica",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.5,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-brer-rabbits-christmas-carol",
@@ -2229,7 +2239,11 @@
     ],
     "synopsis": "When Brer Rabbit learns that Brer Fox is planning to evict Brer Bear on Christmas, he decides to teach the fox a lesson. Brer Rabbit gets the townspeople to stage their own version of \"A Christmas Carol\" and trick Brer Fox into thinking that the ghost of his friend, Brer Wolf, has returned. The ghost warns Brer Fox to reform his miserly ways by showing him his past, present and future Christmases. Brer Fox is so terrified by these visions he vows to change his ways, and throws a big Christmas party for the whole town.",
     "studio": "Magic Shadows",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.6,
+      "whimsical_charm": 0.5,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-bride-of-the-gorilla",
@@ -2248,7 +2262,11 @@
     ],
     "synopsis": "The owner of a plantation in the jungle marries a beautiful woman. Shortly afterward, he is plagued by a strange voodoo curse which transforms him into a gorilla. But is his transformation real or is it all in his head?",
     "studio": "Jack Broder Productions Inc.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "unreliable_narrator": 0.5,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-bride_of_the_monster",
@@ -2268,7 +2286,11 @@
     ],
     "synopsis": "Dr. Eric Vornoff, with the help of his mute assistant Lobo, captures twelve men for a grisly experiment; His goal to turn them into supermen using atomic energy. Reporter Janet Lawton, fianc\u00e9e of the local lieutenant, vows to investigate Vornoff's supposedly haunted house.",
     "studio": "Rolling M. Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-british-intelligence",
@@ -2288,7 +2310,10 @@
     ],
     "synopsis": "During WWI pretty German master spy Helene von Lorbeer is sent undercover to London to live with the family of a high-placed British official where she is to rendezvous with the butler Valdar, also a spy, and help him transmit secret war plans back to Germany.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.8,
+      "war_conflict": 0.6
+    }
   },
   {
     "id": "artiflix-brother-can-you-spare-a-dime",
@@ -2308,7 +2333,9 @@
     ],
     "synopsis": "Period music, film clips and newsreel footage combined into a visual exploration of the American entertainment industry during the Great Depression.",
     "studio": "Goodtimes Enterprises",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.5
+    }
   },
   {
     "id": "artiflix-brute-force",
@@ -2329,7 +2356,11 @@
     ],
     "synopsis": "Timeworn Joe Collins and his fellow inmates live under the heavy thumb of the sadistic, power-tripping guard Captain Munsey. Only Collins' dreams of escape keep him going, but how can he possibly bust out of Munsey's chains?",
     "studio": "Mark Hellinger Productions",
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.8,
+      "claustrophobic_tone": 0.6,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-buck-privates-come-home",
@@ -2350,7 +2381,11 @@
     ],
     "synopsis": "Two ex-soldiers return from overseas--one of them having smuggled into the country a French orphan girl he has become attached to. They wind up running into their old sergeant--who hates them--and getting involved with a race-car builder who's trying to find backers for a new midget racer he's building.",
     "studio": "Universal International Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "wholesome_family": 0.4,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-bulldog-courage",
@@ -2369,7 +2404,10 @@
     ],
     "synopsis": "A miner who was swindled out of his mine by a banker turns to robbing stagecoaches. Several years after he is tracked down and killed, his son comes to town to tangle with the banker.",
     "studio": "Excelsior Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-bulldog-drummond-comes-back",
@@ -2391,7 +2429,10 @@
     ],
     "synopsis": "Drummond's girlfriend is kidnapped by his enemies and he along with his friend Nielsen, an inspector from Scotland Yard, follow the trail and try to rescue her from the kidnappers.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-bulldog-drummond-escapes",
@@ -2413,7 +2454,11 @@
     ],
     "synopsis": "Drummond manages to save a woman from jumping in front of his car but she runs away with his car. He traces her and she asks him to help her out of a dangerous situation.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "romantic_tone": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-bulldog-drummonds-bride",
@@ -2433,7 +2478,10 @@
     ],
     "synopsis": "Hugh \u201cBulldog\u201d Drummond is on the precipice of matrimony to his beloved Phyllis -- but a bank robbery and a daring escape is going to get in their way before they reach the altar.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-bulldog-drummonds-secret-police",
@@ -2453,7 +2501,11 @@
     ],
     "synopsis": "Captain Drummond and his girlfriend want to marry but a hidden treasure in the house in which they want to celebrate their marriage is complicating the situation involving a series of deaths and an elusive murderer.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "forbidden_knowledge": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-bummer",
@@ -2474,7 +2526,10 @@
     ],
     "synopsis": "The manager of a rock band fires the drunken, psycho bass player, who goes on a rape and murder spree.",
     "studio": "Entertainment Ventures (EVI)",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.6,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-buried-alive",
@@ -2494,7 +2549,12 @@
     ],
     "synopsis": "A young woman goes to teach at the Ravenscroft Institute, a spooky old girls' school overrun by ants and staffed by some unusual types. Spurred on by a series of horrific hallucinations, she begins to investigate the mysterious disappearances of several students.",
     "studio": "Breton Film Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "gothic": 0.5,
+      "dreamlike_surreal": 0.4,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-bye-bye-baby",
@@ -2515,7 +2575,10 @@
     ],
     "synopsis": "Exploring the often hilarious world of a young Jewish lad conscript and how he survives the Russians, the Royal Navy and the relationship with his girl back home \u2013 all the while aided and abetted by the most famous sex symbol the world has ever known.",
     "studio": "Paravision Production",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-caged-fury",
@@ -2534,7 +2597,11 @@
     ],
     "synopsis": "Kat arrives in Los Angeles to audition for movies. However, after meeting a sleazy producer, she and her new friend find themselves in a women's prison run by sadistic guards and a lesbian warden.",
     "studio": "21st Century Film Corporation",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "escape_plot": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-call-it-murder",
@@ -2556,7 +2623,11 @@
     ],
     "synopsis": "The wife of an executive finds her husband shot to death and destroys his suicide note in order to claim his insurance.",
     "studio": "Unicorn Film",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "unreliable_narrator": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-can-you-hear-the-laughter-the-story-of-freddie-prinze",
@@ -2576,7 +2647,10 @@
     ],
     "synopsis": "The true and tragic story of a very young and very talented comedian from the 70's whose sudden rise to fame had some of its benefits -- and some of its burdens.",
     "studio": "Roger Gimbel Productions",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.4,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-captain-scarlett",
@@ -2596,7 +2670,11 @@
     ],
     "synopsis": "Captain Scarlett rescues Princess Maria from being abducted while travelling. She's not exactly grateful. He finds out that she is to be married to a man she doesn't like, so Captain Scarlet attempts to help her but winds up in prison for his efforts. He escapes and finally helps the reluctant bride who winds up joining Captain Scarlett and his sidekick and they become something along the lines of the three musketeers.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "escape_plot": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-career-girl",
@@ -2615,7 +2693,9 @@
     ],
     "synopsis": "Young attractive blonde arrives in Hollywood looking for a career in the movies.",
     "studio": "Woodburn Productions",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-carnival-story",
@@ -2634,7 +2714,10 @@
     ],
     "synopsis": "In search of a better life, a German girl named Willi joins an American carnival passing through Munich. While traveling from town to town, she is torn between two suitors: cruel carnival barker Joe and kindhearted high-dive artist Frank. Frank gets the upper hand when he asks Willi to join his act. The partners soon become the most popular attraction at the carnival. But tragedy is only a slip away.",
     "studio": "Westia Film",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "romantic_tone": 0.6
+    }
   },
   {
     "id": "artiflix-car-of-dreams",
@@ -2653,7 +2736,10 @@
     ],
     "synopsis": "Produced by the highly acclaimed Michael Balcon, the story revolves around Robert, the son of the owner of  a musical instrument factory. He is in love with Vera, one of the factory workers, who is unaware of his position. So when she jokes one day that she would love a Rolls-Royce, Robert makes sure that she gets one. Then he decides to raise her salary out of all proportion to hint at who he is...",
     "studio": "Gaumont-British Picture Corporation",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.5,
+      "romantic_tone": 0.6
+    }
   },
   {
     "id": "artiflix-casablanca-express",
@@ -2674,7 +2760,10 @@
     ],
     "synopsis": "It is 1942 and the conflict between the U.S. and Germany is getting heated, U.S. Intelligence soon discovers that the Natzis are planning to capture Winston Churchill.  In order to protect him they send commando Al Cooper to guard Churchill who is going by train to Casablanca where he will meet with Roosevelt and Stalin.",
     "studio": "Dania Film",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6,
+      "war_conflict": 0.6
+    }
   },
   {
     "id": "artiflix-castle-in-the-air",
@@ -2693,7 +2782,11 @@
     ],
     "synopsis": "The owner of a Scottish castle discovers that it is haunted by the spirit of a beautiful woman. He decides to use the ghost as a tourist attraction for his castle",
     "studio": "Hallmark Productions",
-    "tags": {}
+    "tags": {
+      "whimsical_charm": 0.5,
+      "gothic": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-cat-women-of-the-moon",
@@ -2712,7 +2805,11 @@
     ],
     "synopsis": "Astronauts travel to the moon where they discover it is inhabited by attractive young women in black tights.",
     "studio": "Z-M Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.4,
+      "absurdist": 0.5,
+      "high_camp": 0.5
+    }
   },
   {
     "id": "artiflix-cause-for-alarm",
@@ -2733,7 +2830,12 @@
     ],
     "synopsis": "A bedridden and gravely ill man believes his wife and doctor are conspiring to kill him, and outlines his suspicions in a letter.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "betrayal": 0.5,
+      "epistolary": 0.5,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-cavalcade-of-the-west",
@@ -2754,7 +2856,9 @@
     ],
     "synopsis": "Two brothers are separated when young. One becomes the pony express rider Clint Knox and the other the outlaw Ace Carter.",
     "studio": "Walter Futter Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6
+    }
   },
   {
     "id": "artiflix-chained-for-life",
