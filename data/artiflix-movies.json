@@ -8535,7 +8535,10 @@
     ],
     "synopsis": "A virus from outer space transforms a bio-researcher into a blood thirsty monster. But chief, Dr.Vialini doesn't like the cops and public to be involved in this secret experiment. But he becomes lunch very soon.",
     "studio": "Trimark Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-metropolis",
@@ -8555,7 +8558,12 @@
     ],
     "synopsis": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
     "studio": "UFA",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.8,
+      "prophecy_fulfillment": 0.6,
+      "epic_scale": 0.6,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-midnight-at-madame-tussauds",
@@ -8576,7 +8584,11 @@
     ],
     "synopsis": "Explorer Sir Clive bets that he can spend the night alone in Madame Tussauds Chamber of Horrors. Meanwhile, crooks hope to exploit his ward, Carol, for her fortune.",
     "studio": "Premier Sound Films",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.5,
+      "tense_dread": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-midnight-limited",
@@ -8597,7 +8609,10 @@
     ],
     "synopsis": "The Phantom Robber gets a fortune in jewels and some valuable papers from a robbery on the crack train \"The Midnight Limited\" and Val Lennon and his pretty assistant, Joan Marshall, are on his trail. But the Phantom strikes three more times and adds murder to his list. Val decides to use himself as bait, although Chief Harrigan and Joan beg him not to risk his life. But Val, disguised as a wealthy Canadian, boards the train for a rendezvous with a killer.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-midnight-phantom",
@@ -8616,7 +8631,11 @@
     ],
     "synopsis": "A newly hired police chief vows to clean up a notoriously corrupt police department. When he is murdered, investigators find that there is no shortage of suspects, most of them being fellow cops.",
     "studio": "Reliable Pictures Corporation (I)",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "investigation_driven": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-millions",
@@ -8638,7 +8657,9 @@
     ],
     "synopsis": "Two boys, still grieving the death of their mother, find themselves the unwitting benefactors of a bag of bank robbery loot in the week before the United Kingdom switches its official currency to the Euro. What's a kid to do?",
     "studio": "BBC Film",
-    "tags": {}
+    "tags": {
+      "real_time": 0.4
+    }
   },
   {
     "id": "artiflix-mission-to-glory",
@@ -8657,7 +8678,11 @@
     ],
     "synopsis": "Father Kino, a 17th-century Jesuit missionary, dedicated his life to helping Native Americans in the Southwest by teaching them agricultural skills as well as building missions and spreading Christianity. An explorer, astronomer and map maker, Father Kino surmounted numerous challenges as he journeyed through California, Arizona and Mexico.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.5,
+      "road_journey": 0.5,
+      "sacrifice_for_others": 0.5
+    }
   },
   {
     "id": "artiflix-miss-v-from-moscow",
@@ -8679,7 +8704,10 @@
     ],
     "synopsis": "Set in the shadows of wartime Paris, this 1940s drama directed by Albert Herman stars Lola Lane, Noel Madison and Howard Banks. When a Soviet secret agent discovers her uncanny resemblance to a dead Nazi spy, she infiltrates the enemy and works to save U.S. ships from German submarines. Assisting her on her mission are French underground agents, along with an American serving in the British armed forces.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.8,
+      "war_conflict": 0.6
+    }
   },
   {
     "id": "artiflix-mister-johnson",
@@ -8698,7 +8726,10 @@
     ],
     "synopsis": "In 1923 British Colonial Nigeria, Mister Johnson is an oddity -- an educated black man who doesn't really fit in with the natives or the British. He works for the local British magistrate, and considers himself English, though he has never been to England. He is always scheming, trying to get ahead, which lands him in a lot of hot water.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.6,
+      "class_conflict": 0.6
+    }
   },
   {
     "id": "artiflix-mitchell",
@@ -8719,7 +8750,10 @@
     ],
     "synopsis": "A tough-guy cop pursues two drug runners across the city to bust a large syndicate.  Very much an anti-hero, Mitchell often ignores the orders of his superiors and demonstrates disdain for by-the-book development work as well as normal social graces.",
     "studio": "Allied Artists Pictures",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.4,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-mob-war",
@@ -8740,7 +8774,10 @@
     ],
     "synopsis": "When the New York City police disrupt a big cocaine deal, the TV news reporters find John Falcone, a local mobster, nearby. They ask some tough questions, and Falcone decides he needs a public relations man to help burnish his image. He hires Todd Barrett, and he keeps Barrett in line with generous helpings of cocaine. Meanwhile, Falcone's unorthodox, violent, and sadistic methods get him cross-wise with Don Ricci, the boss. A mob war may break out. When Todd's wife is endangered, can the flack attack back at the racketeers?",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "betrayal": 0.6
+    }
   },
   {
     "id": "artiflix-mooch-goes-to-hollywood",
@@ -8760,7 +8797,10 @@
     ],
     "synopsis": "A dog tries to become a canine star with the help of Zsa Zsa Gabor.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-moon-of-the-wolf",
@@ -8782,7 +8822,10 @@
     ],
     "synopsis": "After several locals are viciously murdered, a Louisiana sheriff starts to suspect he may be dealing with a werewolf.",
     "studio": "Filmways Television",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-mother-riley-meets-the-vampire",
@@ -8803,7 +8846,11 @@
     ],
     "synopsis": "The legendary Bela Lugosi as \"the Vampire\" teams up with Britain's much-loved \"Mother Riley\" in this hilarious comedy adventure. The Vampire plans to control the world with the help of his robot, which accidentally gets shipped to Mother Riley. Through radar control, he contacts the robot and orders it to come to him, bringing along Mother Riley! But his life is turned upside down when he holds this most meddling of mothers captive.",
     "studio": "Fernwood Productions Inc.",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "gothic": 0.4,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-mothers-boys",
@@ -8823,7 +8870,11 @@
     ],
     "synopsis": "Sexy but unstable wife and mother Jude walked out on her family three years ago. Now, just as suddenly, she is back. But her husband, Robert, has fallen in love with Callie, an assistant principal at his sons' school. He asks Jude for a divorce. She responds by trying to turn her three boys against Callie, then by slashing herself and blaming her rival and finally by drawing her 12-year-old, Kes, into a murderous plot.",
     "studio": "Dimension Films",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "descent_into_madness": 0.6,
+      "obsession": 0.5
+    }
   },
   {
     "id": "artiflix-mr-super-invisible",
@@ -8845,7 +8896,9 @@
     ],
     "synopsis": "A superhero becomes invisible after he swallows an Indian potion.",
     "studio": "Producciones Cinematogr\u00e1ficas D.I.A.",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6
+    }
   },
   {
     "id": "artiflix-mr-wong-detective",
@@ -8866,7 +8919,10 @@
     ],
     "synopsis": "A chemical manufacturer is killed just after asking detective James Wong to help him. So detective Wong decides to investigate this as well as two subsequent murders.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "slasher_structure": 0.4
+    }
   },
   {
     "id": "artiflix-murder-by-invitation",
@@ -8887,7 +8943,11 @@
     ],
     "synopsis": "The relatives of a rich old woman unsuccessfully try to have her declared insane, so they can divide up her money. To show them that there are no hard feelings, she invites them to her estate for the weekend so she can decide to whom she actually will leave her money when she dies. Soon, however, family members begin turning up dead.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.6,
+      "investigation_driven": 0.5,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-murder-by-television",
@@ -8909,7 +8969,11 @@
     ],
     "synopsis": "James Houghland, inventor of a new method by which television signals can be instantaneously sent anywhere in the world, refuses to sell the process to television companies, who then send agents to acquire the invention any way they can. On the night of his initial broadcast Houghland is mysteriously murdered in the middle of his demonstration and it falls to Police Chief Nelson to determine who the murderer is from the many suspects present.",
     "studio": "Cameo Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.6,
+      "real_time": 0.4
+    }
   },
   {
     "id": "artiflix-murder-on-flight-502",
@@ -8930,7 +8994,11 @@
     ],
     "synopsis": "On a flight to London, a note is found stating that there will be murders taking place on the airliner before it lands.",
     "studio": "Spelling-Goldberg Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "real_time": 0.6,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-murder-story",
@@ -8952,7 +9020,11 @@
     ],
     "synopsis": "Aspiring young novelist Tony Zonis (Alexis Denisof) wants to write the next great suspense thriller, so he decides to study the work of master crime writer, Willard Hope (Christopher Lee). Together, they pick through random newspaper stories, looking for the unusual event that will make a good thriller. What they find is murder. A government cover-up... an international scandal... and the bodies are just beginning to fall into place. Now Tony isn't just writing the next best-seller... he's writing his own obituary.",
     "studio": "Elsevier-Vendex Film Beheer",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "meta_fourth_wall": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-my-boys-are-good-boys",
@@ -8972,7 +9044,9 @@
     ],
     "synopsis": "Teenagers at a correctional facility devise a plan to rob an armored van.",
     "studio": "Peter Perry Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-my-dog-shep",
@@ -8991,7 +9065,12 @@
     ],
     "synopsis": "An orphan boy on his way to live with his uncle picks up a stray dog, and the two become fast friends. However, the uncle doesn't want the dog, and when chickens are found dead, the uncle accuses the dog of killing them. The boy decides that it's time he and the dog hit the road so they run away, and meet up with an elderly man who also ran away from a home where he believed he wasn't wanted either.",
     "studio": "Golden Gate Pictures",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "found_family": 0.6,
+      "road_journey": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-my-favorite-brunette",
@@ -9012,7 +9091,11 @@
     ],
     "synopsis": "Ronnie Jackson is a lowly baby photographer who secretly fantasizes about being a private detective. When a lovely baroness actually mistakes him for one and asks him to help locate her missing husband, Baron Montay, Ronnie finds himself agreeing. Several days later he is on death row whiling away the hours until his execution by recounting to a group of reporters the bizarre tale of how he ended up there.",
     "studio": "Hope Enterprises",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.5,
+      "absurdist": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-my-man-godfrey",
@@ -9031,7 +9114,10 @@
     ],
     "synopsis": "The eccentric Bullock household again need a new butler. Daughter Irene encounters bedraggled Godfrey Godfrey at the docks and, fancying him and noticing his obviously good manners, gets him the job. He proves a great success, but keeps his past to himself. When an old flame turns up Irene's sister Cordelia starts making waves.",
     "studio": "Universal International Pictures",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-my-outlaw-brother",
@@ -9052,7 +9138,10 @@
     ],
     "synopsis": "Danny, a greenhorn from New York comes to the Mexican border in search for his older brother whom he has always looked up to. A Texas Ranger charged with bringing  in, El Tigre and his gang of bandits,  takes Danny under his wing.",
     "studio": "Benedict Bogeans Production",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.6,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-the-mysterious-mr-wong",
@@ -9072,7 +9161,11 @@
     ],
     "synopsis": "Mr. Wong is a \"harmless\" Chinatown shopkeeper by day and relentless blood-thirsty pursuer of the Twelve Coins of Confucius by night. With possession of the coins, Mr. Wong will be supreme ruler of the Chinese province of Keelat, and his evil destiny will be fulfilled. A killing spree follows in dark and dangerous Chinatown as Wong gets control of 11 of the 12 coins. Reporter Jason Barton and his girl Peg are hot on his trail, but soon find themselves in serious trouble when they stumble onto Wong's headquarters.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "investigation_driven": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-nabonga-gorilla",
@@ -9093,7 +9186,10 @@
     ],
     "synopsis": "When a treasure hunter seeks a downed airplane in the jungles of Africa, he encounters one of the passenger's young daughter, now fully grown, and with a gorilla protector.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.6,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-nancy-drew-reporter",
@@ -9114,7 +9210,10 @@
     ],
     "synopsis": "While participating in a contest at a local newspaper in which school children are asked to submit a news story, local attorney Carson Drew's daughter Nancy intercepts a real story assignment. She \"covers\" the inquest of the death of a woman who was poisoned. Nancy doesn't think the young woman accused of the crime is guilty and corrals her neighbor Ted into searching for a vital piece of evidence and stumbles onto the identity of the real killer.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "justice_vs_law": 0.5
+    }
   },
   {
     "id": "artiflix-nightmare-castle",
@@ -9133,7 +9232,11 @@
     ],
     "synopsis": "A sadistic count tortures and murders his unfaithful wife and her lover, then removes their hearts from their bodies. Years later, the count remarries and the new wife experiences nightmares and hauntings.",
     "studio": "Cinematografica Emmeci",
-    "tags": {}
+    "tags": {
+      "gothic": 0.8,
+      "betrayal": 0.6,
+      "obsession": 0.5
+    }
   },
   {
     "id": "artiflix-night-of-the-blood-beast",
