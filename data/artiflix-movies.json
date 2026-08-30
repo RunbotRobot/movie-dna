@@ -12057,7 +12057,9 @@
     ],
     "synopsis": "Mickey Mouse, piloting a steamboat, delights his passenger, Minnie Mouse, by making musical instruments out of the menagerie on deck.",
     "studio": "Walt Disney Studio",
-    "tags": {}
+    "tags": {
+      "whimsical_charm": 0.7
+    }
   },
   {
     "id": "artiflix-st-helens",
@@ -12078,7 +12080,10 @@
     ],
     "synopsis": "Centers on the events leading up to the cataclysmic 1980 eruption of Mount St. Helens in Washington, with the story beginning on the day volcanic activity started on March 20, 1980, and ending on the day of the eruption, May 18, 1980.",
     "studio": "Davis-Panzer Productions",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.7,
+      "man_vs_nature": 0.5
+    }
   },
   {
     "id": "artiflix-st-louis-blues",
@@ -12098,7 +12103,11 @@
     ],
     "synopsis": "Will Handy grows up in Memphis with his preacher father and his Aunt Hagar. His father intends for him to use his musical gifts only in church, but he can't stay away from the music of the streets and workers. After he writes a theme song for a local politician, Gogo, a speakeasy singer, convinces Will to be her accompanist. Will is estranged from his father for many years while he writes and publishes many blues songs. At last the family is reunited when Gogo brings them to New York to see Will's music played by a symphony orchestra.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.5,
+      "faith_and_doubt": 0.4,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-st-martins-lane",
@@ -12118,7 +12127,11 @@
     ],
     "synopsis": "Pickpocket Libby is protected by aging street performer Charles, who takes her into his troupe. Libby's dancing leads her to meet songwriter Harley and launch a stage career, while Charles is seemingly spurned by the waif he has helped.",
     "studio": "Mayflower Pictures",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.6,
+      "betrayal": 0.4,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-stop-train-349",
@@ -12137,7 +12150,10 @@
     ],
     "synopsis": "Cold War drama about an East German man trying to escape to the West via a U.S. military train passing through the Soviet Occupation Zone of Germany.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.7,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-storm-in-a-teacup",
@@ -12154,7 +12170,10 @@
     ],
     "synopsis": "Australian artist Leon Pericles faces his greatest challenge: holding an exhibition of his life's works while facing the mental decline of his wife and collaborator Moira, as Alzheimer's disease turns their world upside down.",
     "studio": "Artemis International",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.4,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-strangers-of-the-evening",
@@ -12175,7 +12194,10 @@
     ],
     "synopsis": "Bodies start mysteriously disappearing from the city morgue. An investigator tries to determine what is going on.",
     "studio": "Tiffany Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-strauss-great-waltz",
@@ -12196,7 +12218,11 @@
     ],
     "synopsis": "In Vienna, aspiring composer Johann Strauss Jr. clashes with his domineering father, who wants him to abandon music for a steady job in a bakery. Torn between his love for the baker\u2019s daughter, Resi, and the encouragement of a wealthy countess, Strauss finds inspiration that leads to the creation of \"The Blue Danube.\"",
     "studio": "Gaumont-British Picture Corporation",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.4,
+      "romantic_tone": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-stronghold",
@@ -12217,7 +12243,10 @@
     ],
     "synopsis": "Tired of the small-time grind, three Marseille cops get a chance to bust a major drug network. But lines blur when a key informant makes a big ask.",
     "studio": "StudioCanal",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-suspiria",
@@ -12236,7 +12265,11 @@
     ],
     "synopsis": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
     "studio": "Seda Spettacoli",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "gothic": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-swing-parade-of-1946",
@@ -12257,7 +12290,10 @@
     ],
     "synopsis": "A struggling young singer falls for a nightclub owner whose father, a millionaire, is trying to shut it down.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "rivalry_driven": 0.3
+    }
   },
   {
     "id": "artiflix-sword-of-lancelot",
@@ -12279,7 +12315,11 @@
     ],
     "synopsis": "Lancelot is King Arthur's most valued Knight of the Round Table and a paragon of courage and virtue. Things change, however, when he falls in love with Queen Guinevere.",
     "studio": "Emblem Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "betrayal": 0.5,
+      "duty_vs_desire": 0.6
+    }
   },
   {
     "id": "artiflix-target-earth",
@@ -12296,7 +12336,9 @@
     ],
     "synopsis": "Host Leonard Nimoy explores the science behind the film Armageddon.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.3
+    }
   },
   {
     "id": "artiflix-tarzan-and-the-green-goddess",
@@ -12316,7 +12358,10 @@
     ],
     "synopsis": "Tarzan retells the story of a trip to Guatemala in which the ape-man had gone to aid a friend in searching for a very valuable totem pole called the Green Goddess. Second of two feature versions of the 1935 serial film \"The New Adventures Of Tarzan\", culled from the serial's last 10 episodes.",
     "studio": "Burroughs-Tarzan Pictures Inc.",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-teenage-devil-dolls",
@@ -12335,7 +12380,10 @@
     ],
     "synopsis": "An innocent high school girl becomes a drug addict after she falls in with the wrong crowd.",
     "studio": "B. Lawrence Price Jr. Productions",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.7,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-terror-at-tenkiller",
@@ -12354,7 +12402,10 @@
     ],
     "synopsis": "Leslie and Janna are a couple of attractive young ladies who decide to go on vacation at a remote cabin in the woods. However, things go nightmarishly awry after a dangerous maniac shows up in the area and starts bumping folks off. Will anyone survive the terror at Tenkiller?",
     "studio": "United Entertainment Pictures",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.7,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-the-39-steps",
@@ -12374,7 +12425,11 @@
     ],
     "synopsis": "Richard Hanney has a rude awakening when a glamorous female spy falls into his bed - with a knife in her back. Having a bit of trouble explaining it all to Scotland Yard, he heads for the hills of Scotland to try to clear his name by locating the spy ring known as The 39 Steps.",
     "studio": "Gaumont-British Picture Corporation",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7,
+      "investigation_driven": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-alpha-incident",
@@ -12394,7 +12449,10 @@
     ],
     "synopsis": "A microorganism from Mars, brought to Earth by a space probe, terrorizes passengers in a railroad office.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "claustrophobic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-the-amazing-adventure",
@@ -12415,7 +12473,11 @@
     ],
     "synopsis": "Far from home in the lush bamboo forests of China, ten-year-old Ryan Tyler, with the help of a young girl, goes on a wonderful journey to rescue a baby panda taken by poachers.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "rescue_mission": 0.6,
+      "environmentalism": 0.5
+    }
   },
   {
     "id": "artiflix-the-amazing-mr-x",
@@ -12435,7 +12497,11 @@
     ],
     "synopsis": "On the beach one night, Christine Faber, two years a widow, thinks she hears her late husband Paul calling out of the surf...then meets a tall dark man, Alexis, who seems to know all about such things. After more ghostly manifestations, Christine and younger sister Janet become enmeshed in the eerie artifices of Alexis; but he in turn finds himself manipulated into deeper deviltry than he had in mind...",
     "studio": "Ben Stoloff Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "gothic": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-amazing-transparent-man",
@@ -12456,7 +12522,10 @@
     ],
     "synopsis": "An ex-major forces a scientist to develop a invisibility formula, with which he plans to create an invisible army and sell it to the highest bidder. However there are side effects to the formula.",
     "studio": "Miller Consolidated Pictures (MCP)",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "criminal_mastermind": 0.6
+    }
   },
   {
     "id": "artiflix-the-american-west-of-john-ford",
@@ -12476,7 +12545,9 @@
     ],
     "synopsis": "A documentary encapsulating the career and Western films of director 'John Ford' , including clips from his work and interviews with his colleagues.",
     "studio": "CBS",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.5
+    }
   },
   {
     "id": "artiflix-the-angel-doll",
@@ -12496,7 +12567,11 @@
     ],
     "synopsis": "The story of two small town boys from different sides of the tracks: 1950's childhood and self-redemption. Young \"Whitey\" Black (so called because of a tuft of blanched hair on the left side of his head) lives in poverty with his single mother and ailing, four-year old sister, Sandy. Just across town, young Jerry Barlow lives the advantages of a middle class lifestyle with both parents and his younger brother. When mischief casts Whitey and Jerry into a shared paper route, Jerry quickly learns of Whitey's desire to buy his sister an angel doll for Christmas. Even though no such dolls exist in their hometown, Whitey, Jerry and a host of colorful characters set out in search of Sandy's gift. Along the way, reversals of fortune, theft, prejudice and, ultimately, the boy's friendship opens their eyes to the vastness of the small town around them.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6,
+      "found_family": 0.4,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-the-animal-kingdom",
@@ -12517,7 +12592,10 @@
     ],
     "synopsis": "In a world hit by a wave of mutations transforming humans into animals, Fran\u00e7ois does everything he can to save his wife. As some of the creatures disappear into a nearby forest, he and their son \u00c9mile embark on a quest that will change their lives forever.",
     "studio": "StudioCanal",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-the-argon-quest",
@@ -12538,7 +12616,11 @@
     ],
     "synopsis": "Two children are teleported to a magical island and search for the giant Argon to save it.",
     "studio": "CBC",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.5,
+      "rescue_mission": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-the-bashful-bachelor",
@@ -12557,7 +12639,10 @@
     ],
     "synopsis": "Lum Edwards is annoyed with his partner in Pine Ridge's Jot-'em-Down general store, Abner Peabody, because Abner has swapped their delivery car for a racehorse. Lum, meanwhile, is too timid to propose to Geraldine.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-the-bat",
@@ -12579,7 +12664,11 @@
     ],
     "synopsis": "Mystery writer Cornelia Van Gorder has rented a country house called \"The Oaks\", which not long ago was the scene of some murders committed by a strange and violent criminal known as \"The Bat\". Meanwhile, the house's owner, bank president John Fleming, has recently embezzled one million dollars in securities and has hidden the proceeds in the house, but is killed before he can retrieve it.",
     "studio": "Liberty Pictures",
-    "tags": {}
+    "tags": {
+      "gothic": 0.5,
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-the-battle-of-el-alamein",
@@ -12599,7 +12688,10 @@
     ],
     "synopsis": "June 1942. As Rommel swept toward the Nile, the fall of Egypt and the capture of the Suez Canal seemed inevitable. Italian and German advance units raced toward Alexandria. Mussolini had given explicit orders: The Italians must arrive first!",
     "studio": "Zenith Cinematografica",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.8,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-the-bat-whispers",
@@ -12621,7 +12713,11 @@
     ],
     "synopsis": "Infamous burglar \"The Bat\" commits a daring jewelry theft despite heavy police presence. Soon after, a bank theft occurs, which may be the work of the criminal as well. Meanwhile, Cornelia Van Gorder has various people arrive at her old mansion, including her niece, Dale, a bank employee, and police detective Anderson. When guests start turning up dead, Cornelia begins to suspect that The Bat may be lurking around the estate.",
     "studio": "Art Cinema Corporation",
-    "tags": {}
+    "tags": {
+      "gothic": 0.5,
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-the-beast-of-yucca-flats",
@@ -12641,7 +12737,11 @@
     ],
     "synopsis": "A refugee Soviet scientist arrives at a desert airport carrying secret documents, but is attacked by a pair of KGB assassins  and escapes into the desert, where he comes in range of an American nuclear test and is transformed into a mindless killing beast.",
     "studio": "Cinema Associates (III)",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.5,
+      "forbidden_knowledge": 0.6,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-the-bigamist",
