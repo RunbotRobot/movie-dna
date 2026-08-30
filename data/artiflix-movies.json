@@ -6425,7 +6425,10 @@
     ],
     "synopsis": "The happy tranquility of Bugville is shattered when the populace learns that a colossal skyscraper is to be built over their tiny town.",
     "studio": "Fleischer Studios",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.4,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-horace-takes-over",
@@ -6445,7 +6448,11 @@
     ],
     "synopsis": "A honeymoon couple in New York for one night of wedded bliss before he's to join the army, become involved with gangsters after they find a cadaver under their bed.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "investigation_driven": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-horror-hotel",
@@ -6465,7 +6472,9 @@
     ],
     "synopsis": "A drunken stumbling to the bathroom at a house party leads Caleb to face his greatest fear.",
     "studio": "Ne7+ Films",
-    "tags": {}
+    "tags": {
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-horror-planet",
@@ -6485,7 +6494,11 @@
     ],
     "synopsis": "A crew of interplanetary archaeologists is threatened when an alien creature impregnates one of their members, causing her to turn homicidal and murder them one by one.",
     "studio": "Jupiter Film Productions",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "forbidden_knowledge": 0.5,
+      "claustrophobic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-horrors-of-the-black-museum",
@@ -6504,7 +6517,10 @@
     ],
     "synopsis": "A writer of murder mysteries finds himself caught up in a string of murders in London.",
     "studio": "Carmel Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "slasher_structure": 0.5
+    }
   },
   {
     "id": "artiflix-horse-crazy",
@@ -6524,7 +6540,11 @@
     ],
     "synopsis": "Three kids, who hope to capture their own wild mustang, outsmart a ring of horse thieves and return a prize stallion to its owner.",
     "studio": "Pulse Entertainment",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.6,
+      "justice_vs_law": 0.4,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-hot-rod-girl",
@@ -6545,7 +6565,10 @@
     ],
     "synopsis": "After his kid brother is killed in a street race, a champion drag-racer quits racing. However, a new kid comes to town determined to force him back into racing so he can take his title--and he's already taken his girlfriend.When his younger brother, Steve, is killed racing a hot-rod, Jeff Northup blames himself for the accident since he had built the car for his brother and had encouraged him to race it, with other boys on a special course provided by police detective Ben Merrill, who is working to reduce the city's hot-rod fatalities by providing supervision for the dangerous hobby. Jeff withdraws from participating in races on Merrill's course and, without his leadership, reverts to racing on the streets. \"Bronc\" Talbott, a newcomer, makes a play for Jeff's girlfriend, Lisa Vernon. Eventually, the taunting-Talbott forces Jeff into a race which results in the death of a bicycling child, and evidence seems to indicate Jeff was at fault.",
     "studio": "Nacirema Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.7,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-house-of-secrets",
@@ -6565,7 +6588,11 @@
     ],
     "synopsis": "Two men stumble into an old mansion, and get involved with a crazed scientist, torture chambers and sinister medical experiments.",
     "studio": "Chesterfield Motion Pictures Corporation (I)",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "gothic": 0.5,
+      "claustrophobic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-house-of-the-long-shadows",
@@ -6586,7 +6613,11 @@
     ],
     "synopsis": "An American writer goes to a remote Welsh manor on a $20,000 bet that he can write a classic novel like 'Wuthering Heights' in 24 hours. However, upon his arrival he discovers that the apparently empty manor has several rather odd inhabitants.",
     "studio": "London-Cannon Films",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "real_time": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-house-on-haunted-hill",
@@ -6606,7 +6637,10 @@
     ],
     "synopsis": "Frederick Loren invites five strangers to the party of a lifetime and offers each of them $10,000 if they can stay the night in the reportedly haunted house. Armed with a gun for protection, each guest arrives in a hearse and will either leave in it much richer\u2026Or dead.",
     "studio": "William Castle Productions",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-i-bury-the-living",
@@ -6626,7 +6660,11 @@
     ],
     "synopsis": "The new manager of a small-town cemetery becomes convinced that he triggered the untimely deaths of several plot owners by tampering with a certain map. When nobody believes him, he risks his sanity to play God once again and prove his point.",
     "studio": "Maxim Productions",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.7,
+      "unreliable_narrator": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-identity-unknown",
@@ -6646,7 +6684,10 @@
     ],
     "synopsis": "A soldier survives a bombing in which his three fellow soldiers were killed. When he recovers he discovers he has amnesia, and since his companions' bodies were burned beyond recognition, the army doesn't know which one of the four he is. He goes AWOL and searches out the families of the three dead soldiers, hoping to find out his own identity.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-i-dream-of-jeanie",
@@ -6666,7 +6707,10 @@
     ],
     "synopsis": "The life and career of famed American composer Stephen Foster.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-if-tomorrow-comes",
@@ -6687,7 +6731,10 @@
     ],
     "synopsis": "In California, a young Caucasian girl and a Japanese-American boy defy local prejudices and secretly marry on Dec. 7, 1941, minutes before Pearl Harbor is attacked.",
     "studio": "Aaron Spelling Productions",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.4,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-i-killed-that-man",
@@ -6706,7 +6753,10 @@
     ],
     "synopsis": "A condemned inmate's premature death places officials under suspicion.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "justice_vs_law": 0.5
+    }
   },
   {
     "id": "artiflix-image-of-bruce-lee",
@@ -6725,7 +6775,11 @@
     ],
     "synopsis": "A band of counterfeiters wants to make Hong Kong their new territory. The disgraced leader of the Special Squad will have to team-up with a group of Hong Kong police officers in an attempt to stop the dirty business of crime lord Han Tin Lung, but Han's problem is not only the interference of the Police force, but his Japanese ally Kimura is not happy with his 'cut' in the counterfeit deal and will try to put Donna (a relative of Han) on his side to make Han's business his own property. Both policemen and criminals are highly trained Martial Arts fighters and they will have the chance to prove who has the best Kung Fu techniques.",
     "studio": "Goldig Films (H.K.) Ltd.",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "betrayal": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-indiscretion-of-an-american-wife",
@@ -6746,7 +6800,10 @@
     ],
     "synopsis": "An American diplomat's wife meets an Italian vintner at an embassy soir\u00e9e. He sees her as more than just her \"husband's hostess\". Her husband has been so focused on advancing his career that he has forgotten how to see her as a woman, which the Italian reminds her that she is.",
     "studio": "Lifetime",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-infernal-street",
@@ -6765,7 +6822,10 @@
     ],
     "synopsis": "A Chinese doctor's assistant fights the morphine-dealing criminals who run a Japanese nightclub.",
     "studio": "Wan Xing Film Company",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-inner-sanctum",
@@ -6785,7 +6845,10 @@
     ],
     "synopsis": "A woman attempts suicide when she suspects her husband doesn't love her and is having an affair. Now she's wheelchair-bound, and her husband, who indeed doesn't love her and is having an affair, hires a private nurse to look after his wife. The nurse begins to suspect that she was hired because of unproven allegations that she murdered someone's wife in a similar situation, that the husband wants her to murder his wife.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-in-search-of-america",
@@ -6805,7 +6868,10 @@
     ],
     "synopsis": "Michael (Jeff Bridges) drops out of college with the intention of finding himself. When his parents (Carl Betz and Vera Miles) balk, he talks them into joining him in traveling the country and educating themselves about the state of things. They, along with Grandma (Ruth McDevitt) trick out an old Greyhound bus and hit the road. The picaresque plotline brings the family into contact with a variety of colorful characters. The producers of In Search of America never declared outright that the made-for-TV film was intended as a series pilot, but it ends on an ambiguous note with plenty of loose plot ends. In Search of America was first telecast March 23, 1971.",
     "studio": "Four Stars Productions",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.8,
+      "found_family": 0.5
+    }
   },
   {
     "id": "artiflix-inseminoid",
@@ -6825,7 +6891,11 @@
     ],
     "synopsis": "A crew of interplanetary archaeologists is threatened when an alien creature impregnates one of their members, causing her to turn homicidal and murder them one by one.",
     "studio": "Jupiter Film Productions",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "forbidden_knowledge": 0.5,
+      "claustrophobic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-inspector-hornleigh",
@@ -6845,7 +6915,10 @@
     ],
     "synopsis": "When a landlady finds one of her tenants murdered, Inspector Hornleigh is sent to investigate. Inspector Hornleigh's assistant, Sergeant Bingham, soon finds an attach\u00e9 case that had been stolen from the murdered man. When Hornleigh examines the case, inside it he finds a bag that was used to carry important government documents. The documents have been taken, and to make things even more confusing, a duplicate of the stolen bag soon turns up.",
     "studio": "Twentieth Century Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "espionage_double_cross": 0.4
+    }
   },
   {
     "id": "artiflix-international-crime",
@@ -6866,7 +6939,9 @@
     ],
     "synopsis": "The second and final Grand National Pictures film to feature The Shadow, played again by Rod La Rocque. In this version, Lamont Cranston is an amateur detective and host of a radio show with his assistant Phoebe (not Margo) Lane. Cabbie Moe Shrevnitz and Commissioner Weston also appear.",
     "studio": "Grand National Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6
+    }
   },
   {
     "id": "artiflix-intimate-agony",
@@ -6886,7 +6961,9 @@
     ],
     "synopsis": "Anthony Geary (General Hospital) stars as a compassionate doctor who must treat an STD outbreak at an upscale vacation resort.  Judith Light (Law & Order: Special Victims Unit) co-stars as an afflicted resident whose heart is broken by this personal tragedy.  A despicable real estate tycoon played by Robert Vaughn (The Man from U.N.C.L.E.) is determined to keep the scandal from the press, thus protecting his investment.",
     "studio": "Henerson/Hirsch Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6
+    }
   },
   {
     "id": "artiflix-invisible-ghost",
@@ -6907,7 +6984,10 @@
     ],
     "synopsis": "The town's leading citizen becomes a homicidal maniac after his wife deserts him.",
     "studio": "Banner Productions",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.7,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-invisible-strangler",
@@ -6928,7 +7008,11 @@
     ],
     "synopsis": "Demonstrating that a little knowledge is a dangerous thing, a convicted strangler studies the paranormal and finds a way to render himself invisible. Once he escapes, he sets out to find and eliminate five women who remind him of the mother he murdered. A police lieutenant sets out to safeguard them and bring the invisible killer to justice.",
     "studio": "Jordan/Lyon Productions Ltd.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "obsession": 0.6,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-in-your-wildest-dreams",
@@ -6948,7 +7032,9 @@
     ],
     "synopsis": "High school senior Mark's wildest dreams come true when he makes a simulated stock purchase that accidentally turns him into a millionaire overnight. But when he discovers that the money belongs to his girlfriend's dad, who needs the funds to save his electronics company, will Mark admit to the snafu? Or will he keep the money and pursue his dreams of wealth, even if it destroys those he cares about?",
     "studio": "Feature Films for Families",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-iron-eagle-ii",
@@ -6970,7 +7056,11 @@
     ],
     "synopsis": "Chappy Sinclair is called to gather together a mixed Soviet/U.S. strike force that will perform a surgical strike on a massively defended nuclear missile site in the Middle East. Chappy finds that getting the Soviet and U.S. Pilots to cooperate is only the most minor of his problems as he discovers someone in the Pentagon is actively sabotaging his mission.",
     "studio": "TriStar Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "betrayal": 0.6,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-it-happened-on-fifth-avenue",
@@ -6991,7 +7081,11 @@
     ],
     "synopsis": "A New Yorker hobo moves into a mansion and along the way he gathers friends to live in the house with him. Before he knows it, he is living with the actual home owners.",
     "studio": "Roy Del Ruth Productions",
-    "tags": {}
+    "tags": {
+      "found_family": 0.6,
+      "class_conflict": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-it-happened-tomorrow",
@@ -7012,7 +7106,11 @@
     ],
     "synopsis": "A young turn-of-the-century newspaper man finds he can get hold of the next day's paper. This brings more problems than fortune, especially as his new girlfriend is part of a phony clairvoyant act.",
     "studio": "Arnold Pressburger Films",
-    "tags": {}
+    "tags": {
+      "prophecy_fulfillment": 0.6,
+      "absurdist": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-it-rained-all-night-the-day-i-left",
