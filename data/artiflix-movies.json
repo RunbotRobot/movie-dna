@@ -14164,7 +14164,10 @@
     ],
     "synopsis": "The lives of a close-knit group of brothers growing up in Iowa during the days of the Great Depression and of World War II and their eventual deaths in action in the Pacific theater are chronicled in this film based on a true story.",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "sacrifice_for_others": 0.6
+    }
   },
   {
     "id": "artiflix-the-flesh-and-the-fiends",
@@ -14183,7 +14186,10 @@
     ],
     "synopsis": "Edinburgh surgeon Dr. Robert Knox requires cadavers for his research into the functioning of the human body; local ne'er-do-wells Burke and Hare find ways to provide him with fresh specimens...",
     "studio": "Triad Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-the-flying-serpent",
@@ -14203,7 +14209,10 @@
     ],
     "synopsis": "A demented archaeologist discovers a living, breathing serpent creature known to the Aztecs as Quetzalcoatl and accidentally kills his wife by giving her one of the beast's feathers, causing the creature to track her down and slaughter her. Using this knowledge he exacts revenge upon his enemies by placing one of the feathers on his intended victim and letting the beast loose to wreak havoc.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-four-skulls-of-jonathan-drake",
@@ -14223,7 +14232,10 @@
     ],
     "synopsis": "Jonathan Drake, while attending his brother's funeral, is shocked to find the head of the deceased is missing. When his brother's skull shows up later in a locked cabinet, Drake realizes an ancient curse placed upon his grandfather by a tribe of South American Jivaro Indians is still in effect and that he himself is the probable next victim.",
     "studio": "Vogue Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "prophecy_fulfillment": 0.5
+    }
   },
   {
     "id": "artiflix-the_front_page",
@@ -14242,7 +14254,10 @@
     ],
     "synopsis": "Ruthless Chicago newspaper editor Walter Burns resorts to dubious motives in order to get top reporter Hildy Johnson to cover one more big crime story before retirement.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-ghost-and-the-guest",
@@ -14264,7 +14279,11 @@
     ],
     "synopsis": "Newlyweds Webster and Jackie Frye spend their honeymoon in a sinister old country house. Before long, they are besieged by a gang of crooks, searching for a fortune in diamonds. With the help of chauffeur Harmony Jones, the honeymooners attempt to outsmart the villains.",
     "studio": "Alexander-Stern Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.5,
+      "absurdist": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-ghost-train",
@@ -14286,7 +14305,11 @@
     ],
     "synopsis": "Mismatched travellers are stranded overnight at a lonely rural railway station. They soon learn of local superstition about a phantom train which is said to travel these parts at dead of night, carrying ghosts from a long-ago train wreck in the area.",
     "studio": "Gainsborough Pictures",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.5,
+      "gothic": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-ghost-walks",
@@ -14306,7 +14329,10 @@
     ],
     "synopsis": "A  ghostly and deadly dinner party, which at first turns out to be an elaborate staging of a new play for the benefit of a Broadway producer, becomes a true mystery when the players start to go missing.",
     "studio": "Invincible Pictures Corp.",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "meta_fourth_wall": 0.5
+    }
   },
   {
     "id": "artiflix-the-giant-gila-monster",
@@ -14326,7 +14352,10 @@
     ],
     "synopsis": "A small town in Texas finds itself under attack from a hungry, fifty-foot-long gila monster. No longer content to forage in the desert, the giant lizard begins chomping on motorists and train passengers before descending upon the town itself. Only Chase Winstead, a quick-thinking mechanic, can save the town from being wiped out.",
     "studio": "Hollywood Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.7,
+      "disaster_survival": 0.5
+    }
   },
   {
     "id": "artiflix-the-giant-of-metropolis",
@@ -14346,7 +14375,10 @@
     ],
     "synopsis": "Obro the muscleman goes to Atlantis and sinks a death-ray king who knows the secret of immortality.",
     "studio": "Centroproduzione SpA",
-    "tags": {}
+    "tags": {
+      "epic_scale": 0.4,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-giant-spider-invasion",
@@ -14366,7 +14398,11 @@
     ],
     "synopsis": "A black hole hits North Wisconsin and opens a door to other dimensions. Giant 15 meter spiders emerge from it, who have an appetite for human flesh! Two NASA scientists try to save the world.",
     "studio": "Cinema Group 75",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.6,
+      "disaster_survival": 0.5,
+      "forbidden_knowledge": 0.3
+    }
   },
   {
     "id": "artiflix-the-girl-in-lovers-lane",
@@ -14387,7 +14423,10 @@
     ],
     "synopsis": "Two drifters contend with love and murder in a small town.",
     "studio": "Brigadier Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the_gods_must_be_crazy",
@@ -14407,7 +14446,10 @@
     ],
     "synopsis": "A Coca-Cola bottle dropped from an airplane raises havoc among a normally peaceful tribe of African bushmen who believe it to be a utensil of the gods.",
     "studio": "CAT Films",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.6,
+      "absurdist": 0.6
+    }
   },
   {
     "id": "artiflix-the-gods-must-be-crazy-2",
@@ -14427,7 +14469,10 @@
     ],
     "synopsis": "Xixo is back again. This time, his children accidentally stow away on a fast-moving poachers' truck, unable to get off, and Xixo sets out to rescue them. Along the way, he encounters a couple of soldiers trying to capture each other and a pilot and passenger of a small plane, who are each having a few problems of their own.",
     "studio": "Elrina Investment",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-the_great_flamarion",
@@ -14448,7 +14493,11 @@
     ],
     "synopsis": "A beautiful but unscrupulous female performer manipulates all the men in her life in order to achieve her aims.",
     "studio": "W. Lee Wilder Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "obsession": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-gun-and-the-pulpit",
@@ -14468,7 +14517,10 @@
     ],
     "synopsis": "In the days of the \"Wild West,\" a gunslinger, with a price on his head, discovers the body of a traveling minister who has been killed in an ambush. Fearing those who are following him, he assumes the dead minister's identity.",
     "studio": "Danny Thomas Productions",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.4,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-the-hanged-man",
@@ -14489,7 +14541,10 @@
     ],
     "synopsis": "A gunman whose best friend has been murdered enacts a plan to blackmail the corrupt labor union leader responsible but finds he isn't the only one after his money.",
     "studio": "Revue Studios",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-haunted-strangler",
@@ -14511,7 +14566,11 @@
     ],
     "synopsis": "A researcher investigating a notorious serial killer who was hanged 20 years earlier seemingly becomes possessed by the long dead strangler.",
     "studio": "Amalgamated Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "descent_into_madness": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-hawk-of-powder-river",
@@ -14530,7 +14589,10 @@
     ],
     "synopsis": "B-western starring Eddie Dean as a singing lawman who comes to the aid of a pretty rancher (June Carlson) who's been targeted for murder by a notorious bandit known as \"The Hawk\".",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-headless-ghost",
@@ -14551,7 +14613,10 @@
     ],
     "synopsis": "Three teenagers encounter a ghost who is in limbo until he retrieves his lost head. They do their parts to help him find it.",
     "studio": "Merton Park Studios",
-    "tags": {}
+    "tags": {
+      "whimsical_charm": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-hellbenders",
@@ -14570,7 +14635,11 @@
     ],
     "synopsis": "A Southern Colonel, his three sons, and a card shark embark on an odyssey through the Southwest carrying a coffin full of stolen money with which the Colonel plans to revive the Confederacy.",
     "studio": "Alba Cinematografica",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6,
+      "betrayal": 0.5,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-high-command",
@@ -14591,7 +14660,10 @@
     ],
     "synopsis": "A general must come to terms with a crime he commited years earlier.",
     "studio": "Gordon Wellesley Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.4,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-hitch-hiker",
@@ -14612,7 +14684,11 @@
     ],
     "synopsis": "Roy and Gilbert's fishing trip takes a terrifying turn when the hitchhiker they pick up turns out to be a sociopath on the run from the law. He's killed before, and he lets the two know that as soon as they're no longer useful, he'll kill again. The two friends plot an escape, but the hitchhiker's peculiar physical affliction, an eye that never closes even when he sleeps, makes it impossible for them to tell when they can make a break for it.",
     "studio": "The Filmakers",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "tense_dread": 0.6,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-the-holcroft-covenant",
@@ -14633,7 +14709,11 @@
     ],
     "synopsis": "A man who was a confidant of Adolf Hitler dies and leaves a fortune to make amends for his Nazi past\u2014but his son has to search the world to find it.",
     "studio": "Thorn EMI Screen Entertainment",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "legacy_and_inheritance": 0.6,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-the-horses-mouth",
@@ -14652,7 +14732,10 @@
     ],
     "synopsis": "Gulley Jimson is a boorish aging artist recently released from prison. A swindler in search of his next art project, he hunkers down in the penthouse of would-be patrons the Beeders while they go on an extended vacation; he paints a mural on their wall, pawns their valuables and, along with the sculptor Abel, inadvertently smashes a large hole in their floor. Jimson's next project is an even larger wall in an abandoned church.",
     "studio": "Knightsbridge Films",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "criminal_mastermind": 0.3
+    }
   },
   {
     "id": "artiflix-the-house-by-the-cemetery",
@@ -14671,7 +14754,11 @@
     ],
     "synopsis": "After a doctor kills his mistress and himself while researching the mysterious previous owner of his Boston home, his colleague, Dr. Norman Boyle, takes over his studies and moves his family into the Boston mansion. Soon after, Boyle's young son Bob becomes plagued by visions of a young girl, who warns him of the danger within the house.",
     "studio": "Fulvia Film",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "gothic": 0.6,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-house-of-rothschild",
@@ -14692,7 +14779,11 @@
     ],
     "synopsis": "The story of the rise of the Rothschild financial empire founded by Mayer Rothschild and continued by his five sons. From humble beginnings the business grows and helps to finance the war against Napoleon, but it's not always easy, especially because of the prejudices against Jews.",
     "studio": "20th Century Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.7,
+      "multi_generational_cast": 0.6,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-the-house-of-seven-corpses",
@@ -14711,7 +14802,11 @@
     ],
     "synopsis": "A director is filming on location in a house where seven murders were committed. The caretaker warns them not to mess with things they do not understand (the murders were occult related), but the director wants to be as authentic as possible and has his cast re-enact rituals that took place in the house thus summoning a ghoul from the nearby cemetery to bump the whole film crew off one by one.",
     "studio": "Television Corporation of America",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "meta_fourth_wall": 0.6,
+      "slasher_structure": 0.5
+    }
   },
   {
     "id": "artiflix-the-image-of-bruce-lee",
@@ -14730,7 +14825,11 @@
     ],
     "synopsis": "A band of counterfeiters wants to make Hong Kong their new territory. The disgraced leader of the Special Squad will have to team-up with a group of Hong Kong police officers in an attempt to stop the dirty business of crime lord Han Tin Lung, but Han's problem is not only the interference of the Police force, but his Japanese ally Kimura is not happy with his 'cut' in the counterfeit deal and will try to put Donna (a relative of Han) on his side to make Han's business his own property. Both policemen and criminals are highly trained Martial Arts fighters and they will have the chance to prove who has the best Kung Fu techniques.",
     "studio": "Goldig Films (H.K.) Ltd.",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "betrayal": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-immortal-battalion",
@@ -14750,7 +14849,10 @@
     ],
     "synopsis": "A mismatched collection of conscripted civilians find training tough under Lieutenant Jim Perry  and Sergeant Ned Fletcher when they are called up to replace an infantry battalion that had suffered casualties at Dunkirk.",
     "studio": "Two Cities Films",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "mentor_student": 0.5
+    }
   },
   {
     "id": "artiflix-the-incredible-petrified-world",
