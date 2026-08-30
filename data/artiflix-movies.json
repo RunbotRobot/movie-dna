@@ -9953,7 +9953,9 @@
     ],
     "synopsis": "A Cinderella story of a young country girl who comes to Hollywood and achieves movie stardom with the help of a publicity man.",
     "studio": "Hal Roach Studios",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5
+    }
   },
   {
     "id": "artiflix-pinocchio",
@@ -9974,7 +9976,11 @@
     ],
     "synopsis": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
     "studio": "Jagged Edge Productions",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.6,
+      "forbidden_knowledge": 0.5,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-pioneer-woman",
@@ -9994,7 +10000,10 @@
     ],
     "synopsis": "A homesteading family in 1867 Wyoming faces a crisis when the husband is killed and the wife must decide whether to remain or take her son and daughter back East.",
     "studio": "Filmways Television",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.4,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-planet-outlaws",
@@ -10013,7 +10022,11 @@
     ],
     "synopsis": "A 20th Century pilot named Buck Rogers and his young friend Buddy Wade awake from 500 years in suspended animation to find that the world has been taken over by the outlaw army of Killer Kane. Feature version of the film serial Buck Rogers by Universal Pictures, 1940.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.6,
+      "epic_scale": 0.4,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-playgirl-killer",
@@ -10032,7 +10045,10 @@
     ],
     "synopsis": "A rich, lonely woman hires a drifter as a live-in handyman. The drifter turns out to be a psycho artist who has beautiful women model for him.",
     "studio": "Maxwell A. Sendel Film Productions",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "obsession": 0.5
+    }
   },
   {
     "id": "artiflix-poco-little-dog-lost",
@@ -10053,7 +10069,11 @@
     ],
     "synopsis": "It looks like the end of the line for Poco and Kim when they are separated following a car accident. Poco's relentless search takes him through the desert. Bravely facing the odds, Poco encounters many dangers, and makes some new friends.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "road_journey": 0.6,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-point-of-terror",
@@ -10076,7 +10096,11 @@
     ],
     "synopsis": "A nightclub singer has nightmares about being involved in adultery and murder, only to wake up and find that they may not be nightmares.",
     "studio": "Crown International Pictures",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "dreamlike_surreal": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-pontius-pilate",
@@ -10093,7 +10117,10 @@
     ],
     "synopsis": "The story, set 15 years after the Crucifixion, of the Roman governor Pontius Pilate, who is depicted as a victim of circumstances.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.6,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-popeye_the_sailor_meets_ali_babas_forty_theives",
@@ -10112,7 +10139,10 @@
     ],
     "synopsis": "Popeye the Sailor, accompanied by Olive Oyl and Wimpy, is dispatched to stop the dreaded bandit Abu Hassan and his force of forty thieves.",
     "studio": "Fleischer Studios",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-popeye_the_sailor_meets_sindbad_the_sailor",
@@ -10134,7 +10164,10 @@
     ],
     "synopsis": "After wrecking Popeye's ship and stealing away Olive Oyl, hero of Arabic legend Sindbad decides to test him and his ever-resilient new rival's strength in order to prove their supremacy as the \"most remarkable, extraordinary fella\" of Sindbad's menagerie island.",
     "studio": "Fleischer Studios",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "competition_tournament": 0.4
+    }
   },
   {
     "id": "artiflix-port-of-missing-girls",
@@ -10153,7 +10186,11 @@
     ],
     "synopsis": "Nightclub singer Della Mason witnesses a murder and is forced by the killer to flee with him from the scene of the crime. Escaping from the gangster, she secretly boards the ship of Captain Josiah Storm, a woman-hater, and the ship sails from San Francisco headed for China. Della is discovered by Jim Benton, the ship's first mate and he pleads her case to the captain. He leaves her in under the protection of Minnie at \"Minnie's Joint in Shanghai, until her innocence can be established.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.6,
+      "betrayal": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-port-of-new-york",
@@ -10173,7 +10210,10 @@
     ],
     "synopsis": "Two narcotics agents go after a gang of murderous drug dealers who use ships docking at the New York harbor to smuggle in their contraband.",
     "studio": "Samba Films",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-pot-o-gold",
@@ -10194,7 +10234,10 @@
     ],
     "synopsis": "Jimmy, the owner of a failed music shop, goes to work with his uncle, the owner of a food factory. Before he gets there, he befriends an Irish family who happens to be his uncle's worst enemy because of their love for music and in-house band who constantly practices. Soon, Jimmy finds himself trying to help the band by getting them gigs and trying to reconcile the family with his uncle.",
     "studio": "James Roosevelt Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-pow_the_escape",
@@ -10214,7 +10257,10 @@
     ],
     "synopsis": "Col. Cooper leads a group of American P.O.W.s, battling their way to freedom as Saigon falls to the Viet Cong.",
     "studio": "Golan-Globus Productions",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "escape_plot": 0.7
+    }
   },
   {
     "id": "artiflix-preacherman",
@@ -10234,7 +10280,11 @@
     ],
     "synopsis": "Phony backwoods preacher Amos T. Huxley stays in a small North Carolina town long enough to fleece his congregation, swindle the profits from a moonshine still, and seduce dumb blonde Mary Lou. Mary Lou's ex-boyfriend becomes suspicious of the preacher and gets the local police to investigate his actions.",
     "studio": "Albert T. Viola Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "investigation_driven": 0.4,
+      "faith_and_doubt": 0.4
+    }
   },
   {
     "id": "artiflix-prison-break",
@@ -10255,7 +10305,11 @@
     ],
     "synopsis": "Michael and Sara wed, but the happiness is short-lived when the Feds apprehend her for the murder of Michael's mother, Christina. Once a hit is ordered on Sara, the team reunite to break out the increasingly vulnerable target.",
     "studio": "Adelstein/Parouse Productions",
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.7,
+      "rescue_mission": 0.5,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-prison-train",
@@ -10275,7 +10329,11 @@
     ],
     "synopsis": "Gangsters plan an assassination of a rival while he rides the train carrying him to prison.",
     "studio": "Malcolm-Browne Pictures Corp.",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "claustrophobic_tone": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-project-kill",
@@ -10295,7 +10353,11 @@
     ],
     "synopsis": "A former government assassin flees a mind-control program in the Philippines, pursued by his ex-partner, the local police and Asian gangsters.",
     "studio": "Mid-America Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "escape_plot": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-pygmalion",
@@ -10314,7 +10376,10 @@
     ],
     "synopsis": "Harald eagerly anticipates the wedding of his only daughter. His biggest problem is his belief that his deceased wife lives on in a mannequin, which he wants to bring to the wedding celebration.",
     "studio": "Die Cinemacher UG",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.5,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-quackser-fortune-has-a-cousin-in-the-bronx",
@@ -10335,7 +10400,10 @@
     ],
     "synopsis": "In Dublin, a working class family has been unsuccessful in convincing their son to get a real job: the son prefers his job of scooping up horse's dung and selling it for flower gardens. An American exchange student almost runs him over and gets to know him. The dung man has ignored warnings from his family and suddenly the horses have been banned from Dublin. His new love is leaving for America and he must find a way to cope with the new reality.",
     "studio": "UMC Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "class_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-quatermass-2",
@@ -10355,7 +10423,11 @@
     ],
     "synopsis": "In England, a group of space scientists led by Bernard Quatermass, who have developed plans for the first Moon colony, learn that a secret, ostensibly government-run, complex of identical design has been built in a remote part of England and is the focus of periodic falls of small, hollow \"meteorites\" originating in outer space.  Quatermass determines to investigate and uncovers a terrifying extraterrestrial life form which has already begun action to take over the Earth.",
     "studio": "Hammer Film Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.5,
+      "disaster_survival": 0.4
+    }
   },
   {
     "id": "artiflix-quest-for-fire",
@@ -10376,7 +10448,11 @@
     ],
     "synopsis": "In the prehistoric world, a Cro-Magnon tribe depends on an ever-burning source of fire, which eventually extinguishes. Lacking the knowledge to start a new fire, the tribe sends three warriors on a quest for more. With the tribe's future at stake, the warriors make their way across a treacherous landscape full of hostile tribes and monstrous beasts. On their journey, they encounter Ika, a woman who has the knowledge they seek.",
     "studio": "Belstar Productions",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.8,
+      "man_vs_nature": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-quicksand",
@@ -10392,7 +10468,11 @@
     ],
     "synopsis": "\"A week before he passed away, my grandfather shared with me his former aspirations of becoming a filmmaker. After many trials, a narrow escape from the Nazis and immigration to the United States, the dream slowly but surely came true. surely passed out. After his passing, I discovered a treasure trove of dust-covered 8mm film archives that had apparently not been seen by anyone for at least a generation. Mesmerized, what unfolded before me was something something most people, myself included, had never seen before: the development and complete decline of the human body and mind. Motivated by my grandfather's unrealized cinematic dreams, I decided to reconstruct a film that he had already made involuntarily.\" Lance Oppenheim",
     "studio": "The Opp-Guide",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.5,
+      "legacy_and_inheritance": 0.5,
+      "meta_fourth_wall": 0.4
+    }
   },
   {
     "id": "artiflix-rage-at-dawn",
@@ -10412,7 +10492,11 @@
     ],
     "synopsis": "In this film's version of the story, four of the Reno Brothers are corrupt robbers and killers while a fifth, Clint is a respected Indiana farmer. A sister, Laura, who has inherited the family home, serves the outlaw brothers as a housekeeper and cook. One brother is killed when they go after a bank, the men of the town appear to have been waiting for them\u2026",
     "studio": "Nat Holt Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "rivalry_driven": 0.4,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-rain",
@@ -10431,7 +10515,11 @@
     ],
     "synopsis": "When car dealer Charlie Babbitt learns that his estranged father has died, he returns home to Cincinnati, where he discovers that he has a savant older brother named Raymond and that his father's $3 million fortune is being left to the mental institution in which Raymond lives. Motivated by his father's money, Charlie checks Raymond out of the facility in order to return with him to Los Angeles. The brothers' cross-country trip ends up changing both their lives.",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.7,
+      "found_family": 0.5,
+      "mental_illness": 0.5
+    }
   },
   {
     "id": "artiflix-rainbow-valley",
@@ -10450,7 +10538,10 @@
     ],
     "synopsis": "John Martin is a government agent working under cover. Leading citizen Morgan calls in gunman Galt who blows Martin's cover.",
     "studio": "Paul Malvern Productions",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-randy_rides_alone",
@@ -10470,7 +10561,11 @@
     ],
     "synopsis": "Bandits lead by Matt the Mute enter a bar and kill multiple people. Randy Bowers comes to town and is framed by Matt the Mute, who is working with the sheriff (who doesn't know Matt is really a criminal). Randy escapes with the help of the niece of the dead owner of the bar. Bowers ends up running from the sheriff, and ends up in the cave in which the bandits have their hide-out\u2026",
     "studio": "Lone Star",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "escape_plot": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-range-defenders",
@@ -10491,7 +10586,11 @@
     ],
     "synopsis": "Stony's brother George has been accused of murder and the Mesquiteers have returned to prove his innocence. But they find that Harvey rules the town along with his stooge Sheriff Gray and that George won't get a fair trial.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.6,
+      "systemic_corruption": 0.5,
+      "courtroom_drama": 0.4
+    }
   },
   {
     "id": "artiflix-red-stallion-in-the-rockies",
@@ -10511,7 +10610,9 @@
     ],
     "synopsis": "Horse story with Dynamite, The Red Stallion...",
     "studio": "Eagle-Lion Films",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7
+    }
   },
   {
     "id": "artiflix-reefer-madness",
@@ -10532,7 +10633,11 @@
     ],
     "synopsis": "From an ominous Lecturer, a small 1930s middle American community learns of the Harper Affair, in which young Jimmy Harper finds his life of promise turn into a life of debauchery and murder thanks to the new drug menace marijuana. Along the way, he receives help from his girlfriend Mary and Jesus Himself, but always finds himself in the arms of the Reefer Man and the rest of the denizens of the Reefer Den.",
     "studio": "Dead Old Man Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.7,
+      "meta_fourth_wall": 0.5,
+      "high_camp": 0.5
+    }
   },
   {
     "id": "artiflix-rembrandt",
