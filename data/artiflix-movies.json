@@ -4287,7 +4287,10 @@
     ],
     "synopsis": "A medicine man on the last show boat on the Mississippi is mistaken by two gangsters as a bootleger, and has to envade them.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-doa-mov",
@@ -4310,7 +4313,12 @@
     ],
     "synopsis": "Ten years after the Fourth Holy Grail War, a devastating clash between Masters and Servants, another war erupts. Shirou Emiya, whose father fought in the first battle, was leading a peaceful life with the warmhearted Sakura Matou. But when hidden forces begin to stir, Shirou resolves to fulfill his father\u2019s dying wish, protect Sakura, and fight for the Holy Grail.",
     "studio": "ufotable",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.6,
+      "sacrifice_for_others": 0.5,
+      "epic_scale": 0.5,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-doctor-syn",
@@ -4330,7 +4338,10 @@
     ],
     "synopsis": "A highly respected clergyman is actually a former pirate who exacts vigilante justice in this British production.",
     "studio": "Gaumont-British Picture Corporation",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "redemption_arc": 0.4
+    }
   },
   {
     "id": "artiflix-dominique",
@@ -4350,7 +4361,11 @@
     ],
     "synopsis": "Dominique, a well-trained assassin, flees from her troubled past in an attempt to begin a new life in South America. However, she soon finds herself in a town plagued with violence and corruption. Facing brutal attacks from the police and mafia, Dominique must decide whether to protect herself or an innocent family that has taken her in.",
     "studio": "Green Dog Films",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.5,
+      "sacrifice_for_others": 0.5,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-dont-look-in-the-basement",
@@ -4370,7 +4385,11 @@
     ],
     "synopsis": "A young psychiatric nurse goes to work at a lonesome asylum following a murder. There, she experiences varying degrees of torment from the patients.",
     "studio": "Camera 2 Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "tense_dread": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-don-t-trust-your-husband",
@@ -4389,7 +4408,10 @@
     ],
     "synopsis": "Vincent Doane is in the precarious position of trying to close an advertising account with his rich ex-fianc\u00e9e. Unfortunately she is more interested in him than in business. Vincent's wife Paula gets suspicious and finally decides to do some flirting of her own to make him jealous. Unknown to her, she chooses cigarette tychoon Claude Kimball. In fact, Kimball hits it off well with both of the Doanes. The question is whether or not their marriage can survive all the shenanigans.",
     "studio": "James Nasser Productions Inc.",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-doomsday-machine",
@@ -4408,7 +4430,10 @@
     ],
     "synopsis": "Following the discovery of a doomsday machine capable of destroying Earth, the launch of a US space mission to Venus is taken over by the military.",
     "studio": "First Leisure",
-    "tags": {}
+    "tags": {
+      "epic_scale": 0.4,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-dot-and-the-kangaroo",
@@ -4429,7 +4454,11 @@
     ],
     "synopsis": "An Australian girl gets lost in the Outback, but she's befriended by a kangaroo who gives her a ride in her pouch as they search for the girl's home. Aiding the pair are musically gifted koalas, platypuses, and kookaburras in this film based on Ethel Pedley's 1899 children's book, with animated humans and animals superimposed upon a live-action background.",
     "studio": "Yoram Gross Films",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "road_journey": 0.6,
+      "coming_home": 0.5
+    }
   },
   {
     "id": "artiflix-down-among-the-z-men",
@@ -4448,7 +4477,9 @@
     ],
     "synopsis": "The Goon Show hits the big screen.  Professor Pure Heart absent-mindedly loses the top secret formula in Harry Jones' Grocery Shop. \"Bats of the Yard\", as Harry calls himself, finds it and attempts to return it to the Professor.",
     "studio": "E.J. Fancey Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.7
+    }
   },
   {
     "id": "artiflix-dracula_vs_frankenstein",
@@ -4468,7 +4499,12 @@
     ],
     "synopsis": "Judith Fontaine is looking for her sister Joanie, who has disappeared into the hippie community of Venice, California. It turns out that Joanie has become fallen victim to Groton, an axe-wielding homicidal maniac under the employ of Dr. Durea, the last living descendant of the Frankenstein family and is now both running a house of horrors on the beach's boardwalk and performing experiments on Groton's victims in his basement laboratory.",
     "studio": "Independent International Pictures (I-I)",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "gothic": 0.5,
+      "claustrophobic_tone": 0.4,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-dressed-to-kill",
@@ -4489,7 +4525,11 @@
     ],
     "synopsis": "After witnessing a mysterious woman brutally slay a homemaker, prostitute Liz Blake finds herself trapped in a dangerous situation. While the police thinks she is the murderer, the real killer is intent on silencing her only witness.",
     "studio": "Filmways Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "slasher_structure": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-dr-kildares-strange-case",
@@ -4508,7 +4548,10 @@
     ],
     "synopsis": "Kildare tries brain surgery, advised by Dr. Gillespie, and faces a rival for nurse Lamont.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "mentor_student": 0.5
+    }
   },
   {
     "id": "artiflix-eegah",
@@ -4529,7 +4572,9 @@
     ],
     "synopsis": "Teenagers stumble across a prehistoric caveman, who goes on a rampage.",
     "studio": "Fairway International Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-elizas-horoscope",
@@ -4548,7 +4593,11 @@
     ],
     "synopsis": "A young woman arrives to Montreal to find love. A fortune teller tells her that a wealthy man meant for her is right around the corner so she goes looking even among her odd rag tag group roommates.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "prophecy_fulfillment": 0.5,
+      "romantic_tone": 0.5,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-end-of-the-world",
@@ -4569,7 +4618,11 @@
     ],
     "synopsis": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett\u2014now in control of Davy Jones\u2014the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas.",
     "studio": "Jerry Bruckheimer Films",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "epic_scale": 0.6,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-escape-from-angola",
@@ -4590,7 +4643,11 @@
     ],
     "synopsis": "Amidst the chaos of Angola's civil conflict, an American family living on a wildlife preserve must navigate treacherous terrain and hostile forces.",
     "studio": "African Film Associates",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "escape_plot": 0.6,
+      "disaster_survival": 0.4
+    }
   },
   {
     "id": "artiflix-escape-to-burma",
@@ -4609,7 +4666,10 @@
     ],
     "synopsis": "A fugitive in British Burma hides on a tea plantation, thanks to a mutual attraction with owner Gwen Moore.",
     "studio": "Benedict Bogeaus Production",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "escape_plot": 0.5
+    }
   },
   {
     "id": "artiflix-eternally-yours",
@@ -4630,7 +4690,10 @@
     ],
     "synopsis": "Anita, engaged to solid Don Barnes, is swept off her feet by magician Arturo. Before you can say presto, she's his wife and stage assistant on a lengthy world tour. But Anita is annoyed by Arturo's constant flirtations, and his death-defying stunts give her nightmares. And forget her plan to retire to a farmhouse. Eventually, she has had enough and disappears.",
     "studio": "Walter Wanger Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-evil-spirits",
@@ -4650,7 +4713,11 @@
     ],
     "synopsis": "A dark comedy thriller that manages to skillfully blend humor and mystery into one incredible film from its thrilling beginning to the shocking climax!  The superb all-star cast is a unique collection of characters who find themselves with one very special thing in common -- they are all boarders of Mrs. Ella Purdy (Karen Black) and totally dependent upon her gracious nature. The suspense mounts as, one-by-one, they fall sacrifice to ominous secrets enshrined within the walls of her foreboding house! Murder and mayhem prevail throughout the tense but often humorous situations as each victim draws nearer to his or her fate.",
     "studio": "Grand Am",
-    "tags": {}
+    "tags": {
+      "gothic": 0.5,
+      "slasher_structure": 0.5,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-eyes-behind-the-stars",
@@ -4672,7 +4739,11 @@
     ],
     "synopsis": "A photographer and his model are on a photo shoot in a forest when they get the feeling they are being watched. The feeling becomes so strong that they decide to cut their session short and leave. Later, when they develop the photos they took, they discover what looks like alien creatures in the background.",
     "studio": "Midia Cinematografica",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "tense_dread": 0.5,
+      "investigation_driven": 0.3
+    }
   },
   {
     "id": "artiflix-face-of-the-screaming-werewolf",
@@ -4691,7 +4762,9 @@
     ],
     "synopsis": "A scientist experimenting with past lives finds a reincarnated Aztec who can lead him to lost treasure\u2014and to a creature that should remain lost. (Composed of footage from two unrelated Mexican horror films, LA CASA DEL TERROR and LA MOMIA AZTECA, plus new American-made footage.)",
     "studio": "Jerry Warren Productions Inc.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6
+    }
   },
   {
     "id": "artiflix-fair-play",
@@ -4712,7 +4785,11 @@
     ],
     "synopsis": "An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel not only their recent engagement but their lives.",
     "studio": "Star Thrower Entertainment",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.7,
+      "betrayal": 0.6,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-fame-and-the-devil",
@@ -4732,7 +4809,11 @@
     ],
     "synopsis": "Three men consider selling their souls to Satan in order to possess a beautiful woman.",
     "studio": "Produttori Associati",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.5,
+      "rivalry_driven": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-fanny-by-gaslight",
@@ -4752,7 +4833,12 @@
     ],
     "synopsis": "Returning to 1870s London after finishing at boarding school, Fanny winesses the death of her father in a fight with Lord Manderstoke. She then finds that her family has for many years been running a bordello next door to their home. When her mother dies shortly after, she next discovers that her real father is in fact a well-respected politician. Meeting him and then falling in love with his young advisor Harry Somerford leads to a life of ups and downs and conflict between the classes. Periodically the scoundrel of a Lord crosses her path, always to tragic effect.",
     "studio": "Gainsborough Pictures",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.7,
+      "betrayal": 0.5,
+      "romantic_tone": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-fathers-little-dividend",
@@ -4772,7 +4858,10 @@
     ],
     "synopsis": "Newly married Kay Dunstan announces that she and her husband are having a baby, leaving her father to come to grips with the fact that he will soon be a granddad.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "wholesome_family": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-fer-de-lance",
@@ -4793,7 +4882,11 @@
     ],
     "synopsis": "An American submarine leaves Tierra Del Fuego, and one of its crew has secretly brought aboard a container full of poisonous snakes which escape storage and bite key personnel on the submarine, causing an accident that cripples the vehicle so that it drops to the bottom of the Southern Ocean. Worse still, the snakes are still at large on the submarine and complicate the efforts of the crew to escape the sunken vessel.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.7,
+      "escape_plot": 0.7,
+      "disaster_survival": 0.5
+    }
   },
   {
     "id": "artiflix-fiend-without-a-face",
@@ -4813,7 +4906,10 @@
     ],
     "synopsis": "An American airbase in Canada provokes resentment from the nearby residents after fallout from nuclear experiments at the base are blamed for a recent spate of disappearances. A captain from the airbase is assigned to investigate, and begins to suspect that an elderly British scientist who lives near the base and conducts research in the field of mind over matter knows more than he is letting on..",
     "studio": "Amalgamated Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "investigation_driven": 0.6
+    }
   },
   {
     "id": "artiflix-fighting-caravans",
@@ -4834,7 +4930,11 @@
     ],
     "synopsis": "Clint Belmet is a bit of a firebrand and is sentenced to at least 30 days in jail, but his partners, Bill Jackson and Jim Bridger talk a sympathetic Frenchwoman named Felice into telling the bumbling, drunken marshal that Clint had married her the previous night. Clint is released so he can accompany Felice on the wagon train heading west to California.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6,
+      "romantic_tone": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-final-assignment",
@@ -4855,7 +4955,12 @@
     ],
     "synopsis": "An intrepid television journalist sent to cover the Canadian prime minister's visit to the Soviet Union has trouble sticking to her assignment when she unearths a horrific experimental drug trial involving children. Determined to prepare a video that will show the world exactly what's been going on, she dodges the long arm of the KGB and falls into bed with a Communist bureaucrat.",
     "studio": "Cinema One",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7,
+      "investigation_driven": 0.6,
+      "forbidden_knowledge": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-find-the-lady",
@@ -4874,7 +4979,10 @@
     ],
     "synopsis": "During New Year's Eve, a young model spends the day searching for her grandmother, who has suspiciously gone missing.",
     "studio": "Shepperton Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-firehouse",
