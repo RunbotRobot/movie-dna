@@ -7834,7 +7834,10 @@
     ],
     "synopsis": "A CIA agent is sent to get Professor Braun before the KGB can seize him as the Prof's knowledge, together with a recently stolen diamond, could be used to make a laser cannon.",
     "studio": "Karat Film",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7,
+      "forbidden_knowledge": 0.5
+    }
   },
   {
     "id": "artiflix-lassies-great-adventure",
@@ -7854,7 +7857,10 @@
     ],
     "synopsis": "While in Canada Timmy and Lassie encounter a downed hot air ballonist. By accident they end up in the balloon which takes them into the wilderness. The young boy and his dog must find a way to survive even fending off a wild pig.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "man_vs_nature": 0.5
+    }
   },
   {
     "id": "artiflix-lassie-the-painted-hills",
@@ -7876,7 +7882,10 @@
     ],
     "synopsis": "After years of prospecting, Jonathan finally strikes gold. He returns to town only to discover that his partner has since died and left Tommy fatherless. He decides to leave Shep with Tommy to cheer him up. Meanwhile, Jonathan's new partner isn't interested in sharing the gold, and lures Jonathan to his death.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "animal_companion": 0.6
+    }
   },
   {
     "id": "artiflix-last-resort",
@@ -7895,7 +7904,10 @@
     ],
     "synopsis": "When a Danish family finds themselves on a holiday island, in the midst of the first major refugee crisis in Europe in our time, our northern European, well-intentioned, humanistic values are put to the test.",
     "studio": "Meta Film",
-    "tags": {}
+    "tags": {
+      "immigrant_experience": 0.6,
+      "faith_and_doubt": 0.4
+    }
   },
   {
     "id": "artiflix-last-three",
@@ -7917,7 +7929,11 @@
     ],
     "synopsis": "After getting mixed up with a dangerous crime syndicate, an undercover cop wakes up to discover he is missing his partner, his wife, and three days of his life.",
     "studio": "Brotherhood Studios",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "investigation_driven": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-legend-of-bigfoot",
@@ -7933,7 +7949,9 @@
     ],
     "synopsis": "A documentary about the legendary creature, Bigfoot, with emphasis on him being the missing link.",
     "studio": "Palladium Productions",
-    "tags": {}
+    "tags": {
+      "mockumentary": 0.4
+    }
   },
   {
     "id": "artiflix-letters-from-three-lovers",
@@ -7954,7 +7972,11 @@
     ],
     "synopsis": "Three letters, whose delivery has been delayed by a year, change the lives of the people to whom they were addressed.",
     "studio": "Spelling-Goldberg Productions",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.7,
+      "epistolary": 0.7,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-liane-jungle-goddess",
@@ -7973,7 +7995,11 @@
     ],
     "synopsis": "Researchers in the African jungle find a young white woman living with a tribe, that adores her as goddess. They carry her off and proudly report to the press. It turns out that she may be Liane, the long lost daughter of the rich shipowner Amelongen. So Toren starts civilizing her and takes her to Germany, where she - now in love with Toren - has to defend herself against accusations of legacy-hunting. Will she fit into her new society?",
     "studio": "Arca-Filmproduktion",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.7,
+      "legacy_and_inheritance": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-license-to-kill",
@@ -7993,7 +8019,11 @@
     ],
     "synopsis": "A grieving family whose daughter was killed in a car crash with a drunken driver is outraged and frustrated as they encounter the inevitable bureaucratic delays in bringing the case to trial. Once in the courtroom, they are horror-stricken as the young, hard-pressed district attorney seems unable to overcome the technicalities and maneuverings that the driver's attorney uses to keep his client out of jail and still on the streets as a legal driver. When the judge is forced to rule time and again in favor of the defense, it appears that the driver might escape punishment altogether.",
     "studio": "Marian Rees Associates",
-    "tags": {}
+    "tags": {
+      "courtroom_drama": 0.8,
+      "systemic_corruption": 0.6,
+      "justice_vs_law": 0.6
+    }
   },
   {
     "id": "artiflix-life-returns",
@@ -8014,7 +8044,10 @@
     ],
     "synopsis": "A doctor who has spent his career working on ways to revive the dead sees his chance to prove his theory by performing his procedures on a recently deceased dog.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "animal_companion": 0.4
+    }
   },
   {
     "id": "artiflix-lil-abner",
@@ -8035,7 +8068,11 @@
     ],
     "synopsis": "A comedy musical based on the comic strip charcters created by Al Capp. When residents of Dogpatch, USA are notified by the government that they must evacuate because of atomic bomb testing, they try to persuade the government that their town is worth saving. Meanwhile, Earthquake McGoon wants to marry Daisy Mae; Daisy Mae wants to marry Li'l Abner, and Li'l Abner just wants to go fishing.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "romantic_tone": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-little-dragons",
@@ -8056,7 +8093,10 @@
     ],
     "synopsis": "Karate experts attempt to rescue a girl who was kidnapped by a mother and her two psycho sons.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-little-men",
@@ -8075,7 +8115,10 @@
     ],
     "synopsis": "Jake is a quiet, sensitive middle schooler with dreams of being an artist. He meets the affably brash Tony at his grandfather's funeral, and the unlikely pair soon hit it off. The budding friendship is put at risk, however, when a rent dispute between Jake's father, Brian, and Tony's mother, Leonor, threatens to become contentious.",
     "studio": "Race Point Films",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-loose-shoes",
@@ -8094,7 +8137,11 @@
     ],
     "synopsis": "Broad satire and buffoonery presented as a series of movie trailers. Among the titles and subjects are: \"The Howard Huge Story\", \"Skate-boarders from Hell\", \"The Invasion of the Penis Snatchers\", Woody Allen (pre-Mia), movie trailer come-ons, Charlie Chaplin, war movies, Billy Jack. The source of the title is presented about an hour into the film.",
     "studio": "Brooksfilms",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.6,
+      "absurdist": 0.6,
+      "meta_fourth_wall": 0.5
+    }
   },
   {
     "id": "artiflix-lost-honeymoon",
@@ -8114,7 +8161,10 @@
     ],
     "synopsis": "An American architect learns he has two children whom he fathered during his military service.",
     "studio": "Bryan Foy Productions",
-    "tags": {}
+    "tags": {
+      "found_family": 0.4,
+      "absurdist": 0.3
+    }
   },
   {
     "id": "artiflix-love-affair",
@@ -8134,7 +8184,10 @@
     ],
     "synopsis": "Ex-football star Mike Gambril meets Terry McKay on a flight to Sydney, which is forced to land on a small atoll. They become romantic on board a ship sent to take them to a larger island. They agree to meet in New York three months later to see if the attraction is real. One shows up but the other doesn't. However, a chance meeting brings them together again.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.8,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-love-is-forever",
@@ -8156,7 +8209,11 @@
     ],
     "synopsis": "Michael Landon stars in this real life story about a journalist in Laos, and the extent to which he will go for his girlfriend.",
     "studio": "Michael Landon Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "war_conflict": 0.4,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-lovers-and-liars",
@@ -8175,7 +8232,11 @@
     ],
     "synopsis": "A hustler stumbles into the score of his life when the madam of a small country bordello mistakes him for a hired hitman. A working girl  has stolen the madam's little black book to appease federal agents and pay off a debt - but they want more. While the hustler is falling in love with his intended target, the real hitman is closing in.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "betrayal": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-lucky-luke",
@@ -8196,7 +8257,10 @@
     ],
     "synopsis": "Fearless gunslinger, Lucky Luke, is ordered by the President to bring peace to Daisy Town.",
     "studio": "Angoa-Agicoa",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-machine-gun-mama",
@@ -8216,7 +8280,10 @@
     ],
     "synopsis": "Two Americans stranded in Mexico with an elephant try to sell their animal to a traveling carnival. Low-budget comedy with songs and a misleading title.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "fish_out_of_water": 0.4
+    }
   },
   {
     "id": "artiflix-march-of-the-wooden-soldiers",
@@ -8237,7 +8304,10 @@
     ],
     "synopsis": "Ollie Dee and Stannie Dum try to borrow money from their employer, the toymaker, to pay off the mortgage on Mother Peep's shoe and keep it and Little Bo Peep from the clutches of the evil Barnaby. When that fails, they trick Barnaby, enraging him.",
     "studio": "Hal Roach Studios",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-maybe-ill-come-home-in-the-spring",
@@ -8257,7 +8327,10 @@
     ],
     "synopsis": "Dennie has returned from a year among the hippies to her superficial, image-conscious suburban family. She must face their disapproval of her actions. They refuse to even try to understand. She must also deal with an ex-lover, and a beloved young sister who is following in her footsteps, wanting the idealistic hippie life but making some rash decisions in the process.",
     "studio": "Metromedia Producers Corporation",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-may-morning",
@@ -8276,7 +8349,9 @@
     ],
     "synopsis": "A dramatic and penetrating examination of the intellectual and moral standards existing at Oxford University, England, in the early 1970s.",
     "studio": "Mondial Televisione Film",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-mazes-and-monsters",
@@ -8297,7 +8372,11 @@
     ],
     "synopsis": "Bound together by a desire to play \"Mazes and Monsters,\" Robbie and his four college classmates decide to move the board game into the local cavern. Robbie loses his mind, and the line between reality and fantasy fuse into a harrowing nightmare.",
     "studio": "McDermott Productions",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.8,
+      "dreamlike_surreal": 0.5,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-mclintock",
@@ -8317,7 +8396,10 @@
     ],
     "synopsis": "Aging rancher and self-made man, George Washington McLintock is forced to deal with numerous personal and professional problems. Seemingly everyone wants a piece of his enormous farmstead, including high-ranking government men and nearby Native Americans. As McLintock tries to juggle his various adversaries, his wife\u2014who left him two years previously\u2014suddenly returns. But she isn't interested in George; she wants custody of their daughter.",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-meet-dr-christian",
@@ -8337,7 +8419,10 @@
     ],
     "synopsis": "The first of six films in the \"Dr. Christian\" series, starring Jean Hersholt as a small town doctor trying to convince local officials to approve funds for a new hospital.",
     "studio": "Stephens-Lang Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.4,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-meet-john-doe",
@@ -8358,7 +8443,10 @@
     ],
     "synopsis": "As a parting shot, fired reporter Ann Mitchell prints a fake letter from unemployed \"John Doe,\" who threatens suicide in protest of social ills. The paper is forced to rehire Ann and hires John Willoughby to impersonate \"Doe.\" Ann and her bosses cynically milk the story for all it's worth, until the made-up \"John Doe\" philosophy starts a whole political movement.",
     "studio": "Frank Capra Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-mesa-of-lost-women",
@@ -8378,7 +8466,9 @@
     ],
     "synopsis": "A mad scientist, Dr. Aranya (Jackie Coogan), has created giant spiders in his Mexican lab in Zarpa Mesa to create a race of superwomen by injecting spiders with human pituitary growth hormones. Women develop miraculous regenerative powers, but men mutate into disfigured dwarves. Spiders grow to human size and intelligence.",
     "studio": "Ron Ormond Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.8
+    }
   },
   {
     "id": "artiflix-mesmerized",
@@ -8398,7 +8488,11 @@
     ],
     "synopsis": "A young woman returns to the mountain where her family spent their childhood summers in search of the sister that only she can remember.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "investigation_driven": 0.4,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-message-to-my-daughter",
@@ -8418,7 +8512,10 @@
     ],
     "synopsis": "A confused teenager discovers a stack of tapes recorded years earlier by her dying mother.",
     "studio": "Metromedia Productions",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.5,
+      "epistolary": 0.5
+    }
   },
   {
     "id": "artiflix-metamorphosis-the-alien-factor",
