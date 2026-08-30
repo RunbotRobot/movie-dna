@@ -2877,7 +2877,10 @@
     ],
     "synopsis": "A beautiful actress struggles to connect with her disfigured co-star on the set of a European auteur's English-language debut.",
     "studio": "Flies Collective",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.4,
+      "meta_fourth_wall": 0.4
+    }
   },
   {
     "id": "artiflix-champagne-for-caesar",
@@ -2896,7 +2899,10 @@
     ],
     "synopsis": "When jobless genius Beauregard Bottomley interviews with Burnbridge Waters for a position at Waters' soap company, the owner rudely turns Bottomley down. As revenge, Bottomley enters a TV quiz show that Waters' company sponsors, with the goal of winning until he bankrupts the businessman. When Bottomley keeps acing the questions, becoming a media sensation, Waters desperately calls on vixen Flame O'Neal to uncover Bottomley's area of weakness.",
     "studio": "Cardinal Pictures",
-    "tags": {}
+    "tags": {
+      "competition_tournament": 0.6,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-charles-dickens-oliver-twist",
@@ -2915,7 +2921,11 @@
     ],
     "synopsis": "An orphan endures a harsh life in a workhouse before fleeing to London, where he falls in with a gang of juvenile pickpockets led by the criminal Fagin, and eventually finds a better life, exposing the cruelties of poverty and child labor in Victorian England.",
     "studio": "Burbank Animation Studios",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6,
+      "found_family": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-charlie_chan_at_the_opera",
@@ -2936,7 +2946,10 @@
     ],
     "synopsis": "A dangerous amnesiac escapes from an asylum, hides in the opera house, and is suspected of getting revenge on those who tried to murder him 13 years ago.",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.5,
+      "investigation_driven": 0.6
+    }
   },
   {
     "id": "artiflix-charlie-chan-in-paris",
@@ -2957,7 +2970,10 @@
     ],
     "synopsis": "Charlie's visit to Paris, ostensibly a vacation, is really a mission to investigate a bond-forgery racket. But his agent, apache dancer Nardi is killed before she can tell him much. The case, complicated by a false murder accusation for banker's daughter Yvette, climaxes with a strange journey through the Paris sewers.",
     "studio": "Fox Film Corporation",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-charlie-mccarthy-detective",
@@ -2976,7 +2992,11 @@
     ],
     "synopsis": "Scotty Hamilton is a reporter who works for a crooked editor. Bill Banning is another reporter who is about to expose the editor's ties to the mob. When the editor is killed, both reporter Banning and mobster Tony Garcia are suspected.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "betrayal": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-check-and-double-check",
@@ -2995,7 +3015,9 @@
     ],
     "synopsis": "Amos and Andy trying to make a go of their \"open-air\" taxi business while they get caught up in a society hassle, involving driving musicians to a fancy party.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-cheers-for-miss-bishop",
@@ -3015,7 +3037,11 @@
     ],
     "synopsis": "Ella Bishop is an inhibited girl whose frustrations grow as she approaches womanhood. As a women, her ambitions to teach cause her to lose her only opportunity for true love. Ella's life becomes one of missed chances and wrong choices. As she reaches old age, she reflects back and realizes she allowed the years to go by without achieving what she believes to be her true fulfillment. However, her years have not been without glory, and her moment of triumph arrives when her numerous now-famous students from over the years, return to honor their beloved Miss Bishop.",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.6,
+      "mentor_student": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-chino",
@@ -3034,7 +3060,11 @@
     ],
     "synopsis": "A comedy that chronicles a chance encounter between Robert and a Chinese named Jun who wanders lost through the city of Buenos Aires in search of his uncle after being assaulted by a taxi driver and his henchmen.",
     "studio": "Pampa Films",
-    "tags": {}
+    "tags": {
+      "found_family": 0.5,
+      "immigrant_experience": 0.6,
+      "odd_couple": 0.5
+    }
   },
   {
     "id": "artiflix-christabel",
@@ -3055,7 +3085,12 @@
     ],
     "synopsis": "A new look at the poem, \"Christabel\" (1816), by the British S. T. Coleridge. The only daughter of a rural worker, Christabel meets Geraldine, a mysterious woman who claims to have been attacked by men and needs help. In her innocence and purity, Christabel welcomes Geraldine into her father's house. From then on, the two protagonists relate in a way that Geraldine has a great influence on Christabel, destabilizing her convictions and promoting rupture of the traditions, but that bring a feeling of passion and freedom never experienced by her. In this adaptation, instead of England, the history takes place in the rural zone, in the middle of the closed Goian; The character Geraldine is a mysterious, free and independent woman who appears to swing the established structure and pre-framed relationships, which weigh on Christabel and her father.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "gothic": 0.7,
+      "forbidden_knowledge": 0.5,
+      "romantic_tone": 0.5,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-christmas-eve",
@@ -3070,7 +3105,11 @@
     ],
     "synopsis": "This moral tale of temptation, desperation and childish devotion has echoes of Dickens' classic fable A Christmas Carol. A lowly office worker of slender means is unable to buy his invalid wife the \"good food and good wine\" she requires. Incensed by the Scrooge-like manner of his boss, Charles is at the brink of despair. The suitably soppy ending is sure to get you in the Christmas spirit. BFI",
     "studio": "Neptune Film Company",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.4,
+      "class_conflict": 0.5,
+      "redemption_arc": 0.4
+    }
   },
   {
     "id": "artiflix-circle-of-two",
@@ -3090,7 +3129,10 @@
     ],
     "synopsis": "A 60-year-old artist shares a secret, platonic romance with a 16-year-old girl.",
     "studio": "Film Consortium of Canada",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-class-of-63",
@@ -3110,7 +3152,11 @@
     ],
     "synopsis": "A jealous husband uses a college reunion to gauge whether or not his wife is still in love with her old flame.",
     "studio": "Metromedia Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "obsession": 0.4,
+      "nostalgia_period": 0.5
+    }
   },
   {
     "id": "artiflix-clinton-and-nadine",
@@ -3134,7 +3180,11 @@
     ],
     "synopsis": "Eager to find his brother's murderer, Clinton enlists the aid of Nadine, an expensive call girl. Together they get sucked into a plot to smuggle guns to the Contra forces in Nicaragua.",
     "studio": "Carlton International Media",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6,
+      "betrayal": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-club-paradise",
@@ -3154,7 +3204,10 @@
     ],
     "synopsis": "During the height of the social revolution, a young dancer searches for salvation when she chooses to leave paradise.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-coach-of-the-year",
@@ -3174,7 +3227,11 @@
     ],
     "synopsis": "An ex-football star, paralyzed from the waist down during Vietnam, accepts the challenge of coaching football in a juvenile reform school.",
     "studio": "A. Shane Company",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.6,
+      "redemption_arc": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-coast-of-skeletons",
@@ -3194,7 +3251,10 @@
     ],
     "synopsis": "A former district officer is assigned to work on a team of diamond prospectors, who are busy double crossing each other until they are blown up having found bullion.",
     "studio": "Hallam Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-colorado",
@@ -3215,7 +3275,11 @@
     ],
     "synopsis": "Trouble in Colorado is tying up Union troops needed back east during the Civil War and Lieut. Burke is sent to investigate. Macklin and his gang are causing the problems and Capt. Mason joins them. When Burke catches up with them he also finds Mason, his brother.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "betrayal": 0.5,
+      "war_conflict": 0.3
+    }
   },
   {
     "id": "artiflix-colossus-and-the-amazon-queen",
@@ -3236,7 +3300,10 @@
     ],
     "synopsis": "Two muscle-men come up against a tribe of Amazon women.",
     "studio": "Galatea Film",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-congratulations-its-a-boy",
@@ -3256,7 +3323,10 @@
     ],
     "synopsis": "A bachelor's life is interrupted by the appearance of a teenager who claims to be his son.",
     "studio": "Aaron Spelling Productions",
-    "tags": {}
+    "tags": {
+      "found_family": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-constantine-and-the-cross",
@@ -3277,7 +3347,11 @@
     ],
     "synopsis": "Constantine is fighting against Barbarians with his father when he is called to Rome. In his way to Rome, he falls in an ambush planned by Maxence, who wants to become emperor.",
     "studio": "Jonia Film",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "betrayal": 0.6,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-corridors-of-blood",
@@ -3298,7 +3372,12 @@
     ],
     "synopsis": "In 1840s London, Dr. Thomas Bolton [Boris Karloff] dares to dream the unthinkable: experimenting with anesthesia gases to make surgery pain-free. While doing so, his demonstration before a panel of his peers ends in a horrific mishap with his patient awakening under the knife; he is forced to leave his position in disgrace. To complicate matters, he becomes addicted to his own chemical experiments and gets involved with a criminal gang led by Black Ben [Francis de Wolff], and a ruthless killer Resurrection Joe [Christopher Lee]. Unfortunately, this shady partnership leads Dr. Bolton to further ruin, culminating in his unwitting participation in murder \u2014 for which he becomes the first victim of a blackmail scheme.",
     "studio": "Producers Associates",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.6,
+      "forbidden_knowledge": 0.6,
+      "descent_into_madness": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-cosmos-war-of-the-planets",
@@ -3318,7 +3397,10 @@
     ],
     "synopsis": "A strange signal arrives on the Earth disturbing all communications, while an UFO appears above the Antarctic sea. Captain Alex Hamilton is sent with his spaceship and crew to the space outside the Solar System to find the origin of that signal. They reach an unknown planet where a giant robot enslaved a whole population of humanoids by taking their psychic energies.",
     "studio": "Nais Film",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-count-dracula-and-his-vampire-bride",
@@ -3337,7 +3419,11 @@
     ],
     "synopsis": "The police and British security forces call in Professor Van Helsing to help them investigate Satanic ritual which has been occurring in a large country house, and which has been attended by a government minister, an eminent scientist and secret service chief. The owner of the house is a mysterious property tycoon who is found to be behind a sinister plot involving a deadly plague. It is in fact Dracula who, sick of his interminable existence, has decided that he must end it all in the only possible way- by destroying every last potential victim.",
     "studio": "Hammer Film Productions",
-    "tags": {}
+    "tags": {
+      "gothic": 0.8,
+      "investigation_driven": 0.5,
+      "forbidden_knowledge": 0.5
+    }
   },
   {
     "id": "artiflix-cream-farewell-concert",
@@ -3356,7 +3442,9 @@
     ],
     "synopsis": "On November 26, 1968, London's illustrious Royal Albert Hall was jammed to its gilded rafters with rock fans ready for the final concert of what many still consider the greatest band that ever played. That band, Cream, featured the legendary Eric Clapton (aka \"Slowhand\") on lead guitar, the great drummer Ginger Baker (also of the classic rock band Blind Faith), and lead singer-bassist Jack Bruce in a trio that made some of the most amazing rock songs of the Sixties.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.5
+    }
   },
   {
     "id": "artiflix-crimes-at-the-dark-house",
@@ -3377,7 +3465,12 @@
     ],
     "synopsis": "In this lurid melodrama, Tod Slaughter plays a villain who murders the wealthy Sir Percival Glyde in the gold fields of Australia and assumes his identity in order to inherit Glyde's estate in England. On arriving in England, \"Sir Percival\" schemes to marry an heiress for her money, and, with the connivance of the cunning Dr. Isidor Fosco, embarks on a killing spree of all who suspect him to be an imposter and would get in the way of his plans to stay Lord of the Manor.",
     "studio": "George King Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.7,
+      "betrayal": 0.6,
+      "gothic": 0.5,
+      "legacy_and_inheritance": 0.5
+    }
   },
   {
     "id": "artiflix-cry-blood-apache",
@@ -3397,7 +3490,10 @@
     ],
     "synopsis": "Telling the story of his early life in flashback, a former prospector (Joel McCrea, with flashback sequences featuring son Jody) explains his brutal massacre of a tribe of Indians. The only survivor (Marie Gahua) agrees to lead him to a secret gold mine.",
     "studio": "Bronco Films",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-cuba-crossing",
@@ -3416,7 +3512,9 @@
     ],
     "synopsis": "An adventurer gets caught up in a plot to kill Fidel Castro.",
     "studio": "Key West",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6
+    }
   },
   {
     "id": "artiflix-dance-with-me-henry",
@@ -3435,7 +3533,11 @@
     ],
     "synopsis": "Bud and Lou are the owners of the amusement park Kiddieland. Bud, a compulsive gambler, gets in trouble with the mob, and Lou finds himself struggling to keep his adopted children. When Bud is forced to make a shady deal, Lou tries to arrange a deal with the DA, but winds up framed for murder.",
     "studio": "Robert Goldstein Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "absurdist": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-danger-flight",
@@ -3454,7 +3556,11 @@
     ],
     "synopsis": "When the pilot and co-pilot of a commercial flight become ill from food poisoning, a passenger who once flew in WW2 must take the controls and try to safely land the aircraft.",
     "studio": "CBC",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.6,
+      "real_time": 0.6,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-danger-lights",
