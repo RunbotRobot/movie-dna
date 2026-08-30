@@ -40,6 +40,34 @@ const FUZZY_MIN_LENGTH = 4;
 // ("eric bana") are long enough that this collision risk is much smaller.
 const FUZZY_PERSON_TOKEN_MIN_LENGTH = 5;
 
+// Match-strength scoring bands for resolveSeed's candidate list (see below):
+// each band is a disjoint numeric range so candidates from every category —
+// movie, studio, person, theme, fuzzy — sort into one sensible, most- to
+// least-precise order regardless of how differently each one is computed.
+// EXACT (1) > FULL-VOCABULARY THEME (0.9) > LOOSE substring title/studio/
+// person (0.4–0.7) > PARTIAL theme (0.2–0.4) > FUZZY typo match (~0.22–0.3).
+const EXACT_SCORE = 1;
+const THEME_FULL_SCORE = 0.9;
+const LOOSE_SCORE_BASE = 0.4;
+const LOOSE_SCORE_SPAN = 0.3;
+const THEME_PARTIAL_BASE = 0.2;
+const THEME_PARTIAL_SPAN = 0.2;
+const FUZZY_SCORE_SCALE = 0.3;
+const MAX_CANDIDATES = 8;
+
+// How much of `target` the (already substring-matched) query `q` covers —
+// closer to a full-length match scores higher within the loose tier, e.g.
+// "horror" hitting the whole title "Horror" outscores it hitting a small
+// fragment of "The Texas Chainsaw Massacre".
+function looseScore(q, target) {
+  return LOOSE_SCORE_BASE + LOOSE_SCORE_SPAN * Math.min(1, q.length / Math.max(1, target.length));
+}
+
+function nameScore(q, label) {
+  const norm = normalize(label);
+  return norm === q ? EXACT_SCORE : looseScore(q, norm);
+}
+
 function bestFuzzyTitleMatch(q, movies) {
   let best = null;
   for (const movie of movies) {
@@ -165,20 +193,20 @@ function tagHaystackWords(tag) {
   return new Set(tokenizeWords(`${tag.label} ${tag.id.replace(/_/g, ' ')} ${(tag.synonyms || []).join(' ')}`));
 }
 
-// Every word the query tokenizes into is itself a word somewhere in the
+// Fraction of the query's words that are themselves a word somewhere in the
 // taxonomy's vocabulary (any tag's label/id/synonyms — not necessarily all
-// the same tag). Used to recognize a deliberate multi-word theme phrase
-// (e.g. "prison break", "artificial intelligence") as confidently as a
-// single matching word, regardless of how many words it's made of — see
-// resolveSeed below for why that distinction matters.
-function queryFullyInVocabulary(query, taxonomy) {
+// the same tag): 1 when every word is recognized (a deliberate theme
+// phrase, one word or several — "horror", "prison break", "artificial
+// intelligence"), partway when only some are, 0 when none are. Used by
+// resolveSeed to score how confidently a query names a theme.
+function textVocabCoverage(query, taxonomy) {
   const words = tokenizeWords(query);
-  if (words.length === 0) return false;
+  if (words.length === 0) return 0;
   const vocab = new Set();
   for (const tag of taxonomy.tags) {
     for (const w of tagHaystackWords(tag)) vocab.add(w);
   }
-  return words.every((w) => vocab.has(w));
+  return words.filter((w) => vocab.has(w)).length / words.length;
 }
 
 // Deliberately exact-word matching only, not substring containment and not
@@ -225,110 +253,139 @@ function movieSeed(movie) {
   };
 }
 
+// Movie titles alone aren't always unique in a 1000+/760+ title catalog
+// (the same title can show up twice, e.g. a duplicate listing or an actual
+// remake) — the year disambiguates them for display in a candidate list.
+function movieLabel(movie) {
+  return movie.year ? `${movie.title} (${movie.year})` : movie.title;
+}
+
 // A substring match on a name fragment (e.g. "Sutherland") routinely hits
-// more than one real person — groups the candidate movies by which exact
-// cast/director name actually matched, so the caller can ask which one was
-// meant instead of silently picking whichever happened to be first.
-function groupMoviesByMatchedPerson(personMovies, q) {
+// more than one real person or company — groups the matching movies by
+// which exact name string actually matched, so the caller gets one
+// candidate per real-world entity instead of one blended average (or one
+// silent winner) across all of them. `getNames(movie)` returns the name
+// strings on that movie to check — cast + director names for a person
+// search, or just the studio for a studio search.
+function groupMoviesByMatchedName(movies, q, getNames) {
   const groups = new Map(); // normalized name -> { label, movies: [] }
-  for (const movie of personMovies) {
-    const names = [...movie.cast, ...directorNames(movie)];
-    for (const name of names) {
-      if (!normalize(name).includes(q)) continue;
-      const key = normalize(name);
-      if (!groups.has(key)) groups.set(key, { label: name, movies: [] });
-      groups.get(key).movies.push(movie);
+  for (const movie of movies) {
+    for (const name of getNames(movie)) {
+      if (!name) continue;
+      const norm = normalize(name);
+      const isMatch = norm === q || (q.length >= 3 && norm.includes(q));
+      if (!isMatch) continue;
+      if (!groups.has(norm)) groups.set(norm, { label: name, movies: [] });
+      groups.get(norm).movies.push(movie);
     }
   }
   return groups;
 }
 
-// Resolution goes from most to least precise, and only reaches for an
-// approximate (fuzzy) guess once every exact/substring option — including a
-// real free-text tag match — has come up empty. Fuzzy matching is the
-// least precise signal here: an approximate match can coincidentally hit a
-// totally unrelated short title or name (e.g. "epic" one edit away from the
-// actor first name "eric"), so a real match of any other kind always wins.
+// Gathers every plausible reading of `query` — movie(s), studio(s),
+// person(s), theme — each scored for how strongly it matches (see the
+// scoring bands above), rather than picking one via a fixed precision
+// order and discarding the rest. When more than one candidate turns up,
+// resolveSeed lets the caller show them all, strongest first, instead of
+// silently guessing. Fuzzy (typo-tolerant) matching is handled separately
+// by the caller: it's the least trustworthy signal here — an approximate
+// match can coincidentally hit a totally unrelated short title or name
+// (e.g. "epic" one edit from the actor first name "eric") — so it's only
+// even attempted once every one of these real candidates comes up empty.
+function findCandidates(query, movies, taxonomy) {
+  const q = normalize(query);
+  const candidates = [];
+
+  // Movies: every movie whose title exactly equals or loosely contains the
+  // query is its own candidate. A title isn't guaranteed unique across a
+  // 1000+/760+ title catalog (duplicate listings, real remakes), and a
+  // short query can genuinely match several different titles ("Alien"
+  // matching "Alien", "Aliens", "Alien 3", ...) — surfacing all of them
+  // beats silently picking whichever the catalog happens to list first.
+  for (const movie of movies) {
+    const title = normalize(movie.title);
+    if (title === q) {
+      candidates.push({ label: movieLabel(movie), type: 'movie', score: EXACT_SCORE, build: () => movieSeed(movie) });
+    } else if (q.length >= 3 && title.includes(q)) {
+      candidates.push({ label: movieLabel(movie), type: 'movie', score: looseScore(q, title), build: () => movieSeed(movie) });
+    }
+  }
+
+  // Studios and people: grouped by the exact name string that matched (see
+  // groupMoviesByMatchedName) so two different studios/people that both
+  // happen to contain the query as a substring are two different
+  // candidates, never one blended average of both.
+  for (const { label, movies: groupMovies } of groupMoviesByMatchedName(movies, q, (m) => [m.studio]).values()) {
+    candidates.push({ label, type: 'studio', score: nameScore(q, label), build: () => buildStudioSeed(label, groupMovies) });
+  }
+  for (const { label, movies: groupMovies } of groupMoviesByMatchedName(movies, q, (m) => [
+    ...m.cast,
+    ...directorNames(m),
+  ]).values()) {
+    candidates.push({ label, type: 'person', score: nameScore(q, label), build: () => buildPersonSeed(label, groupMovies) });
+  }
+
+  // Theme: how much of the query is recognized taxonomy vocabulary (a
+  // tag's label, id, or synonym). Full recognition of every word ranks as
+  // high as an exact name match ("horror", "prison break", "artificial
+  // intelligence" are deliberate theme phrases, not title fragments);
+  // partial recognition still counts, just at a lower confidence, well
+  // below a real title/studio/person hit.
+  const coverage = textVocabCoverage(query, taxonomy);
+  if (coverage > 0) {
+    const score = coverage === 1 ? THEME_FULL_SCORE : THEME_PARTIAL_BASE + THEME_PARTIAL_SPAN * coverage;
+    candidates.push({ label: query, type: 'text', score, build: () => buildTextSeed(query, taxonomy) });
+  }
+
+  return candidates;
+}
+
 export function resolveSeed(query, movies, taxonomy) {
   const q = normalize(query);
   if (!q) return null;
 
-  const exactMovie = movies.find((m) => normalize(m.title) === q);
-  if (exactMovie) return movieSeed(exactMovie);
+  let candidates = findCandidates(query, movies, taxonomy);
 
-  // A query where every word is itself a word in the taxonomy's own
-  // vocabulary (a tag's label, id, or synonym) — whether that's one word
-  // ("horror", a synonym of Tense dread) or several ("prison break",
-  // "artificial intelligence") — names a theme on purpose. Checking that
-  // here, before the loose (substring) title/studio/person matches below,
-  // stops a coincidental hit — some unrelated movie whose title just
-  // happens to contain those words, e.g. "Horror Hotel: The Phone" or
-  // "Groundhog Day" itself — from silently hijacking the search into one
-  // random movie instead of the theme it actually means. A query with any
-  // word outside that vocabulary (e.g. "The Dark Knight" — "knight" isn't
-  // a taxonomy word) is left alone so real movie-title searches still work.
-  const earlyTextSeed = queryFullyInVocabulary(query, taxonomy) ? buildTextSeed(query, taxonomy) : null;
-  if (earlyTextSeed && earlyTextSeed.matched) return earlyTextSeed;
-
-  const looseMovie = q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null;
-  if (looseMovie) return movieSeed(looseMovie);
-
-  const exactStudioMovies = movies.filter((m) => m.studio && normalize(m.studio) === q);
-  const looseStudioMovies =
-    exactStudioMovies.length > 0
-      ? exactStudioMovies
-      : q.length >= 3
-        ? movies.filter((m) => m.studio && normalize(m.studio).includes(q))
-        : [];
-  if (looseStudioMovies.length > 0) {
-    const label = looseStudioMovies[0].studio;
-    return buildStudioSeed(label, looseStudioMovies);
-  }
-
-  const exactPersonMovies = movies.filter(
-    (m) => m.cast.some((c) => normalize(c) === q) || directorNames(m).some((d) => normalize(d) === q)
-  );
-  let personMovies = exactPersonMovies;
-  if (personMovies.length === 0 && q.length >= 3) {
-    personMovies = movies.filter(
-      (m) => m.cast.some((c) => normalize(c).includes(q)) || directorNames(m).some((d) => normalize(d).includes(q))
-    );
-  }
-  if (personMovies.length > 0) {
-    const groups = groupMoviesByMatchedPerson(personMovies, q);
-    if (groups.size > 1) {
-      return {
-        type: 'ambiguous',
-        label: query,
-        candidates: [...groups.values()].map(({ label, movies: gm }) => ({
-          label,
-          type: 'person',
-          build: () => buildPersonSeed(label, gm),
-        })),
-      };
+  // Fuzzy (typo-tolerant) matching only kicks in once every precise option
+  // above came up completely empty — see findCandidates for why.
+  if (candidates.length === 0 && q.length >= FUZZY_MIN_LENGTH) {
+    const fuzzyTitleMatch = bestFuzzyTitleMatch(q, movies);
+    if (fuzzyTitleMatch) {
+      candidates.push({
+        label: movieLabel(fuzzyTitleMatch.movie),
+        type: 'movie',
+        score: fuzzyTitleMatch.ratio * FUZZY_SCORE_SCALE,
+        build: () => movieSeed(fuzzyTitleMatch.movie),
+      });
     }
-    const [{ label, movies: gm }] = groups.values();
-    return buildPersonSeed(label, gm);
-  }
 
-  const textSeed = earlyTextSeed || buildTextSeed(query, taxonomy);
-  if (textSeed.matched) return textSeed;
-
-  const fuzzyTitleMatch = q.length >= FUZZY_MIN_LENGTH ? bestFuzzyTitleMatch(q, movies) : null;
-  if (fuzzyTitleMatch) return movieSeed(fuzzyTitleMatch.movie);
-
-  if (q.length >= FUZZY_MIN_LENGTH) {
     const fuzzyPerson = bestFuzzyPersonName(q, movies);
     if (fuzzyPerson) {
       const canonNorm = normalize(fuzzyPerson.name);
       const fuzzyPersonMovies = movies.filter(
         (m) => m.cast.some((c) => normalize(c) === canonNorm) || directorNames(m).some((d) => normalize(d) === canonNorm)
       );
-      if (fuzzyPersonMovies.length > 0) return buildPersonSeed(fuzzyPerson.name, fuzzyPersonMovies);
+      if (fuzzyPersonMovies.length > 0) {
+        candidates.push({
+          label: fuzzyPerson.name,
+          type: 'person',
+          score: fuzzyPerson.ratio * FUZZY_SCORE_SCALE,
+          build: () => buildPersonSeed(fuzzyPerson.name, fuzzyPersonMovies),
+        });
+      }
     }
   }
 
-  return textSeed;
+  // Nothing matched at all, in any category — an unmatched text seed lets
+  // the caller fall back to the Worker's tag-learning lookup.
+  if (candidates.length === 0) return buildTextSeed(query, taxonomy);
+
+  candidates.sort((a, b) => b.score - a.score);
+  if (candidates.length > MAX_CANDIDATES) candidates = candidates.slice(0, MAX_CANDIDATES);
+
+  if (candidates.length === 1) return candidates[0].build();
+
+  return { type: 'ambiguous', label: query, candidates };
 }
 
 // Builds a seed from a mapping the Worker's tag-learning fallback found

@@ -68,7 +68,12 @@ function pickCandidate(query, candidates) {
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'disambiguate-option';
-      btn.textContent = candidate.label;
+      const label = document.createElement('span');
+      label.textContent = candidate.label;
+      const type = document.createElement('span');
+      type.className = 'disambiguate-option-count';
+      type.textContent = seedTypeLabel(candidate.type);
+      btn.append(label, ' — ', type);
       btn.addEventListener('click', () => disambiguateDialog.close(String(i)));
       li.appendChild(btn);
       disambiguateList.appendChild(li);
