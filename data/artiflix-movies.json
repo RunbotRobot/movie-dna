@@ -13470,7 +13470,10 @@
     ],
     "synopsis": "A group of young professionals decides to play a practical joke on one of their ex-girlfriends who married a rich man who is about to close a major real estate deal. They plan to kidnap her and mess up the deal. Unfortunately, the joke becomes deadly serious.",
     "studio": "Magnum Films",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-the-cold-room",
@@ -13491,7 +13494,10 @@
     ],
     "synopsis": "A girl visiting modern day East Germany with her estranged father begins reliving the horrifying events that happened to a young girl living there during World War II.",
     "studio": "HBO Films",
-    "tags": {}
+    "tags": {
+      "dual_timeline": 0.6,
+      "war_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-the-conquest-of-the-air",
@@ -13511,7 +13517,9 @@
     ],
     "synopsis": "This early docudrama uses dramatic reenactment, working models of early flying machines, and archival footage to trace man's attempts to fly from ancient times through the 1930s.",
     "studio": "London Films Productions",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.3
+    }
   },
   {
     "id": "artiflix-the-cranes-are-flying",
@@ -13532,7 +13540,11 @@
     ],
     "synopsis": "Veronika and Boris come together in Moscow shortly before World War II. Walking along the river, they watch cranes fly overhead, and promise to rendezvous before Boris leaves to fight. Boris misses the meeting and is off to the front lines, while Veronika waits patiently, sending letters faithfully. After her house is bombed, Veronika moves in with Boris' family, into the company of a cousin with his own intentions.",
     "studio": "Mosfilm",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "romantic_tone": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-crawling-eye",
@@ -13552,7 +13564,10 @@
     ],
     "synopsis": "A United Nations investigator crosses paths with a pair of psychic sisters on his way to Trollenberg observatory in the Swiss Alps, which has been plagued by a series of mountaineer disappearances that may be related to a radioactive cloud at the mountain's south face.",
     "studio": "Tempean Films",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-the-crawling-hand",
@@ -13571,7 +13586,10 @@
     ],
     "synopsis": "The hand of a dead astronaut comes crawling back from the grave to strangle the living.",
     "studio": "Joseph F. Robertson Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-crooked-circle",
@@ -13593,7 +13611,10 @@
     ],
     "synopsis": "A group of amateur detectives sets out to expose The Crooked Circle, a secretive group of hooded occultists.",
     "studio": "Astor Pictures Corp.",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-crooked-way",
@@ -13614,7 +13635,10 @@
     ],
     "synopsis": "A war veteran suffering from amnesia, returns to Los Angeles from a San Francisco veterans hospital hoping to learn who he is and discovers his criminal past.",
     "studio": "Benedict Bogeaus Production",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-cry-of-the-black-wolves",
@@ -13634,7 +13658,10 @@
     ],
     "synopsis": "A fur hunter living as a hermit in the Alaskan mountains is mistakenly suspected of the murder of a gold prospector. The murdered man's sister hires a gunslinger to catch the hunter, but after a dramatic confrontation, the two men become friends. Adventure movie based on Jack London's novel \"Son of the Wolf\".",
     "studio": "Lisa Film",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-the-curse-of-demon-mountain",
@@ -13654,7 +13681,9 @@
     ],
     "synopsis": "Two former Confederate captains try to remove diamonds hidden in the Arkansas mountains, but a native spirit guards the sacred site against intruders.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6
+    }
   },
   {
     "id": "artiflix-the-dark-hour",
@@ -13675,7 +13704,10 @@
     ],
     "synopsis": "A pair of detectives investigates the murder of an elderly millionaire who was the target of blackmail and death threats and find that there is no shortage of suspects, many of them in the victim's own family.",
     "studio": "Chesterfield Motion Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-day-of-the-triffids",
@@ -13695,7 +13727,10 @@
     ],
     "synopsis": "After an unusual meteor shower leaves most of the human population blind, a merchant navy officer must find a way to conquer tall, aggressive plants which are feeding on people and animals.",
     "studio": "Allied Artists Pictures",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.7,
+      "man_vs_nature": 0.6
+    }
   },
   {
     "id": "artiflix-the-day-the-sky-exploded",
@@ -13715,7 +13750,10 @@
     ],
     "synopsis": "Scientists discover that a group of meteors are hurtling on a collison course with Earth, and if they hit, the planet will be destroyed.",
     "studio": "Lux Film",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.6,
+      "epic_scale": 0.5
+    }
   },
   {
     "id": "artiflix-the-deadly-companions",
@@ -13734,7 +13772,10 @@
     ],
     "synopsis": "An ex-army officer accidentally kills a woman's son and tries to make up for it by escorting the funeral procession through dangerous Indian territory.",
     "studio": "Path\u00e9-America Distributing Company",
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.5,
+      "redemption_arc": 0.5
+    }
   },
   {
     "id": "artiflix-the-death-kiss",
@@ -13755,7 +13796,10 @@
     ],
     "synopsis": "Trevor is an extremely shy undertaker's assistant. He always tags along with his good friend Ronnie, when he goes to the pub with his girlfriend Sandra. Sandra introduces Trevor to her more forward friend Linda. Linda has a difficult time getting Trevor to go out with her, but she finally gets him to go to a disco; he won't dance, so Linda dances with Ronnie.",
     "studio": "BBC Birmingham",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-the-devil-bat",
@@ -13776,7 +13820,10 @@
     ],
     "synopsis": "Dr. Paul Carruthers is frustrated because he thinks his employers, Mary Heath and Henry Morton, have cheated him out of the company's profits. He decides to get revenge by altering bats to grow twice their normal size and training them to attack when they smell a perfume of his own making. He mixes the perfume into a lotion, which he offers as a gift to Mary and Henry. When they turn up dead, a newspaper reporter decides to investigate.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-devils-nightmare",
@@ -13795,7 +13842,10 @@
     ],
     "synopsis": "Addiction can be your own personal Hell.",
     "studio": "MAD Z Productions",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.7,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-the-devils-rain",
@@ -13814,7 +13864,10 @@
     ],
     "synopsis": "A Satanist cult leader is burnt alive by the local church. He vows to come back to hunt down and enslave every descendant of his congregation, by the power of the book of blood contracts, in which they sold their souls to the devil.",
     "studio": "Sandy Howard Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "faith_and_doubt": 0.5
+    }
   },
   {
     "id": "artiflix-the-devils-sleep",
@@ -13833,7 +13886,10 @@
     ],
     "synopsis": "Innocent youth trapped in a hopped-up hell.",
     "studio": "Screen Art Pictures Corp.",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.6,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-the-divorce-of-lady-x",
@@ -13853,7 +13909,10 @@
     ],
     "synopsis": "A London barrister believes the woman who spent the night in his hotel suite is the erring wife of his newest client.",
     "studio": "London Films Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-drum",
@@ -13874,7 +13933,10 @@
     ],
     "synopsis": "In 1924, Oskar Matzerath is born in the Free City of Danzig. At age three, he falls down a flight of stairs and stops growing. In 1939, World War II breaks out.",
     "studio": "Jadran Film",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "dreamlike_surreal": 0.4
+    }
   },
   {
     "id": "artiflix-the-dungeon-of-harrow",
@@ -13893,7 +13955,11 @@
     ],
     "synopsis": "A man is shipwrecked on the island of a cruel Count and taken prisoner.",
     "studio": "Herts-Lion International Corp.",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "gothic": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-the-efficiency-expert",
@@ -13913,7 +13979,10 @@
     ],
     "synopsis": "Wallace is an efficiency expert, managing the high-profile downsizing of a major auto parts factory. But when he is hired to evaluate a small moccasin factory which seems from another era, Wallace has to reconsider the rapid modernization he advocates, as he is confronted by the human faces such plans hurt.",
     "studio": "Australian Film Commission",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.5,
+      "redemption_arc": 0.4
+    }
   },
   {
     "id": "artiflix-the-emperor-jones",
@@ -13933,7 +14002,9 @@
     ],
     "synopsis": "Unscrupulously ambitious, Brutus Jones escapes from jail after killing a guard and, through bluff and bravado, finds himself the emperor of a Caribbean island.",
     "studio": "John Krimsky and Gifford Cochran Inc.",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-the-entertainer",
@@ -13953,7 +14024,11 @@
     ],
     "synopsis": "Michael Gambon stars in John Osborne's play, set in 1950s Britain, following Archie Rice, a drunken, lecherous, egotistical vaudevillian, whose act is on the downward slope.",
     "studio": "BBC",
-    "tags": {}
+    "tags": {
+      "melancholic": 0.5,
+      "addiction_recovery": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-the-fabulous-dorseys",
@@ -13973,7 +14048,10 @@
     ],
     "synopsis": "The story of Tommy and Jimmy Dorsey from their boyhood in Pennsylvania through their rise, their breakup, and their personal reunion.",
     "studio": "Embassy Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-the-face-at-the-window",
@@ -13992,7 +14070,12 @@
     ],
     "synopsis": "Like his father before him, Ralph is admitted to the Graduate Club upon completing his studies at the university. He is presented with a commemorative stein to mark the occasion. Ralph meets an artist\u2019s model, marries her over his father\u2019s objections, and is disowned by the old man. Eventually, he becomes a drunkard and deserts his wife and their baby, who is taken in by Ralph\u2019s father when the young mother dies. The grandson is raised with the same advantages as his father, graduates from the same university, and is admitted to the same club. During the festivities, Ralph stumbles by the club, is seen through the window by his son and his friends, and is brought inside. He attempts to drink from his old stein, but is shoved aside by the boy, who does not know him. The old man enters and recognizes Ralph. All three are reconciled as Ralph dies.",
     "studio": "American Mutoscope & Biograph",
-    "tags": {}
+    "tags": {
+      "multi_generational_cast": 0.7,
+      "legacy_and_inheritance": 0.6,
+      "addiction_recovery": 0.5,
+      "redemption_arc": 0.5
+    }
   },
   {
     "id": "artiflix-the-fat-spy",
@@ -14011,7 +14094,9 @@
     ],
     "synopsis": "A mostly-deserted island, which is believed to be the home to the fountain of youth, is off the coast of Florida. The island gets some visitors in the form of a teenage boy band, \"the Wild Ones\", and their gang of swimsuit-clad young people, who head there in a crowded powerboat ostensibly for a scavenger hunt.",
     "studio": "Phillip Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6
+    }
   },
   {
     "id": "artiflix-the-fear-chamber",
@@ -14031,7 +14116,11 @@
     ],
     "synopsis": "A psychotic man likes to hunt down young women, then kill them and sell their organs. Detective Nick Stevens has been chasing this killer for years and has to overcome this personal demons in order to conquer this serial killer.",
     "studio": "Night Light Films",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "slasher_structure": 0.5,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-fighter",
@@ -14050,7 +14139,11 @@
     ],
     "synopsis": "Boxer \"Irish\" Micky Ward's unlikely road to the world light welterweight title. His Rocky-like rise was shepherded by half-brother Dicky, a boxer-turned-trainer who rebounded in life after nearly being KO'd by drugs and crime.",
     "studio": "The Weinstein Company",
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.5,
+      "addiction_recovery": 0.6,
+      "competition_tournament": 0.5
+    }
   },
   {
     "id": "artiflix-the-fighting-sullivans",
