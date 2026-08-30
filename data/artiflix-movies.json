@@ -14873,7 +14873,10 @@
     ],
     "synopsis": "Four adventurers descend to the bottom of the sea. When their surface tether snaps, they find themselves marooned in a network of underwater caverns.",
     "studio": "GBM Productions",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-the-invisible-avenger",
@@ -14895,7 +14898,9 @@
     ],
     "synopsis": "Lamont Cranston, aka The Shadow, investigates the murder of a New Orleans bandleader.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7
+    }
   },
   {
     "id": "artiflix-the-italian-connection",
@@ -14915,7 +14920,11 @@
     ],
     "synopsis": "When a shipment of heroin disappears between Italy and New York, a small-time pimp in Milan is framed for the theft. Two professional hitmen are dispatched from New York to find him, but the real thieves want to get rid of him before the New York killers get to him to eliminate any chance of them finding out he's the wrong man.",
     "studio": "Cineproduzioni Daunia 70",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "criminal_mastermind": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-the-jackals",
@@ -14938,7 +14947,10 @@
     ],
     "synopsis": "Bad bank robber falls in love with granddaughter of miner he and his men planned to rob of gold, has change of heart.",
     "studio": "Killarney Film Studios",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "redemption_arc": 0.6
+    }
   },
   {
     "id": "artiflix-the-jackie-robinson-story",
@@ -14958,7 +14970,11 @@
     ],
     "synopsis": "Biography of Jackie Robinson, the first black major league baseball player in the 20th century. Traces his career in the negro leagues and the major leagues.",
     "studio": "Eagle-Lion Films",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "found_purpose": 0.4,
+      "justice_vs_law": 0.3
+    }
   },
   {
     "id": "artiflix-the-joe-louis-story",
@@ -14977,7 +14993,11 @@
     ],
     "synopsis": "The life and career of Heavyweight Champion Joe Louis, who held the title for 12 years--longer than any other boxer in history--and who had to not only battle opponents inside the ring and racism outside it.",
     "studio": "Federated Films, Inc.",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "competition_tournament": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-the-kansan",
@@ -14997,7 +15017,10 @@
     ],
     "synopsis": "Wounded while stopping the James gang from robbing the local bank, a cowboy wakes up in the hospital to find that he's been elected town marshal. He soon comes into conflict with the town banker, who controls everything in town and is squeezing the townspeople for every penny he can get out of them.",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.6,
+      "systemic_corruption": 0.6
+    }
   },
   {
     "id": "artiflix-the-klansman",
@@ -15018,7 +15041,10 @@
     ],
     "synopsis": "A small southern town has just been rocked by a tragedy: a young white woman has been raped by a black man. When young black man Garth witnesses the Ku Klux Klan's violent retaliation against his innocent friend, Garth declares a one-man war on the Klan and hunts them down one-by-one.",
     "studio": "Atlanta Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "justice_vs_law": 0.5
+    }
   },
   {
     "id": "artiflix-the-lady-says-no",
@@ -15038,7 +15064,10 @@
     ],
     "synopsis": "The feminist author of a national best-seller titled The Lady Says No meets a sexist magazine photographer and decides she'd rather say yes.",
     "studio": "Ross-Stillman Productions Inc.",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-lady-vanishes",
@@ -15060,7 +15089,11 @@
     ],
     "synopsis": "On the eve of World War II, zany heiress Amanda Kelly travels by train to Switzerland. While passing through Germany, she meets a sweet elderly lady, who suddenly vanishes. Distraught, she questions her fellow passengers who claim that the woman was never there. Unsure if it's all in her mind or if there's a more sinister plot afoot, Amanda teams up with photographer Robert Condon to discover the truth.",
     "studio": "Hammer Film Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "unreliable_narrator": 0.5,
+      "espionage_double_cross": 0.4
+    }
   },
   {
     "id": "artiflix-the-last-days-of-patton",
@@ -15081,7 +15114,11 @@
     ],
     "synopsis": "Gen. George S. Patton now works a desk job for the U.S. military after World War II. In the midst of dealing with the difficulty of adapting to his dramatic change of lifestyle, Patton is involved in an auto wreck that leaves him in critical condition. While his body fails him, Patton introspectively reminisces about his relationship with his spouse, Beatrice; his childhood; and his days on the WWI battlefields.",
     "studio": "CBS Studios",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "nostalgia_period": 0.5,
+      "melancholic": 0.4
+    }
   },
   {
     "id": "artiflix-the-last-man-on-earth",
@@ -15102,7 +15139,10 @@
     ],
     "synopsis": "When a disease turns all of humanity into the living dead, the last man on earth becomes a reluctant vampire hunter.",
     "studio": "Associated Producers (API)",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.7,
+      "disaster_survival": 0.6
+    }
   },
   {
     "id": "artiflix-the-last-of-the-belles",
@@ -15123,7 +15163,10 @@
     ],
     "synopsis": "A semi-fictional account of how writer F. Scott Fitzgerald met his wife while he was in the army and stationed in Alabama in 1919.",
     "studio": "Titus Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "nostalgia_period": 0.5
+    }
   },
   {
     "id": "artiflix-the-last-slumber-party",
@@ -15140,7 +15183,11 @@
     ],
     "synopsis": "After her divorce, Lili starts a relationship with Jenny, but their lives are so different\u2026",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "gender_identity": 0.5,
+      "romantic_tone": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-the-legend-of-wolf-mountain",
@@ -15159,7 +15206,11 @@
     ],
     "synopsis": "Three children are kidnapped and taken to the forest by escaped convicts. There they escape but are pursued by the convicts. Forest rangers and police set out to rescue them.",
     "studio": "Majestic Entertainment",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "escape_plot": 0.6,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-the-life-and-death-of-colonel-blimp",
@@ -15181,7 +15232,11 @@
     ],
     "synopsis": "General Candy, who's overseeing an English squad in 1943, is a veteran leader who doesn't have the respect of the men he's training and is considered out-of-touch with what's needed to win the war. But it wasn't always this way. Flashing back to his early career in the Boer War and World War I, we see a dashing young officer whose life has been shaped by three different women, and by a lasting friendship with a German soldier.",
     "studio": "The Archers",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.6,
+      "war_conflict": 0.5,
+      "dual_timeline": 0.5
+    }
   },
   {
     "id": "artiflix-the-light-of-the-western-stars",
@@ -15200,7 +15255,11 @@
     ],
     "synopsis": "A friend of Dick Bailey is killed by a mysterious assailant, whom Dick suspects to be Stack, who is in league with the crooked sheriff. Out on a spree Dick swears he will marry the first woman he sees, who happens to be Ruth Hammond, sister of his dead friend, arriving to take charge of the Hammond ranch. Revolted by his rough proposal,she fires him as the Hammond foreman and she proceeds to the ranch. Stack informs her he has purchased the ranch for the payment of the back-due taxes, and she relents and rehires Dick and his friends to aid her in her fight against Stack.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "systemic_corruption": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-little-christmas-burro",
@@ -15221,7 +15280,11 @@
     ],
     "synopsis": "A sad little burro who feels that no one wants him and that he doesn't belong anywhere finds out differently when he is bought by Joseph to transport Mary on their travel to Jerusalem for the birth of Jesus.",
     "studio": "Atkinson Film Arts",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "faith_and_doubt": 0.4,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-the-little-princess",
@@ -15235,7 +15298,10 @@
     ],
     "synopsis": "A man going through a deep depression has a chance and random encounter with a little girl that reminds him of the beauty and simplicity of life.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-the-little-shop-of-horrors",
@@ -15256,7 +15322,10 @@
     ],
     "synopsis": "Seymour works in a skid row florist shop and is in love with his beautiful co-worker, Audrey. He creates a new plant that not only talks but cannot survive without human flesh and blood.",
     "studio": "Santa Clara Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-littlest-angel",
@@ -15277,7 +15346,11 @@
     ],
     "synopsis": "Adapted from the book by Charles Tazewell. Michael, a shepherd boy living in Biblical times, finds himself transported to Heaven on his eighth birthday. Michael doesn't fully understand where he is, or why he's there. A guardian angel named Patience is given the task of showing Michael the joys of Heaven and helping him find his place in the Hereafter.",
     "studio": "NBC Productions",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.6,
+      "whimsical_charm": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-the-lost-jungle",
@@ -15297,7 +15370,10 @@
     ],
     "synopsis": "12 part movie serial where Clyde Beatty encounters obstacles and adventure on his way to rescue his damsel in distress.",
     "studio": "Mascot Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-the_lucky_texan",
@@ -15316,7 +15392,10 @@
     ],
     "synopsis": "Jerry Mason, a young Texan, and Jake Benson, an old rancher, become partners and strike it rich with a gold mine. They then find their lives complicated by bad guys and a woman.",
     "studio": "Lone Star",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.4,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-the-mad-dog-killer",
@@ -15336,7 +15415,10 @@
     ],
     "synopsis": "New York City is torn apart by an all-out mafia war. With brother Peter at his side, Vincent \"Mad Dog\" Coll blasts his way from streetfighter to kingpin in the dangerous world of organized crime.",
     "studio": "21st Century Film Corporation",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-the-man-called-noon",
@@ -15355,7 +15437,11 @@
     ],
     "synopsis": "Noon is a gunfighter who has become amnesiac. Helped by Rimes, an outlaw who has befriended him, he tries to figure out who he is actually. It gradually appears that his wife and kid have been murdered. As time goes by, Noon also recalls a fortune hidden somewhere. Niland, a scheming judge, and Peg Cullane, a greedy will do everything to prevent Noon and Rimes from achieving their end while Fan Davidge, a woman living in a ghost town, will support them.",
     "studio": "Finarco",
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "forbidden_knowledge": 0.4,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-the-man-from-button-willow",
@@ -15375,7 +15461,11 @@
     ],
     "synopsis": "In 1869, Justin Eagle lives on his ranch called \"The Eagle's Nest\" near the town of Button Willow, California. In addition to being a rancher, Juston is a trouble-shooter for the U. S. Government which calls for him to act as an undercover operative and thwart the forces of evil in the rapidly-growing West. He is sent to San Franciso to find missing U. S. Senaator Freeman, who has disappeared while fighting the efforts of Montgomery Blaine, a villain who has been, with the aid of his henchman, \"The Whip,\" forcing settlers to sell their land to him, not knowing that the land is in the path of a proposed railroad, from Utah, that will link the western United States to the East. Senator Freeman is the leader of an effort to veer the railroad southward to bypass Blaine's land and, for his efforts, is kidnapped by Bliane's henchmen and shanghaied from the San Francisco waterfront. Justin Eagle's job is to find and return him safely.",
     "studio": "United Screen Arts",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.5,
+      "rescue_mission": 0.6,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-the-man-on-the-eiffel-tower",
@@ -15394,7 +15484,10 @@
     ],
     "synopsis": "A down-and-out student is hired to kill a wealthy woman. When someone else is suspected of the crime, the student taunts police until they realize that they may have to wrong man.",
     "studio": "A & T Film Productions, Inc.",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-manster",
@@ -15414,7 +15507,10 @@
     ],
     "synopsis": "An American journalist stationed in Japan is given a mysterious injection by a mad scientist, turning him into a murderous, two-headed monster.",
     "studio": "Lopert Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "descent_into_madness": 0.5
+    }
   },
   {
     "id": "artiflix-the-man-who-cheated-himself",
@@ -15434,7 +15530,10 @@
     ],
     "synopsis": "A veteran homicide detective who has witnessed his socialite girlfriend kill her husband sees his inexperienced brother assigned to the case.",
     "studio": "Jack M. Warner Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-the-man-who-knew-too-much",
@@ -15455,7 +15554,11 @@
     ],
     "synopsis": "An American doctor and his wife, a former singing star, witness a murder while vacationing in Morocco, and are drawn into a twisting plot of international intrigue when their young son is kidnapped.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6,
+      "rescue_mission": 0.6,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-master-touch",
