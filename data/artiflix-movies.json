@@ -5001,7 +5001,9 @@
     ],
     "synopsis": "Some sexy women get out of Fire Fighter School and go for the jobs they trained for, but first they must survive their male counterparts teasing them.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-fire_over_england",
@@ -5023,7 +5025,10 @@
     ],
     "synopsis": "In 1588, relations between Spain and England are at the breaking point. With the support of Queen Elizabeth I, British sea raiders such as Sir Francis Drake regularly capture Spanish merchantmen, bringing gold from the New World.",
     "studio": "London Films Productions",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-fist-of-fear-touch-of-death",
@@ -5044,7 +5049,10 @@
     ],
     "synopsis": "A television reporter interviews fighters and promoters about Bruce Lee in preparation for a tournament to claim the title of \u201cSuccessor to the Bruce Lee legacy\u201d. Footage from Bruce Lee's films and interviews is repurposed in pseudo-documentary style.",
     "studio": "Aquarius Promotions",
-    "tags": {}
+    "tags": {
+      "mockumentary": 0.7,
+      "competition_tournament": 0.5
+    }
   },
   {
     "id": "artiflix-five",
@@ -5066,7 +5074,9 @@
     ],
     "synopsis": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
     "studio": "Pixar",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-five-minutes-to-live",
@@ -5086,7 +5096,11 @@
     ],
     "synopsis": "A guitar playing killer terrorizes a housewife while his partner robs the bank where her husband works.",
     "studio": "Somera Productions",
-    "tags": {}
+    "tags": {
+      "real_time": 0.6,
+      "claustrophobic_tone": 0.4,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-flight-from-singapore",
@@ -5106,7 +5120,10 @@
     ],
     "synopsis": "Two British pilots begin an airline that serves the Singapore-to-Hong Kong route. One of their flights develops problems and crashes in the jungle. What makes matters even worse, is that aboard the crashed plane are desperately needed medical supplies\u2026",
     "studio": "President Pictures",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.6,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-flight-to-nowhere",
@@ -5125,7 +5142,11 @@
     ],
     "synopsis": "A couple on board a plane find themselves mixed up in a plot to steal atomic secrets.",
     "studio": "Golden Gate Pictures",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6,
+      "forbidden_knowledge": 0.5,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-flirting-with-fate",
@@ -5146,7 +5167,10 @@
     ],
     "synopsis": "A troupe of traveling entertainers become stranded in Paraguay.",
     "studio": "David L. Loew Productions",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-fog-island",
@@ -5167,7 +5191,11 @@
     ],
     "synopsis": "Leo, a former convict, is living in seclusion on an island with his step-daughter, the daughter of his late wife. Leo was framed by a group of former business associates, and he also suspects that one of them killed his wife. He has invited the group to his island, tempting them by hinting about a hidden fortune, and he has installed a number of traps and secret passages in his home. He is aided in his efforts by a former cell-mate who holds a grudge against the same persons. When everyone arrives, the atmosphere of mutual suspicion and the thick fog that covers the island promise a tense and hazardous weekend for everyone.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "betrayal": 0.6,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-forbidden-sun",
@@ -5187,7 +5215,9 @@
     ],
     "synopsis": "Olympic gymnastics coach Francine Lake and her twelve gorgeous students train on the Island of Crete. The rigors of training preclude most sexual activity with the locals, thus the girls spend their evenings in quiet frustration.",
     "studio": "Filmscreen Productions Ltd.",
-    "tags": {}
+    "tags": {
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-foxy_brown",
@@ -5208,7 +5238,9 @@
     ],
     "synopsis": "A voluptuous black woman takes a job as a high-class prostitute in order to get revenge on the mobsters who murdered her boyfriend.",
     "studio": "American International Pictures",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-freckles-comes-home",
@@ -5227,7 +5259,11 @@
     ],
     "synopsis": "Freckles Winslow comes home from college and the sheriff accuses him of murder, gangsters put him on the spot, and his girl friend, Jane, falls in love with a confidence man.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "investigation_driven": 0.4,
+      "coming_home": 0.4
+    }
   },
   {
     "id": "artiflix-gamblers-choice",
@@ -5247,7 +5283,9 @@
     ],
     "synopsis": "The professional gambler Ross Hadley is the owner of a posh gaming establishment in the heart of New York...",
     "studio": "Pine-Thomas Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-gambling-with-souls",
@@ -5267,7 +5305,10 @@
     ],
     "synopsis": "Young girls are cheated into rigged gambling games and then forced into prostitution to pay off their debts.",
     "studio": "Jay-Dee-Kay Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-gammera-the-invincible",
@@ -5288,7 +5329,10 @@
     ],
     "synopsis": "An atomic explosion awakens Gammera, a giant fire breathing turtle monster from his millions of years of hibernation.",
     "studio": "World Entertainment Corp.",
-    "tags": {}
+    "tags": {
+      "epic_scale": 0.4,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-gangster-story",
@@ -5308,7 +5352,11 @@
     ],
     "synopsis": "Gangster and cop killer Jack Martin is on the run from the law, and hides out in a small town. Low on funds, he engineers a clever bank robbery that yields him a big bundle. Now he has not only the cops and the FBI after him, but also the local crime boss, who's outraged that an outsider can pull off a heist like that in his territory and not cut him in on it.",
     "studio": "Swen Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "criminal_mastermind": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-gargoyles",
@@ -5329,7 +5377,10 @@
     ],
     "synopsis": "After receiving word about a mysterious carcass/skeleton unearthed in the Arizona desert, a father and his daughter decide to remove it from the burial grounds for further study. Once they do so, they, as well as the town, are besieged by a colony of gargoyles living in some nearby caverns.",
     "studio": "Tomorrow Entertainment",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "disaster_survival": 0.4
+    }
   },
   {
     "id": "artiflix-george",
@@ -5351,7 +5402,11 @@
     ],
     "synopsis": "Deep in the African jungle, a baby named George, the sole survivor of a plane crash, is raised by gorillas. George grows up to be a buff and lovable klutz who has a rainforest full of animal friends: Tookie, his big-beaked toucan messenger; Ape, a witty talking gorilla; and Shep, a peanut-loving pooch of an elephant. But when poachers mess with George's pals, the King of Swing swings into action.",
     "studio": "Walt Disney Pictures",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "fish_out_of_water": 0.6,
+      "environmentalism": 0.4
+    }
   },
   {
     "id": "artiflix-get-christie-love",
@@ -5373,7 +5428,11 @@
     ],
     "synopsis": "Get Christie Love! is a 1974 made-for-television film starring Teresa Graves as an undercover female police detective who is determined to overthrow a drug ring. This film is based on Dorothy Uhnak's crime-thriller novel, The Ledger.",
     "studio": "Wolper Productions",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.5,
+      "systemic_corruption": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-ghost-dance",
@@ -5393,7 +5452,11 @@
     ],
     "synopsis": "The spirit of a long-dead warrior possesses the body of an Indian medicine man and turns him into a homicidal maniac.",
     "studio": "Ahremess Inc.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "descent_into_madness": 0.5,
+      "faith_and_doubt": 0.4
+    }
   },
   {
     "id": "artiflix-ghosts-on-the-loose",
@@ -5414,7 +5477,10 @@
     ],
     "synopsis": "The East Side Kids try to fix up a house for newlyweds, but find the place next door \"haunted\" by mysterious men.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-ginger-in-the-morning",
@@ -5434,7 +5500,10 @@
     ],
     "synopsis": "A recently divorced Santa Fe architect is surprised to find himself falling in love with a free-spirited young hitchhiker.",
     "studio": "Kyma-Circle",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.7,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-git-along-little-dogies",
@@ -5455,7 +5524,9 @@
     ],
     "synopsis": "When war breaks out between oilmen and cattle ranchers, Gene sides with the ranchers until he learns that oil will bring a railraod to town.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6
+    }
   },
   {
     "id": "artiflix-gladiators-seven",
@@ -5476,7 +5547,12 @@
     ],
     "synopsis": "Framed for the escape of five gladiators from the arena, the son of one of Sparta's leading citizens is sentenced to the arena as gladiator himself and forced to fight for his life in the Roman Colosseum. Years later he manages to escape and return to Sparta, only to find out that his father has been murdered--even though it was ruled a \"suicide\"--and the woman he loves is about to marry the evil king who has usurped the throne. He sets out to find six of his fellow gladiators and return to Sparta to save his woman and place the rightful king on the throne.",
     "studio": "Columbus",
-    "tags": {}
+    "tags": {
+      "escape_plot": 0.7,
+      "rescue_mission": 0.6,
+      "betrayal": 0.6,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-glen-or-glenda",
@@ -5495,7 +5571,10 @@
     ],
     "synopsis": "Glen doesn't dare tell his fianc\u00e9e Barbara that he is a transvestite known as Glenda; in addition, Alan is undergoing medical treatment to become a woman named Anne; both stories are told by a psychiatrist.",
     "studio": "Screen Classics (II)",
-    "tags": {}
+    "tags": {
+      "gender_identity": 0.8,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-gods_little_acre",
@@ -5515,7 +5594,11 @@
     ],
     "synopsis": "In the 1950s, a poor Georgia cotton farmer and his sons search for the gold presumably buried on the farm by their grandfather but problems related to poverty, marital infidelity, unemployment and booze threaten to destroy their family.",
     "studio": "Security Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.5,
+      "addiction_recovery": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-god-told-me-to",
@@ -5536,7 +5619,11 @@
     ],
     "synopsis": "A New York detective investigates a series of murders committed by random citizens who claim that 'God told them to'.",
     "studio": "Larco Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "faith_and_doubt": 0.7,
+      "forbidden_knowledge": 0.5
+    }
   },
   {
     "id": "artiflix-go-for-broke",
@@ -5555,7 +5642,11 @@
     ],
     "synopsis": "At a Japanese school, a desperate student council struggles with a recurring problem. The aggressive and relentless members of the Yagyu biker gang stop by the school each semester to beat up the kids, steal their lunch money and vandalize their belongings. The kids want to fight back but realize they're too weak and undermanned against the bikers, and so they hire a handful of tough gals to train and defend them.",
     "studio": "Shochiku-Fuji Company",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "found_family": 0.4,
+      "mentor_student": 0.4
+    }
   },
   {
     "id": "artiflix-the-golden-disc",
@@ -5574,7 +5665,10 @@
     ],
     "synopsis": "Joan Farmer, with the help of her friend Harry Blair, persuades her aunt to turn her worn-out cafe into a trendy espresso bar for teenagers. The opening of the bar allowed the discovery of a singing star, Terry Dene. Later on, the coffee bar was transformed into a recording company. After various adventures, Terry sells a million records in America, and Joan and Harry fall in love.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-good-news",
@@ -5595,7 +5689,11 @@
     ],
     "synopsis": "When hijackers seize a Japanese flight and demand to fly to Pyongyang, a mysterious mastermind hatches a zany scheme to reroute the plane to Seoul.",
     "studio": "Star Platinum",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "real_time": 0.6,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-gorgo",
