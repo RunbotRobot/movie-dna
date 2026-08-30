@@ -12761,7 +12761,9 @@
     ],
     "synopsis": "San Francisco businessman Harry Graham and his wife and business partner, Eve, are in the process of adopting a child. When private investigator Mr. Jordan uncovers the fact that Graham has another wife, Phyllis, and a small child in Los Angeles, he confesses everything.",
     "studio": "The Filmakers",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7
+    }
   },
   {
     "id": "artiflix-the-big-chance",
@@ -12780,7 +12782,10 @@
     ],
     "synopsis": "Gangsters try to get a boxer to throw an important fight.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "competition_tournament": 0.4
+    }
   },
   {
     "id": "artiflix-the-big-combo",
@@ -12800,7 +12805,11 @@
     ],
     "synopsis": "Police Lt. Leonard Diamond vies to bring a clever, well connected, and sadistic gangster to justice all the while obsessing over the gangster's girlfriend.",
     "studio": "Security Pictures",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "criminal_mastermind": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-big-lift",
@@ -12821,7 +12830,10 @@
     ],
     "synopsis": "The Berlin Air Lift from the point of view of two Air Force NCOs who navigate romance in a bombed out post WW2 Germany.",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-the-big-wheel",
@@ -12842,7 +12854,11 @@
     ],
     "synopsis": "The ambitious son of an accomplished race driver struggles to outrun his father's legacy and achieve his own successes.",
     "studio": "Samuel H. Stiefel Productions",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.7,
+      "rivalry_driven": 0.4,
+      "competition_tournament": 0.5
+    }
   },
   {
     "id": "artiflix-the-black-book",
@@ -12863,7 +12879,11 @@
     ],
     "synopsis": "Unai L\u00f3pez de Ayala must immerse himself in the world of art collecting and forgery in order to find the legendary Black Book of Hours and save his mother, whom he had long believed to be dead",
     "studio": "Isla Audiovisual",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.6,
+      "rescue_mission": 0.5
+    }
   },
   {
     "id": "artiflix-the-black-gestapo",
@@ -12882,7 +12902,11 @@
     ],
     "synopsis": "General Ahmed has started an inner-city People's Army to try and relieve the misery of the citizens of Watts. When the locals are put under increasing pressure by Mafia thugs, Ahmed's second-in-command Colonel Kojah asks for permission to start a protection squad to take more direct action. Ahmed fears this protection squad will just turn into a vigilante mob, and his prediction soon proves correct. Will Ahmed be able to wrest control back from the power-mad Kojah, or will he be the mob's next victim?",
     "studio": "Bryanston Distributing",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "systemic_corruption": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-black-godfather",
@@ -12902,7 +12926,10 @@
     ],
     "synopsis": "Follows the life of Clarence Avant, the ultimate, uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics.",
     "studio": "Boardwalk Pictures",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-the-black-hills",
@@ -12921,7 +12948,10 @@
     ],
     "synopsis": "Riders of the Black Hills is a 1938 American Western directed by George Sherman. The intrepid cowboys known as the Three Mesquiteers; Stony (Robert Livingston), Tucson (Ray Corrigan) and Lullaby (Max Terhune) are on the case when rancher Peg Garth's (Maude Eburne) prize racehorse is abducted by bookie Rod Stevens (Tom London) and a secret cohort to prevent it from winning an important race.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-black-raven",
@@ -12942,7 +12972,11 @@
     ],
     "synopsis": "One dark and stormy night, an escaped convict, an embezzler,  a runaway daughter, her intended and her father, and a gangster take refuge in a remote inn called \"The Black Raven\" after the nickname of a second gangster who owns it; and murder ensues.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "investigation_driven": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-black-six",
@@ -12961,7 +12995,10 @@
     ],
     "synopsis": "A black high school student is caught dating a white girl by the girl's brother. He and his biker gang beat the boy to death. The boy's brother, who is a member of a black biker gang, hears about it and comes to town to avenge his brother's death.",
     "studio": "Matt Cimber Productions",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-blockhouse",
@@ -12981,7 +13018,12 @@
     ],
     "synopsis": "A group of Slave workers, drafted by the Nazis to help construct their coastal defences in 1944, are trapped in an underground bunker when the Allies land at Normandy on D-Day. They find huge stores of food, but not enough candles. The slow dying of the light parallels their increasing boredom, illness, and jealousy during their entrapment. Based on the Novel 'Le Blockhaus' by Jean Paul Clebert",
     "studio": "Galactacus",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.8,
+      "war_conflict": 0.6,
+      "isolation_disconnection": 0.5,
+      "disaster_survival": 0.4
+    }
   },
   {
     "id": "artiflix-the-blue-angel",
@@ -13000,7 +13042,11 @@
     ],
     "synopsis": "Prim professor Immanuel Rath finds some of his students ogling racy photos of cabaret performer Lola Lola and visits a local club, The Blue Angel, in an attempt to catch them there. Seeing Lola perform, the teacher is filled with lust, eventually resigning his position at the school to marry the young woman. However, his marriage to a coquette -- whose job is to entice men -- proves to be more difficult than Rath imagined.",
     "studio": "UFA",
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "betrayal": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-boy-with-green-hair",
@@ -13021,7 +13067,11 @@
     ],
     "synopsis": "Peter, an orphaned boy, is adopted by Gramp Frye after his parents are killed in Europe while doing war relief work. The boy feels safe with his new caretaker, but when he is taunted for being an orphan, he gets demoralized. The next day Peter wakes up with green hair. Embarrassed and further ridiculed, Peter seeks solace in a nearby forest. To his surprise, he finds other orphans in the woods, who encourage him to spread news of the injustices of war.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.5,
+      "found_family": 0.5,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-brain-machine",
@@ -13041,7 +13091,11 @@
     ],
     "synopsis": "A British psychiatrist reads an amnesiac's (Maxwell Reed) brain waves and sees the mind of a killer.",
     "studio": "Merton Park Studios",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.5,
+      "unreliable_narrator": 0.4
+    }
   },
   {
     "id": "artiflix-the_brave_one",
@@ -13062,7 +13116,10 @@
     ],
     "synopsis": "A woman struggles to recover from a brutal attack by setting out on a mission for revenge.",
     "studio": "Village Roadshow Pictures",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.4,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-brother-from-another-planet",
@@ -13083,7 +13140,10 @@
     ],
     "synopsis": "A mute alien with the appearance of a black human is chased by outer-space bounty hunters through the streets of Harlem.",
     "studio": "A-Train Films",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.7,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-the-brute-man",
@@ -13104,7 +13164,10 @@
     ],
     "synopsis": "A facially disfigured and mentally unhinged man wreaks his revenge on those he blames for his condition.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "mental_illness": 0.5,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-the_cabinet_of_dr_caligari",
@@ -13126,7 +13189,12 @@
     ],
     "synopsis": "Francis, a young man, recalls in his memory the horrible experiences he and his fianc\u00e9e Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-like sleep.",
     "studio": "Decla Film Gesellschaft Holz & Co.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "unreliable_narrator": 0.6,
+      "gothic": 0.5,
+      "dreamlike_surreal": 0.6
+    }
   },
   {
     "id": "artiflix-the-cape-town-affair",
@@ -13146,7 +13214,9 @@
     ],
     "synopsis": "South African secret agents attempt to save confidential microfilm before it falls into the hands of Communists. A color remake of the Sam Fuller film, Pickup on South Street.",
     "studio": "Killarney Film Studios",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7
+    }
   },
   {
     "id": "artiflix-the-capture",
@@ -13165,7 +13235,10 @@
     ],
     "synopsis": "A group of scientists perform an unethical experiment bending both space and time \u2013in the process they may have not only changed their lives but also the very fabric of the universe.",
     "studio": "Science Machine",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-the-carson-city-kid",
@@ -13185,7 +13258,10 @@
     ],
     "synopsis": "The Carson City Kid and partner Laramie are outlaws. When his partner is caught the Kid, his identity being unknown, takes a job in Jessup's saloon. Here he see Jessup cheat Waren out of his money. Warren then robs Jessup posing as the Kid but gets caught. To gain his freedom, Laramie identifies Warren as the Kid. Realizing Jessup is the man that killed his brother, the Kid must find a way to clear Warren and get Jessup.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-cartier-affair",
@@ -13207,7 +13283,10 @@
     ],
     "synopsis": "Curt Taylor is a convict and owes Phil Drexler the number 1 convict in the prison. Now to settle his debt Drexler sends Curt to be the secretary for Cartier Rand so that he can steal her jewels. But he falls in love with her, which complicates things.",
     "studio": "Hill/Mandelker Films",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-the-cat-onine-tails",
@@ -13228,7 +13307,10 @@
     ],
     "synopsis": "A newsman works with a blind puzzle-solver to uncover a deadly conspiracy linked to a genetic research facility.",
     "studio": "Labrador Films",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "forbidden_knowledge": 0.5
+    }
   },
   {
     "id": "artiflix-the-challenge",
@@ -13248,7 +13330,10 @@
     ],
     "synopsis": "Jailed for his role in a gang heist and ditched by its female leader (Jayne Mansfield), a widower (Anthony Quayle) decides to keep the loot.",
     "studio": "Alexandra Films",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-chinese-connection",
@@ -13265,7 +13350,10 @@
     ],
     "synopsis": "Director William Lee's homage to his idol, Bruce Lee",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "meta_fourth_wall": 0.4,
+      "nostalgia_period": 0.3
+    }
   },
   {
     "id": "artiflix-the-chinese-ring",
@@ -13286,7 +13374,9 @@
     ],
     "synopsis": "Soon after a Chinese princess comes to the US to buy planes for her people, she is murdered by a poison dart fired by an air rifle.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7
+    }
   },
   {
     "id": "artiflix-the-christmas-carol",
@@ -13309,7 +13399,10 @@
     ],
     "synopsis": "A retelling of the classic Dickens tale of Ebenezer Scrooge, miser extraordinaire. He is held accountable for his dastardly ways during nighttime visitations by the Ghosts of Christmas Past, Present and Future.",
     "studio": "Walt Disney Pictures",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.7,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-the-christmas-stallion",
@@ -13329,7 +13422,10 @@
     ],
     "synopsis": "Sixteen year old Gwen Davies adores the horses she and her grandfather have raised on the beautiful Welsh Mountains. However, when her grandfather dies her uncle must either sell the farm to a greedy land developer, or allow Gwen to keep the farm, opening the wounds of his tragic past in the process.",
     "studio": "Peakviewing Productions",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "legacy_and_inheritance": 0.6
+    }
   },
   {
     "id": "artiflix-the-clairvoyant",
@@ -13349,7 +13445,10 @@
     ],
     "synopsis": "A fake psychic suddenly turns into the real thing when he meets a young beauty. (TCM)",
     "studio": "Gaumont-British Picture Corporation",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-clown-murders",
