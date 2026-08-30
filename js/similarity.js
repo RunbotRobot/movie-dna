@@ -234,7 +234,21 @@ export function resolveSeed(query, movies, taxonomy) {
   if (!q) return null;
 
   const exactMovie = movies.find((m) => normalize(m.title) === q);
-  const looseMovie = exactMovie || (q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null);
+  if (exactMovie) return movieSeed(exactMovie);
+
+  // A single word that exactly matches the taxonomy's own vocabulary (a
+  // tag's label, id, or synonym — e.g. "horror" as a synonym of Tense
+  // dread) names a theme on purpose. Checking it here, before the loose
+  // (substring) title/studio/person matches below, stops a coincidental
+  // hit — some unrelated movie whose title just happens to contain that
+  // word, e.g. "Horror Hotel: The Phone" — from silently hijacking the
+  // search into that one random movie instead of the theme the word
+  // actually means.
+  const isSingleWord = !/\s/.test(q);
+  const earlyTextSeed = isSingleWord ? buildTextSeed(query, taxonomy) : null;
+  if (earlyTextSeed && earlyTextSeed.matched) return earlyTextSeed;
+
+  const looseMovie = q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null;
   if (looseMovie) return movieSeed(looseMovie);
 
   const exactStudioMovies = movies.filter((m) => m.studio && normalize(m.studio) === q);
@@ -275,7 +289,7 @@ export function resolveSeed(query, movies, taxonomy) {
     return buildPersonSeed(label, gm);
   }
 
-  const textSeed = buildTextSeed(query, taxonomy);
+  const textSeed = earlyTextSeed || buildTextSeed(query, taxonomy);
   if (textSeed.matched) return textSeed;
 
   const fuzzyTitleMatch = q.length >= FUZZY_MIN_LENGTH ? bestFuzzyTitleMatch(q, movies) : null;
