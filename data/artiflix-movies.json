@@ -9256,7 +9256,11 @@
     ],
     "synopsis": "An astronaut returns to Earth as the no-pulse host of an alien monster's embryos; he is discovered by a loony farmer who find ways to feed his new critter.",
     "studio": "American International Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "claustrophobic_tone": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-night-of-the-living-dead",
@@ -9275,7 +9279,10 @@
     ],
     "synopsis": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
     "studio": "Tiki Terrors",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.6,
+      "disaster_survival": 0.6
+    }
   },
   {
     "id": "artiflix-the-night-of-the-sharks",
@@ -9296,7 +9303,10 @@
     ],
     "synopsis": "David must fight for his life against the gangsters who killed his brother for a CD filled with proof of their illegal activities. When David gets possession of the CD they go down to Mexico where David lives as a shark hunter. Who will get David first, the gangsters or the shark?",
     "studio": "Amanecer Films",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-night-tide",
@@ -9318,7 +9328,11 @@
     ],
     "synopsis": "A young sailor falls in love with a mysterious woman performing as a mermaid on the local pier. As they become entwined, he comes to suspect the woman might be a real mermaid who lures men to a watery death during the full moon.",
     "studio": "Phoenix Films",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "romantic_tone": 0.5,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-night-train-to-munich",
@@ -9339,7 +9353,11 @@
     ],
     "synopsis": "Czechoslovakia, March 1939, on the eve of World War II. As the German invaders occupy Prague, inventor Axel Bomasch manages to flee and reach England; but those who need to put his knowledge at the service of the Nazi war machine, in order to carry out their evil plans of destruction, will stop at nothing to capture him.",
     "studio": "Gainsborough Pictures",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7,
+      "war_conflict": 0.6,
+      "escape_plot": 0.5
+    }
   },
   {
     "id": "artiflix-night-train-to-terror",
@@ -9358,7 +9376,11 @@
     ],
     "synopsis": "God and Satan are on a train discussing the fate of three individuals. The stories of the people in question are told in a trio of very strange vignettes. One involves an insane asylum with some very interesting treatment plans. Another involves a 'death club'. The final story shows us the adventures of a server of Satan.",
     "studio": "Visto International Inc.",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.8,
+      "faith_and_doubt": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-nine-deaths-of-the-ninja",
@@ -9377,7 +9399,10 @@
     ],
     "synopsis": "A trio of specialized soldiers is called in to stop a group of drug traffickers who have hijacked a busload of tourists in the Philippines and threaten to kill them all if one of their companions is not released from jail and the government does not stop its anti-drug policies.",
     "studio": "Crown International Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-no-no-nanette",
@@ -9397,7 +9422,10 @@
     ],
     "synopsis": "Perky young Nanette attempts to save the marriage of her uncle and aunt by untangling Uncle Jimmy from several innocent but ensnaring flirtations. Attempting one such unentanglement, Nanette enlists the help of theatrical producer Bill Trainor, who promptly falls in love with her. The same thing happens when artist Tom Gillespie is called on for help. But soon Uncle Jimmy's flirtations become too numerous, and Nanette's romances with Tom and Bill run into trouble. Will Uncle Jimmy's marriage survive, and will Nanette find happiness with Tom, Bill, or somebody else?",
     "studio": "Suffolk Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-no-place-to-run",
@@ -9417,7 +9445,11 @@
     ],
     "synopsis": "An adopted boy's parents are killed, and to keep him from returning to the state's custody, he and his grandfather run away.",
     "studio": "Spelling-Goldberg Productions",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6,
+      "found_family": 0.5,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-north-west-frontier",
@@ -9437,7 +9469,11 @@
     ],
     "synopsis": "In the rebellious northern frontier province of colonial India, British Army Captain Scott, a young prince and the boy's governess escape by an obsolete train as they are relentlessly pursued by Muslim rebels intent on assassinating the prince.",
     "studio": "The Rank Organisation",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "road_journey": 0.6,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-Nosferatu",
@@ -9457,7 +9493,11 @@
     ],
     "synopsis": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
     "studio": "Focus Features",
-    "tags": {}
+    "tags": {
+      "gothic": 0.9,
+      "obsession": 0.7,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-nothing-sacred",
@@ -9477,7 +9517,9 @@
     ],
     "synopsis": "When a small-town girl is incorrectly diagnosed with a rare, deadly disease, an unknowing newspaper columnist turns her into a national heroine.",
     "studio": "Selznick International Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-obsession",
@@ -9497,7 +9539,11 @@
     ],
     "synopsis": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
     "studio": "Tea Shop Productions",
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "forbidden_knowledge": 0.6,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-oh-susanna",
@@ -9516,7 +9562,11 @@
     ],
     "synopsis": "Unable to keep peace between frontier Indians and the US Cavalry, a heroic Captain risks court-martial to prevent bloodshed.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "justice_vs_law": 0.5,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-one-frightened-night",
@@ -9538,7 +9588,11 @@
     ],
     "synopsis": "Eccentric tycoon Jasper Whyte hosts a dinner at his mansion and announces that he will divide his money and give each guest a million dollars before the stroke of midnight. When his long-lost granddaughter suddenly arrives, Whyte changes his mind and proclaims that she will receive his entire fortune. A second lady appears at the estate, claiming that she is actually Whyte's granddaughter, Doris Waverly, and the first woman is found murdered in her room! With each guest possessing a motive, the mystery of the killer's identity briskly unfolds through a stirring series of surprises.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "legacy_and_inheritance": 0.6,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-one-rainy-afternoon",
@@ -9557,7 +9611,10 @@
     ],
     "synopsis": "Suave French actor Philippe Martin provokes a scandal when, in a darkened theater, he mistakes young Monique for his mistress, Yvonne, and tries to kiss her. Charged with assault, the quick-thinking Philippe claims it's French tradition to do as he did, and is let go. To his surprise, Philippe learns that Monique has paid his fine. As the tabloids exploit the situation, Monique dates Philippe, until a photo appears of him kissing Yvonne.",
     "studio": "Pickford-Lasky",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-open-secret",
@@ -9576,7 +9633,10 @@
     ],
     "synopsis": "This riveting documentary investigates allegations of systemic racism and child sexual abuse in the New Hanover School District.",
     "studio": "KDC & Films",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.7,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-our-daily-bread",
@@ -9596,7 +9656,11 @@
     ],
     "synopsis": "John and Mary Sims are city-dwellers hit hard by the financial fist of The Depression. Driven by bravery (and sheer desperation) they flee to the country and, with the help of other workers, set up a farming community - a socialist mini-society. The newborn community suffers many hardships - drought, vicious raccoons and the long arm of the law - but ultimately pull together to reach a bread-based Utopia.",
     "studio": "Viking Productions",
-    "tags": {}
+    "tags": {
+      "found_family": 0.5,
+      "disaster_survival": 0.4,
+      "class_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-our-town",
@@ -9615,7 +9679,10 @@
     ],
     "synopsis": "Grover's Corners is a quiet little town, full of ordinary folk, living everyday lives. They work, they laugh, they sing, they fall in love and raise their children and grow old. But within those moments of ordinary, everyday life, there are truths that reach out to us all. And a passionate demand to cherish every moment, right now, while we still can. (A joint Welsh National Theatre and Rose Theatre production, filmed at the Rose Theatre in Kingston, London on 19 March 2026.)",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.4,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-out-of-the-blue",
@@ -9636,7 +9703,11 @@
     ],
     "synopsis": "After spending time in prison following an assault charge, Connor Bates now works in a library and spends his free time running, swimming, and trying to piece his world back together. When he meets Marilyn Chambers, the wife of a wealthy businessman, they collide into an intense physical and emotional relationship that quickly escalates into idle talk about her husband\u2019s murder.",
     "studio": "BondIt Media Capital",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "betrayal": 0.6,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-out-of-the-wilderness",
@@ -9656,7 +9727,10 @@
     ],
     "synopsis": "A raven becomes a family pet after it saves the life of a little girl. Later, the family repays the favor by saving the bird from their neighbors who demand its immediate destruction.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-pancho-villa",
@@ -9675,7 +9749,10 @@
     ],
     "synopsis": "In 1916, during the Mexican Revolution, General Pancho Villa manages to escape from the clutches of General Goyo, his greatest enemy, only to face an even greater problem when he meets McDermott, a mysterious adventurer who promises to get him weapons and ammunition for his troops.",
     "studio": "Granada Films",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "war_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-paris-follies-of-1956",
@@ -9694,7 +9771,9 @@
     ],
     "synopsis": "Trouble ensues when a new theatre-restaurant owner discovers the backer to be a harmless and moneyless lunatic.",
     "studio": "Ohio Films Inc.",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-passion",
@@ -9713,7 +9792,11 @@
     ],
     "synopsis": "A graphic portrayal of the last twelve hours of Jesus of Nazareth's life.",
     "studio": "Icon Productions",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.8,
+      "sacrifice_for_others": 0.9,
+      "real_time": 0.6
+    }
   },
   {
     "id": "artiflix-passport-to-pimlico",
@@ -9732,7 +9815,10 @@
     ],
     "synopsis": "When an unexploded WWII bomb is accidentally detonated in Pimlico, it reveals a treasure trove and documents proving that the region is in fact part of Burgundy, France and thus foreign territory. The British government attempts to regain control by setting up border controls and cutting off services to the area.",
     "studio": "Ealing Studios",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-patterns",
@@ -9752,7 +9838,11 @@
     ],
     "synopsis": "\"Patterns\" was an American television play broadcast live on January 12, 1955, remade as a film the next year with some of the same cast. Fred Staples is the newest executive in a large firm. He strikes up a friendship with Andy Sloane, the Vice President to whom he nominally reports. Staples is good at his job and the company's hard-nosed president, Walter Ramsey, is pleased with his choice. Staples has a crisis of conscience when Ramsey tells him that he's been recruited to replace Sloane, someone who has devoted his entire life to the company at the expense of his family. Sloane knows what Ramsey is up to but digs in his heels and refuses to quit. Tragedy ensues forcing Staples to make a choice.",
     "studio": "J. Walter Thompson Agency",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.6,
+      "betrayal": 0.4,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-pearl-of-the-south-pacific",
@@ -9771,7 +9861,11 @@
     ],
     "synopsis": "Two beachcombers with a yacht join woman-with-a-past Rita on a quest for black pearls on a secret island. Arrived, they find another white man has made himself high priest; but George, the latter's handome son, is fair game for Rita, who lands in the guise of a missionary! The inevitable conflict over the pearls brings violence and corruption to the quiet island.",
     "studio": "Benedict Bogeaus Production",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.5,
+      "betrayal": 0.4,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-penny-serenade",
@@ -9791,7 +9885,9 @@
     ],
     "synopsis": "Julie and Roger are a love-struck married couple who desperately want to have a child. Tragedy after tragedy gets in their way, as the two attempt to rise above their troubles and fulfill their dreams of parenthood.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-people-are-funny",
@@ -9811,7 +9907,10 @@
     ],
     "synopsis": "A comedy based on NBC's \"People Are Funny\" radio (and later television) program with Art Linkletter with a fictional story of how the program came to be on a national network from its humble beginning at a Nevada radio station. Jack Haley is a producer with only half-rights to the program while Ozzie Nelson and Helen Walker are the radio writers and supply the romance. Rudy Vallee, always able to burlesque himself intentional and, quite often, unintentional, is the owner of the sought-after sponsoring company. Frances Langford, as herself, sings \"I'm in the Mood for Love\" while the Vagabonds quartet (billed 12th and last) chimes in on \"Angeline\" and \"The Old Square Dance is Back Again.\"",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-phantom-from-space",
@@ -9831,7 +9930,10 @@
     ],
     "synopsis": "After a UFO sighting, a mysterious phantom in a bizarre outfit starts attacking people in San Fernando Valley.",
     "studio": "Planet Filmplays",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-pick-a-star",
