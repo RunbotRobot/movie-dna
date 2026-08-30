@@ -16982,7 +16982,11 @@
     ],
     "synopsis": "In a wild west community populated entirely by residents with dwarfism, the Larson and Preston familes have been in a generations-long feud, recently strained by the actions of cattle rustler and overall devious criminal Bat Haines. Buck Larson, the hero of our tale, takes on Haines, and tries to win the heart of Nancy Preston while resolving the tensions between his and her families.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.7,
+      "multi_generational_cast": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-thirteenth-guest",
@@ -17002,7 +17006,10 @@
     ],
     "synopsis": "Thirteen years after a dinner party in which the thirteenth guest failed to arrive, the remaining guests are being murdered one by one, and their bodies being placed at the same dinner table in the appropriate seats they occupied thirteen years prior.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-the-three-stooges-shorts",
@@ -17018,7 +17025,9 @@
     ],
     "synopsis": "Relive the hilarity of The Three Stooges with this compilation of five of their greatest shorts. Included are: Brideless Groom, Color Craziness, Disorder in the Court, Malice in the Palace, Sing a Song of Six Pants",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-the-titfield-thunderbolt",
@@ -17037,7 +17046,10 @@
     ],
     "synopsis": "When British Railways announce the closure of the Titfield to Mallingford branch line a group of local residents make a bid to run it themselves, backed by a monied member of the community who is attracted by the complete lack of licensing hours on trains. Unfortunately the local bus company starts to use methods that can hardly be seen as fair competition.",
     "studio": "Michael Balcon Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-the-undertaker-and-his-pals",
@@ -17057,7 +17069,10 @@
     ],
     "synopsis": "An undertaker befriends a pair of motorcycle-riding, knife-wielding, psycho restaurant owners who kill people for body parts to use in their blue-plate daily specials.",
     "studio": "Eola Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-wackiest-wagon-train-in-the-west",
@@ -17077,7 +17092,10 @@
     ],
     "synopsis": "This comical western chronicles the silly adventures of a bumbling wagonmaster and his clutzy assistant as they attempt to take seven passengers across the prairie. Among the passengers are two wealthy Bostonians, an aspiring showgirl, a teacher, and bachelor. The story is adapted from Dusty's Trail, a television sitcom.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-the-wasp-woman",
@@ -17097,7 +17115,10 @@
     ],
     "synopsis": "The head of a major cosmetics company experiments on herself with a youth formula made from royal jelly extracted from wasps, but the formula's side effects have deadly consequences.",
     "studio": "Santa Cruz Productions Inc.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-the-werewolf-versus-the-vampire-woman",
@@ -17116,7 +17137,11 @@
     ],
     "synopsis": "Elvira is travelling through the French countryside with her friend Genevieve, searching for the lost tomb of a medieval murderess and possible vampire, Countess Wandessa. They find a likely site in the castle of Waldemar Daninsky, who invites the women to stay as long as they like. As Waldemar shows Elvira the tomb that supposedly houses the countess, she accidentally causes the vampire to come back to life, hungrier than ever. Daninsky has a hidden secret of his own, but will it be enough to save the two girls from becoming Wandessa's next victims?",
     "studio": "Plata Films S.A.",
-    "tags": {}
+    "tags": {
+      "gothic": 0.7,
+      "forbidden_knowledge": 0.5,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-the-wild-women-of-wongo",
@@ -17137,7 +17162,10 @@
     ],
     "synopsis": "On the tropical island of Wongo, a tribe of beautiful women discover that the other side of the island is inhabited by a tribe of handsome men. They also discover that a tribe of evil ape men live on the island, too, and the ape men are planning a raid on the tribe in order to capture mates.",
     "studio": "Jaywall Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-thursdays-game",
@@ -17158,7 +17186,10 @@
     ],
     "synopsis": "Harry Evers and Marvin Ellison have been playing poker Thursday nights with their friends for years. When a disagreement breaks up the game, they decide to continue meeting and doing different things together, instead of staying home with their wives. When the wives find out that the games stopped some time ago, they are a quite upset. Just what have they been doing on Thursday nights?",
     "studio": "ABC Circle Films",
-    "tags": {}
+    "tags": {
+      "found_family": 0.4,
+      "betrayal": 0.3
+    }
   },
   {
     "id": "artiflix-tiger-fangs",
@@ -17179,7 +17210,11 @@
     ],
     "synopsis": "A big-game hunter travels to Malaya to help stop the Nazis and Japanese from destroying the rubber industry.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "man_vs_nature": 0.4,
+      "espionage_double_cross": 0.4
+    }
   },
   {
     "id": "artiflix-title-shot",
@@ -17200,7 +17235,11 @@
     ],
     "synopsis": "In Toronto, Canada, a troubled police detective investigates fixed betting and corruption in the world of heavyweight boxing. He uncovers a plot by a crime boss to use computerised data to rig fights. Everything is resolved during an explosive finale, set during a world heavyweight championship bout",
     "studio": "Canadian Film Development Corporation",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "systemic_corruption": 0.6,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-tnt-jackson",
@@ -17220,7 +17259,11 @@
     ],
     "synopsis": "A woman encounters thugs and drug dealers after traveling to Hong Kong to search for her missing brother.",
     "studio": "New World Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.4,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-to-catch-a-spy",
@@ -17241,7 +17284,10 @@
     ],
     "synopsis": "When the newly renovated Hotel Optima in Malta has a grand reopening, Chloe and her team from Destination Traveler Magazine, head over to cover the travel scene in Malta and sees someone fall to their death, right past her hotel window.",
     "studio": "Leif Films",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-tokyo-file-212",
@@ -17261,7 +17307,10 @@
     ],
     "synopsis": "A Communist spy ring in Japan is hard at work trying to sabotage the American war effort during the Korean War, using kidnapping, murder and a disturbed former kamikaze pilot. A U.S. secret agent, posing as a reporter, is dispatched to Tokyo to put a stop to these nefarious activities.",
     "studio": "Tonichi Kogyo K.K.",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.8,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-too-late-for-tears",
@@ -17281,7 +17330,11 @@
     ],
     "synopsis": "Through a fluke circumstance, a ruthless woman stumbles across a suitcase filled with $60,000, and is determined to hold onto it even if it means murder.",
     "studio": "Hunt Stromberg Productions",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "betrayal": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-topper-returns",
@@ -17302,7 +17355,11 @@
     ],
     "synopsis": "Topper is once again tormented by a fun-loving spirit. This time, it's Gail Richards, accidentally murdered while vacationing at the home of her wealthy friend, Ann Carrington, the intended victim. With Topper's help, Gail sets out to find her killer with the expected zany results.",
     "studio": "Hal Roach Studios",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "whimsical_charm": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-tormented",
@@ -17322,7 +17379,10 @@
     ],
     "synopsis": "Darren Mullet, a bullied asthmatic, is driven to suicide by his tormented life - ignored by his parents, ridiculed by his teachers and bullied at school. He returns from the dead to pay his teenage tormentors a final visit.",
     "studio": "Slingshot Productions",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.5,
+      "mental_illness": 0.4
+    }
   },
   {
     "id": "artiflix-track-of-the-vampire",
@@ -17341,7 +17401,11 @@
     ],
     "synopsis": "A painter of morbid art, who becomes a murderous vampire by night and kills young women, attempts a daytime relationship with a woman who resembles a former love and is also the sister of one of his victims.",
     "studio": "Avala Film",
-    "tags": {}
+    "tags": {
+      "obsession": 0.6,
+      "forbidden_knowledge": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-trained-to-kill-usa",
@@ -17361,7 +17425,11 @@
     ],
     "synopsis": "A decorated Vietnam Vet returns to his father's ranch in Arizona just as criminally minded carnies begin to cause trouble.",
     "studio": "John Proffitt Films",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.4,
+      "justice_vs_law": 0.4,
+      "coming_home": 0.4
+    }
   },
   {
     "id": "artiflix-treasure-island",
@@ -17383,7 +17451,11 @@
     ],
     "synopsis": "Young Jim Hawkins and his two best friends, Gonzo and Rizzo, embark on a voyage across the high seas in search of buried treasure, but soon find that not everyone onboard can be trusted.",
     "studio": "Walt Disney Pictures",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6,
+      "betrayal": 0.5,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-true-blood",
@@ -17403,7 +17475,11 @@
     ],
     "synopsis": "Teenager Ray Trueblood is wrongfully accused of murdering a police officer after his fellow gang member Billy Masters does the deed. Hoping to elude the police, he flees Brooklyn, NY and joins the U.S. Marines. Returning 10 years later, Trueblood is dismayed to learn that his younger brother Donny is now running with a gang led by Masters. Trueblood soon finds himself depending on his military training & experience to protect his friends and family from the ruthless Masters.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "coming_home": 0.5,
+      "redemption_arc": 0.4
+    }
   },
   {
     "id": "artiflix-tulsa",
@@ -17422,7 +17498,10 @@
     ],
     "synopsis": "It's Tulsa, Oklahoma at the start of the oil boom and Cherokee Lansing's rancher father is killed in a fight with the Tanner Oil Company. Cherokee plans revenge by bringing in her own wells with the help of oil expert Brad Brady and childhood friend Jim Redbird. When the oil and the money start gushing in, both Brad and Jim want to protect the land but Cherokee has different ideas. What started out as revenge for her father's death has turned into an obsession for wealth and power.",
     "studio": "Eagle-Lion Films",
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-two-nights-with-cleopatra",
@@ -17442,7 +17521,10 @@
     ],
     "synopsis": "Sophia Loren plays a dual role, as both the sultry Queen of the Nile with a \"man-a-night\" appetite and a beautiful slave girl who takes her place and is wooed by a bodyguard who thinks she's the real monarch.",
     "studio": "Rosa Film",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-two-weeks-to-live",
@@ -17463,7 +17545,10 @@
     ],
     "synopsis": "When Abner is mistakenly diagnosed as having only two weeks to live, his partner gets the idea that they can make a ton of money by having Abner perform all kinds of dangerous stunts.",
     "studio": "Jack Votion Productions Inc.",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "betrayal": 0.3
+    }
   },
   {
     "id": "artiflix-under-the-biltmore-clock",
@@ -17482,7 +17567,11 @@
     ],
     "synopsis": "It's 1920 and romance is in bloom at the Biltmore Hotel under its famous clock. For Myra Harper, age 21, it's time to stop \"playing around\" and find a husband, and the unsuspecting, handsome, shy and quite wealthy Knowlton Whitney is the perfect target. Romance, it seems, will work quite well with Myra and Knowlton. For they fall in love and it's time to meet his outrageously eccentric family and the bizarre characters who inhabit Whitney mansion! Suddenly Myra is caught on a comic roller coaster of events trying to save her romance. Sean Young Take a spin through this delightful PBS adaptation of F. Scott Fitzgerald's charming \"Myra Meets His Family\".",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "nostalgia_period": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-utopia",
@@ -17504,7 +17593,11 @@
     ],
     "synopsis": "A soldier searching for his missing wife breaks into a high-tech facility, believing she's been caught in a human trafficking ring. But beyond its walls, he finds a surreal, futuristic fantasy park where reality and illusion blur. As he navigates this seductive and dangerous world, a shocking truth pulls him deeper into a deadly game where nothing is as it seems.",
     "studio": "SP Media Group",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "dreamlike_surreal": 0.5,
+      "rescue_mission": 0.5
+    }
   },
   {
     "id": "artiflix-vice-versa",
@@ -17523,7 +17616,10 @@
     ],
     "synopsis": "Businessman Paul Bultitude is sending his son Dick to a boarding school. While holding a magic stone from India, he wishes that he could be young again. His wish is immediately fulfilled and the two change bodies with each other. Mr Bultitude becomes a school boy who smokes cigars and has a very conservative view on child upbringing, while his son Dick becomes a gentleman who spends his time drinking lemonade and arranging children's parties.",
     "studio": "Two Cities Films",
-    "tags": {}
+    "tags": {
+      "body_swap": 0.9,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-wake-me-when-the-war-is-over",
@@ -17543,7 +17639,11 @@
     ],
     "synopsis": "During the latter days of WWII an American Lieutenant accidentally falls out of an airplane into German territory. He is taken in by a Baroness who becomes smitten with him and doesn't want him to leave, so she doesn't tell him that the war has ended...for five years!",
     "studio": "Thomas/Spelling Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "war_conflict": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-way-down-south",
@@ -17563,7 +17663,11 @@
     ],
     "synopsis": "In the pre-Civil War South, a plantation owner dies and leaves all his possessions, including his slaves, to his young son. While the deceased treated his slaves decently, his corrupt executor abuses them unmercifully, beating them without provocation, and he is planning to sell off the father'e estate--including the slaves--at the earliest opportunity so he and his mistress can steal the money and move to France. The young boy doesn't want to sell his father's estate or break up an of the slave families, and he has to find someone to help him thwart the crooked executor's plans.",
     "studio": "Sol Lesser Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.6,
+      "legacy_and_inheritance": 0.5,
+      "justice_vs_law": 0.5
+    }
   },
   {
     "id": "artiflix-wayne-murder-case",
@@ -17584,7 +17688,11 @@
     ],
     "synopsis": "A police lieutenant and a female reporter investigate a series of murders committed by a hooded killer in an old dark house.",
     "studio": "I.E. Chadwick Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "gothic": 0.4,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-web-of-the-spider",
@@ -17603,7 +17711,11 @@
     ],
     "synopsis": "Alan Foster, a professional American journalist, travels to London to meet with Edgar Allan Poe for an interview. While in London, Alan soon finds himself in the company of Lord Blackwood, and Alan accepts a bet to spend a night in his castle",
     "studio": "Paris-Cannes Productions",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "forbidden_knowledge": 0.4,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-well-meet-again",
@@ -17625,7 +17737,11 @@
     ],
     "synopsis": "Socialite Molly Lasch is released from prison after serving a six-year sentence for the murder of her husband, Dr. Gary Lasch. Now, with the help of Fran, an investigative reporter, Molly sets out to prove her innocence. Together they uncover a conspiracy of silence at the Lasch Medical Center and a shocking secret that could cost both women their lives.",
     "studio": "Waterfront Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "systemic_corruption": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-werewolf-in-a-girls-dormitory",
@@ -17645,7 +17761,11 @@
     ],
     "synopsis": "The new science teacher Dr. Julian Olcott with a mysterious past arrives in an institutional boarding school for troublemaker girls. Along the night, the intern Mary Smith, who is blackmailing another teacher - Sir Alfred Whiteman - with some love letters, is slaughtered by a werewolf. The detective in charge of the investigation attributes the crime to a wolf, while her mate Priscilla believes she was killed by Sir Alfred. On the next days, other deaths happen in the school, reducing the list of suspects.",
     "studio": "Royal Film",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "forbidden_knowledge": 0.4,
+      "slasher_structure": 0.4
+    }
   },
   {
     "id": "artiflix-werewolf-woman",
@@ -17664,7 +17784,10 @@
     ],
     "synopsis": "A woman has dreams that she is a werewolf so she goes out and finds men. She proceeds to have sex with them and then rip their throats out with her teeth. She eventually falls in love but then she is raped and her lover is murdered so she goes out for revenge.",
     "studio": "Dialchi Film",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.6,
+      "obsession": 0.4
+    }
   },
   {
     "id": "artiflix-where-have-all-the-people-gone",
@@ -17685,7 +17808,11 @@
     ],
     "synopsis": "A strange series of solar flares proves fatal for inhabitants of the Earth, except for the fortunate few who are somehow immune from the effects. Animals go insane and human beings turn to white powder, leaving behind only empty clothing. A handful of survivors attempt to rebuild their lives on the de-populated Earth.",
     "studio": "ABC",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.8,
+      "isolation_disconnection": 0.5,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-white-pongo",
@@ -17705,7 +17832,11 @@
     ],
     "synopsis": "Suspecting that a safari guide is a wanted killer, undercover policeman Geoffrey Bishop (Richard Fraser) joins a safari led by the suspect for a scientist that hopes to find and prove that a fabled white gorilla is a missing link.",
     "studio": "Sigmund Neufeld Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "forbidden_knowledge": 0.4,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-white-zombie",
@@ -17724,7 +17855,11 @@
     ],
     "synopsis": "A wealthy landowner living in Haiti convinces a sorcerer to lure the woman he has fallen for away from her fianc\u00e9. The madman later betrays their agreement by keeping the woman for himself\u2026as a zombie.",
     "studio": "Victor & Edward Halperin Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "betrayal": 0.6,
+      "obsession": 0.5
+    }
   },
   {
     "id": "artiflix-who-am-i-this-time",
@@ -17745,7 +17880,10 @@
     ],
     "synopsis": "Harry is a shy hardware store employee. But whenever he takes a part in a local amateur theater production, he becomes the part completely--while on stage. Helene is new in town, a lonely itinerant telephone company employee. On a whim, she auditions for and gets the part of Stella to Harry's Stanley when the theater group performs A Streetcar Named Desire. Before anyone realizes the growing affection between Helene and Stanley, she falls deeply in love with the sexy brute, not knowing what the real man is like.",
     "studio": "Rubicon Film Productions Ltd.",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-yodelin-kid-from-pine-ridge",
@@ -17764,6 +17902,9 @@
     ],
     "synopsis": "The old west range war story transported to Georgia, with Autry as the hero.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "justice_vs_law": 0.4
+    }
   }
 ]
