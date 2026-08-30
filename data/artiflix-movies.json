@@ -1468,7 +1468,10 @@
     ],
     "synopsis": "Gridley is mining silver from an old Mexican mine and bringing it into the USA thru a passage into his worthless mine. Border guard Rogers suspects Gridley and finally finds the secret entrance to the Mexican mine. He sends Lee Madison for help only to have her captured by Gridley. Trigger brings help that takes care of Gridley's men and now Roy has to rescue Madison.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-beneath-the-12-mile-reef",
@@ -1488,7 +1491,11 @@
     ],
     "synopsis": "Mike and Tony Petrakis are a Greek father and son team who dive for sponges off the coast of Florida. After they are robbed by crooks, Arnold and the Rhys brothers, Mike decides to take his men to the dangerous 12-mile reef to dive for more sponges. Mike suffers a fatal accident when he falls from the reef leaving Tony to carry on the business. But now he has a companion, Gwyneth Rhys.",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "man_vs_nature": 0.5,
+      "legacy_and_inheritance": 0.5
+    }
   },
   {
     "id": "artiflix-betrayal",
@@ -1509,7 +1516,10 @@
     ],
     "synopsis": "Babi discovers a betrayal by her long-term partner and decides to embark on a new adventure in life. On this journey, she meets judge Marco and they begin to live a story permeated by a lot of sexual tension.",
     "studio": "Glaz Entretenimento",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "romantic_tone": 0.6
+    }
   },
   {
     "id": "artiflix-beyond-all-limits",
@@ -1550,7 +1560,11 @@
     ],
     "synopsis": "A woman's ex-husband, who is the son of an Arab chieftain, kidnaps their teenage son and brings him back to Morocco, where the boy is to be made the leader of the tribe. The child's mother hires a mercenary to get her son and bring him back to her.",
     "studio": "Reteitalia",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "betrayal": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-big-town-after-dark",
@@ -1571,7 +1585,10 @@
     ],
     "synopsis": "A crusading newspaper reporter battles big-city gambling interests.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-bill-and-coo",
@@ -1591,7 +1608,10 @@
     ],
     "synopsis": "The feathered residents of Chirpendale are terrorized by an evil black crow by the name of \"The Black Menace\". But to the citizen's rescue comes a brave young taxi puller named Bill!  In other words, every single role in this film is played by birds. Actual birds.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "whimsical_charm": 0.7,
+      "rescue_mission": 0.5
+    }
   },
   {
     "id": "artiflix-billy-the-kid-vs-dracula",
@@ -1611,7 +1631,11 @@
     ],
     "synopsis": "Dracula travels to the American West, intent on making a beautiful ranch owner his next victim. Her fiance, outlaw Billy the Kid, finds out about it and rushes to save her.",
     "studio": "Circle Productions Inc.",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "rescue_mission": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-birds-of-prey",
@@ -1631,7 +1655,11 @@
     ],
     "synopsis": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "criminal_mastermind": 0.5,
+      "found_family": 0.5
+    }
   },
   {
     "id": "artiflix-blackbeard-the-pirate",
@@ -1650,7 +1678,9 @@
     ],
     "synopsis": "Honest Robert Maynard finds himself serving as ship's surgeon under the infamous pirate Blackbeard.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.5
+    }
   },
   {
     "id": "artiflix-black-dragons",
@@ -1671,7 +1701,11 @@
     ],
     "synopsis": "It is prior to the commencement of World War II, and Japan's fiendish Black Dragon Society is hatching an evil plot with the Nazis. They instruct a brilliant scientist, Dr. Melcher, to travel to Japan on a secret mission. There he operates on six Japanese conspirators, transforming them to resemble six American leaders. The actual leaders are murdered and replaced with their likeness.",
     "studio": "Banner Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "espionage_double_cross": 0.7,
+      "war_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-black-fist",
@@ -1691,7 +1725,9 @@
     ],
     "synopsis": "To make money, a Los Angeles street-fighter goes to work for gangsters.",
     "studio": "Centaur",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-blackmail",
@@ -1712,7 +1748,10 @@
     ],
     "synopsis": "Inspector Abhay Rathod is a honest and diligent Police Inspector employed with Bombay Police. He was assigned the case of racketeer and criminal don, Shekhar Mohan. Abhay successfully entraps and arrests him, and has him sentenced to a long jail term. Years later, Abhay is now the Assistant Commissioner of Police; is married, and has a son named Chirag; and Shekhar Mohan has completed his jail term and is looking to seek vengeance against Abhay. He does so by kidnapping Chirag and taking him along with him. He object is not to seek any ransom money, but attempt to separate the child from his parents, as well as attempt to make a place in his heart. Shekhar finds out that Chirag loves racing and takes him on various race courses where the child is thrilled to watch fast sport cars, and soon starts a friendship with \"Uncle\" Shekhar. But with Abhay and the police closing in fast, will Shekhar and Chirag be able to maintain their friendship?",
     "studio": "Siddhi Vinayak Creations",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-black-sabbath",
@@ -1731,7 +1770,11 @@
     ],
     "synopsis": "Three tales of supernatural horror include a woman plagued by threatening phone calls, a family targeted by vampiric monsters, and a deceased medium who wreaks havoc upon the living.",
     "studio": "Emmepi Cinematografica",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.9,
+      "gothic": 0.6,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-black-tights",
@@ -1753,7 +1796,10 @@
     ],
     "synopsis": "Lively scenes of Paris, all narrated by Maurice Chevalier, link together four dramatic ballet choreographies by Roland Petit: La Croqueuse de diamants (The Gold Digger), Cyrano de Bergerac, Deuil en 24 heures (A Merry Mourning), and Carmen.",
     "studio": "Doperfilme",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.7,
+      "whimsical_charm": 0.4
+    }
   },
   {
     "id": "artiflix-blast-off-those-fantastic-flying-fools",
@@ -1774,7 +1820,9 @@
     ],
     "synopsis": "Phineas T. Barnum and friends finance the first flight to the moon but find the task a little above them. They attempt to blast their rocket into orbit from a massive gun barrel built into the side of a Welsh mountain, but money troubles, spies and saboteurs ensure that the plan is doomed before it starts...",
     "studio": "Jules Verne Films Ltd",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6
+    }
   },
   {
     "id": "artiflix-blondie-hits-the-jackpot",
@@ -1793,7 +1841,10 @@
     ],
     "synopsis": "Fired for messing up an important contract, Dagwood takes a job as a manual laborer for a construction firm while trying to get his old job back.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.4,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-blondies-big-deal",
@@ -1812,7 +1863,10 @@
     ],
     "synopsis": "Dagwood accidentally discovers a non-flammable paint.  Bad guys Dillon and Stack steal it before he can give it to his boss Radcliffe.  To show off his invention, Dagwood paints Radcliffe's house with it and is disgraced when the house burns down!",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "betrayal": 0.3
+    }
   },
   {
     "id": "artiflix-blondies-secret",
@@ -1831,7 +1885,10 @@
     ],
     "synopsis": "Dagwood prepares for a long-delayed vacation with the family.  His boss Mr. Radcliffe has promised the Bumsteads that there'll be no more postponements for their holiday.  But when something comes up that requires Dagwood's presence, Radcliffe hires a couple of thugs to steal Blondie and Dagwood's luggage so that they'll have to stay in town. And that's only the beginning of the frantic fun.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "wholesome_family": 0.4
+    }
   },
   {
     "id": "artiflix-blood-of-the-dragon",
@@ -1855,7 +1912,10 @@
     ],
     "synopsis": "The great King Gurumes is searching for the Dragon Balls in order to put a stop to his endless hunger. A young girl named Pansy who lives in the nearby village has had enough of the treachery and decides to seek Muten R\u014dshi for assistance. Can our heroes save the village and put a stop to the Gurumes Army?",
     "studio": "Bird Studios",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "absurdist": 0.3
+    }
   },
   {
     "id": "artiflix-blood-on-the-sun",
@@ -1876,7 +1936,11 @@
     ],
     "synopsis": "Nick Condon, an American journalist in 20s Tokyo, publishes the Japanese master plan for world domination. Reaction from the understandably upset Japanese provides the action, but this is overshadowed by the propaganda of the time.",
     "studio": "William Cagney Productions",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.6,
+      "investigation_driven": 0.5,
+      "war_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-blood-tide",
@@ -1897,7 +1961,10 @@
     ],
     "synopsis": "An adventurer hunting for treasure in Greece accidentally frees a monster that forces local villagers to sacrifice virgins.",
     "studio": "Connaught International",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-blue-steel",
@@ -1916,7 +1983,11 @@
     ],
     "synopsis": "Rookie cop Megan Turner orders a burglar to drop his gun. He whirls to shoot. Too late. Turner fires, killing him instantly. When someone lifts the assailant's gun from the crime scene, the police hold Turner accountable for killing an unarmed man. That same someone carves Turner's name into the bullets and uses them in a series of murders. Turner teams up with detective Nick Mann to clear her name and catch the killer. But she is drawn into a deadly game of wits with a psychopath who's always one step ahead\u2026 and much closer than she thinks!",
     "studio": "Lightning Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "obsession": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-blunt",
@@ -1937,7 +2008,9 @@
     ],
     "synopsis": "When your knife turns blunt, do you sharpen it or let it become a glorified butter knife at dad's company brunches? Something only you can answer.",
     "studio": "Mark Zanosov Films",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-bmx-bandits",
@@ -1958,7 +2031,9 @@
     ],
     "synopsis": "Teens P.J. and Goose get their thrills on BMX bikes, performing hair-raising tricks all across Sydney, Australia. Along with their new friend Judy, they discover a box of walkie-talkies -- and find out that a gang of criminals intends to use them to monitor police signals during a bank robbery. When the young trio snatches the devices, it propels them on a hair-raising adventure in which their pedaling skills might just save their necks.",
     "studio": "Nilsen Premiere",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-boarding-house-blues",
@@ -1977,7 +2052,10 @@
     ],
     "synopsis": "A boarding house maid is treated mean, until inheriting oil gives her a new gleam.",
     "studio": "Larry Darmour Productions",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-boothill-brigade",
@@ -1996,7 +2074,11 @@
     ],
     "synopsis": "Rancher Reynolds has fired his men and hired killers and is now using a crooked land deal to put the other ranchers off their land. Calico finds the reason why when he runs into his old nemesis Porter.",
     "studio": "Supreme Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "rivalry_driven": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-boots-and-saddles",
@@ -2017,7 +2099,11 @@
     ],
     "synopsis": "Young Englishman inherits ranch which he wants to sell, but Gene's gonna turn him into a real westerner instead. When new owner Spud arrives from England, Autry convinces him not to sell the ranch but to raise horses for the Army. When both Autry's and Neale's bids are the same, the Colonel calls for a race to decide the winner. But that night Neale has Autry's stable burned.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.6,
+      "rivalry_driven": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-borderline",
@@ -2036,7 +2122,11 @@
     ],
     "synopsis": "Convinced they are our secret saviors, rogue U.S. operatives abduct Mexican gang members and seed them across major American cities, unleashing criminal chaos, swaying voters by playing on nativist prejudices, and forcing law enforcement into a race to expose the plot as the escalating carnage threatens democracy itself.",
     "studio": "Gen1 Entertainment, LLC",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.7,
+      "espionage_double_cross": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-border-shootout",
@@ -2055,7 +2145,10 @@
     ],
     "synopsis": "Young rancher Kirby Frye is appointed deputy in a small town tyrannized by ruthless Phil Sundeen, the son of one of the founders of the town.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-born-to-be-sold",
