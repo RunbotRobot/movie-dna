@@ -3580,7 +3580,11 @@
     ],
     "synopsis": "Head railroad man Dan is as ugly as he is honorable. When he spots a drifter who'd hopped a freight held up by a landslide, Dan offers the man a job; then he finds the man was a railroader, too, and takes him under his wing. Engaged to Mary, Dan doesn't notice the growing attraction between his prot\u00e9g\u00e9 and his intended but focuses instead on running the railroad.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.5,
+      "rivalry_driven": 0.4,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-dangerous-passage",
@@ -3600,7 +3604,10 @@
     ],
     "synopsis": "Joe Beck leaves Central America so that he can return to Texas and collect a large inheritance, but he picks a dangerous ship on which to travel.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-daniel-boone",
@@ -3619,7 +3626,10 @@
     ],
     "synopsis": "In 1775, Daniel Boone settles Kentucky, despite menacing Indians and renegade whites.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-dark-alibi",
@@ -3640,7 +3650,10 @@
     ],
     "synopsis": "After three men are convicted of bank robberies, Charlie becomes suspicious.  After some investigation Charlie finds the men are innocent and that the fingerprint evidence used to convict them had been forged.  Charlie then proceeds to find the true bank robbers.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "justice_vs_law": 0.6
+    }
   },
   {
     "id": "artiflix-david-and-lisa",
@@ -3660,7 +3673,11 @@
     ],
     "synopsis": "Teenager David Clemens develops a hysterical fear that he will die if he comes into physical contact with another person. Perturbed, David's overbearing mother places him in a home for mentally disturbed young people, but David remains withdrawn from the other patients and his psychiatrist. Over time, however, David grows interested in 15-year-old Lisa, who suffers from multiple personalities \u2013 one who can only speak in rhyme, and the other, a mute.",
     "studio": "Vision Associates Productions",
-    "tags": {}
+    "tags": {
+      "mental_illness": 0.7,
+      "romantic_tone": 0.5,
+      "isolation_disconnection": 0.5
+    }
   },
   {
     "id": "artiflix-dawn-of-the-mummy",
@@ -3679,7 +3696,10 @@
     ],
     "synopsis": "A group of fashion models disturb the tomb of a mummy and revive an ancient curse. Along with the mummy rising, slaves who were buried in the desert thousands of years before, also rise, with a craving for human flesh.",
     "studio": "Harmony Gold",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "gothic": 0.4
+    }
   },
   {
     "id": "artiflix-day-of-the-animals",
@@ -3699,7 +3719,11 @@
     ],
     "synopsis": "The depletion of the earth's ozone layer causes animals above the altitude of 5000 feet to run amok, which is very unfortunate for a group of hikers who get dropped off up there by helicopter just before the quarantine is announced.",
     "studio": "Montoro Productions Ltd.",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.8,
+      "disaster_survival": 0.6,
+      "environmentalism": 0.5
+    }
   },
   {
     "id": "artiflix-deadly-harvest",
@@ -3719,7 +3743,11 @@
     ],
     "synopsis": "Farmer struggles to keep food on the table, and regain his son who has joined a gang of marauding city-folk during the world's worst famine.",
     "studio": "Burg-Ambassador",
-    "tags": {}
+    "tags": {
+      "disaster_survival": 0.6,
+      "environmentalism": 0.4,
+      "rescue_mission": 0.5
+    }
   },
   {
     "id": "artiflix-deadwood-76",
@@ -3738,7 +3766,9 @@
     ],
     "synopsis": "A young drifter is mistaken for Billy the Kid. The concequences prove deadly.",
     "studio": "Fairway International Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.3
+    }
   },
   {
     "id": "artiflix-dead-wrong",
@@ -3758,7 +3788,10 @@
     ],
     "synopsis": "Retired military commander Colonel Dale Murphy hosts the simulated post-apocalyptic reality show where participants are challenged to survive a remote West Virginia wasteland. But the show turns into a nightmarish showdown when each realizes they are being hunted by an inbred family of cannibals determined to make them all dinner!",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.7,
+      "competition_tournament": 0.4
+    }
   },
   {
     "id": "artiflix-death-at-love-house",
@@ -3779,7 +3812,10 @@
     ],
     "synopsis": "Donna and Joel Gregory are staying at the estate of Lorna Love while researching a book about the long dead Hollywood goddess. Joel, whose father had a passionate affair with Lorna, becomes obsessed with her. His wife attempts to break the spell which threatens their marriage and their very lives.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-death-journey",
@@ -3800,7 +3836,10 @@
     ],
     "synopsis": "Fearful that their star witness might be murdered, two attorneys hire a protector to bring him from Los Angeles to New York. Jesse Crowder (Fred Williamson) is a no-nonsense tough guy. He buddies up with the witness, an accountant, and they hit the road. Outwitting their foes means taking all manner of conveyance, including automobile, train, and airplane.",
     "studio": "Po' Boy Productions",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "road_journey": 0.7
+    }
   },
   {
     "id": "artiflix-death-machines",
@@ -3819,7 +3858,10 @@
     ],
     "synopsis": "Madame Lu has created three \"Death Machines,\" a trio of martial arts experts who have been injected with a special serum, turning them into mindless zombies, capable only of murder, at Lu's command. Tasked with eliminating her enemies, the Death Machines go on a blood-soaked rampage, killing anyone in their path. After they massacre an entire dojo, leaving only one survivor, the Death Machines and Madame Lu herself become the targets of his vengeance...",
     "studio": "Crown International Pictures",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-death-of-a-prophet",
@@ -3838,7 +3880,11 @@
     ],
     "synopsis": "After breaking ties with the Nation of Islam, Malcolm X became a man marked for death...and it was just a matter of time before his enemies closed in. Despite death threats and intimidation, Malcolm marched on - continuing to spread the word of equality and brotherhood right up until the moment of his brutal and untimely assassination. Highlighted by newsreel footage and interviews, this is the story of the last twenty-four hours of Malcolm X. Featuring the music of jazz percussionist Max Roach.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.5,
+      "systemic_corruption": 0.4,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-death-rides-a-horse",
@@ -3857,7 +3903,9 @@
     ],
     "synopsis": "Bill Meceita, a boy whose family was murdered in front of him by a gang, sets out 15 years later to exact revenge. On his journey, he finds himself continually sparring and occasionally cooperating with Ryan, a gunfighter on his own quest for vengeance, who knows more than he says about Bill's tragedy.",
     "studio": "Sancro International Film",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-deep-red",
@@ -3878,7 +3926,10 @@
     ],
     "synopsis": "An English pianist living in Rome witnesses the brutal murder of his psychic neighbor. With the help of a tenacious young reporter, he tries to discover the killer using very unconventional methods. The two are soon drawn into a shocking web of dementia and violence.",
     "studio": "Seda Spettacoli",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "descent_into_madness": 0.5
+    }
   },
   {
     "id": "artiflix-delightfully-dangerous",
@@ -3898,7 +3949,9 @@
     ],
     "synopsis": "Young Sherry Williams dreams of having a singing career, and she idolizes her older sister Josephine, who has gone to New York to perform on the stage. When Sherry is distraught just before performing at her school, a visiting Broadway producer encourages her by telling her positive things about her sister. Soon afterwards, Sherry decides to make a surprise trip to New York to visit Josephine - but what she finds there is not at all what she expected",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-dementia-13",
@@ -3919,7 +3972,12 @@
     ],
     "synopsis": "A scheming widow hatches a bold plan to acquire her late husband's inheritance, unaware that she is being targeted by an ax murderer who lurks in the family's estate.",
     "studio": "The Filmgroup",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.6,
+      "gothic": 0.5,
+      "criminal_mastermind": 0.4,
+      "slasher_structure": 0.5
+    }
   },
   {
     "id": "artiflix-demons",
@@ -3939,7 +3997,12 @@
     ],
     "synopsis": "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati \u2013 a secret, underground organization \u2013 after four cardinals are kidnapped on the night of the papal conclave.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "forbidden_knowledge": 0.6,
+      "faith_and_doubt": 0.5,
+      "real_time": 0.5
+    }
   },
   {
     "id": "artiflix-desperate-cargo",
@@ -3960,7 +4023,10 @@
     ],
     "synopsis": "When two showgirls decide to leave South America and head for home, they sweet talk the purser of a clipper ship into giving them berths. In the course of the voyage, a band of thieves attempts to take over the ship and make off with its cash cargo. The heroic purser has other ideas and weighs in to save the day.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-detour",
@@ -3980,7 +4046,10 @@
     ],
     "synopsis": "Trapped inside his car by a mudslide, smooth talking Jackson Alder suddenly finds himself in a situation he can't talk his way out of. With no hope of rescue, he must defy the odds; battling Mother Nature for his survival.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.7,
+      "man_vs_nature": 0.6
+    }
   },
   {
     "id": "artiflix-devil-girl-from-mars",
@@ -4000,7 +4069,9 @@
     ],
     "synopsis": "Eight people at a remote Scottish inn find themselves confronted by a woman from Mars, who has landed her flying saucer for repairs but intends to soon conquer the Earth and enslave its men for breeding purposes.",
     "studio": "Danziger Productions Ltd.",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-dick-tracy-detective",
@@ -4021,7 +4092,10 @@
     ],
     "synopsis": "Dick is faced with a series of brutal murders in which the victims, all from different social and economic backgrounds, are viciously slashed to pieces. Suspects abound but Tracy, getting a clue that there will be 15 murders in all, must find the common thread among the victims before more are killed.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "slasher_structure": 0.5
+    }
   },
   {
     "id": "artiflix-dick-tracy-meets-gruesome",
@@ -4043,7 +4117,11 @@
     ],
     "synopsis": "A gang of criminals, which includes a piano player and an imposing former convict known as 'Gruesome', has found out about a scientist's secret formula for a gas that temporarily paralyzes anyone who breathes it. When Gruesome accidentally inhales some of the gas and passes out, the police think he is dead and take him to the morgue, where he later revives and escapes. This puzzling incident attracts the interest of Dick Tracy, and when the criminals later use the gas to rob a bank, Tracy realizes that he must devote his entire attention to stopping them.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "criminal_mastermind": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-dick-tracys-dilemma",
@@ -4063,7 +4141,10 @@
     ],
     "synopsis": "Dick Tracy investigates the theft of a fortune of fur coats, a possible insurance swindle and several murders, all linked to a huge thug who wears a hook in place of his right hand.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-dick-tracys-g-men",
@@ -4084,7 +4165,11 @@
     ],
     "synopsis": "A mad doctor named Zanoff uses a drug to bring himself back from the dead after his execution in prison. Dick Tracy sets out to capture Zanoff before he can put his criminal gang back together again.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-dick-tracy-vs-cueball",
@@ -4104,7 +4189,10 @@
     ],
     "synopsis": "A police detective uses his girlfriend to track down a homicidal maniac.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "slasher_structure": 0.4
+    }
   },
   {
     "id": "artiflix-dillinger",
@@ -4125,7 +4213,11 @@
     ],
     "synopsis": "Crime drama based on the real-life story of US gangster John Dillinger, who was hunted by the FBI after a string of armed bank robberies during the Great Depression. When Dillinger's attacks on banks threaten to make him a dangerous folk hero, the pressure mounts on the FBI \u2013 even from the White House \u2013 for his capture.",
     "studio": "Wolper Organization",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.6,
+      "investigation_driven": 0.5,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-disco_godfather",
@@ -4148,7 +4240,10 @@
     ],
     "synopsis": "Retired cop and celebrity DJ Tucker Williams (aka The Disco Godfather) takes to the streets as a dangerous hallucinogenic drug called Angel Dust begins to take hold of the neighborhood.",
     "studio": "Generation International",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.6,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-dishonored-lady",
@@ -4168,7 +4263,11 @@
     ],
     "synopsis": "Art editor Madeleine Damian carries on numerous loveless affairs. After a failed relationship with advertiser Felix Courtland, the increasingly depressed Madeleine attempts suicide. When Jack Garet, her secretary and former lover, tries to blackmail her, Madeleine resigns and seeks a reclusive life. Neighbor David Cousins befriends Madeleine, but soon Courtland and Garet discover her whereabouts and disrupt her new life.",
     "studio": "Hunt Stromberg Productions",
-    "tags": {}
+    "tags": {
+      "isolation_disconnection": 0.6,
+      "betrayal": 0.5,
+      "mental_illness": 0.4
+    }
   },
   {
     "id": "artiflix-dixie-jamboree",
