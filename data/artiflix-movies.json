@@ -15579,7 +15579,9 @@
     ],
     "synopsis": "A master thief, just out of prison, concocts a risky final score that would net him over a million dollars.",
     "studio": "Verona Produzione",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-the-mcmasters",
@@ -15599,7 +15601,11 @@
     ],
     "synopsis": "When a black Civil War veteran becomes co-owner of the southern McMasters ranch, the incensed local Confederate veterans come gunning for him and his Indian wife.",
     "studio": "Distrifilm SA",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "war_conflict": 0.4,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-milky-way",
@@ -15618,7 +15624,9 @@
     ],
     "synopsis": "What 'Food, Inc.' did for the food industry in America, this film will do for breastfeeding in our country. It will make every viewer rethink motherhood and how we treat mothers. It is a film that will empower each woman to trust her body, her baby, and herself in her journey as a mother. It will make her laugh, cry, nod fiercely in agreement, get angry, and then get so inspired it will be impossible not to take action.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.3
+    }
   },
   {
     "id": "artiflix-the-monster-maker",
@@ -15638,7 +15646,10 @@
     ],
     "synopsis": "Mad scientist injects his enemies with acromegaly virus, causing them to become hideously deformed.",
     "studio": "Sigmund Neufeld Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-mountain-of-the-cannibal-god",
@@ -15658,7 +15669,11 @@
     ],
     "synopsis": "A woman and her brother fly to New Guinea to look for a lost expedition, led by her husband, which has vanished in the great jungle.",
     "studio": "Dania Film",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.6,
+      "forbidden_knowledge": 0.4,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-the-naked-city",
@@ -15679,7 +15694,9 @@
     ],
     "synopsis": "After a former model is drowned in her bathtub, Detective James Halloran and Lieutenant Dan Muldoon attempt to piece together her murder.",
     "studio": "Universal International Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7
+    }
   },
   {
     "id": "artiflix-the-naked-kiss",
@@ -15699,7 +15716,10 @@
     ],
     "synopsis": "A former prostitute works to create a new life for herself in a small town, but a shocking discovery could threaten everything.",
     "studio": "Leon Fromkess-Sam Firks Productions",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-new-adventures-of-heidi",
@@ -15722,7 +15742,9 @@
     ],
     "synopsis": "The long-familiar Heidi tale is given a contemporary (and musical) setting as the young heroine leaves her familiar Swiss mountain for the bright lights of Manhattan.",
     "studio": "Pierre Cossette Enterprises",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.6
+    }
   },
   {
     "id": "artiflix-the-next-man",
@@ -15742,7 +15764,10 @@
     ],
     "synopsis": "Khalil is an Arab diplomat who wants to not only make peace with Israel, but admit the Jewish state as a member of OPEC. This instantly makes him a target for a series of ingeniously conceived assassination attempts, most of which he foils with the aid of his friend Hamid and his girlfriend Nicole. But can he trust even them?",
     "studio": "Artists Entertainment Complex",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.7,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-the-night-porter",
@@ -15763,7 +15788,12 @@
     ],
     "synopsis": "A concentration camp survivor discovers her former torturer and lover working as a porter at a hotel in postwar Vienna. When the couple attempt to re-create their sadomasochistic relationship, his former SS comrades begin to stalk them.",
     "studio": "Lotar Film Productions",
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "betrayal": 0.5,
+      "isolation_disconnection": 0.5,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-nutcracker-ballet",
@@ -15784,7 +15814,11 @@
     ],
     "synopsis": "On Christmas Eve, Marie is given a wooden nutcracker as a gift. When the clock strikes midnight, the Nutcracker transforms into a prince and saves Marie from the Mouse King and his army. This beloved holiday classic will enchant the whole family with its fairytale setting and Tchaikovsky\u2019s timeless score. This live version of The Nutcracker, created for the Bolshoi by Yuri Grigorovich, is full of romanticism and philosophical reflections on ideal love.",
     "studio": "Bolshoi Theatre",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.6,
+      "whimsical_charm": 0.6,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-the-oklahoma-cyclone",
@@ -15804,7 +15838,10 @@
     ],
     "synopsis": "A cowboy looking for his missing father, poses as an outlaw and joins the gang he thinks is responsible.",
     "studio": "Trem Carr Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "legacy_and_inheritance": 0.4
+    }
   },
   {
     "id": "artiflix-the-old-barn-dance",
@@ -15823,7 +15860,9 @@
     ],
     "synopsis": "Autry and his buddies have a horse selling business which is threatened by a tractor company which claims horses are out of date.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5
+    }
   },
   {
     "id": "artiflix-the-old-corral",
@@ -15844,7 +15883,10 @@
     ],
     "synopsis": "As the sheriff of a small western town, Autry sings his way into a relationship with Eleanor, a singer from a Chicago nightclub who earlier witnessed a murder.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-the-old-curiosity-shop",
@@ -15863,7 +15905,11 @@
     ],
     "synopsis": "A kindly shop owner whose overwhelming gambling debts allow a greedy landlord to seize his shop of dusty treasures. Evicted and with no way to pay his debts, he and his granddaughter flee.",
     "studio": "Element Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "addiction_recovery": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-the-old-dark-house",
@@ -15884,7 +15930,11 @@
     ],
     "synopsis": "In a remote region of Wales, five travelers beset by a relentless storm find shelter in an old mansion.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "gothic": 0.7,
+      "claustrophobic_tone": 0.6,
+      "tense_dread": 0.4
+    }
   },
   {
     "id": "artiflix-the-oracle",
@@ -15904,7 +15954,11 @@
     ],
     "synopsis": "When an atheist psychiatrist hypnotizes his con artist patient, a message from his long-dead twin emerges. Is it the perfect con, or proof that reality is far stranger than he would like to admit?",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "unreliable_narrator": 0.6,
+      "faith_and_doubt": 0.6,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-the-painted-desert",
@@ -15923,7 +15977,11 @@
     ],
     "synopsis": "Western pardners Jeff and Cash find a baby boy in an otherwise deserted emigrants' camp, and clash over which is to be \"father.\" They are still bitterly feuding years later when they own adjacent ranches. Bill, the foundling whom Cash has raised to young manhood, wants to end the feud and extends an olive branch toward Jeff, who now has a lovely daughter. But during a mining venture, the bitterness escalates. Is Bill to be set against his own adoptive father?",
     "studio": "Path\u00e9 Exchange",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "legacy_and_inheritance": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-pajama-game",
@@ -15944,7 +16002,10 @@
     ],
     "synopsis": "An Iowa pajama factory worker falls in love with an affable superintendent who had been hired by the factory's boss to help oppose the workers' demand for a pay raise.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-the-perfect-killer",
@@ -15964,7 +16025,11 @@
     ],
     "synopsis": "After a teenage girl's father is killed by an unknown caller mimicking her voice, she and her stepmother suspect someone close to them is behind the sinister act.",
     "studio": "Reel One Entertainment",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "betrayal": 0.5,
+      "unreliable_narrator": 0.4
+    }
   },
   {
     "id": "artiflix-the-perils-of-pauline",
@@ -15984,7 +16049,11 @@
     ],
     "synopsis": "Funloving Pearl White, working in a garment sweatshop, gets her big chance when she \"opens\" for a delayed Shakespeare play...with a comic vaudeville performance. Her brief stage career leads her into those \"horrible\" moving pictures, where she comes to love the chaotic world of silent movies, becoming queen of the serials. But the consequences of movie stardom may be more than her leading man can take",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "meta_fourth_wall": 0.5,
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-the-pied-piper-of-hamelin",
@@ -16006,7 +16075,11 @@
     ],
     "synopsis": "The singing, rhyming citizens of Hamelin hope to win a competition with rival towns for royal recognition. To this end, the mayor outlaws play (which is a bit hard on the children) and refuses to help a rival town when it's flooded. But rats (seen only as shadows), fleeing the flood, invade Hamelin in droves; a magical piper, whose music only children (and rats) can hear, strikes a bargain...which, once the rats are gone, the Mayor and council renege on, to their subsequent regret.",
     "studio": "Hal Stanley Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "whimsical_charm": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-pilgrimage-play",
@@ -16025,7 +16098,10 @@
     ],
     "synopsis": "Nelson Leigh assumes the role of Jesus Christ in this drama that depicts such historical events as the Sermon on the Mount and the Last Supper while portraying the period in which Christ roamed the countryside preaching the gospel.",
     "studio": "Roland Reed Productions",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.7,
+      "sacrifice_for_others": 0.5
+    }
   },
   {
     "id": "artiflix-the-poppy-is-also-a-flower",
@@ -16046,7 +16122,11 @@
     ],
     "synopsis": "A special United Nations bureau organises a campaign to trace a drug-smuggling ring across Europe to its source on the Afghanistan-Iran border.",
     "studio": "Comet",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "systemic_corruption": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-the-power-of-the-resurrection",
@@ -16065,7 +16145,10 @@
     ],
     "synopsis": "A young man, Facing torture and possibly death for his Christian beliefs, confesses his fears to Peter, who awaits a similar fate. Peter tells him of fear he felt in following Jesus' arrest in the Garden of Gethesamene, when he denied knowing him three times - and yet Jesus told him that he would be the rock upon which the Church was built. Peter goes on to relate the events of the passion week, including the Christ's crucifixion, resurrection and ascension.",
     "studio": "Family Films",
-    "tags": {}
+    "tags": {
+      "faith_and_doubt": 0.8,
+      "sacrifice_for_others": 0.6
+    }
   },
   {
     "id": "artiflix-the-private-life-of-henry-viii",
@@ -16085,7 +16168,10 @@
     ],
     "synopsis": "Renowned for his excess, King Henry VIII goes through a series of wives during his rule. With Anne Boleyn, his second betrothed, executed on charges of treason, Henry weds maid Jane Seymour, but that wedded bliss also ends in tragedy. Not one to be single for long, the tyrannical king chooses German-born Anne of Cleves, but their union lasts only months before an annulment is granted, and so Henry's reign of spousal terror continues.",
     "studio": "London Films Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "romantic_tone": 0.3
+    }
   },
   {
     "id": "artiflix-the-promise-of-love",
@@ -16104,7 +16190,10 @@
     ],
     "synopsis": "A teenage bride becomes a war widow when her Marine Corps husband is killed in Vietnam, until into her life comes a civilian recreation director who works at Camp Pendleton.",
     "studio": "Pierre Cossette Enterprises",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "war_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-the-proud-and-the-damned",
@@ -16123,7 +16212,11 @@
     ],
     "synopsis": "A group of five Confederate mercenaries led by Sergeant Will Hansen must choose sides carefully in a small village where they find themselves trapped in the middle of a rebellion. The group is torn as to whether they should honor the powerful military dictator who forces them to spy for him or help the local village fight for its independence. Follow Sergeant Hansen and his men as they make a decision that could cost them their lives.",
     "studio": "Media Trend",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "justice_vs_law": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-the-racketeer",
@@ -16143,7 +16236,11 @@
     ],
     "synopsis": "A dapper gangster sponsors an alcoholic violinist in order to win the love of a glamorous divorced socialite.",
     "studio": "Path\u00e9 Exchange",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "romantic_tone": 0.4,
+      "addiction_recovery": 0.4
+    }
   },
   {
     "id": "artiflix-the-rage-of-paris",
@@ -16163,7 +16260,10 @@
     ],
     "synopsis": "Nicole has no job and is several weeks behind with her rent. Her solution to her problems is to try and snare a rich husband. Enlisting the help of her friend Gloria and the maitre'd at a ritzy New York City hotel, the trio plot to have Gloria catch the eye of Bill Duncan, a millionaire staying at the hotel. The plan works and the two quickly become engaged. Nicole's plan may be thwarted by Bill's friend, Jim Trevor, who's met Nicole before and sees through her plot.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-the-real-bruce-lee",
