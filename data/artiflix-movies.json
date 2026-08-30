@@ -7129,7 +7129,11 @@
     ],
     "synopsis": "A tough rich female ranch owner in Africa wants to cut off the water supply to the locals, since she holds them responsible for the murder of her husband. She hires two charming gunrunners as help, but they suspect her shady competitor.",
     "studio": "Israfilm Ltd.",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "criminal_mastermind": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-its-good-to-be-alive",
@@ -7149,7 +7153,9 @@
     ],
     "synopsis": "This movie details the struggles of former Brooklyn Dodger catcher Roy Campanella to adapt to life in a wheelchair following his crippling automobile accident in 1959. Cinematographer Ted Voigtlander was Emmy-nominated.",
     "studio": "Metromedia Producers Corporation",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5
+    }
   },
   {
     "id": "artiflix-its-never-too-late-to-mend",
@@ -7168,7 +7174,10 @@
     ],
     "synopsis": "An evil prison administrator cruelly abuses the inmates at his prison, until one day the tables are turned.",
     "studio": "George King Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.7,
+      "justice_vs_law": 0.6
+    }
   },
   {
     "id": "artiflix-jack-frost",
@@ -7190,7 +7199,10 @@
     ],
     "synopsis": "A father who can't keep his promises dies in a car accident. One year later, he returns as a snowman, who has one final chance to put things right with his son before he is gone forever.",
     "studio": "The Canton Company",
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.4,
+      "wholesome_family": 0.5
+    }
   },
   {
     "id": "artiflix-jack-london",
@@ -7210,7 +7222,10 @@
     ],
     "synopsis": "The adventurous and remarkable life of the US writer Jack London (1876-1916).",
     "studio": "Samuel Bronston Productions",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.4,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-jack-the-ripper",
@@ -7229,7 +7244,11 @@
     ],
     "synopsis": "the story of a detective trying to solve a serial murder case targeting only prostitutes, the thriller musical digs into the existence of a murderer entangles like a puzzle piece in the form of a play.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "slasher_structure": 0.5,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-jamaica-inn",
@@ -7250,7 +7269,12 @@
     ],
     "synopsis": "In early 19th-century Cornwall, young Mary Yellan travels to live with her aunt and uncle at the remote Jamaica Inn, where she discovers the inn is a front for a violent gang of wreckers who lure ships to their doom along the coast. As she becomes entangled in their crimes, Mary must fight to survive and uncover the truth behind the terror that haunts the moors.",
     "studio": "Mayflower Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "criminal_mastermind": 0.5,
+      "gothic": 0.4,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-jesse-james-meets-frankensteins-daughter",
@@ -7271,7 +7295,10 @@
     ],
     "synopsis": "Dr. Frankenstein's Granddaughter Maria, and her brother assistant Rudolph, moved to the old west because the lightning storms there are more frequent and intense, which allows them to work on the experiments of their grandfather. But the experiments are failing and Rudolph's been secretly killing the corpses afterwards. Meanwhile, the Lopez family leaves the town because of the evil going on there",
     "studio": "Circle Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "gothic": 0.4
+    }
   },
   {
     "id": "artiflix-journey-to-the-center-of-time",
@@ -7292,7 +7319,10 @@
     ],
     "synopsis": "Scientists must prove their time travel experiments can produce results, so their funding won't be cut off. They push their equipment, and travel 5000 years into the future, where they encounter aliens who are looking for a planet to colonize.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-juke-joint",
@@ -7312,7 +7342,9 @@
     ],
     "synopsis": "Bad News Johnson, a con artist from Memphis, Tennessee, arrives in Dallas, Texas, accompanied by his dim sidekick July Jones with only twenty-five cents between them. The duo arrange to become boarders at the home of Louella \"Mama Lou\" Holiday, who is fooled into believing Johnson is an acting teacher from Hollywood. Mrs. Holiday agrees to give the men free room and board if they will provide poise lessons to her daughter, an aspiring beauty queen named Honey Dew.",
     "studio": "Sack Amusement Enterprises",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-jungle-book",
@@ -7333,7 +7365,10 @@
     ],
     "synopsis": "After a threat from the tiger Shere Khan, Mowgli, a man-cub fostered by wolves, is forced to flee the jungle, and he embarks on a journey of self-discovery with the help of the panther, Bagheera, and the free-spirited bear, Baloo.",
     "studio": "Walt Disney Pictures",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.7,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-kansas-pacific",
@@ -7353,7 +7388,11 @@
     ],
     "synopsis": "Just before the Civil War (but after the South has seceded), Southern saboteurs try to prevent railroad construction from crossing Kansas to the frontier; army captain Nelson is sent out to oppose them. As the tracks push westward, Nelson must contend with increasingly violent sabotage, while trying to romance the foreman's pretty daughter Barbara.",
     "studio": "Walter Wanger Productions",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.4,
+      "romantic_tone": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-karate-kids-usa",
@@ -7374,7 +7413,10 @@
     ],
     "synopsis": "Karate experts attempt to rescue a girl who was kidnapped by a mother and her two psycho sons.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-kentucky-rifle",
@@ -7393,7 +7435,9 @@
     ],
     "synopsis": "A man escorts a wagon load of Kentucky rifles through Indian territory and must find a way to get through without losing the rifles to the Indians. Unfortunately the Indians know about it, and give the occupants an ultimatum: either the rifles or their lives.",
     "studio": "Howco Productions Inc.",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.6
+    }
   },
   {
     "id": "artiflix-kill-baby-kill",
@@ -7412,7 +7456,11 @@
     ],
     "synopsis": "A 20th century European village is haunted by the ghost of a murderous little girl.",
     "studio": "FUL Films",
-    "tags": {}
+    "tags": {
+      "gothic": 0.6,
+      "forbidden_knowledge": 0.4,
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-kill-cruise",
@@ -7431,7 +7479,10 @@
     ],
     "synopsis": "Two British beauties go to Barbados with a yacht captain who does not know what he's in for.",
     "studio": "Rialto Film",
-    "tags": {}
+    "tags": {
+      "tense_dread": 0.4,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-killers-from-space",
@@ -7451,7 +7502,11 @@
     ],
     "synopsis": "Atomic scientist/pilot Doug Martin is missing after his plane crashes on an reconnaissance mission after a nuclear test. Miraculously appearing unhurt at the base later, he is given sodium amethol, but authorities are skeptical of his story that he was captured by aliens determined to conquer the Earth with giant monsters and insects. Martin vows to use existing technology to destroy them.",
     "studio": "Planet Filmplays",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5,
+      "unreliable_narrator": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-kill-me-tomorrow",
@@ -7471,7 +7526,11 @@
     ],
     "synopsis": "A reporter who needs cash for his son's operation is paid by a smuggler to take a murder rap.",
     "studio": "Francis Searle Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "sacrifice_for_others": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-the-king-and-queen-of-moonlight-bay",
@@ -7492,7 +7551,10 @@
     ],
     "synopsis": "A college girl decides to get to know her estranged father before she begins her education, but his life turns out to be nothing that she expected.",
     "studio": "Larry Levinson Productions",
-    "tags": {}
+    "tags": {
+      "legacy_and_inheritance": 0.4,
+      "found_family": 0.4
+    }
   },
   {
     "id": "artiflix-the-king-murder",
@@ -7511,7 +7573,11 @@
     ],
     "synopsis": "A beautiful blonde makes a career out of seducing and then blackmailing wealthy married men. She is found murdered after demanding a $5000 payoff from her latest victim, and the detective investigating the case finds out that she was involved in a lot more than just blackmail.",
     "studio": "Chesterfield Motion Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "betrayal": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-king-of-the-zombies",
@@ -7531,7 +7597,11 @@
     ],
     "synopsis": "During World War II, a small plane somewhere over the Caribbean runs low on fuel and is blown off course by a storm. Guided by a faint radio signal, they crash-land on an island. The passenger, his manservant and the pilot take refuge in a mansion owned by a doctor. The quick-witted yet easily-frightened manservant soon becomes convinced the mansion is haunted by zombies and ghosts.",
     "studio": "Monogram Pictures",
-    "tags": {}
+    "tags": {
+      "claustrophobic_tone": 0.4,
+      "forbidden_knowledge": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-kings-rhapsody",
@@ -7551,7 +7621,11 @@
     ],
     "synopsis": "Flynn plays the exciled Ruritanian king who leaves his mistress to return home to a political marriage. Love versus duty in this enjoyable romantic film.",
     "studio": "Everest Films",
-    "tags": {}
+    "tags": {
+      "duty_vs_desire": 0.8,
+      "romantic_tone": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-kiss-daddy-goodnight",
@@ -7572,7 +7646,11 @@
     ],
     "synopsis": "At night, baby-face Laura dresses up as a vamp and lets random guys at bars pick her up, just to drug and rob them later. But then someone starts stalking her, and a person close to her is killed.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "tense_dread": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-kiss-me-kill-me",
@@ -7593,7 +7671,9 @@
     ],
     "synopsis": "A female investigator in the district attorney's office sets out to track down the person who murdered a young schoolteacher.",
     "studio": "Columbia Pictures Television",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7
+    }
   },
   {
     "id": "artiflix-kiss-of-the-tarantula",
@@ -7613,7 +7693,10 @@
     ],
     "synopsis": "A disturbed teenage girl unleashes her pet tarantula against her \"enemies.\"",
     "studio": "Cinema-Vu",
-    "tags": {}
+    "tags": {
+      "mental_illness": 0.5,
+      "descent_into_madness": 0.4
+    }
   },
   {
     "id": "artiflix-la-belle-et-la-bete",
@@ -7633,7 +7716,11 @@
     ],
     "synopsis": "Forced to face the cruel side of life, a devastated, bankrupt merchant chances upon the enchanted castle of a hideous creature, the mere sight of it chills the bone to the marrow. There, a fate worse than death awaits the poor father-of-six, who, after plucking a sweet-scented rose from the repulsive master's verdant garden, must do the impossible: permit his compassionate daughter, Belle, to take his place and pay for the sins of her parent. Now, an impenetrable mystery shrouds the haunted mansion, and, as repugnance gradually turns into affection, only true love could break the spell.",
     "studio": "Eskwad",
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.7,
+      "romantic_tone": 0.7,
+      "gothic": 0.4
+    }
   },
   {
     "id": "artiflix-lady-frankenstein",
@@ -7653,7 +7740,10 @@
     ],
     "synopsis": "When Dr. Frankenstein is killed by a monster he created, his daughter and his lab assistant continue his experiments.",
     "studio": "Condor International Productions",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "legacy_and_inheritance": 0.5
+    }
   },
   {
     "id": "artiflix-lady-gangster",
@@ -7673,7 +7763,10 @@
     ],
     "synopsis": "An actress gets involved with a criminal gang and winds up taking the rap for a $40,000 bank robbery. Before being sent to prison, she steals the money from her partners and hides it, thinking to use it as a bargaining chip to be released from prison. However, her former partners have different ideas.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.7,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-lady-of-burlesque",
@@ -7695,7 +7788,10 @@
     ],
     "synopsis": "After one member of their group is murdered, the performers at a burlesque house must work together to find out who the killer is before they strike again.",
     "studio": "Hunt Stromberg Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "slasher_structure": 0.4
+    }
   },
   {
     "id": "artiflix-laserblast",
@@ -7715,7 +7811,9 @@
     ],
     "synopsis": "Happy go-lucky teen Billy Duncan discovers an otherworldly laser gun in the southern California desert, making him the target of a pair of aliens who had recently executed its previous owner.",
     "studio": "Selected Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.5
+    }
   },
   {
     "id": "artiflix-laser-mission",
