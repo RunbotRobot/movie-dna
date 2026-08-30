@@ -5714,7 +5714,10 @@
     ],
     "synopsis": "When an underwater volcanic eruption tears up the sea bed off the coast of Ireland, two treasure hunters make the discovery of a lifetime when they encounter a gigantic prehistoric monster that\u2019s been unleashed from the earth\u2019s crust. After capturing the beast, the pair transport the creature down to London where it\u2019s given the name of \u201cGorgo\u201d and put on display to an avid public. Little do they realize that Gorgo is just an infant, and that his exponentially larger mother is about to emerge from the depths to avenge the capture of her offspring.",
     "studio": "King Brothers Productions",
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.6,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-gothic",
@@ -5733,7 +5736,11 @@
     ],
     "synopsis": "Living on an estate on the shores of Lake Geneva, Lord Byron is visited by Percy and Mary Shelley. Together with Byron's lover Claire Clairmont, and aided by hallucinogenic substances, they devise an evening of ghoulish tales. However, when confronted by horrors, ostensibly of their own creation, it becomes difficult to tell apparition from reality.",
     "studio": "Virgin Vision",
-    "tags": {}
+    "tags": {
+      "gothic": 0.9,
+      "dreamlike_surreal": 0.6,
+      "unreliable_narrator": 0.5
+    }
   },
   {
     "id": "artiflix-great-expectations",
@@ -5754,7 +5761,10 @@
     ],
     "synopsis": "Loosely based on the Charles Dickens' classic novel, \"Great Expectations\" is a sensual tale of a young man's unforgettable passage into manhood, and the three individuals who will undeniably change his life forever. Through the surprising interactions of these vivid characters, \"Great Expectations\" takes a unique and contemporary look at life's great coincidences.",
     "studio": "20th Century Fox",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "class_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-green-eyes",
@@ -5773,7 +5783,10 @@
     ],
     "synopsis": "Southerner Pearson Hunter (Jack Holt) marries Shirley, a Northerner (Dorothy Dalton), and brings her down to his home. There, she finds an acquaintance, Alexander Chapman (Robert McKim), and the fact that she knows him rouses her new husband's jealousy. This is fanned even further when Pearson's younger brother, Morgan (Emory Johnson) returns from college. His fiancee, Margery (Doris Lee), believes there is something going on between Shirley and Morgan and complains to Pearson.",
     "studio": "Thomas H. Ince Corporation",
-    "tags": {}
+    "tags": {
+      "obsession": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-guilty-conscience",
@@ -5794,7 +5807,11 @@
     ],
     "synopsis": "After his negligence causes an innocent woman to go to jail, a lawyer and his colleagues work to clear her name.",
     "studio": "Edko Films",
-    "tags": {}
+    "tags": {
+      "courtroom_drama": 0.7,
+      "justice_vs_law": 0.6,
+      "redemption_arc": 0.5
+    }
   },
   {
     "id": "artiflix-gung-ho",
@@ -5814,7 +5831,9 @@
     ],
     "synopsis": "When a western Pennsylvania auto plant is acquired by a Japanese company, brokering auto worker Hunt Stevenson faces the tricky challenge of mediating the assimilation of two clashing corporate cultures. At one end is the Japanese plant manager and the sycophant who is angling for his position. At the other, a number of disgruntled long-time union members struggle with the new exigencies of Japanese quality control.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.6
+    }
   },
   {
     "id": "artiflix-guns-of-diablo",
@@ -5834,7 +5853,10 @@
     ],
     "synopsis": "14-year-old Kurt Russell plays Jamie, an orphaned boy heading westward with a wagon train. Charles Bronson is a wagon scout Linc Murdock, who runs into difficulties when he meets old flame Maria, who is now married to corrupt lawman Rance Macklin. The jealous Macklin has Murdock arrested, but Maria frees him, permitting Murdock and Jamie to embark on a new adventure involving a \"lost\" gold mine.  Edited from TV series, The Travels of Jaimie McPheeters",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-hallelujah-im-a-bum",
@@ -5854,7 +5876,11 @@
     ],
     "synopsis": "A New York tramp falls in love with the mayor's amnesiac girlfriend after rescuing her from a suicide attempt.",
     "studio": "Lewis Milestone Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "rescue_mission": 0.5,
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-hangar-18",
@@ -5875,7 +5901,11 @@
     ],
     "synopsis": "During a Space Shuttle mission a satellite rams a unidentified flying object. The UFO afterwards performs an emergency landing in the deserts of Arizona. However the White House denies its existence because of the near presidential elections. The UFO is brought to the secret Hangar 18 and the accident is blamed on the incompetence of the astronauts Bancroff and Price. But the two fight against this and try to hunt down the UFO.",
     "studio": "Sunn Classic Pictures",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.7,
+      "systemic_corruption": 0.6,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-hatchet-for-the-honeymoon",
@@ -5895,7 +5925,11 @@
     ],
     "synopsis": "A madman haunted by the ghost of his ex-wife carves a corpse-laden trail.",
     "studio": "Pan Latina Films",
-    "tags": {}
+    "tags": {
+      "descent_into_madness": 0.7,
+      "gothic": 0.4,
+      "unreliable_narrator": 0.4
+    }
   },
   {
     "id": "artiflix-helltown",
@@ -5915,7 +5949,11 @@
     ],
     "synopsis": "In 1974, President Ford ordered the evacuation of Boston, OH. Theories as to why included the cover up of a mutation-causing chemical spill; extreme paranormal activity; and Boston being taken over by a satanic cult. But what really happened in Helltown?",
     "studio": "Destination America",
-    "tags": {}
+    "tags": {
+      "mockumentary": 0.6,
+      "investigation_driven": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-hell-town-born-to-the-west",
@@ -5934,7 +5972,10 @@
     ],
     "synopsis": "A cattleman hires his cousin, Dare Rudd, to head a cattle drive. However, he doesn\u2019t bargain for Dare taking an interest in his girlfriend or losing his money to card sharks",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-hercules-against-the-moon-men",
@@ -5954,7 +5995,10 @@
     ],
     "synopsis": "Hercules is summoned to oppose the evil Queen Samara, who has allied herself with aliens and is sacrificing her own people in a bid to awaken a moon goddess.",
     "studio": "Nike Cinematografica",
-    "tags": {}
+    "tags": {
+      "epic_scale": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-hercules-unchained",
@@ -5974,7 +6018,10 @@
     ],
     "synopsis": "En route to Thebes for an important diplomatic mission, Hercules drinks from a magic spring and loses his memory. He spends most of the movie in the pleasure gardens of Queen Omphale of Lydia. While young Ulysses tries to help him regain his memory, political tensions escalate in Thebes, and Hercules' new wife Iole finds herself in mortal danger.",
     "studio": "Galatea Film",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.5,
+      "epic_scale": 0.4
+    }
   },
   {
     "id": "artiflix-he-walked-by-night",
@@ -5994,7 +6041,10 @@
     ],
     "synopsis": "Roy Martin aka Roy Morgan is a burglar and former war-time Radio & Electronics Engineer who listens in to radio police calls, allowing him to stay one step ahead of the cops.",
     "studio": "Bryan Foy Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-hey-hey-usa",
@@ -6013,7 +6063,10 @@
     ],
     "synopsis": "While working as a porter Benjamin Twist mistakenly ends up on a cruise ship heading for the USA. Upon landing on the American coast Twist takes up work as a professor.",
     "studio": "Gainsborough Pictures",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.5,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-high-risk",
@@ -6035,7 +6088,11 @@
     ],
     "synopsis": "After failing to save his wife from 'The Doctor', Kit Li is working as a bodyguard and secret stunt double for the cowardly martial arts film star Frankie Lane. Frankie attends an exhibition of the crown jewels of Russia at a Hong Kong hotel, and when the Doctor's gang take over the building in attempt to steal them, Kit is the only thing standing in their way. Will Frankie regain his courage? Will romance blossom between Kit and the nosy reporter? Who has the best Kung-Fu?",
     "studio": "Wong Jing's Workshop",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "romantic_tone": 0.4,
+      "meta_fourth_wall": 0.4
+    }
   },
   {
     "id": "artiflix-hillbillys-in-a-haunted-house",
@@ -6056,7 +6113,12 @@
     ],
     "synopsis": "Country singers on their way to Nashville have car trouble, forcing them to stop at an old haunted mansion. Soon they realize that the house is not only haunted, but is also the headquarters of a ring of international spies after a top secret formula for rocket fuel.",
     "studio": "Woolner Brothers Pictures",
-    "tags": {}
+    "tags": {
+      "gothic": 0.4,
+      "espionage_double_cross": 0.5,
+      "absurdist": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-his-girl-friday",
@@ -6076,7 +6138,10 @@
     ],
     "synopsis": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper\u2019s star reporter, who also happens to be his estranged wife. She\u2019s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can\u2019t resist a juicy scoop.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-hitler-dead-or-alive",
@@ -6097,7 +6162,11 @@
     ],
     "synopsis": "A team of ex-con bounty hunters go to Germany in search of Hitler. If they can find him, a million dollar reward is to be paid to them.",
     "studio": "Charles House",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.4,
+      "war_conflict": 0.4,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-hitlers-ss-portrait-in-evil",
@@ -6119,7 +6188,11 @@
     ],
     "synopsis": "The two-part TV movie Hitler's SS: Portrait in Evil crystallizes that evil by concentrating on two Berlin brothers. In 1931, Helmut Hoffman a brilliant student and self-styled opportunist, joins Hitler's SS. At the same time, his younger brother Karl, a top athlete and idealist, becomes a chauffeur for the \"S.A.\".",
     "studio": "Edgar J. Scherick Associates",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.6,
+      "rivalry_driven": 0.4,
+      "systemic_corruption": 0.5
+    }
   },
   {
     "id": "artiflix-hittin-the-trail",
@@ -6140,7 +6213,9 @@
     ],
     "synopsis": "When he swaps horses with the Tombstone Kid \u2014 a wrongly accused man on the run from the law \u2014 singing cowboy Tex Randall gets arrested by the local sheriff in a case of mistaken identity.",
     "studio": "Boots and Saddles Pictures",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-hold-that-woman",
@@ -6160,7 +6235,10 @@
     ],
     "synopsis": "A skip tracer--someone who collects late payments from people who've purchased appliances, etc., or takes them back them when they don't pay--repossesses a small radio from a deadbeat who's skipped payments. What he doesn't know is that a gang that has stolen diamonds from a Hollywood movie star has stashed them inside the radio, and they start hunting for him.",
     "studio": "Sigmund Neufeld Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-hollywood-man",
@@ -6180,7 +6258,10 @@
     ],
     "synopsis": "A film crew struggles to finish a motorcycle-stunt epic despite repeated threats of sabotage from the mob.",
     "studio": "Olympic Film Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.4,
+      "meta_fourth_wall": 0.5
+    }
   },
   {
     "id": "artiflix-home-at-last",
@@ -6201,7 +6282,11 @@
     ],
     "synopsis": "Billy, a streetwise kid from New York City, is sent to Nebraska and is taken in by a Swedish farm family, the Andersons. Initially fearful and resentful, Billy doesn\u2019t fit in, and he clashes with his new family and adoptive father (Frank Converse). Not until a terrible crisis occurs does Billy realize that, for the first time in his life, he truly belongs and is Home At Last.",
     "studio": "WonderWorks",
-    "tags": {}
+    "tags": {
+      "fish_out_of_water": 0.7,
+      "found_family": 0.6,
+      "coming_home": 0.5
+    }
   },
   {
     "id": "artiflix-home-movies",
@@ -6220,7 +6305,11 @@
     ],
     "synopsis": "A cult guru urges a shy disciple to make life a movie and be its star.",
     "studio": "SLC",
-    "tags": {}
+    "tags": {
+      "meta_fourth_wall": 0.7,
+      "absurdist": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-home-of-the-brave",
@@ -6240,7 +6329,12 @@
     ],
     "synopsis": "The day after they get the word they'll go home in two weeks, a group of soldiers from Spokane are ambushed in an Iraqi city. Back stateside we follow four of them - a surgeon who saw too much, a teacher who's a single mom and who lost a hand in the ambush, an infantry man whose best friend died that day, and a soldier who keeps reliving the moment he killed a civilian woman.",
     "studio": "Emmett/Furla Films",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "multiple_pov": 0.6,
+      "mental_illness": 0.6,
+      "isolation_disconnection": 0.5
+    }
   },
   {
     "id": "artiflix-home-town-story",
@@ -6261,7 +6355,11 @@
     ],
     "synopsis": "Blake Washburn blames manufacturer MacFarland for his defeat in the race for re-election to the state legislature. He takes over his uncle's newspaper to take on big business as an enemy of the people. Miss Martin works in the \"Herald\" newspaper office. When tragedy strikes, Blake must re-examine his views.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "redemption_arc": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-homework",
@@ -6280,7 +6378,10 @@
     ],
     "synopsis": "Sara, a young ballet dancer, drifts through boredom as a constrained classical dancer until she meets Jean, a West African plumber from the opposite side of town with natural simplicity and freedom in his dance movements. Curiosity leads towards an explosion of awakening in both her dance and personal worlds.",
     "studio": "Keep Your Head Productions",
-    "tags": {}
+    "tags": {
+      "class_conflict": 0.5,
+      "found_purpose": 0.4
+    }
   },
   {
     "id": "artiflix-honeymoon-in-bali",
@@ -6300,7 +6401,10 @@
     ],
     "synopsis": "Bill Burnett, a resident of Bali, visits New York City, meets and falls in love with Gail Allen, the successful manager of a Fifth Avenue shop, who is determined to remain free and independent. Bill proposes, Gail declines and Bill goes home to Bali. But a young girl, Rosie, and Tony the Window Cleaner, who dispels advice on every floor, soon have Gail thinking maybe she was a bit hasty with her no to Bill's proposal. Ere long she discovers that she does love Bill and can't live without him. She goes down to Bali to give him the good news. He learns that he is soon to marry Noel Van Ness. She goes back to New York City.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.7,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-hoppity-goes-to-town",
