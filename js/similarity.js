@@ -155,6 +155,32 @@ function buildStudioSeed(label, studioMovies) {
   return buildCentroidSeed('studio', label, studioMovies);
 }
 
+function tokenizeWords(str) {
+  return normalize(str)
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w.length >= 3);
+}
+
+function tagHaystackWords(tag) {
+  return new Set(tokenizeWords(`${tag.label} ${tag.id.replace(/_/g, ' ')} ${(tag.synonyms || []).join(' ')}`));
+}
+
+// Every word the query tokenizes into is itself a word somewhere in the
+// taxonomy's vocabulary (any tag's label/id/synonyms — not necessarily all
+// the same tag). Used to recognize a deliberate multi-word theme phrase
+// (e.g. "prison break", "artificial intelligence") as confidently as a
+// single matching word, regardless of how many words it's made of — see
+// resolveSeed below for why that distinction matters.
+function queryFullyInVocabulary(query, taxonomy) {
+  const words = tokenizeWords(query);
+  if (words.length === 0) return false;
+  const vocab = new Set();
+  for (const tag of taxonomy.tags) {
+    for (const w of tagHaystackWords(tag)) vocab.add(w);
+  }
+  return words.every((w) => vocab.has(w));
+}
+
 // Deliberately exact-word matching only, not substring containment and not
 // edit-distance fuzzy matching — both cause real false positives here.
 // Substring containment let "mysterious" match into an unrelated tag via a
@@ -166,16 +192,10 @@ function buildStudioSeed(label, studioMovies) {
 // the Worker's matching does: generic prose words there ("tone", "story")
 // would otherwise match almost anything.
 function buildTextSeed(query, taxonomy) {
-  const words = normalize(query)
-    .split(/[^a-z0-9]+/)
-    .filter((w) => w.length >= 3);
+  const words = tokenizeWords(query);
   const tagVector = {};
   for (const tag of taxonomy.tags) {
-    const haystackWords = new Set(
-      normalize(`${tag.label} ${tag.id.replace(/_/g, ' ')} ${(tag.synonyms || []).join(' ')}`)
-        .split(/[^a-z0-9]+/)
-        .filter(Boolean)
-    );
+    const haystackWords = tagHaystackWords(tag);
     let matches = 0;
     for (const word of words) {
       if (haystackWords.has(word)) matches += 1;
@@ -236,16 +256,18 @@ export function resolveSeed(query, movies, taxonomy) {
   const exactMovie = movies.find((m) => normalize(m.title) === q);
   if (exactMovie) return movieSeed(exactMovie);
 
-  // A single word that exactly matches the taxonomy's own vocabulary (a
-  // tag's label, id, or synonym — e.g. "horror" as a synonym of Tense
-  // dread) names a theme on purpose. Checking it here, before the loose
-  // (substring) title/studio/person matches below, stops a coincidental
-  // hit — some unrelated movie whose title just happens to contain that
-  // word, e.g. "Horror Hotel: The Phone" — from silently hijacking the
-  // search into that one random movie instead of the theme the word
-  // actually means.
-  const isSingleWord = !/\s/.test(q);
-  const earlyTextSeed = isSingleWord ? buildTextSeed(query, taxonomy) : null;
+  // A query where every word is itself a word in the taxonomy's own
+  // vocabulary (a tag's label, id, or synonym) — whether that's one word
+  // ("horror", a synonym of Tense dread) or several ("prison break",
+  // "artificial intelligence") — names a theme on purpose. Checking that
+  // here, before the loose (substring) title/studio/person matches below,
+  // stops a coincidental hit — some unrelated movie whose title just
+  // happens to contain those words, e.g. "Horror Hotel: The Phone" or
+  // "Groundhog Day" itself — from silently hijacking the search into one
+  // random movie instead of the theme it actually means. A query with any
+  // word outside that vocabulary (e.g. "The Dark Knight" — "knight" isn't
+  // a taxonomy word) is left alone so real movie-title searches still work.
+  const earlyTextSeed = queryFullyInVocabulary(query, taxonomy) ? buildTextSeed(query, taxonomy) : null;
   if (earlyTextSeed && earlyTextSeed.matched) return earlyTextSeed;
 
   const looseMovie = q.length >= 3 ? movies.find((m) => normalize(m.title).includes(q)) : null;
