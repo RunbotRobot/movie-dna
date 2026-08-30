@@ -11365,7 +11365,10 @@
     ],
     "synopsis": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. Hoping to reunite with his son, he travels to Recife during Carnival but soon realizes that the city is not the safe haven he was expecting.",
     "studio": "Lemming Film",
-    "tags": {}
+    "tags": {
+      "espionage_double_cross": 0.5,
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-secret-file-hollywood",
@@ -11384,7 +11387,10 @@
     ],
     "synopsis": "A private eye (Robert Clarke) takes pictures for the publishers (Francine York, Syd Mason) of a scandal magazine.",
     "studio": "Crown International Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "noir_tone": 0.4
+    }
   },
   {
     "id": "artiflix-seven-doors-to-death",
@@ -11404,7 +11410,9 @@
     ],
     "synopsis": "An architect (Chick Chandler) studies the doors of six shops and an apartment house to solve a gem theft/double murder.",
     "studio": "PRC",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7
+    }
   },
   {
     "id": "artiflix-the-shadow-of-silk-lennox",
@@ -11423,7 +11431,10 @@
     ],
     "synopsis": "A crooked nightclub owner, pretending to go straight, is forced to kill a henchman when the latter tries to run off with the gang's latest haul.",
     "studio": "Ray Kirkwood Productions",
-    "tags": {}
+    "tags": {
+      "criminal_mastermind": 0.5,
+      "betrayal": 0.5
+    }
   },
   {
     "id": "artiflix-shadows-on-the-stairs",
@@ -11443,7 +11454,10 @@
     ],
     "synopsis": "Occupants of a London boarding house become suspects as a string of murders are discovered.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-she-came-to-the-valley",
@@ -11465,7 +11479,9 @@
     ],
     "synopsis": "Based on the book by Cleo Dawson, this film follows the struggle of a female settler as she becomes involved in a political conflict during the Spanish-American War.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5
+    }
   },
   {
     "id": "artiflix-sherlock-holmes-and-the-secret-weapon",
@@ -11486,7 +11502,12 @@
     ],
     "synopsis": "In the midst of World War II, Sherlock Holmes rescues the Swiss inventor of a new bomb-sight from the Gestapo and brings him to England, where he quickly falls into the clutches of the evil Professor Moriarty.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "espionage_double_cross": 0.6,
+      "war_conflict": 0.4,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-sherlock-holmes-terror-by-night",
@@ -11507,7 +11528,11 @@
     ],
     "synopsis": "Holmes and Watson board a passenger train bound from London to Edinburgh, to guard the Star of Rhodesia, an enormous diamond worth a fortune belonging to an elderly woman of wealth; but within the first hour of the trip, the woman's son is murdered and the diamond stolen and any of the passengers in their car could be the killer thief.",
     "studio": "Universal Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.7,
+      "real_time": 0.4,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-shinbone-alley",
@@ -11530,7 +11555,10 @@
     ],
     "synopsis": "Suicidal poet Archy tries to end his life by jumping off a bridge, but awakens to find he has assumed the life of a cockroach and has become a part of a community of creatures living in a newspaper office. He also discovers that he can still write poetry, using a typewriter, and begins to enjoy his new life. Archy develops deep feelings for the lovely but self-destructive cat Mehitabel, but will have to fight to win her from bad-boy tomcat Bill.",
     "studio": "Fine Arts Films",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-shock-waves",
@@ -11551,7 +11579,11 @@
     ],
     "synopsis": "Visitors to a remote island discover that a reclusive Nazi commandant has been breeding a group of zombie soldiers.",
     "studio": "Zopix Company",
-    "tags": {}
+    "tags": {
+      "forbidden_knowledge": 0.6,
+      "war_conflict": 0.4,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-showdown-at-williams-creek",
@@ -11571,7 +11603,10 @@
     ],
     "synopsis": "True story of a former British soldier on trial for murder in the 19th century Northwest.",
     "studio": "Crescent Entertainment",
-    "tags": {}
+    "tags": {
+      "courtroom_drama": 0.7,
+      "justice_vs_law": 0.6
+    }
   },
   {
     "id": "artiflix-silent-night-bloody-night",
@@ -11588,7 +11623,9 @@
     ],
     "synopsis": "Max needs to rush over to his girlfriends house Frankie because he must leave town for work. Frankie wants to give Max his Christmas present. What Max finds in the box is his worst nightmare.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "tense_dread": 0.5
+    }
   },
   {
     "id": "artiflix-silver-wolf",
@@ -11609,7 +11646,10 @@
     ],
     "synopsis": "A boy learns to deal with personal loss by making friends with a wild animal in this drama for the entire family. Jesse is a 16-year-old who is trying to put his life back together after the death of his father, who died while trying to rescue him in the wilderness. Jesse goes to live with his Uncle Roy, who lives in the rugged mountains of Washington State. While exploring, Jesse finds and rescues a wolf who has been seriously wounded; Jesse bonds with the animal, and while Roy understands the dangers of trying to tend to a wild animal, reluctantly allows Jesse to keep him. Jesse, who is fond of snowboarding, teaches the wolf to be his partner in skijoring, a sport in which a dog is used to haul a man on skis. John Rockwell the owner of a ranch, has different plans for the animal; he sees the wolf as a threat to his stock and is determined to see that the animal is put down.",
     "studio": "A Boy and His Wolf Productions",
-    "tags": {}
+    "tags": {
+      "animal_companion": 0.8,
+      "man_vs_nature": 0.4
+    }
   },
   {
     "id": "artiflix-sisters-of-death",
@@ -11630,7 +11670,10 @@
     ],
     "synopsis": "During an all-girl secret society initiation, one of the new members is killed playing Russian Roulette. Many years later the survivors are invited for a reunion to a lavish estate, which turns out to be owned by the crazed father of the girl who died.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "obsession": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-sister-street-fighter",
@@ -11651,7 +11694,10 @@
     ],
     "synopsis": "Li Mansei is a martial-arts champion turned undercover agent. When he is captured by a drug lord, his sister Li Koryu turns to his former martial-arts school, including the powerful Sonny Kawasaka, for help in the inevitable battle royale.",
     "studio": "Toei Company",
-    "tags": {}
+    "tags": {
+      "rescue_mission": 0.7,
+      "criminal_mastermind": 0.5
+    }
   },
   {
     "id": "artiflix-sleep-murder",
@@ -11668,7 +11714,11 @@
     ],
     "synopsis": "Jason Priestley stars as Peter Radwell, a big-city lawyer dispatched up north to take on the case of an Inuit man (Natar Ungalaaq) accused of murder. With the help of psychiatrist Dr. Macy Olsen (Kristin Booth), Radwell discovers his client is part of a shadowy world of rituals and superstitions that may explain the murders. Andrew Currie's suspenseful made-for-TV thriller is based in part on real-life events",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "courtroom_drama": 0.6,
+      "investigation_driven": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-slightly-honorable",
@@ -11688,7 +11738,11 @@
     ],
     "synopsis": "A lawyer is framed for the murder of a young party girl and tries to clear his name.",
     "studio": "Walter Wanger Productions",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.6,
+      "betrayal": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-slightly-scarlet",
@@ -11709,7 +11763,11 @@
     ],
     "synopsis": "Kleptomaniac Dorothy Lyons is paroled from prison into the custody of her sister June, secretary to \"reform\" politician Frank Jansen. Ben Grace, associate of crime boss Sol \"Solly\" Caspar, sees this as a way to smear Jansen's campaign. Seductive Dorothy will do anything to get what she wants, which includes having a good time with Ben-- whom June is now in love with.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "systemic_corruption": 0.5,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-smash-up-the-story-of-a-woman",
@@ -11728,7 +11786,10 @@
     ],
     "synopsis": "A nightclub singer uses alcohol in excess to sooth her painful life.",
     "studio": "Universal International Pictures",
-    "tags": {}
+    "tags": {
+      "addiction_recovery": 0.7,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-something-special",
@@ -11746,7 +11807,10 @@
     ],
     "synopsis": "A young war veteran explores the magnificent wilds of New Zealand to fulfill the last wish of a close friend who died in combat. This is a powerful film about friendship, loss, and healing.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "sacrifice_for_others": 0.5,
+      "road_journey": 0.6
+    }
   },
   {
     "id": "artiflix-something-to-sing-about",
@@ -11766,7 +11830,11 @@
     ],
     "synopsis": "Tommy is a troubled young man with a history of crime. When he meets Memaw, an elderly lady, the two form a special bond with Memaw encouraging Charlie to sing in the local church choir, a talent he has ignored until now. While Charlie excels in church, his old friend G. Smooth remains skeptical and stays on the streets.",
     "studio": "Dean River Productions",
-    "tags": {}
+    "tags": {
+      "mentor_student": 0.6,
+      "redemption_arc": 0.5,
+      "faith_and_doubt": 0.4
+    }
   },
   {
     "id": "artiflix-somewhere-tomorrow",
@@ -11788,7 +11856,10 @@
     ],
     "synopsis": "Lori Anderson is trying to deal with the recent tragedy of her father's death. As Lori's mother moves on, Lori finds herself stuck, consumed by grief and anger. With the lingering feeling that something about her father's passing was not right, Lori turns to his journals for answers. The events that follow catapult Lori into a strange romance with a ghost, resulting in a mysterious journey.",
     "studio": "Blue Marble Company",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.6,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-so-this-is-washington",
@@ -11807,7 +11878,10 @@
     ],
     "synopsis": "Lum and Abner go to Washington to aid in the war effort by giving the government what they think is a good substitute for rubber--Abner's homemade licorice.",
     "studio": "RKO Radio Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "war_conflict": 0.3
+    }
   },
   {
     "id": "artiflix-south-of-reno",
@@ -11826,7 +11900,10 @@
     ],
     "synopsis": "In a drab desert town, some 200 miles south of Reno, an indecisive man with an unfaithful wife dreams of someday, someday, taking charge of his drifting life.",
     "studio": "Pendulum Productions",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.5,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-spider-baby",
@@ -11846,7 +11923,11 @@
     ],
     "synopsis": "In a dilapidated rural mansion, the last generation of the degenerate, inbred Merrye family lives with the inherited curse of a disease that causes them to mentally regress from the age of 10 or so on as they physically develop. The family chauffeur looks out for them and covers up their indiscretions. Trouble comes when greedy distant relatives and their lawyer arrive to dispossess the family of its home.",
     "studio": "Lasky-Monka",
-    "tags": {}
+    "tags": {
+      "gothic": 0.5,
+      "legacy_and_inheritance": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-spirit-of-youth",
@@ -11865,7 +11946,10 @@
     ],
     "synopsis": "The story of the rise of boxer Joe Thomas, which paralleled the life of Joe Louis.",
     "studio": "Globe Pictures Corp.",
-    "tags": {}
+    "tags": {
+      "found_purpose": 0.5,
+      "competition_tournament": 0.5
+    }
   },
   {
     "id": "artiflix-springtime-in-the-rockies",
@@ -11885,7 +11969,10 @@
     ],
     "synopsis": "Ranch owner Sandra, fresh from animal husbandry school, brings a flock of sheep into cattle country. The local ranchers don't like it, and ranch foreman Gene must deal with it.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "class_conflict": 0.4
+    }
   },
   {
     "id": "artiflix-starbird-and-sweet-william",
@@ -11905,7 +11992,10 @@
     ],
     "synopsis": "A plane crash survivor draws upon the sensibilities of his Native American ancestry in order to stay alive in a rugged outland.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.6,
+      "isolation_disconnection": 0.4
+    }
   },
   {
     "id": "artiflix-star-knight",
@@ -11925,7 +12015,10 @@
     ],
     "synopsis": "A medieval alchemist (Klaus Kinski), knight (Harvey Keitel) and priest (Fernando Rey) mistake a flying-saucer alien for a dragon.",
     "studio": "Salamandra Producciones",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.5,
+      "forbidden_knowledge": 0.4
+    }
   },
   {
     "id": "artiflix-st-benny-the-dip",
@@ -11945,7 +12038,10 @@
     ],
     "synopsis": "A gang of con artists disguise themselves as clerics in order to pull off a job, but soon find that even pretending to be religious people is having an effect on them.",
     "studio": "United Artists",
-    "tags": {}
+    "tags": {
+      "redemption_arc": 0.5,
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-steamboat_willie",
