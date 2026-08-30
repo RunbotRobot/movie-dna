@@ -10657,7 +10657,11 @@
     ],
     "synopsis": "Two bumbling scrap metal thieves - father and son - steal the wrong painting during a museum heist. The painting turns out to be the only original Rembrandt painting in Denmark, and all hell breaks loose. What do you do when you've got Interpol, the Danish police and the entire Danish underworld on your heels? And who was this Rembrandt guy anyway?",
     "studio": "Ugly Duckling Films",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.6,
+      "criminal_mastermind": 0.4,
+      "escape_plot": 0.4
+    }
   },
   {
     "id": "artiflix-return-of-the-street-fighter",
@@ -10679,7 +10683,11 @@
     ],
     "synopsis": "Martial artist Takuma Tsurugi returns to take on a Yakuza family that may be embezzling money from charities to finance their own operations. Both the police and the Yakuza find themselves battling Tsurugi, but Tsurugi's fight ultimately is with the mob, and he concentrates on them.",
     "studio": "Toei Company",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.5,
+      "criminal_mastermind": 0.5,
+      "justice_vs_law": 0.4
+    }
   },
   {
     "id": "artiflix-return-to-fantasy-island",
@@ -10701,7 +10709,10 @@
     ],
     "synopsis": "A second feature-length pilot film for the wish-fulfillment series sees six lucky people having their dreams fulfilled on the luxury resort island. Career woman Margo Dean's assistant, Lowell Benson, hopes to romance her; Brian and Lucy Faber want to see the daughter they gave up for adoption; Janet Fleming, who lost her memory on her honeymoon, wants to relive it to cure her amnesia.",
     "studio": "Columbia Pictures Television",
-    "tags": {}
+    "tags": {
+      "anthology_structure": 0.7,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-rhythm-and-blues-revue",
@@ -10721,7 +10732,9 @@
     ],
     "synopsis": "Rhythm and Blues Revue is a plotless variety show, one of several compiled for theatrical exhibition from the made-for-television short films produced by Snader and Studio Telescriptions, with newly-filmed host segments by Willie Bryant. Originally 86 minutes, the \"short\" version available on public domain collections and websites is missing a reel",
     "studio": "Studio Films",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-rich-and-strange",
@@ -10743,7 +10756,11 @@
     ],
     "synopsis": "After receiving an advance inheritance, a bored London couple set off on a world cruise hoping to rejuvenate their marriage and escape their dull routine. But newfound wealth and freedom only expose deeper cracks in their relationship, as each becomes infatuated with someone else. Their journey through exotic ports and mounting disillusionment ultimately brings them face to face with the fragility\u2014and resilience\u2014of love.",
     "studio": "British International Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "romantic_tone": 0.5,
+      "road_journey": 0.5
+    }
   },
   {
     "id": "artiflix-ride-in-the-whirlwind",
@@ -10764,7 +10781,10 @@
     ],
     "synopsis": "Three cowboys, mistaken for members of an outlaw gang, are relentlessly pursued by a posse.",
     "studio": "Proteus Films",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.4,
+      "escape_plot": 0.5
+    }
   },
   {
     "id": "artiflix-riders-of-the-whistling-pines",
@@ -10786,7 +10806,11 @@
     ],
     "synopsis": "While trailing Forest Ranger Charles Carter, who is suspected of permitting lumber man Henry Mitchell to cut restricted timber, Gene fires at a dangerous mountain lion and apparently kills Carter. Actually, Bill Wright, Mitchell's associate, killed Carter because the ranger had discovered tussock moth infestation in the forest, and if the infestation was not reported, the trees would die and have to be cut, thereby profiting Mitchell and Wright. In order to compensate the best he can, Gene sells his sportsman's camp and gives the money to Carter's daughter Helen . En route to Texas, Gene discovers the infestation and is assigned by the Forest Department to supervise the program of spraying the area with DDT from the air. After the first day of spraying, the DDT is blamed by furious stock men for the many animals found dead of poisoning.",
     "studio": "Columbia Pictures",
-    "tags": {}
+    "tags": {
+      "investigation_driven": 0.5,
+      "environmentalism": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-ring-of-terror",
@@ -10806,7 +10830,10 @@
     ],
     "synopsis": "A group of medical students undertake some silly and frightening endeavors in order to pledge a fraternity.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "tense_dread": 0.4,
+      "absurdist": 0.3
+    }
   },
   {
     "id": "artiflix-road-to-bali",
@@ -10828,7 +10855,11 @@
     ],
     "synopsis": "Having to leave Melbourne in a hurry to avoid various marriage proposals, two song-and-dance men sign on for work as divers. This takes them to an idyllic island on the way to Bali where they vie with each other for the favours of Princess Lala. The hazardous dive produces a chest of priceless jewels which arouses the less romantic interest of some shady locals.",
     "studio": "Bing Crosby Productions",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.6,
+      "road_journey": 0.5,
+      "romantic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-robot-monster",
@@ -10848,7 +10879,10 @@
     ],
     "synopsis": "Ro-Man, an alien robot who greatly resembles a gorilla in a diving helmet, is sent to earth to destroy all human life. Ro-Man falls in love with one of the last six remaining humans, and struggles to understand how his programming can instruct him to kill her while his heart demands that he can't.",
     "studio": "Three Dimension Pictures",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.4,
+      "absurdist": 0.5
+    }
   },
   {
     "id": "artiflix-rock-n-roll-revue",
@@ -10866,7 +10900,9 @@
     ],
     "synopsis": "Rock'n Roll Revue is a 1955 American film directed by Joseph Kohn. The film was compiled for theatrical exhibition from the made-for-television short films produced by Snader and Studio Telescriptions, with newly-filmed host segments by Willie Bryant",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.4
+    }
   },
   {
     "id": "artiflix-rogue-lion",
@@ -10885,7 +10921,11 @@
     ],
     "synopsis": "In South Africa a new young ranger is transferred to a troubled game reserve. He struggles to be accepted by, and help, his boss, fending off poachers and intruding natives, and gets involved with a poacher's daughter he knew from university.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "man_vs_nature": 0.5,
+      "romantic_tone": 0.4,
+      "environmentalism": 0.4
+    }
   },
   {
     "id": "artiflix-rogues-tavern",
@@ -10905,7 +10945,11 @@
     ],
     "synopsis": "A mad killer is on the loose in a hotel on a dark, gloomy night.",
     "studio": "Mercury Pictures Corporation",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "claustrophobic_tone": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-rollin-plains",
@@ -10926,7 +10970,11 @@
     ],
     "synopsis": "It's cattlemen versus sheepmen and Trigger Gargan appears to be the leader of the gang causing the trouble. But unknown to Ranger Tex Lawrence, the respected town citizen Barrow is the boss and is tipping off the gang as to the Ranger's activities.",
     "studio": "Boots and Saddles Pictures",
-    "tags": {}
+    "tags": {
+      "betrayal": 0.6,
+      "rivalry_driven": 0.5,
+      "investigation_driven": 0.4
+    }
   },
   {
     "id": "artiflix-rome-open-city",
@@ -10946,7 +10994,11 @@
     ],
     "synopsis": "During the Nazi occupation of 1944 Rome, Resistance leader Giorgio Manfredi is pursued by the Nazis as he seeks refuge and a means of escape.",
     "studio": "Excelsa Film",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.7,
+      "escape_plot": 0.6,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-rootin-tootin-rhythm",
@@ -10965,7 +11017,9 @@
     ],
     "synopsis": "Gene and Frog, out to stop a bunch of cattle rustlers, assume the identities of what they believe to be dead bandits, which soon gets them in big trouble.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.4
+    }
   },
   {
     "id": "artiflix-rough-riders-roundup",
@@ -10984,7 +11038,9 @@
     ],
     "synopsis": "Roy Rogers is a cowboy who joins the Border Patrol, only to have his buddy Tommy get killed at a local saloon. Determined to get revenge at any cost, Roy and Rusty cross the border in search of Arizona Jack, the man responsible for Tommy's death.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "road_journey": 0.4
+    }
   },
   {
     "id": "artiflix-round-up-time-in-texas",
@@ -11004,7 +11060,9 @@
     ],
     "synopsis": "Gene and Frog arrive with a herd of horses for Gene'e brother, a diamond prospector whose work has attracted the interest of a bunch of badguys.",
     "studio": "Republic Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.4
+    }
   },
   {
     "id": "artiflix-royal-wedding",
@@ -11025,7 +11083,9 @@
     ],
     "synopsis": "A brother and sister dance act encounter challenges and romance when booked in London during the Royal Wedding.",
     "studio": "Metro-Goldwyn-Mayer",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-sabotage",
@@ -11047,7 +11107,11 @@
     ],
     "synopsis": "John 'Breacher' Wharton leads an elite DEA task force that takes on the world's deadliest drug cartels. When the team successfully executes a high-stakes raid on a cartel safe house, they think their work is done \u2013 until, one-by-one, the team members mysteriously start to be eliminated. As the body count rises, everyone is a suspect.",
     "studio": "Open Road Films",
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.5,
+      "betrayal": 0.7,
+      "investigation_driven": 0.5
+    }
   },
   {
     "id": "artiflix-salt-of-the-earth",
@@ -11066,7 +11130,11 @@
     ],
     "synopsis": "During the last forty years, the photographer Sebasti\u00e3o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus\u2026 He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
     "studio": "Secretaria de Estado de Cultura do Esp\u00edrito Santo",
-    "tags": {}
+    "tags": {
+      "nostalgia_period": 0.4,
+      "legacy_and_inheritance": 0.4,
+      "environmentalism": 0.4
+    }
   },
   {
     "id": "artiflix-sandcastles",
@@ -11087,7 +11155,10 @@
     ],
     "synopsis": "A young man who dies in an auto accident returns from the dead to meet up with the young woman who tried to save him.",
     "studio": "Metromedia Productions",
-    "tags": {}
+    "tags": {
+      "romantic_tone": 0.5,
+      "sacrifice_for_others": 0.4
+    }
   },
   {
     "id": "artiflix-sanders-of-the-river",
@@ -11107,7 +11178,10 @@
     ],
     "synopsis": "A British District Officer in Nigeria in the 1930s rules his area strictly but justly. He struggles with gun-runners and slavers with the aid of a loyal native chief.",
     "studio": "London Films Productions",
-    "tags": {}
+    "tags": {
+      "justice_vs_law": 0.5,
+      "systemic_corruption": 0.4
+    }
   },
   {
     "id": "artiflix-santa-and-the-three-bears",
@@ -11127,7 +11201,9 @@
     ],
     "synopsis": "Two bear cubs want to meet Santa despite their mother telling them that Santa does not exist. With the help of the park ranger, their wish might come true!",
     "studio": "Ellman Film Enterprises",
-    "tags": {}
+    "tags": {
+      "wholesome_family": 0.6
+    }
   },
   {
     "id": "artiflix-santa-claus-conquers-the-martians",
@@ -11148,7 +11224,10 @@
     ],
     "synopsis": "Martians fear their children have become lazy and joyless due to their newfound obsession with Earth TV shows. After ancient Martian leader Chochem suggests that the children of Mars need more fun\u2014including their own Santa Claus\u2014supreme leader Lord Kimar assembles an expedition to Earth. Once there, they kidnap two children who lead them to the North Pole, then capture the real Santa Claus, taking all three back to Mars in an attempt to bring the Martian children happiness.",
     "studio": "Jalor Productions",
-    "tags": {}
+    "tags": {
+      "absurdist": 0.7,
+      "rescue_mission": 0.4
+    }
   },
   {
     "id": "artiflix-santa-fe-trail",
@@ -11167,7 +11246,10 @@
     ],
     "synopsis": "As a penalty for fighting fellow classmates days before graduating from West Point, J.E.B. Stuart, George Armstrong Custer and four friends are assigned to the 2nd Cavalry, stationed at Fort Leavenworth. While there they aid in the capture and execution of the abolitionist, John Brown following the Battle of Harper's Ferry.",
     "studio": "Warner Bros. Pictures",
-    "tags": {}
+    "tags": {
+      "war_conflict": 0.5,
+      "justice_vs_law": 0.5
+    }
   },
   {
     "id": "artiflix-scandal-sheet",
@@ -11187,7 +11269,11 @@
     ],
     "synopsis": "The publisher of a celebrity gossip tabloid sets out to destroy an aging actor, whose career is foundering and who is also facing a battle with alcoholism.",
     "studio": "Fair Dinkum Productions",
-    "tags": {}
+    "tags": {
+      "systemic_corruption": 0.5,
+      "addiction_recovery": 0.5,
+      "betrayal": 0.4
+    }
   },
   {
     "id": "artiflix-scarlet-street",
@@ -11207,7 +11293,11 @@
     ],
     "synopsis": "Cashier and part-time starving artist Christopher Cross is absolutely smitten with the beautiful Kitty March. Kitty plays along, but she's really only interested in Johnny, a two-bit crook. When Kitty and Johnny find out that art dealers are interested in Chris's work, they con him into letting Kitty take credit for the paintings. Cross allows it because he is in love with Kitty, but his love will only let her get away with so much.",
     "studio": "Diana Productions",
-    "tags": {}
+    "tags": {
+      "obsession": 0.7,
+      "betrayal": 0.7,
+      "criminal_mastermind": 0.4
+    }
   },
   {
     "id": "artiflix-scream-bloody-murder",
@@ -11227,7 +11317,11 @@
     ],
     "synopsis": "In this horror spoof, the girls from Cherry Mount Academy are on their way to a dance at a nearby all-boys school when the van they're riding in breaks down. With no other choice but to spend the night at their tow truck driver's junkyard, the girls soon find themselves at the mercy of a cold-blooded killer.",
     "studio": null,
-    "tags": {}
+    "tags": {
+      "slasher_structure": 0.6,
+      "meta_fourth_wall": 0.4,
+      "claustrophobic_tone": 0.4
+    }
   },
   {
     "id": "artiflix-second-chorus",
@@ -11247,7 +11341,10 @@
     ],
     "synopsis": "Danny O'Neill and Hank Taylor are rival trumpeters with the Perennials, a college band, and both men are still attending college by failing their exams seven years in a row. In the midst of a performance, Danny spies Ellen Miller who ends up being made band manager. Both men compete for her affections while trying to get the other one fired.",
     "studio": "Paramount Pictures",
-    "tags": {}
+    "tags": {
+      "rivalry_driven": 0.7,
+      "romantic_tone": 0.5
+    }
   },
   {
     "id": "artiflix-secret-agent",
