@@ -15463,7 +15463,10 @@
     "studio": "London Films Productions",
     "tags": {
       "romantic_tone": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "identity_reinvention": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -15487,7 +15490,10 @@
     "studio": "Jadran Film",
     "tags": {
       "war_conflict": 0.6,
-      "dreamlike_surreal": 0.4
+      "dreamlike_surreal": 0.4,
+      "coming_of_age": 0.4,
+      "epic_scale": 0.3,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -15510,7 +15516,9 @@
     "tags": {
       "claustrophobic_tone": 0.6,
       "gothic": 0.5,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15533,7 +15541,10 @@
     "studio": "Australian Film Commission",
     "tags": {
       "class_conflict": 0.5,
-      "redemption_arc": 0.4
+      "redemption_arc": 0.4,
+      "moral_ambiguity": 0.4,
+      "underdog_rise": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -15555,7 +15566,11 @@
     "synopsis": "Unscrupulously ambitious, Brutus Jones escapes from jail after killing a guard and, through bluff and bravado, finds himself the emperor of a Caribbean island.",
     "studio": "John Krimsky and Gifford Cochran Inc.",
     "tags": {
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "epic_scale": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -15579,7 +15594,9 @@
     "tags": {
       "melancholic": 0.5,
       "addiction_recovery": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "bleak_tone": 0.4,
+      "redemption_arc": 0.3
     }
   },
   {
@@ -15602,7 +15619,10 @@
     "studio": "Embassy Productions",
     "tags": {
       "rivalry_driven": 0.5,
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "found_purpose": 0.4,
+      "multi_generational_cast": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -15626,7 +15646,8 @@
       "multi_generational_cast": 0.7,
       "legacy_and_inheritance": 0.6,
       "addiction_recovery": 0.5,
-      "redemption_arc": 0.5
+      "redemption_arc": 0.5,
+      "grief_processing": 0.3
     }
   },
   {
@@ -15647,7 +15668,11 @@
     "synopsis": "A mostly-deserted island, which is believed to be the home to the fountain of youth, is off the coast of Florida. The island gets some visitors in the form of a teenage boy band, \"the Wild Ones\", and their gang of swimsuit-clad young people, who head there in a crowded powerboat ostensibly for a scavenger hunt.",
     "studio": "Phillip Productions",
     "tags": {
-      "absurdist": 0.6
+      "absurdist": 0.6,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "romantic_tone": 0.3,
+      "high_camp": 0.3
     }
   },
   {
@@ -15671,7 +15696,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "slasher_structure": 0.5,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "tense_dread": 0.4,
+      "revenge_quest": 0.3
     }
   },
   {
@@ -15694,7 +15721,9 @@
     "tags": {
       "sacrifice_for_others": 0.5,
       "addiction_recovery": 0.6,
-      "competition_tournament": 0.5
+      "competition_tournament": 0.5,
+      "underdog_rise": 0.4,
+      "redemption_arc": 0.3
     }
   },
   {
@@ -15718,7 +15747,10 @@
     "studio": "20th Century Fox",
     "tags": {
       "war_conflict": 0.7,
-      "sacrifice_for_others": 0.6
+      "sacrifice_for_others": 0.6,
+      "multi_generational_cast": 0.4,
+      "grief_processing": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -15740,7 +15772,10 @@
     "studio": "Triad Productions",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "gothic": 0.4,
+      "moral_ambiguity": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15763,7 +15798,10 @@
     "studio": "PRC",
     "tags": {
       "forbidden_knowledge": 0.6,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "revenge_quest": 0.4,
+      "tense_dread": 0.3,
+      "gothic": 0.3
     }
   },
   {
@@ -15786,7 +15824,10 @@
     "studio": "Vogue Pictures",
     "tags": {
       "forbidden_knowledge": 0.6,
-      "prophecy_fulfillment": 0.5
+      "prophecy_fulfillment": 0.5,
+      "gothic": 0.4,
+      "tense_dread": 0.3,
+      "legacy_and_inheritance": 0.3
     }
   },
   {
@@ -15808,7 +15849,10 @@
     "studio": "Universal Pictures",
     "tags": {
       "rivalry_driven": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "whimsical_charm": 0.4,
+      "gritty_realism": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -15834,7 +15878,9 @@
     "tags": {
       "claustrophobic_tone": 0.5,
       "absurdist": 0.4,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -15860,7 +15906,9 @@
     "tags": {
       "claustrophobic_tone": 0.5,
       "gothic": 0.4,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -15883,7 +15931,10 @@
     "studio": "Invincible Pictures Corp.",
     "tags": {
       "investigation_driven": 0.6,
-      "meta_fourth_wall": 0.5
+      "meta_fourth_wall": 0.5,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3,
+      "absurdist": 0.3
     }
   },
   {
@@ -15906,7 +15957,10 @@
     "studio": "Hollywood Pictures Corporation",
     "tags": {
       "man_vs_nature": 0.7,
-      "disaster_survival": 0.5
+      "disaster_survival": 0.5,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -15929,7 +15983,10 @@
     "studio": "Centroproduzione SpA",
     "tags": {
       "epic_scale": 0.4,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "identity_reinvention": 0.4,
+      "high_camp": 0.3,
+      "villain_pov": 0.3
     }
   },
   {
@@ -15953,7 +16010,9 @@
     "tags": {
       "man_vs_nature": 0.6,
       "disaster_survival": 0.5,
-      "forbidden_knowledge": 0.3
+      "forbidden_knowledge": 0.3,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15977,7 +16036,10 @@
     "studio": "Brigadier Pictures",
     "tags": {
       "romantic_tone": 0.4,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "road_journey": 0.4,
+      "tense_dread": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -16000,7 +16062,10 @@
     "studio": "CAT Films",
     "tags": {
       "fish_out_of_water": 0.6,
-      "absurdist": 0.6
+      "absurdist": 0.6,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "road_journey": 0.3
     }
   },
   {
@@ -16023,7 +16088,10 @@
     "studio": "Elrina Investment",
     "tags": {
       "rescue_mission": 0.6,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "road_journey": 0.3
     }
   },
   {
@@ -16048,7 +16116,9 @@
     "tags": {
       "betrayal": 0.7,
       "obsession": 0.4,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "unreliable_narrator": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -16071,7 +16141,10 @@
     "studio": "Danny Thomas Productions",
     "tags": {
       "faith_and_doubt": 0.4,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "identity_reinvention": 0.4,
+      "moral_ambiguity": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -16095,7 +16168,10 @@
     "studio": "Revue Studios",
     "tags": {
       "systemic_corruption": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "revenge_quest": 0.4,
+      "gritty_realism": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -16121,7 +16197,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "descent_into_madness": 0.6,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "identity_reinvention": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -16143,7 +16221,10 @@
     "studio": "PRC",
     "tags": {
       "rescue_mission": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "chase_structure": 0.4,
+      "betrayal": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -16167,7 +16248,10 @@
     "studio": "Merton Park Studios",
     "tags": {
       "whimsical_charm": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "found_family": 0.4,
+      "gothic": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -16190,7 +16274,9 @@
     "tags": {
       "road_journey": 0.6,
       "betrayal": 0.5,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "bleak_tone": 0.4,
+      "multi_generational_cast": 0.3
     }
   },
   {
@@ -16214,7 +16300,10 @@
     "studio": "Gordon Wellesley Productions",
     "tags": {
       "betrayal": 0.4,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "moral_ambiguity": 0.4,
+      "systemic_corruption": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -16239,7 +16328,9 @@
     "tags": {
       "claustrophobic_tone": 0.6,
       "tense_dread": 0.6,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "survival_against_odds": 0.4,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -16264,7 +16355,9 @@
     "tags": {
       "forbidden_knowledge": 0.5,
       "legacy_and_inheritance": 0.6,
-      "road_journey": 0.5
+      "road_journey": 0.5,
+      "betrayal": 0.4,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -16286,7 +16379,10 @@
     "studio": "Knightsbridge Films",
     "tags": {
       "absurdist": 0.6,
-      "criminal_mastermind": 0.3
+      "criminal_mastermind": 0.3,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "redemption_arc": 0.3
     }
   },
   {
@@ -16309,7 +16405,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "gothic": 0.6,
-      "claustrophobic_tone": 0.4
+      "claustrophobic_tone": 0.4,
+      "tense_dread": 0.4,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -16334,7 +16432,9 @@
     "tags": {
       "legacy_and_inheritance": 0.7,
       "multi_generational_cast": 0.6,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "underdog_rise": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -16357,7 +16457,9 @@
     "tags": {
       "forbidden_knowledge": 0.7,
       "meta_fourth_wall": 0.6,
-      "slasher_structure": 0.5
+      "slasher_structure": 0.5,
+      "tense_dread": 0.4,
+      "claustrophobic_tone": 0.3
     }
   },
   {
