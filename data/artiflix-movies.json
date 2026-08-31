@@ -14436,7 +14436,10 @@
     "studio": "Matt Cimber Productions",
     "tags": {
       "justice_vs_law": 0.4,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "revenge_quest": 0.4,
+      "betrayal": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -14461,7 +14464,8 @@
       "claustrophobic_tone": 0.8,
       "war_conflict": 0.6,
       "isolation_disconnection": 0.5,
-      "disaster_survival": 0.4
+      "disaster_survival": 0.4,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -14484,7 +14488,9 @@
     "tags": {
       "obsession": 0.7,
       "betrayal": 0.4,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "descent_into_madness": 0.4,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -14509,7 +14515,9 @@
     "tags": {
       "isolation_disconnection": 0.5,
       "found_family": 0.5,
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "coming_of_age": 0.4,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -14533,7 +14541,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "investigation_driven": 0.5,
-      "unreliable_narrator": 0.4
+      "unreliable_narrator": 0.4,
+      "identity_reinvention": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -14557,7 +14567,10 @@
     "studio": "Village Roadshow Pictures",
     "tags": {
       "isolation_disconnection": 0.4,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "revenge_quest": 0.4,
+      "gritty_realism": 0.3,
+      "bleak_tone": 0.3
     }
   },
   {
@@ -14581,7 +14594,10 @@
     "studio": "A-Train Films",
     "tags": {
       "fish_out_of_water": 0.7,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "identity_reinvention": 0.4,
+      "chase_structure": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -14605,7 +14621,10 @@
     "studio": "Universal Pictures",
     "tags": {
       "mental_illness": 0.5,
-      "descent_into_madness": 0.4
+      "descent_into_madness": 0.4,
+      "revenge_quest": 0.4,
+      "isolation_disconnection": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -14632,7 +14651,8 @@
       "forbidden_knowledge": 0.7,
       "unreliable_narrator": 0.6,
       "gothic": 0.5,
-      "dreamlike_surreal": 0.6
+      "dreamlike_surreal": 0.6,
+      "descent_into_madness": 0.4
     }
   },
   {
@@ -14654,7 +14674,11 @@
     "synopsis": "South African secret agents attempt to save confidential microfilm before it falls into the hands of Communists. A color remake of the Sam Fuller film, Pickup on South Street.",
     "studio": "Killarney Film Studios",
     "tags": {
-      "espionage_double_cross": 0.7
+      "espionage_double_cross": 0.7,
+      "chase_structure": 0.4,
+      "betrayal": 0.3,
+      "forbidden_knowledge": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -14676,7 +14700,10 @@
     "studio": "Science Machine",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "epic_scale": 0.4
+      "epic_scale": 0.4,
+      "descent_into_madness": 0.4,
+      "dreamlike_surreal": 0.3,
+      "obsession": 0.3
     }
   },
   {
@@ -14699,7 +14726,10 @@
     "studio": "Republic Pictures",
     "tags": {
       "betrayal": 0.6,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "identity_reinvention": 0.4,
+      "revenge_quest": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -14724,7 +14754,10 @@
     "studio": "Hill/Mandelker Films",
     "tags": {
       "criminal_mastermind": 0.5,
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -14748,7 +14781,10 @@
     "studio": "Labrador Films",
     "tags": {
       "investigation_driven": 0.7,
-      "forbidden_knowledge": 0.5
+      "forbidden_knowledge": 0.5,
+      "twist_reveal": 0.4,
+      "tense_dread": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -14771,7 +14807,10 @@
     "studio": "Alexandra Films",
     "tags": {
       "betrayal": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "gritty_realism": 0.4,
+      "moral_ambiguity": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -14791,7 +14830,10 @@
     "studio": null,
     "tags": {
       "meta_fourth_wall": 0.4,
-      "nostalgia_period": 0.3
+      "nostalgia_period": 0.3,
+      "skill_asymmetry": 0.4,
+      "ensemble_cast": 0.3,
+      "quiet_minimalism": 0.3
     }
   },
   {
@@ -14814,7 +14856,11 @@
     "synopsis": "Soon after a Chinese princess comes to the US to buy planes for her people, she is murdered by a poison dart fired by an air rifle.",
     "studio": "Monogram Pictures",
     "tags": {
-      "investigation_driven": 0.7
+      "investigation_driven": 0.7,
+      "twist_reveal": 0.4,
+      "criminal_mastermind": 0.3,
+      "betrayal": 0.3,
+      "forbidden_knowledge": 0.3
     }
   },
   {
@@ -14840,7 +14886,10 @@
     "studio": "Walt Disney Pictures",
     "tags": {
       "redemption_arc": 0.7,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "grief_processing": 0.4,
+      "tender_sincerity": 0.3,
+      "faith_and_doubt": 0.3
     }
   },
   {
@@ -14863,7 +14912,10 @@
     "studio": "Peakviewing Productions",
     "tags": {
       "animal_companion": 0.7,
-      "legacy_and_inheritance": 0.6
+      "legacy_and_inheritance": 0.6,
+      "grief_processing": 0.4,
+      "coming_of_age": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -14886,7 +14938,10 @@
     "studio": "Gaumont-British Picture Corporation",
     "tags": {
       "forbidden_knowledge": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "identity_reinvention": 0.4,
+      "twist_reveal": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -14911,7 +14966,10 @@
     "studio": "Magnum Films",
     "tags": {
       "betrayal": 0.5,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "moral_ambiguity": 0.4,
+      "twist_reveal": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -14935,7 +14993,10 @@
     "studio": "HBO Films",
     "tags": {
       "dual_timeline": 0.6,
-      "war_conflict": 0.5
+      "war_conflict": 0.5,
+      "grief_processing": 0.4,
+      "identity_reinvention": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -14957,7 +15018,11 @@
     "synopsis": "This early docudrama uses dramatic reenactment, working models of early flying machines, and archival footage to trace man's attempts to fly from ancient times through the 1930s.",
     "studio": "London Films Productions",
     "tags": {
-      "nostalgia_period": 0.3
+      "nostalgia_period": 0.3,
+      "epic_scale": 0.4,
+      "found_purpose": 0.3,
+      "quiet_minimalism": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -14982,7 +15047,9 @@
     "tags": {
       "war_conflict": 0.7,
       "romantic_tone": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "grief_processing": 0.4,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -15005,7 +15072,10 @@
     "studio": "Tempean Films",
     "tags": {
       "forbidden_knowledge": 0.5,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "isolation_disconnection": 0.4,
+      "tense_dread": 0.3,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -15027,7 +15097,10 @@
     "studio": "Joseph F. Robertson Productions",
     "tags": {
       "forbidden_knowledge": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "descent_into_madness": 0.4,
+      "high_camp": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15052,7 +15125,10 @@
     "studio": "Astor Pictures Corp.",
     "tags": {
       "investigation_driven": 0.6,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "twist_reveal": 0.4,
+      "gothic": 0.3,
+      "absurdist": 0.3
     }
   },
   {
@@ -15076,7 +15152,10 @@
     "studio": "Benedict Bogeaus Production",
     "tags": {
       "unreliable_narrator": 0.6,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "identity_reinvention": 0.4,
+      "gritty_realism": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -15099,7 +15178,10 @@
     "studio": "Lisa Film",
     "tags": {
       "justice_vs_law": 0.5,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "isolation_disconnection": 0.4,
+      "redemption_arc": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -15121,7 +15203,11 @@
     "synopsis": "Two former Confederate captains try to remove diamonds hidden in the Arkansas mountains, but a native spirit guards the sacred site against intruders.",
     "studio": null,
     "tags": {
-      "forbidden_knowledge": 0.6
+      "forbidden_knowledge": 0.6,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3,
+      "betrayal": 0.3,
+      "gothic": 0.3
     }
   },
   {
@@ -15145,7 +15231,10 @@
     "studio": "Chesterfield Motion Pictures Corporation",
     "tags": {
       "investigation_driven": 0.7,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -15168,7 +15257,10 @@
     "studio": "Allied Artists Pictures",
     "tags": {
       "disaster_survival": 0.7,
-      "man_vs_nature": 0.6
+      "man_vs_nature": 0.6,
+      "survival_against_odds": 0.4,
+      "epic_scale": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15191,7 +15283,10 @@
     "studio": "Lux Film",
     "tags": {
       "disaster_survival": 0.6,
-      "epic_scale": 0.5
+      "epic_scale": 0.5,
+      "survival_against_odds": 0.4,
+      "ensemble_cast": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15213,7 +15308,10 @@
     "studio": "Path\u00e9-America Distributing Company",
     "tags": {
       "sacrifice_for_others": 0.5,
-      "redemption_arc": 0.5
+      "redemption_arc": 0.5,
+      "grief_processing": 0.4,
+      "road_journey": 0.3,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -15237,7 +15335,10 @@
     "studio": "BBC Birmingham",
     "tags": {
       "romantic_tone": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "whimsical_charm": 0.4,
+      "coming_of_age": 0.3,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -15261,7 +15362,10 @@
     "studio": "PRC",
     "tags": {
       "forbidden_knowledge": 0.6,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "revenge_quest": 0.4,
+      "betrayal": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15283,7 +15387,10 @@
     "studio": "MAD Z Productions",
     "tags": {
       "addiction_recovery": 0.7,
-      "descent_into_madness": 0.4
+      "descent_into_madness": 0.4,
+      "bleak_tone": 0.4,
+      "isolation_disconnection": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -15305,7 +15412,10 @@
     "studio": "Sandy Howard Productions",
     "tags": {
       "forbidden_knowledge": 0.6,
-      "faith_and_doubt": 0.5
+      "faith_and_doubt": 0.5,
+      "revenge_quest": 0.4,
+      "gothic": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -15327,7 +15437,10 @@
     "studio": "Screen Art Pictures Corp.",
     "tags": {
       "addiction_recovery": 0.6,
-      "descent_into_madness": 0.4
+      "descent_into_madness": 0.4,
+      "bleak_tone": 0.4,
+      "isolation_disconnection": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
