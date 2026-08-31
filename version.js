@@ -11,4 +11,4 @@
 // A plain script (not a module) so it loads identically via <script src>
 // on the page and via importScripts() inside the service worker — `self`
 // is the shared global in both contexts.
-self.APP_VERSION = '2026.08.31.1';
+self.APP_VERSION = '2026.08.31.2';
