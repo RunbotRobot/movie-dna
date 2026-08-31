@@ -427,7 +427,8 @@ body.body-scroll-locked {
   position: absolute;
   inset: 0;
   right: auto;
-  background: var(--accent-dim);
+  background: rgba(231, 42, 49, 0.35);
+  border-right: 2px solid var(--accent);
   z-index: 0;
 }
 
