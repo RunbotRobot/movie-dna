@@ -8321,7 +8321,9 @@
     "tags": {
       "forbidden_knowledge": 0.5,
       "unreliable_narrator": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "epic_scale": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -8345,7 +8347,9 @@
     "tags": {
       "betrayal": 0.5,
       "sacrifice_for_others": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "gritty_realism": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -8369,7 +8373,10 @@
     "studio": "Larry Levinson Productions",
     "tags": {
       "legacy_and_inheritance": 0.4,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "coming_of_age": 0.4,
+      "identity_reinvention": 0.3,
+      "tender_sincerity": 0.3
     }
   },
   {
@@ -8392,7 +8399,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "betrayal": 0.5,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "twist_reveal": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -8416,7 +8425,9 @@
     "tags": {
       "claustrophobic_tone": 0.4,
       "forbidden_knowledge": 0.4,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "isolation_disconnection": 0.4,
+      "high_camp": 0.3
     }
   },
   {
@@ -8440,7 +8451,9 @@
     "tags": {
       "duty_vs_desire": 0.8,
       "romantic_tone": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "class_conflict": 0.4,
+      "sacrifice_for_others": 0.3
     }
   },
   {
@@ -8465,7 +8478,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "tense_dread": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "betrayal": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -8488,7 +8503,11 @@
     "synopsis": "A female investigator in the district attorney's office sets out to track down the person who murdered a young schoolteacher.",
     "studio": "Columbia Pictures Television",
     "tags": {
-      "investigation_driven": 0.7
+      "investigation_driven": 0.7,
+      "justice_vs_law": 0.4,
+      "twist_reveal": 0.3,
+      "gritty_realism": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -8511,7 +8530,10 @@
     "studio": "Cinema-Vu",
     "tags": {
       "mental_illness": 0.5,
-      "descent_into_madness": 0.4
+      "descent_into_madness": 0.4,
+      "revenge_quest": 0.4,
+      "isolation_disconnection": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -8535,7 +8557,9 @@
     "tags": {
       "sacrifice_for_others": 0.7,
       "romantic_tone": 0.7,
-      "gothic": 0.4
+      "gothic": 0.4,
+      "forbidden_knowledge": 0.4,
+      "dreamlike_surreal": 0.3
     }
   },
   {
@@ -8558,7 +8582,10 @@
     "studio": "Condor International Productions",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "legacy_and_inheritance": 0.5
+      "legacy_and_inheritance": 0.5,
+      "gothic": 0.4,
+      "descent_into_madness": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -8581,7 +8608,10 @@
     "studio": "Warner Bros. Pictures",
     "tags": {
       "betrayal": 0.7,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "gritty_realism": 0.4,
+      "justice_vs_law": 0.3,
+      "redemption_arc": 0.3
     }
   },
   {
@@ -8606,7 +8636,10 @@
     "studio": "Hunt Stromberg Productions",
     "tags": {
       "investigation_driven": 0.7,
-      "slasher_structure": 0.4
+      "slasher_structure": 0.4,
+      "ensemble_cast": 0.4,
+      "twist_reveal": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -8628,7 +8661,11 @@
     "synopsis": "Happy go-lucky teen Billy Duncan discovers an otherworldly laser gun in the southern California desert, making him the target of a pair of aliens who had recently executed its previous owner.",
     "studio": "Selected Pictures",
     "tags": {
-      "forbidden_knowledge": 0.5
+      "forbidden_knowledge": 0.5,
+      "revenge_quest": 0.4,
+      "coming_of_age": 0.3,
+      "tense_dread": 0.3,
+      "epic_scale": 0.3
     }
   },
   {
@@ -8652,7 +8689,10 @@
     "studio": "Karat Film",
     "tags": {
       "espionage_double_cross": 0.7,
-      "forbidden_knowledge": 0.5
+      "forbidden_knowledge": 0.5,
+      "chase_structure": 0.4,
+      "betrayal": 0.3,
+      "skill_asymmetry": 0.3
     }
   },
   {
@@ -8675,7 +8715,10 @@
     "studio": null,
     "tags": {
       "animal_companion": 0.7,
-      "man_vs_nature": 0.5
+      "man_vs_nature": 0.5,
+      "survival_against_odds": 0.4,
+      "coming_of_age": 0.3,
+      "road_journey": 0.3
     }
   },
   {
@@ -8700,7 +8743,10 @@
     "studio": "Metro-Goldwyn-Mayer",
     "tags": {
       "betrayal": 0.6,
-      "animal_companion": 0.6
+      "animal_companion": 0.6,
+      "found_family": 0.4,
+      "grief_processing": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -8722,7 +8768,10 @@
     "studio": "Meta Film",
     "tags": {
       "immigrant_experience": 0.6,
-      "faith_and_doubt": 0.4
+      "faith_and_doubt": 0.4,
+      "moral_ambiguity": 0.4,
+      "isolation_disconnection": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -8748,7 +8797,9 @@
     "tags": {
       "unreliable_narrator": 0.6,
       "investigation_driven": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "gritty_realism": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -8766,7 +8817,11 @@
     "synopsis": "A documentary about the legendary creature, Bigfoot, with emphasis on him being the missing link.",
     "studio": "Palladium Productions",
     "tags": {
-      "mockumentary": 0.4
+      "mockumentary": 0.4,
+      "forbidden_knowledge": 0.4,
+      "man_vs_nature": 0.3,
+      "isolation_disconnection": 0.3,
+      "quiet_minimalism": 0.3
     }
   },
   {
@@ -8791,7 +8846,9 @@
     "tags": {
       "anthology_structure": 0.7,
       "epistolary": 0.7,
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "ensemble_cast": 0.4,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -8814,7 +8871,9 @@
     "tags": {
       "fish_out_of_water": 0.7,
       "legacy_and_inheritance": 0.4,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "identity_reinvention": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -8838,7 +8897,9 @@
     "tags": {
       "courtroom_drama": 0.8,
       "systemic_corruption": 0.6,
-      "justice_vs_law": 0.6
+      "justice_vs_law": 0.6,
+      "grief_processing": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -8862,7 +8923,10 @@
     "studio": "Universal Pictures",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "animal_companion": 0.4
+      "animal_companion": 0.4,
+      "obsession": 0.4,
+      "descent_into_madness": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -8887,7 +8951,9 @@
     "tags": {
       "absurdist": 0.5,
       "romantic_tone": 0.4,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -8911,7 +8977,10 @@
     "studio": null,
     "tags": {
       "rescue_mission": 0.7,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "underdog_rise": 0.4,
+      "skill_asymmetry": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -8933,7 +9002,10 @@
     "studio": "Race Point Films",
     "tags": {
       "class_conflict": 0.6,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "coming_of_age": 0.4,
+      "betrayal": 0.3,
+      "tender_sincerity": 0.3
     }
   },
   {
@@ -8956,7 +9028,9 @@
     "tags": {
       "anthology_structure": 0.6,
       "absurdist": 0.6,
-      "meta_fourth_wall": 0.5
+      "meta_fourth_wall": 0.5,
+      "whimsical_charm": 0.4,
+      "high_camp": 0.3
     }
   },
   {
@@ -8979,7 +9053,10 @@
     "studio": "Bryan Foy Productions",
     "tags": {
       "found_family": 0.4,
-      "absurdist": 0.3
+      "absurdist": 0.3,
+      "identity_reinvention": 0.4,
+      "romantic_tone": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -9002,7 +9079,10 @@
     "studio": "Warner Bros. Pictures",
     "tags": {
       "romantic_tone": 0.8,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "love_across_divide": 0.4,
+      "tender_sincerity": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -9028,7 +9108,9 @@
     "tags": {
       "romantic_tone": 0.6,
       "war_conflict": 0.4,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "duty_vs_desire": 0.4,
+      "tender_sincerity": 0.3
     }
   },
   {
@@ -9051,7 +9133,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "betrayal": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "twist_reveal": 0.4,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -9075,7 +9159,10 @@
     "studio": "Angoa-Agicoa",
     "tags": {
       "justice_vs_law": 0.5,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "underdog_rise": 0.4,
+      "whimsical_charm": 0.3,
+      "high_camp": 0.3
     }
   },
   {
@@ -9098,7 +9185,10 @@
     "studio": null,
     "tags": {
       "absurdist": 0.5,
-      "fish_out_of_water": 0.4
+      "fish_out_of_water": 0.4,
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.3,
+      "road_journey": 0.3
     }
   },
   {
@@ -9122,7 +9212,10 @@
     "studio": "Hal Roach Studios",
     "tags": {
       "rescue_mission": 0.5,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "whimsical_charm": 0.4,
+      "found_family": 0.3,
+      "villain_pov": 0.3
     }
   },
   {
@@ -9145,7 +9238,10 @@
     "studio": "Metromedia Producers Corporation",
     "tags": {
       "class_conflict": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "coming_of_age": 0.4,
+      "identity_reinvention": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -9166,7 +9262,11 @@
     "synopsis": "A dramatic and penetrating examination of the intellectual and moral standards existing at Oxford University, England, in the early 1970s.",
     "studio": "Mondial Televisione Film",
     "tags": {
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "moral_ambiguity": 0.4,
+      "betrayal": 0.3,
+      "tense_dread": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -9191,7 +9291,9 @@
     "tags": {
       "descent_into_madness": 0.8,
       "dreamlike_surreal": 0.5,
-      "claustrophobic_tone": 0.4
+      "claustrophobic_tone": 0.4,
+      "identity_reinvention": 0.4,
+      "obsession": 0.3
     }
   },
   {
@@ -9214,7 +9316,10 @@
     "studio": "United Artists",
     "tags": {
       "rivalry_driven": 0.5,
-      "legacy_and_inheritance": 0.4
+      "legacy_and_inheritance": 0.4,
+      "class_conflict": 0.4,
+      "romantic_tone": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
