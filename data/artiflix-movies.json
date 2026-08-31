@@ -9342,7 +9342,10 @@
     "studio": "Stephens-Lang Productions",
     "tags": {
       "systemic_corruption": 0.4,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "underdog_rise": 0.4,
+      "tender_sincerity": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -9366,7 +9369,10 @@
     "studio": "Frank Capra Productions",
     "tags": {
       "systemic_corruption": 0.6,
-      "betrayal": 0.5
+      "betrayal": 0.5,
+      "moral_ambiguity": 0.4,
+      "identity_reinvention": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -9388,7 +9394,11 @@
     "synopsis": "A mad scientist, Dr. Aranya (Jackie Coogan), has created giant spiders in his Mexican lab in Zarpa Mesa to create a race of superwomen by injecting spiders with human pituitary growth hormones. Women develop miraculous regenerative powers, but men mutate into disfigured dwarves. Spiders grow to human size and intelligence.",
     "studio": "Ron Ormond Productions",
     "tags": {
-      "forbidden_knowledge": 0.8
+      "forbidden_knowledge": 0.8,
+      "descent_into_madness": 0.4,
+      "claustrophobic_tone": 0.3,
+      "high_camp": 0.3,
+      "gothic": 0.3
     }
   },
   {
@@ -9412,7 +9422,9 @@
     "tags": {
       "unreliable_narrator": 0.6,
       "investigation_driven": 0.4,
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "grief_processing": 0.4,
+      "dreamlike_surreal": 0.3
     }
   },
   {
@@ -9435,7 +9447,10 @@
     "studio": "Metromedia Productions",
     "tags": {
       "legacy_and_inheritance": 0.5,
-      "epistolary": 0.5
+      "epistolary": 0.5,
+      "grief_processing": 0.4,
+      "tender_sincerity": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -9458,7 +9473,10 @@
     "studio": "Trimark Pictures",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "claustrophobic_tone": 0.4
+      "claustrophobic_tone": 0.4,
+      "descent_into_madness": 0.4,
+      "systemic_corruption": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -9483,7 +9501,8 @@
       "class_conflict": 0.8,
       "prophecy_fulfillment": 0.6,
       "epic_scale": 0.6,
-      "systemic_corruption": 0.5
+      "systemic_corruption": 0.5,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -9508,7 +9527,9 @@
     "tags": {
       "claustrophobic_tone": 0.5,
       "tense_dread": 0.4,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "betrayal": 0.4,
+      "investigation_driven": 0.3
     }
   },
   {
@@ -9532,7 +9553,10 @@
     "studio": "Monogram Pictures",
     "tags": {
       "investigation_driven": 0.6,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "chase_structure": 0.4,
+      "betrayal": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -9555,7 +9579,9 @@
     "tags": {
       "systemic_corruption": 0.6,
       "investigation_driven": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "twist_reveal": 0.4,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -9579,7 +9605,11 @@
     "synopsis": "Two boys, still grieving the death of their mother, find themselves the unwitting benefactors of a bag of bank robbery loot in the week before the United Kingdom switches its official currency to the Euro. What's a kid to do?",
     "studio": "BBC Film",
     "tags": {
-      "real_time": 0.4
+      "real_time": 0.4,
+      "found_family": 0.4,
+      "grief_processing": 0.3,
+      "moral_ambiguity": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -9602,7 +9632,9 @@
     "tags": {
       "faith_and_doubt": 0.5,
       "road_journey": 0.5,
-      "sacrifice_for_others": 0.5
+      "sacrifice_for_others": 0.5,
+      "epic_scale": 0.4,
+      "found_purpose": 0.3
     }
   },
   {
@@ -9627,7 +9659,10 @@
     "studio": "PRC",
     "tags": {
       "espionage_double_cross": 0.8,
-      "war_conflict": 0.6
+      "war_conflict": 0.6,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -9649,7 +9684,10 @@
     "studio": null,
     "tags": {
       "isolation_disconnection": 0.6,
-      "class_conflict": 0.6
+      "class_conflict": 0.6,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -9673,7 +9711,10 @@
     "studio": "Allied Artists Pictures",
     "tags": {
       "criminal_mastermind": 0.4,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "gritty_realism": 0.4,
+      "chase_structure": 0.3,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -9697,7 +9738,10 @@
     "studio": null,
     "tags": {
       "criminal_mastermind": 0.6,
-      "betrayal": 0.6
+      "betrayal": 0.6,
+      "identity_reinvention": 0.4,
+      "gritty_realism": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -9720,7 +9764,10 @@
     "studio": null,
     "tags": {
       "animal_companion": 0.7,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "underdog_rise": 0.3,
+      "found_purpose": 0.3
     }
   },
   {
@@ -9745,7 +9792,10 @@
     "studio": "Filmways Television",
     "tags": {
       "investigation_driven": 0.6,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "tense_dread": 0.4,
+      "isolation_disconnection": 0.3,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -9770,7 +9820,9 @@
     "tags": {
       "absurdist": 0.6,
       "gothic": 0.4,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "whimsical_charm": 0.4,
+      "high_camp": 0.3
     }
   },
   {
@@ -9794,7 +9846,9 @@
     "tags": {
       "betrayal": 0.7,
       "descent_into_madness": 0.6,
-      "obsession": 0.5
+      "obsession": 0.5,
+      "love_across_divide": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -9818,7 +9872,11 @@
     "synopsis": "A superhero becomes invisible after he swallows an Indian potion.",
     "studio": "Producciones Cinematogr\u00e1ficas D.I.A.",
     "tags": {
-      "absurdist": 0.6
+      "absurdist": 0.6,
+      "whimsical_charm": 0.4,
+      "identity_reinvention": 0.3,
+      "high_camp": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -9842,7 +9900,10 @@
     "studio": "Monogram Pictures",
     "tags": {
       "investigation_driven": 0.7,
-      "slasher_structure": 0.4
+      "slasher_structure": 0.4,
+      "criminal_mastermind": 0.4,
+      "twist_reveal": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -9867,7 +9928,9 @@
     "tags": {
       "legacy_and_inheritance": 0.6,
       "investigation_driven": 0.5,
-      "betrayal": 0.5
+      "betrayal": 0.5,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -9893,7 +9956,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "investigation_driven": 0.6,
-      "real_time": 0.4
+      "real_time": 0.4,
+      "twist_reveal": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -9918,7 +9983,9 @@
     "tags": {
       "claustrophobic_tone": 0.6,
       "real_time": 0.6,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "ensemble_cast": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -9944,7 +10011,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "meta_fourth_wall": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "twist_reveal": 0.4,
+      "obsession": 0.3
     }
   },
   {
@@ -9966,7 +10035,11 @@
     "synopsis": "Teenagers at a correctional facility devise a plan to rob an armored van.",
     "studio": "Peter Perry Productions",
     "tags": {
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "heist_plan": 0.4,
+      "underdog_rise": 0.3,
+      "betrayal": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -9990,7 +10063,8 @@
       "animal_companion": 0.8,
       "found_family": 0.6,
       "road_journey": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -10015,7 +10089,9 @@
     "tags": {
       "unreliable_narrator": 0.5,
       "absurdist": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "whimsical_charm": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -10037,7 +10113,10 @@
     "studio": "Universal International Pictures",
     "tags": {
       "class_conflict": 0.6,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "found_purpose": 0.3
     }
   },
   {
@@ -10061,7 +10140,10 @@
     "studio": "Benedict Bogeans Production",
     "tags": {
       "mentor_student": 0.6,
-      "road_journey": 0.5
+      "road_journey": 0.5,
+      "coming_of_age": 0.4,
+      "betrayal": 0.3,
+      "skill_asymmetry": 0.3
     }
   },
   {
@@ -10085,7 +10167,9 @@
     "tags": {
       "criminal_mastermind": 0.6,
       "investigation_driven": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "twist_reveal": 0.4,
+      "villain_pov": 0.3
     }
   },
   {
@@ -10109,7 +10193,10 @@
     "studio": "PRC",
     "tags": {
       "animal_companion": 0.6,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "forbidden_knowledge": 0.4,
+      "coming_of_age": 0.3,
+      "man_vs_nature": 0.3
     }
   },
   {
@@ -10133,7 +10220,10 @@
     "studio": "Warner Bros. Pictures",
     "tags": {
       "investigation_driven": 0.7,
-      "justice_vs_law": 0.5
+      "justice_vs_law": 0.5,
+      "twist_reveal": 0.4,
+      "coming_of_age": 0.3,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -10156,7 +10246,9 @@
     "tags": {
       "gothic": 0.8,
       "betrayal": 0.6,
-      "obsession": 0.5
+      "obsession": 0.5,
+      "descent_into_madness": 0.4,
+      "revenge_quest": 0.3
     }
   },
   {
@@ -10180,7 +10272,9 @@
     "tags": {
       "forbidden_knowledge": 0.5,
       "claustrophobic_tone": 0.4,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "isolation_disconnection": 0.4,
+      "high_camp": 0.3
     }
   },
   {
@@ -10202,7 +10296,10 @@
     "studio": "Tiki Terrors",
     "tags": {
       "claustrophobic_tone": 0.6,
-      "disaster_survival": 0.6
+      "disaster_survival": 0.6,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10226,7 +10323,10 @@
     "studio": "Amanecer Films",
     "tags": {
       "man_vs_nature": 0.5,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "revenge_quest": 0.4,
+      "betrayal": 0.3,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -10252,7 +10352,9 @@
     "tags": {
       "obsession": 0.6,
       "romantic_tone": 0.5,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "dreamlike_surreal": 0.4,
+      "forbidden_knowledge": 0.3
     }
   },
   {
