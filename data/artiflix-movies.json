@@ -10379,7 +10379,9 @@
     "tags": {
       "espionage_double_cross": 0.7,
       "war_conflict": 0.6,
-      "escape_plot": 0.5
+      "escape_plot": 0.5,
+      "betrayal": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -10402,7 +10404,9 @@
     "tags": {
       "anthology_structure": 0.8,
       "faith_and_doubt": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "descent_into_madness": 0.4,
+      "high_camp": 0.3
     }
   },
   {
@@ -10424,7 +10428,10 @@
     "studio": "Crown International Pictures",
     "tags": {
       "rescue_mission": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "skill_asymmetry": 0.4,
+      "ensemble_cast": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -10447,7 +10454,10 @@
     "studio": "Suffolk Productions",
     "tags": {
       "romantic_tone": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -10471,7 +10481,9 @@
     "tags": {
       "road_journey": 0.6,
       "found_family": 0.5,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "grief_processing": 0.4,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -10495,7 +10507,9 @@
     "tags": {
       "rescue_mission": 0.6,
       "road_journey": 0.6,
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "chase_structure": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10519,7 +10533,9 @@
     "tags": {
       "gothic": 0.9,
       "obsession": 0.7,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "forbidden_knowledge": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -10541,7 +10557,11 @@
     "synopsis": "When a small-town girl is incorrectly diagnosed with a rare, deadly disease, an unknowing newspaper columnist turns her into a national heroine.",
     "studio": "Selznick International Pictures",
     "tags": {
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "identity_reinvention": 0.4,
+      "romantic_tone": 0.3,
+      "whimsical_charm": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -10565,7 +10585,9 @@
     "tags": {
       "obsession": 0.7,
       "forbidden_knowledge": 0.6,
-      "romantic_tone": 0.3
+      "romantic_tone": 0.3,
+      "tense_dread": 0.4,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -10588,7 +10610,9 @@
     "tags": {
       "war_conflict": 0.5,
       "justice_vs_law": 0.5,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "duty_vs_desire": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -10614,7 +10638,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "legacy_and_inheritance": 0.6,
-      "betrayal": 0.5
+      "betrayal": 0.5,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10636,7 +10662,10 @@
     "studio": "Pickford-Lasky",
     "tags": {
       "romantic_tone": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "identity_reinvention": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -10658,7 +10687,10 @@
     "studio": "KDC & Films",
     "tags": {
       "systemic_corruption": 0.7,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "moral_ambiguity": 0.4,
+      "gritty_realism": 0.3,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -10682,7 +10714,9 @@
     "tags": {
       "found_family": 0.5,
       "disaster_survival": 0.4,
-      "class_conflict": 0.5
+      "class_conflict": 0.5,
+      "underdog_rise": 0.4,
+      "found_purpose": 0.3
     }
   },
   {
@@ -10704,7 +10738,10 @@
     "studio": null,
     "tags": {
       "nostalgia_period": 0.4,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "quiet_minimalism": 0.4,
+      "tender_sincerity": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10729,7 +10766,9 @@
     "tags": {
       "obsession": 0.6,
       "betrayal": 0.6,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "moral_ambiguity": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -10752,7 +10791,10 @@
     "studio": null,
     "tags": {
       "animal_companion": 0.7,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "found_family": 0.4,
+      "tender_sincerity": 0.3,
+      "sacrifice_for_others": 0.3
     }
   },
   {
@@ -10774,7 +10816,10 @@
     "studio": "Granada Films",
     "tags": {
       "rivalry_driven": 0.6,
-      "war_conflict": 0.5
+      "war_conflict": 0.5,
+      "betrayal": 0.4,
+      "epic_scale": 0.3,
+      "revenge_quest": 0.3
     }
   },
   {
@@ -10795,7 +10840,11 @@
     "synopsis": "Trouble ensues when a new theatre-restaurant owner discovers the backer to be a harmless and moneyless lunatic.",
     "studio": "Ohio Films Inc.",
     "tags": {
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.3,
+      "class_conflict": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10818,7 +10867,9 @@
     "tags": {
       "faith_and_doubt": 0.8,
       "sacrifice_for_others": 0.9,
-      "real_time": 0.6
+      "real_time": 0.6,
+      "betrayal": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -10840,7 +10891,10 @@
     "studio": "Ealing Studios",
     "tags": {
       "absurdist": 0.6,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "whimsical_charm": 0.4,
+      "class_conflict": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -10864,7 +10918,9 @@
     "tags": {
       "mentor_student": 0.6,
       "betrayal": 0.4,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "moral_ambiguity": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -10887,7 +10943,9 @@
     "tags": {
       "road_journey": 0.5,
       "betrayal": 0.4,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "love_across_divide": 0.4,
+      "forbidden_knowledge": 0.3
     }
   },
   {
@@ -10909,7 +10967,11 @@
     "synopsis": "Julie and Roger are a love-struck married couple who desperately want to have a child. Tragedy after tragedy gets in their way, as the two attempt to rise above their troubles and fulfill their dreams of parenthood.",
     "studio": "Columbia Pictures",
     "tags": {
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "grief_processing": 0.4,
+      "tender_sincerity": 0.3,
+      "sacrifice_for_others": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -10932,7 +10994,10 @@
     "studio": "Paramount Pictures",
     "tags": {
       "found_purpose": 0.4,
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "whimsical_charm": 0.4,
+      "romantic_tone": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -10955,7 +11020,10 @@
     "studio": "Planet Filmplays",
     "tags": {
       "forbidden_knowledge": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "isolation_disconnection": 0.4,
+      "tense_dread": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -10977,7 +11045,11 @@
     "synopsis": "A Cinderella story of a young country girl who comes to Hollywood and achieves movie stardom with the help of a publicity man.",
     "studio": "Hal Roach Studios",
     "tags": {
-      "found_purpose": 0.5
+      "found_purpose": 0.5,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "romantic_tone": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -11002,7 +11074,9 @@
     "tags": {
       "descent_into_madness": 0.6,
       "forbidden_knowledge": 0.5,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "gothic": 0.4,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -11025,7 +11099,10 @@
     "studio": "Filmways Television",
     "tags": {
       "isolation_disconnection": 0.4,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "survival_against_odds": 0.4,
+      "grief_processing": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -11048,7 +11125,9 @@
     "tags": {
       "fish_out_of_water": 0.6,
       "epic_scale": 0.4,
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "identity_reinvention": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -11070,7 +11149,10 @@
     "studio": "Maxwell A. Sendel Film Productions",
     "tags": {
       "slasher_structure": 0.6,
-      "obsession": 0.5
+      "obsession": 0.5,
+      "isolation_disconnection": 0.4,
+      "tense_dread": 0.3,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -11095,7 +11177,9 @@
     "tags": {
       "animal_companion": 0.8,
       "road_journey": 0.6,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "survival_against_odds": 0.4,
+      "found_family": 0.3
     }
   },
   {
@@ -11122,7 +11206,9 @@
     "tags": {
       "unreliable_narrator": 0.6,
       "dreamlike_surreal": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "obsession": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -11142,7 +11228,10 @@
     "studio": null,
     "tags": {
       "faith_and_doubt": 0.6,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "moral_ambiguity": 0.4,
+      "epic_scale": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -11164,7 +11253,10 @@
     "studio": "Fleischer Studios",
     "tags": {
       "rescue_mission": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "criminal_mastermind": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -11189,7 +11281,10 @@
     "studio": "Fleischer Studios",
     "tags": {
       "rivalry_driven": 0.6,
-      "competition_tournament": 0.4
+      "competition_tournament": 0.4,
+      "whimsical_charm": 0.4,
+      "skill_asymmetry": 0.3,
+      "absurdist": 0.3
     }
   },
   {
@@ -11212,7 +11307,9 @@
     "tags": {
       "escape_plot": 0.6,
       "betrayal": 0.5,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "survival_against_odds": 0.4,
+      "redemption_arc": 0.3
     }
   },
   {
@@ -11235,7 +11332,10 @@
     "studio": "Samba Films",
     "tags": {
       "investigation_driven": 0.6,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "gritty_realism": 0.4,
+      "chase_structure": 0.3,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -11259,7 +11359,10 @@
     "studio": "James Roosevelt Productions",
     "tags": {
       "rivalry_driven": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "whimsical_charm": 0.4,
+      "found_family": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
