@@ -6275,7 +6275,10 @@
     "studio": null,
     "tags": {
       "found_purpose": 0.5,
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "nostalgia_period": 0.4,
+      "identity_reinvention": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -6300,7 +6303,9 @@
     "tags": {
       "criminal_mastermind": 0.6,
       "real_time": 0.6,
-      "claustrophobic_tone": 0.4
+      "claustrophobic_tone": 0.4,
+      "espionage_double_cross": 0.4,
+      "absurdist": 0.3
     }
   },
   {
@@ -6324,7 +6329,10 @@
     "studio": "King Brothers Productions",
     "tags": {
       "man_vs_nature": 0.6,
-      "epic_scale": 0.4
+      "epic_scale": 0.4,
+      "disaster_survival": 0.4,
+      "forbidden_knowledge": 0.3,
+      "claustrophobic_tone": 0.3
     }
   },
   {
@@ -6347,7 +6355,9 @@
     "tags": {
       "gothic": 0.9,
       "dreamlike_surreal": 0.6,
-      "unreliable_narrator": 0.5
+      "unreliable_narrator": 0.5,
+      "forbidden_knowledge": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -6371,7 +6381,10 @@
     "studio": "20th Century Fox",
     "tags": {
       "romantic_tone": 0.6,
-      "class_conflict": 0.5
+      "class_conflict": 0.5,
+      "coming_of_age": 0.4,
+      "betrayal": 0.3,
+      "obsession": 0.3
     }
   },
   {
@@ -6393,7 +6406,10 @@
     "studio": "Thomas H. Ince Corporation",
     "tags": {
       "obsession": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4,
+      "love_across_divide": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -6418,7 +6434,9 @@
     "tags": {
       "courtroom_drama": 0.7,
       "justice_vs_law": 0.6,
-      "redemption_arc": 0.5
+      "redemption_arc": 0.5,
+      "investigation_driven": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -6440,7 +6458,11 @@
     "synopsis": "When a western Pennsylvania auto plant is acquired by a Japanese company, brokering auto worker Hunt Stevenson faces the tricky challenge of mediating the assimilation of two clashing corporate cultures. At one end is the Japanese plant manager and the sycophant who is angling for his position. At the other, a number of disgruntled long-time union members struggle with the new exigencies of Japanese quality control.",
     "studio": "Paramount Pictures",
     "tags": {
-      "class_conflict": 0.6
+      "class_conflict": 0.6,
+      "rivalry_driven": 0.4,
+      "systemic_corruption": 0.3,
+      "immigrant_experience": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -6463,7 +6485,10 @@
     "studio": "Metro-Goldwyn-Mayer",
     "tags": {
       "road_journey": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "legacy_and_inheritance": 0.4,
+      "coming_of_age": 0.3,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -6487,7 +6512,9 @@
     "tags": {
       "romantic_tone": 0.6,
       "rescue_mission": 0.5,
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "identity_reinvention": 0.4,
+      "sacrifice_for_others": 0.3
     }
   },
   {
@@ -6512,7 +6539,9 @@
     "tags": {
       "forbidden_knowledge": 0.7,
       "systemic_corruption": 0.6,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "betrayal": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -6536,7 +6565,9 @@
     "tags": {
       "descent_into_madness": 0.7,
       "gothic": 0.4,
-      "unreliable_narrator": 0.4
+      "unreliable_narrator": 0.4,
+      "obsession": 0.4,
+      "slasher_structure": 0.3
     }
   },
   {
@@ -6560,7 +6591,9 @@
     "tags": {
       "mockumentary": 0.6,
       "investigation_driven": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "systemic_corruption": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -6582,7 +6615,10 @@
     "studio": "Paramount Pictures",
     "tags": {
       "rivalry_driven": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "class_conflict": 0.4,
+      "justice_vs_law": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -6605,7 +6641,10 @@
     "studio": "Nike Cinematografica",
     "tags": {
       "epic_scale": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "villain_pov": 0.4,
+      "sacrifice_for_others": 0.3,
+      "faith_and_doubt": 0.3
     }
   },
   {
@@ -6628,7 +6667,10 @@
     "studio": "Galatea Film",
     "tags": {
       "rescue_mission": 0.5,
-      "epic_scale": 0.4
+      "epic_scale": 0.4,
+      "identity_reinvention": 0.4,
+      "romantic_tone": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -6651,7 +6693,10 @@
     "studio": "Bryan Foy Productions",
     "tags": {
       "investigation_driven": 0.5,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "chase_structure": 0.4,
+      "isolation_disconnection": 0.3,
+      "skill_asymmetry": 0.3
     }
   },
   {
@@ -6673,7 +6718,10 @@
     "studio": "Gainsborough Pictures",
     "tags": {
       "fish_out_of_water": 0.5,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "identity_reinvention": 0.4,
+      "road_journey": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -6699,7 +6747,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "romantic_tone": 0.4,
-      "meta_fourth_wall": 0.4
+      "meta_fourth_wall": 0.4,
+      "rescue_mission": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -6725,7 +6775,8 @@
       "gothic": 0.4,
       "espionage_double_cross": 0.5,
       "absurdist": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "claustrophobic_tone": 0.3
     }
   },
   {
@@ -6748,7 +6799,10 @@
     "studio": "Columbia Pictures",
     "tags": {
       "romantic_tone": 0.6,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -6773,7 +6827,9 @@
     "tags": {
       "espionage_double_cross": 0.4,
       "war_conflict": 0.4,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "road_journey": 0.4,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -6799,7 +6855,9 @@
     "tags": {
       "war_conflict": 0.6,
       "rivalry_driven": 0.4,
-      "systemic_corruption": 0.5
+      "systemic_corruption": 0.5,
+      "betrayal": 0.4,
+      "multi_generational_cast": 0.3
     }
   },
   {
@@ -6822,7 +6880,11 @@
     "synopsis": "When he swaps horses with the Tombstone Kid \u2014 a wrongly accused man on the run from the law \u2014 singing cowboy Tex Randall gets arrested by the local sheriff in a case of mistaken identity.",
     "studio": "Boots and Saddles Pictures",
     "tags": {
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "road_journey": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -6845,7 +6907,10 @@
     "studio": "Sigmund Neufeld Productions",
     "tags": {
       "criminal_mastermind": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "identity_reinvention": 0.4,
+      "romantic_tone": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -6868,7 +6933,10 @@
     "studio": "Olympic Film Productions",
     "tags": {
       "criminal_mastermind": 0.4,
-      "meta_fourth_wall": 0.5
+      "meta_fourth_wall": 0.5,
+      "betrayal": 0.4,
+      "gritty_realism": 0.3,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -6893,7 +6961,9 @@
     "tags": {
       "fish_out_of_water": 0.7,
       "found_family": 0.6,
-      "coming_home": 0.5
+      "coming_home": 0.5,
+      "identity_reinvention": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -6916,7 +6986,9 @@
     "tags": {
       "meta_fourth_wall": 0.7,
       "absurdist": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "identity_reinvention": 0.4,
+      "dreamlike_surreal": 0.3
     }
   },
   {
@@ -6941,7 +7013,8 @@
       "war_conflict": 0.7,
       "multiple_pov": 0.6,
       "mental_illness": 0.6,
-      "isolation_disconnection": 0.5
+      "isolation_disconnection": 0.5,
+      "grief_processing": 0.4
     }
   },
   {
@@ -6966,7 +7039,9 @@
     "tags": {
       "systemic_corruption": 0.5,
       "redemption_arc": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "class_conflict": 0.4,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -6988,7 +7063,10 @@
     "studio": "Keep Your Head Productions",
     "tags": {
       "class_conflict": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "love_across_divide": 0.4,
+      "immigrant_experience": 0.3,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -7011,7 +7089,10 @@
     "studio": "Paramount Pictures",
     "tags": {
       "romantic_tone": 0.7,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "identity_reinvention": 0.4,
+      "duty_vs_desire": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -7035,7 +7116,10 @@
     "studio": "Fleischer Studios",
     "tags": {
       "disaster_survival": 0.4,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "found_family": 0.4,
+      "underdog_rise": 0.3,
+      "environmentalism": 0.3
     }
   },
   {
@@ -7059,7 +7143,9 @@
     "tags": {
       "absurdist": 0.5,
       "investigation_driven": 0.4,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "chase_structure": 0.4,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -7081,7 +7167,11 @@
     "synopsis": "A drunken stumbling to the bathroom at a house party leads Caleb to face his greatest fear.",
     "studio": "Ne7+ Films",
     "tags": {
-      "tense_dread": 0.5
+      "tense_dread": 0.5,
+      "claustrophobic_tone": 0.4,
+      "isolation_disconnection": 0.3,
+      "forbidden_knowledge": 0.3,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -7105,7 +7195,9 @@
     "tags": {
       "slasher_structure": 0.6,
       "forbidden_knowledge": 0.5,
-      "claustrophobic_tone": 0.5
+      "claustrophobic_tone": 0.5,
+      "survival_against_odds": 0.4,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -7127,7 +7219,10 @@
     "studio": "Carmel Productions",
     "tags": {
       "investigation_driven": 0.5,
-      "slasher_structure": 0.5
+      "slasher_structure": 0.5,
+      "obsession": 0.4,
+      "meta_fourth_wall": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -7151,7 +7246,9 @@
     "tags": {
       "animal_companion": 0.6,
       "justice_vs_law": 0.4,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "found_family": 0.4,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -7175,7 +7272,10 @@
     "studio": "Nacirema Productions",
     "tags": {
       "rivalry_driven": 0.7,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "grief_processing": 0.4,
+      "redemption_arc": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
