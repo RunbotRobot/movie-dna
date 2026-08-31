@@ -11385,7 +11385,10 @@
     "studio": "Golan-Globus Productions",
     "tags": {
       "war_conflict": 0.7,
-      "escape_plot": 0.7
+      "escape_plot": 0.7,
+      "sacrifice_for_others": 0.4,
+      "chase_structure": 0.3,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -11409,7 +11412,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "investigation_driven": 0.4,
-      "faith_and_doubt": 0.4
+      "faith_and_doubt": 0.4,
+      "absurdist": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -11434,7 +11439,9 @@
     "tags": {
       "escape_plot": 0.7,
       "rescue_mission": 0.5,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "betrayal": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -11458,7 +11465,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "claustrophobic_tone": 0.4,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -11482,7 +11491,9 @@
     "tags": {
       "forbidden_knowledge": 0.5,
       "escape_plot": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "chase_structure": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -11504,7 +11515,10 @@
     "studio": "Die Cinemacher UG",
     "tags": {
       "descent_into_madness": 0.5,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "grief_processing": 0.4,
+      "isolation_disconnection": 0.3,
+      "gothic": 0.3
     }
   },
   {
@@ -11528,7 +11542,10 @@
     "studio": "UMC Pictures",
     "tags": {
       "romantic_tone": 0.5,
-      "class_conflict": 0.5
+      "class_conflict": 0.5,
+      "identity_reinvention": 0.4,
+      "coming_of_age": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -11552,7 +11569,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "investigation_driven": 0.5,
-      "disaster_survival": 0.4
+      "disaster_survival": 0.4,
+      "tense_dread": 0.4,
+      "systemic_corruption": 0.3
     }
   },
   {
@@ -11577,7 +11596,9 @@
     "tags": {
       "road_journey": 0.8,
       "man_vs_nature": 0.6,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "survival_against_odds": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -11597,7 +11618,9 @@
     "tags": {
       "nostalgia_period": 0.5,
       "legacy_and_inheritance": 0.5,
-      "meta_fourth_wall": 0.4
+      "meta_fourth_wall": 0.4,
+      "grief_processing": 0.4,
+      "quiet_minimalism": 0.3
     }
   },
   {
@@ -11621,7 +11644,9 @@
     "tags": {
       "betrayal": 0.5,
       "rivalry_driven": 0.4,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "multi_generational_cast": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -11644,7 +11669,9 @@
     "tags": {
       "road_journey": 0.7,
       "found_family": 0.5,
-      "mental_illness": 0.5
+      "mental_illness": 0.5,
+      "identity_reinvention": 0.4,
+      "grief_processing": 0.3
     }
   },
   {
@@ -11666,7 +11693,10 @@
     "studio": "Paul Malvern Productions",
     "tags": {
       "espionage_double_cross": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "identity_reinvention": 0.4,
+      "systemic_corruption": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -11690,7 +11720,9 @@
     "tags": {
       "betrayal": 0.5,
       "escape_plot": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "chase_structure": 0.4,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -11715,7 +11747,9 @@
     "tags": {
       "justice_vs_law": 0.6,
       "systemic_corruption": 0.5,
-      "courtroom_drama": 0.4
+      "courtroom_drama": 0.4,
+      "underdog_rise": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -11737,7 +11771,11 @@
     "synopsis": "Horse story with Dynamite, The Red Stallion...",
     "studio": "Eagle-Lion Films",
     "tags": {
-      "animal_companion": 0.7
+      "animal_companion": 0.7,
+      "road_journey": 0.4,
+      "found_family": 0.3,
+      "man_vs_nature": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -11762,7 +11800,9 @@
     "tags": {
       "absurdist": 0.7,
       "meta_fourth_wall": 0.5,
-      "high_camp": 0.5
+      "high_camp": 0.5,
+      "descent_into_madness": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -11786,7 +11826,9 @@
     "tags": {
       "absurdist": 0.6,
       "criminal_mastermind": 0.4,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "heist_plan": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -11812,7 +11854,9 @@
     "tags": {
       "rivalry_driven": 0.5,
       "criminal_mastermind": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "skill_asymmetry": 0.4,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -11837,7 +11881,10 @@
     "studio": "Columbia Pictures Television",
     "tags": {
       "anthology_structure": 0.7,
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "ensemble_cast": 0.4,
+      "grief_processing": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -11859,7 +11906,11 @@
     "synopsis": "Rhythm and Blues Revue is a plotless variety show, one of several compiled for theatrical exhibition from the made-for-television short films produced by Snader and Studio Telescriptions, with newly-filmed host segments by Willie Bryant. Originally 86 minutes, the \"short\" version available on public domain collections and websites is missing a reel",
     "studio": "Studio Films",
     "tags": {
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "ensemble_cast": 0.4,
+      "quiet_minimalism": 0.3,
+      "whimsical_charm": 0.3,
+      "meta_fourth_wall": 0.3
     }
   },
   {
@@ -11885,7 +11936,9 @@
     "tags": {
       "betrayal": 0.6,
       "romantic_tone": 0.5,
-      "road_journey": 0.5
+      "road_journey": 0.5,
+      "love_across_divide": 0.4,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -11909,7 +11962,10 @@
     "studio": "Proteus Films",
     "tags": {
       "justice_vs_law": 0.4,
-      "escape_plot": 0.5
+      "escape_plot": 0.5,
+      "chase_structure": 0.4,
+      "survival_against_odds": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -11935,7 +11991,9 @@
     "tags": {
       "investigation_driven": 0.5,
       "environmentalism": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "systemic_corruption": 0.4,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -11958,7 +12016,10 @@
     "studio": null,
     "tags": {
       "tense_dread": 0.4,
-      "absurdist": 0.3
+      "absurdist": 0.3,
+      "claustrophobic_tone": 0.4,
+      "coming_of_age": 0.3,
+      "high_camp": 0.3
     }
   },
   {
@@ -11984,7 +12045,9 @@
     "tags": {
       "rivalry_driven": 0.6,
       "road_journey": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "whimsical_charm": 0.4,
+      "forbidden_knowledge": 0.3
     }
   },
   {
@@ -12007,7 +12070,10 @@
     "studio": "Three Dimension Pictures",
     "tags": {
       "romantic_tone": 0.4,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "high_camp": 0.4,
+      "survival_against_odds": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -12027,7 +12093,11 @@
     "synopsis": "Rock'n Roll Revue is a 1955 American film directed by Joseph Kohn. The film was compiled for theatrical exhibition from the made-for-television short films produced by Snader and Studio Telescriptions, with newly-filmed host segments by Willie Bryant",
     "studio": null,
     "tags": {
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "ensemble_cast": 0.4,
+      "quiet_minimalism": 0.3,
+      "whimsical_charm": 0.3,
+      "meta_fourth_wall": 0.3
     }
   },
   {
@@ -12050,7 +12120,9 @@
     "tags": {
       "man_vs_nature": 0.5,
       "romantic_tone": 0.4,
-      "environmentalism": 0.4
+      "environmentalism": 0.4,
+      "coming_of_age": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -12074,7 +12146,9 @@
     "tags": {
       "slasher_structure": 0.6,
       "claustrophobic_tone": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "tense_dread": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -12099,7 +12173,9 @@
     "tags": {
       "betrayal": 0.6,
       "rivalry_driven": 0.5,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "systemic_corruption": 0.4,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -12123,7 +12199,9 @@
     "tags": {
       "war_conflict": 0.7,
       "escape_plot": 0.6,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "betrayal": 0.4,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -12144,7 +12222,11 @@
     "synopsis": "Gene and Frog, out to stop a bunch of cattle rustlers, assume the identities of what they believe to be dead bandits, which soon gets them in big trouble.",
     "studio": "Republic Pictures",
     "tags": {
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "criminal_mastermind": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -12165,7 +12247,11 @@
     "synopsis": "Roy Rogers is a cowboy who joins the Border Patrol, only to have his buddy Tommy get killed at a local saloon. Determined to get revenge at any cost, Roy and Rusty cross the border in search of Arizona Jack, the man responsible for Tommy's death.",
     "studio": "Republic Pictures",
     "tags": {
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "revenge_quest": 0.4,
+      "chase_structure": 0.3,
+      "betrayal": 0.3,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -12187,7 +12273,11 @@
     "synopsis": "Gene and Frog arrive with a herd of horses for Gene'e brother, a diamond prospector whose work has attracted the interest of a bunch of badguys.",
     "studio": "Republic Pictures",
     "tags": {
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4,
+      "criminal_mastermind": 0.3,
+      "chase_structure": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -12210,7 +12300,11 @@
     "synopsis": "A brother and sister dance act encounter challenges and romance when booked in London during the Royal Wedding.",
     "studio": "Metro-Goldwyn-Mayer",
     "tags": {
-      "romantic_tone": 0.5
+      "romantic_tone": 0.5,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "nostalgia_period": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -12236,7 +12330,9 @@
     "tags": {
       "slasher_structure": 0.5,
       "betrayal": 0.7,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "tense_dread": 0.4,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -12259,7 +12355,9 @@
     "tags": {
       "nostalgia_period": 0.4,
       "legacy_and_inheritance": 0.4,
-      "environmentalism": 0.4
+      "environmentalism": 0.4,
+      "quiet_minimalism": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -12283,7 +12381,10 @@
     "studio": "Metromedia Productions",
     "tags": {
       "romantic_tone": 0.5,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "grief_processing": 0.4,
+      "dreamlike_surreal": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
