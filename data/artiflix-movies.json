@@ -16482,7 +16482,9 @@
     "tags": {
       "criminal_mastermind": 0.5,
       "betrayal": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "skill_asymmetry": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -16505,7 +16507,10 @@
     "studio": "Two Cities Films",
     "tags": {
       "war_conflict": 0.6,
-      "mentor_student": 0.5
+      "mentor_student": 0.5,
+      "underdog_rise": 0.4,
+      "ensemble_cast": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -16529,7 +16534,10 @@
     "studio": "GBM Productions",
     "tags": {
       "claustrophobic_tone": 0.6,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "survival_against_odds": 0.4,
+      "isolation_disconnection": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -16553,7 +16561,11 @@
     "synopsis": "Lamont Cranston, aka The Shadow, investigates the murder of a New Orleans bandleader.",
     "studio": "Republic Pictures",
     "tags": {
-      "investigation_driven": 0.7
+      "investigation_driven": 0.7,
+      "twist_reveal": 0.4,
+      "criminal_mastermind": 0.3,
+      "identity_reinvention": 0.3,
+      "betrayal": 0.3
     }
   },
   {
@@ -16577,7 +16589,9 @@
     "tags": {
       "betrayal": 0.6,
       "criminal_mastermind": 0.5,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "chase_structure": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -16603,7 +16617,10 @@
     "studio": "Killarney Film Studios",
     "tags": {
       "romantic_tone": 0.5,
-      "redemption_arc": 0.6
+      "redemption_arc": 0.6,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -16627,7 +16644,9 @@
     "tags": {
       "systemic_corruption": 0.5,
       "found_purpose": 0.4,
-      "justice_vs_law": 0.3
+      "justice_vs_law": 0.3,
+      "underdog_rise": 0.4,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -16650,7 +16669,9 @@
     "tags": {
       "systemic_corruption": 0.5,
       "competition_tournament": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "underdog_rise": 0.4,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -16673,7 +16694,10 @@
     "studio": "United Artists",
     "tags": {
       "justice_vs_law": 0.6,
-      "systemic_corruption": 0.6
+      "systemic_corruption": 0.6,
+      "underdog_rise": 0.4,
+      "betrayal": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -16697,7 +16721,10 @@
     "studio": "Atlanta Productions",
     "tags": {
       "systemic_corruption": 0.6,
-      "justice_vs_law": 0.5
+      "justice_vs_law": 0.5,
+      "revenge_quest": 0.4,
+      "gritty_realism": 0.3,
+      "bleak_tone": 0.3
     }
   },
   {
@@ -16720,7 +16747,10 @@
     "studio": "Ross-Stillman Productions Inc.",
     "tags": {
       "romantic_tone": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -16746,7 +16776,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "unreliable_narrator": 0.5,
-      "espionage_double_cross": 0.4
+      "espionage_double_cross": 0.4,
+      "twist_reveal": 0.4,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -16771,7 +16803,9 @@
     "tags": {
       "war_conflict": 0.5,
       "nostalgia_period": 0.5,
-      "melancholic": 0.4
+      "melancholic": 0.4,
+      "grief_processing": 0.4,
+      "legacy_and_inheritance": 0.3
     }
   },
   {
@@ -16795,7 +16829,10 @@
     "studio": "Associated Producers (API)",
     "tags": {
       "isolation_disconnection": 0.7,
-      "disaster_survival": 0.6
+      "disaster_survival": 0.6,
+      "survival_against_odds": 0.4,
+      "bleak_tone": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -16819,7 +16856,10 @@
     "studio": "Titus Productions",
     "tags": {
       "romantic_tone": 0.6,
-      "nostalgia_period": 0.5
+      "nostalgia_period": 0.5,
+      "identity_reinvention": 0.4,
+      "love_across_divide": 0.3,
+      "tender_sincerity": 0.3
     }
   },
   {
@@ -16840,7 +16880,9 @@
     "tags": {
       "gender_identity": 0.5,
       "romantic_tone": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "identity_reinvention": 0.4,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -16863,7 +16905,9 @@
     "tags": {
       "rescue_mission": 0.7,
       "escape_plot": 0.6,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "survival_against_odds": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -16889,7 +16933,9 @@
     "tags": {
       "nostalgia_period": 0.6,
       "war_conflict": 0.5,
-      "dual_timeline": 0.5
+      "dual_timeline": 0.5,
+      "identity_reinvention": 0.4,
+      "epic_scale": 0.3
     }
   },
   {
@@ -16912,7 +16958,9 @@
     "tags": {
       "romantic_tone": 0.4,
       "systemic_corruption": 0.4,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4,
+      "justice_vs_law": 0.3
     }
   },
   {
@@ -16937,7 +16985,9 @@
     "tags": {
       "found_purpose": 0.5,
       "faith_and_doubt": 0.4,
-      "wholesome_family": 0.4
+      "wholesome_family": 0.4,
+      "identity_reinvention": 0.4,
+      "tender_sincerity": 0.3
     }
   },
   {
@@ -16954,7 +17004,10 @@
     "studio": null,
     "tags": {
       "isolation_disconnection": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "grief_processing": 0.4,
+      "tender_sincerity": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -16978,7 +17031,10 @@
     "studio": "Santa Clara Productions",
     "tags": {
       "forbidden_knowledge": 0.6,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "high_camp": 0.4,
+      "romantic_tone": 0.3,
+      "absurdist": 0.3
     }
   },
   {
@@ -17003,7 +17059,9 @@
     "tags": {
       "faith_and_doubt": 0.6,
       "whimsical_charm": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "tender_sincerity": 0.4,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -17026,7 +17084,10 @@
     "studio": "Mascot Pictures",
     "tags": {
       "rescue_mission": 0.7,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "survival_against_odds": 0.4,
+      "romantic_tone": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -17048,7 +17109,10 @@
     "studio": "Lone Star",
     "tags": {
       "betrayal": 0.4,
-      "romantic_tone": 0.3
+      "romantic_tone": 0.3,
+      "identity_reinvention": 0.4,
+      "criminal_mastermind": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -17071,7 +17135,10 @@
     "studio": "21st Century Film Corporation",
     "tags": {
       "criminal_mastermind": 0.6,
-      "rivalry_driven": 0.5
+      "rivalry_driven": 0.5,
+      "betrayal": 0.4,
+      "gritty_realism": 0.3,
+      "underdog_rise": 0.3
     }
   },
   {
@@ -17094,7 +17161,9 @@
     "tags": {
       "unreliable_narrator": 0.6,
       "forbidden_knowledge": 0.4,
-      "betrayal": 0.5
+      "betrayal": 0.5,
+      "identity_reinvention": 0.4,
+      "revenge_quest": 0.3
     }
   },
   {
@@ -17118,7 +17187,9 @@
     "tags": {
       "espionage_double_cross": 0.5,
       "rescue_mission": 0.6,
-      "systemic_corruption": 0.4
+      "systemic_corruption": 0.4,
+      "identity_reinvention": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -17140,7 +17211,10 @@
     "studio": "A & T Film Productions, Inc.",
     "tags": {
       "criminal_mastermind": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "twist_reveal": 0.4,
+      "moral_ambiguity": 0.3,
+      "investigation_driven": 0.3
     }
   },
   {
@@ -17163,7 +17237,10 @@
     "studio": "Lopert Pictures Corporation",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "descent_into_madness": 0.5
+      "descent_into_madness": 0.5,
+      "identity_reinvention": 0.4,
+      "tense_dread": 0.3,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -17186,7 +17263,10 @@
     "studio": "Jack M. Warner Productions",
     "tags": {
       "betrayal": 0.6,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "moral_ambiguity": 0.4,
+      "twist_reveal": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
@@ -17211,7 +17291,9 @@
     "tags": {
       "espionage_double_cross": 0.6,
       "rescue_mission": 0.6,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "tense_dread": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -17234,7 +17316,11 @@
     "synopsis": "A master thief, just out of prison, concocts a risky final score that would net him over a million dollars.",
     "studio": "Verona Produzione",
     "tags": {
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "heist_plan": 0.4,
+      "betrayal": 0.3,
+      "gritty_realism": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -17258,7 +17344,9 @@
     "tags": {
       "systemic_corruption": 0.5,
       "war_conflict": 0.4,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "underdog_rise": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -17279,7 +17367,11 @@
     "synopsis": "What 'Food, Inc.' did for the food industry in America, this film will do for breastfeeding in our country. It will make every viewer rethink motherhood and how we treat mothers. It is a film that will empower each woman to trust her body, her baby, and herself in her journey as a mother. It will make her laugh, cry, nod fiercely in agreement, get angry, and then get so inspired it will be impossible not to take action.",
     "studio": null,
     "tags": {
-      "found_purpose": 0.3
+      "found_purpose": 0.3,
+      "identity_reinvention": 0.4,
+      "moral_ambiguity": 0.3,
+      "tender_sincerity": 0.3,
+      "quiet_minimalism": 0.3
     }
   },
   {
@@ -17302,7 +17394,10 @@
     "studio": "Sigmund Neufeld Productions",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "revenge_quest": 0.4,
+      "descent_into_madness": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -17326,7 +17421,9 @@
     "tags": {
       "man_vs_nature": 0.6,
       "forbidden_knowledge": 0.4,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "survival_against_odds": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -17349,7 +17446,11 @@
     "synopsis": "After a former model is drowned in her bathtub, Detective James Halloran and Lieutenant Dan Muldoon attempt to piece together her murder.",
     "studio": "Universal International Pictures",
     "tags": {
-      "investigation_driven": 0.7
+      "investigation_driven": 0.7,
+      "twist_reveal": 0.4,
+      "gritty_realism": 0.3,
+      "ensemble_cast": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -17372,7 +17473,10 @@
     "studio": "Leon Fromkess-Sam Firks Productions",
     "tags": {
       "redemption_arc": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "identity_reinvention": 0.4,
+      "moral_ambiguity": 0.3,
+      "gritty_realism": 0.3
     }
   },
   {
