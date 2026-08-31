@@ -4219,7 +4219,10 @@
     "studio": null,
     "tags": {
       "obsession": 0.7,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "gothic": 0.4,
+      "betrayal": 0.3,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -4243,7 +4246,10 @@
     "studio": "Po' Boy Productions",
     "tags": {
       "rescue_mission": 0.6,
-      "road_journey": 0.7
+      "road_journey": 0.7,
+      "rivalry_driven": 0.4,
+      "betrayal": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -4265,7 +4271,10 @@
     "studio": "Crown International Pictures",
     "tags": {
       "criminal_mastermind": 0.6,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "revenge_quest": 0.4,
+      "bleak_tone": 0.3,
+      "villain_pov": 0.3
     }
   },
   {
@@ -4288,7 +4297,9 @@
     "tags": {
       "faith_and_doubt": 0.5,
       "systemic_corruption": 0.4,
-      "sacrifice_for_others": 0.4
+      "sacrifice_for_others": 0.4,
+      "nostalgia_period": 0.3,
+      "bleak_tone": 0.3
     }
   },
   {
@@ -4309,7 +4320,11 @@
     "synopsis": "Bill Meceita, a boy whose family was murdered in front of him by a gang, sets out 15 years later to exact revenge. On his journey, he finds himself continually sparring and occasionally cooperating with Ryan, a gunfighter on his own quest for vengeance, who knows more than he says about Bill's tragedy.",
     "studio": "Sancro International Film",
     "tags": {
-      "rivalry_driven": 0.5
+      "rivalry_driven": 0.5,
+      "revenge_quest": 0.4,
+      "nonlinear_timeline": 0.3,
+      "betrayal": 0.3,
+      "bleak_tone": 0.3
     }
   },
   {
@@ -4333,7 +4348,10 @@
     "studio": "Seda Spettacoli",
     "tags": {
       "investigation_driven": 0.7,
-      "descent_into_madness": 0.5
+      "descent_into_madness": 0.5,
+      "noir_tone": 0.4,
+      "tense_dread": 0.3,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -4355,7 +4373,11 @@
     "synopsis": "Young Sherry Williams dreams of having a singing career, and she idolizes her older sister Josephine, who has gone to New York to perform on the stage. When Sherry is distraught just before performing at her school, a visiting Broadway producer encourages her by telling her positive things about her sister. Soon afterwards, Sherry decides to make a surprise trip to New York to visit Josephine - but what she finds there is not at all what she expected",
     "studio": "United Artists",
     "tags": {
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "identity_reinvention": 0.3,
+      "romantic_tone": 0.3,
+      "whimsical_charm": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -4381,7 +4403,8 @@
       "legacy_and_inheritance": 0.6,
       "gothic": 0.5,
       "criminal_mastermind": 0.4,
-      "slasher_structure": 0.5
+      "slasher_structure": 0.5,
+      "betrayal": 0.3
     }
   },
   {
@@ -4406,7 +4429,8 @@
       "investigation_driven": 0.7,
       "forbidden_knowledge": 0.6,
       "faith_and_doubt": 0.5,
-      "real_time": 0.5
+      "real_time": 0.5,
+      "espionage_double_cross": 0.3
     }
   },
   {
@@ -4430,7 +4454,10 @@
     "studio": "PRC",
     "tags": {
       "rescue_mission": 0.5,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "criminal_mastermind": 0.4,
+      "betrayal": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -4453,7 +4480,10 @@
     "studio": null,
     "tags": {
       "claustrophobic_tone": 0.7,
-      "man_vs_nature": 0.6
+      "man_vs_nature": 0.6,
+      "survival_against_odds": 0.4,
+      "one_location": 0.3,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -4475,7 +4505,11 @@
     "synopsis": "Eight people at a remote Scottish inn find themselves confronted by a woman from Mars, who has landed her flying saucer for repairs but intends to soon conquer the Earth and enslave its men for breeding purposes.",
     "studio": "Danziger Productions Ltd.",
     "tags": {
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "claustrophobic_tone": 0.4,
+      "epic_scale": 0.3,
+      "high_camp": 0.3,
+      "one_location": 0.3
     }
   },
   {
@@ -4499,7 +4533,10 @@
     "studio": "RKO Radio Pictures",
     "tags": {
       "investigation_driven": 0.7,
-      "slasher_structure": 0.5
+      "slasher_structure": 0.5,
+      "class_conflict": 0.4,
+      "systemic_corruption": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -4525,7 +4562,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "criminal_mastermind": 0.5,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "heist_plan": 0.4,
+      "escape_plot": 0.3
     }
   },
   {
@@ -4548,7 +4587,10 @@
     "studio": "RKO Radio Pictures",
     "tags": {
       "investigation_driven": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "betrayal": 0.4,
+      "systemic_corruption": 0.3,
+      "slasher_structure": 0.3
     }
   },
   {
@@ -4573,7 +4615,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "investigation_driven": 0.5,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "identity_reinvention": 0.4,
+      "escape_plot": 0.3
     }
   },
   {
@@ -4596,7 +4640,10 @@
     "studio": "RKO Radio Pictures",
     "tags": {
       "investigation_driven": 0.6,
-      "slasher_structure": 0.4
+      "slasher_structure": 0.4,
+      "betrayal": 0.4,
+      "criminal_mastermind": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -4621,7 +4668,9 @@
     "tags": {
       "criminal_mastermind": 0.6,
       "investigation_driven": 0.5,
-      "nostalgia_period": 0.4
+      "nostalgia_period": 0.4,
+      "systemic_corruption": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -4647,7 +4696,10 @@
     "studio": "Generation International",
     "tags": {
       "addiction_recovery": 0.6,
-      "systemic_corruption": 0.5
+      "systemic_corruption": 0.5,
+      "redemption_arc": 0.4,
+      "gritty_realism": 0.3,
+      "descent_into_madness": 0.3
     }
   },
   {
@@ -4671,7 +4723,9 @@
     "tags": {
       "isolation_disconnection": 0.6,
       "betrayal": 0.5,
-      "mental_illness": 0.4
+      "mental_illness": 0.4,
+      "obsession": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -4694,7 +4748,10 @@
     "studio": "PRC",
     "tags": {
       "absurdist": 0.5,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "identity_reinvention": 0.4,
+      "chase_structure": 0.3,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -4722,7 +4779,8 @@
       "legacy_and_inheritance": 0.6,
       "sacrifice_for_others": 0.5,
       "epic_scale": 0.5,
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "found_family": 0.3
     }
   },
   {
@@ -4745,7 +4803,10 @@
     "studio": "Gaumont-British Picture Corporation",
     "tags": {
       "justice_vs_law": 0.5,
-      "redemption_arc": 0.4
+      "redemption_arc": 0.4,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "gothic": 0.3
     }
   },
   {
@@ -4769,7 +4830,9 @@
     "tags": {
       "redemption_arc": 0.5,
       "sacrifice_for_others": 0.5,
-      "systemic_corruption": 0.5
+      "systemic_corruption": 0.5,
+      "found_family": 0.4,
+      "escape_plot": 0.3
     }
   },
   {
@@ -4793,7 +4856,9 @@
     "tags": {
       "claustrophobic_tone": 0.6,
       "tense_dread": 0.5,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "mental_illness": 0.4,
+      "gothic": 0.3
     }
   },
   {
@@ -4815,7 +4880,10 @@
     "studio": "James Nasser Productions Inc.",
     "tags": {
       "romantic_tone": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "betrayal": 0.4,
+      "absurdist": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -4837,7 +4905,10 @@
     "studio": "First Leisure",
     "tags": {
       "epic_scale": 0.4,
-      "forbidden_knowledge": 0.4
+      "forbidden_knowledge": 0.4,
+      "disaster_survival": 0.4,
+      "systemic_corruption": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -4862,7 +4933,9 @@
     "tags": {
       "animal_companion": 0.8,
       "road_journey": 0.6,
-      "coming_home": 0.5
+      "coming_home": 0.5,
+      "found_family": 0.4,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -4883,7 +4956,11 @@
     "synopsis": "The Goon Show hits the big screen.  Professor Pure Heart absent-mindedly loses the top secret formula in Harry Jones' Grocery Shop. \"Bats of the Yard\", as Harry calls himself, finds it and attempts to return it to the Professor.",
     "studio": "E.J. Fancey Productions",
     "tags": {
-      "absurdist": 0.7
+      "absurdist": 0.7,
+      "high_camp": 0.4,
+      "forbidden_knowledge": 0.3,
+      "criminal_mastermind": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -4908,7 +4985,8 @@
       "forbidden_knowledge": 0.6,
       "gothic": 0.5,
       "claustrophobic_tone": 0.4,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "legacy_and_inheritance": 0.3
     }
   },
   {
@@ -4933,7 +5011,9 @@
     "tags": {
       "investigation_driven": 0.5,
       "slasher_structure": 0.5,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "unreliable_narrator": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -4955,7 +5035,10 @@
     "studio": "Metro-Goldwyn-Mayer",
     "tags": {
       "rivalry_driven": 0.5,
-      "mentor_student": 0.5
+      "mentor_student": 0.5,
+      "moral_ambiguity": 0.4,
+      "skill_asymmetry": 0.3,
+      "romantic_tone": 0.3
     }
   },
   {
@@ -4978,7 +5061,11 @@
     "synopsis": "Teenagers stumble across a prehistoric caveman, who goes on a rampage.",
     "studio": "Fairway International Pictures",
     "tags": {
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "man_vs_nature": 0.4,
+      "romantic_tone": 0.3,
+      "fish_out_of_water": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -5001,7 +5088,9 @@
     "tags": {
       "prophecy_fulfillment": 0.5,
       "romantic_tone": 0.5,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "dreamlike_surreal": 0.4,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -5026,7 +5115,9 @@
     "tags": {
       "rescue_mission": 0.6,
       "epic_scale": 0.6,
-      "betrayal": 0.5
+      "betrayal": 0.5,
+      "ensemble_cast": 0.4,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -5051,7 +5142,9 @@
     "tags": {
       "war_conflict": 0.6,
       "escape_plot": 0.6,
-      "disaster_survival": 0.4
+      "disaster_survival": 0.4,
+      "found_family": 0.4,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -5073,7 +5166,10 @@
     "studio": "Benedict Bogeaus Production",
     "tags": {
       "romantic_tone": 0.5,
-      "escape_plot": 0.5
+      "escape_plot": 0.5,
+      "identity_reinvention": 0.4,
+      "isolation_disconnection": 0.3,
+      "class_conflict": 0.3
     }
   },
   {
@@ -5097,7 +5193,10 @@
     "studio": "Walter Wanger Productions",
     "tags": {
       "romantic_tone": 0.6,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "betrayal": 0.4,
+      "identity_reinvention": 0.3,
+      "duty_vs_desire": 0.3
     }
   },
   {
@@ -5121,7 +5220,9 @@
     "tags": {
       "gothic": 0.5,
       "slasher_structure": 0.5,
-      "claustrophobic_tone": 0.4
+      "claustrophobic_tone": 0.4,
+      "dark_comedy": 0.4,
+      "forbidden_knowledge": 0.3
     }
   },
   {
