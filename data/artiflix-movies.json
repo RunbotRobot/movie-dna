@@ -18511,7 +18511,10 @@
     "studio": "Bro-Rog Pictures",
     "tags": {
       "competition_tournament": 0.5,
-      "found_purpose": 0.4
+      "found_purpose": 0.4,
+      "underdog_rise": 0.4,
+      "ensemble_cast": 0.3,
+      "nostalgia_period": 0.3
     }
   },
   {
@@ -18536,7 +18539,9 @@
     "tags": {
       "justice_vs_law": 0.5,
       "investigation_driven": 0.5,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "twist_reveal": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -18558,7 +18563,10 @@
     "studio": "AVCO Embassy Pictures",
     "tags": {
       "road_journey": 0.6,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -18575,7 +18583,11 @@
     "synopsis": "Documentary about the construction of the Stilwell Road--originally called The Ledo Road--a 478-mile passage from Assam, India, to Ledo, Burma, during World War II. The road, which was built by 63,000 workers and cost $150 million, was used by the British, Chinese and Indian armies to transport supplies, troops and other essentials from India to Burma in order to keep the Japanese from overrunning the entire theater.",
     "studio": null,
     "tags": {
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "epic_scale": 0.4,
+      "ensemble_cast": 0.3,
+      "survival_against_odds": 0.3,
+      "nostalgia_period": 0.3
     }
   },
   {
@@ -18598,7 +18610,10 @@
     "studio": "B.G. DeSylva Productions Inc.",
     "tags": {
       "romantic_tone": 0.4,
-      "class_conflict": 0.4
+      "class_conflict": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "love_across_divide": 0.3
     }
   },
   {
@@ -18623,7 +18638,9 @@
     "tags": {
       "obsession": 0.6,
       "rivalry_driven": 0.4,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "isolation_disconnection": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -18647,7 +18664,9 @@
     "tags": {
       "systemic_corruption": 0.6,
       "betrayal": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "twist_reveal": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -18672,7 +18691,9 @@
     "tags": {
       "betrayal": 0.5,
       "forbidden_knowledge": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "identity_reinvention": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -18698,7 +18719,9 @@
     "tags": {
       "claustrophobic_tone": 0.7,
       "tense_dread": 0.6,
-      "escape_plot": 0.4
+      "escape_plot": 0.4,
+      "survival_against_odds": 0.4,
+      "criminal_mastermind": 0.3
     }
   },
   {
@@ -18723,7 +18746,9 @@
     "tags": {
       "slasher_structure": 0.7,
       "gothic": 0.4,
-      "investigation_driven": 0.4
+      "investigation_driven": 0.4,
+      "tense_dread": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -18749,7 +18774,9 @@
     "tags": {
       "rescue_mission": 0.6,
       "criminal_mastermind": 0.5,
-      "rivalry_driven": 0.4
+      "rivalry_driven": 0.4,
+      "skill_asymmetry": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -18772,7 +18799,10 @@
     "studio": "Original Pictures",
     "tags": {
       "body_swap": 0.8,
-      "competition_tournament": 0.4
+      "competition_tournament": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -18797,7 +18827,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "espionage_double_cross": 0.5,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "chase_structure": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -18821,7 +18853,9 @@
     "tags": {
       "romantic_tone": 0.4,
       "obsession": 0.4,
-      "betrayal": 0.3
+      "betrayal": 0.3,
+      "coming_of_age": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -18846,7 +18880,9 @@
     "tags": {
       "rivalry_driven": 0.7,
       "multi_generational_cast": 0.5,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "underdog_rise": 0.4,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -18869,7 +18905,10 @@
     "studio": "Monogram Pictures",
     "tags": {
       "slasher_structure": 0.6,
-      "investigation_driven": 0.5
+      "investigation_driven": 0.5,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -18887,7 +18926,11 @@
     "synopsis": "Relive the hilarity of The Three Stooges with this compilation of five of their greatest shorts. Included are: Brideless Groom, Color Craziness, Disorder in the Court, Malice in the Palace, Sing a Song of Six Pants",
     "studio": null,
     "tags": {
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "high_camp": 0.3,
+      "meta_fourth_wall": 0.3
     }
   },
   {
@@ -18909,7 +18952,10 @@
     "studio": "Michael Balcon Productions",
     "tags": {
       "rivalry_driven": 0.5,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "whimsical_charm": 0.4,
+      "underdog_rise": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -18932,7 +18978,10 @@
     "studio": "Eola Pictures",
     "tags": {
       "absurdist": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "high_camp": 0.4,
+      "gritty_realism": 0.3,
+      "whimsical_charm": 0.3
     }
   },
   {
@@ -18955,7 +19004,10 @@
     "studio": null,
     "tags": {
       "absurdist": 0.6,
-      "road_journey": 0.5
+      "road_journey": 0.5,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -18978,7 +19030,10 @@
     "studio": "Santa Cruz Productions Inc.",
     "tags": {
       "forbidden_knowledge": 0.7,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "descent_into_madness": 0.4,
+      "identity_reinvention": 0.3,
+      "tense_dread": 0.3
     }
   },
   {
@@ -19001,7 +19056,9 @@
     "tags": {
       "gothic": 0.7,
       "forbidden_knowledge": 0.5,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "obsession": 0.4,
+      "survival_against_odds": 0.3
     }
   },
   {
@@ -19025,7 +19082,10 @@
     "studio": "Jaywall Productions",
     "tags": {
       "absurdist": 0.6,
-      "romantic_tone": 0.3
+      "romantic_tone": 0.3,
+      "whimsical_charm": 0.4,
+      "fish_out_of_water": 0.3,
+      "high_camp": 0.3
     }
   },
   {
@@ -19049,7 +19109,10 @@
     "studio": "ABC Circle Films",
     "tags": {
       "found_family": 0.4,
-      "betrayal": 0.3
+      "betrayal": 0.3,
+      "whimsical_charm": 0.4,
+      "ensemble_cast": 0.3,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -19074,7 +19137,9 @@
     "tags": {
       "war_conflict": 0.6,
       "man_vs_nature": 0.4,
-      "espionage_double_cross": 0.4
+      "espionage_double_cross": 0.4,
+      "survival_against_odds": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -19099,7 +19164,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "systemic_corruption": 0.6,
-      "criminal_mastermind": 0.5
+      "criminal_mastermind": 0.5,
+      "gritty_realism": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -19123,7 +19190,9 @@
     "tags": {
       "investigation_driven": 0.5,
       "criminal_mastermind": 0.4,
-      "road_journey": 0.4
+      "road_journey": 0.4,
+      "skill_asymmetry": 0.4,
+      "chase_structure": 0.3
     }
   },
   {
@@ -19147,7 +19216,10 @@
     "studio": "Leif Films",
     "tags": {
       "investigation_driven": 0.6,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "twist_reveal": 0.4,
+      "identity_reinvention": 0.3,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -19170,7 +19242,10 @@
     "studio": "Tonichi Kogyo K.K.",
     "tags": {
       "espionage_double_cross": 0.8,
-      "war_conflict": 0.4
+      "war_conflict": 0.4,
+      "identity_reinvention": 0.4,
+      "betrayal": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -19194,7 +19269,9 @@
     "tags": {
       "obsession": 0.6,
       "betrayal": 0.6,
-      "criminal_mastermind": 0.4
+      "criminal_mastermind": 0.4,
+      "moral_ambiguity": 0.4,
+      "twist_reveal": 0.3
     }
   },
   {
@@ -19219,7 +19296,9 @@
     "tags": {
       "investigation_driven": 0.5,
       "whimsical_charm": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "twist_reveal": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -19242,7 +19321,10 @@
     "studio": "Slingshot Productions",
     "tags": {
       "isolation_disconnection": 0.5,
-      "mental_illness": 0.4
+      "mental_illness": 0.4,
+      "revenge_quest": 0.4,
+      "bleak_tone": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -19265,7 +19347,9 @@
     "tags": {
       "obsession": 0.6,
       "forbidden_knowledge": 0.5,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "identity_reinvention": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -19289,7 +19373,9 @@
     "tags": {
       "war_conflict": 0.4,
       "justice_vs_law": 0.4,
-      "coming_home": 0.4
+      "coming_home": 0.4,
+      "gritty_realism": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -19315,7 +19401,9 @@
     "tags": {
       "road_journey": 0.6,
       "betrayal": 0.5,
-      "found_family": 0.4
+      "found_family": 0.4,
+      "whimsical_charm": 0.4,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -19339,7 +19427,9 @@
     "tags": {
       "betrayal": 0.6,
       "coming_home": 0.5,
-      "redemption_arc": 0.4
+      "redemption_arc": 0.4,
+      "gritty_realism": 0.4,
+      "sacrifice_for_others": 0.3
     }
   },
   {
@@ -19361,7 +19451,10 @@
     "studio": "Eagle-Lion Films",
     "tags": {
       "obsession": 0.7,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "revenge_quest": 0.4,
+      "epic_scale": 0.3,
+      "identity_reinvention": 0.3
     }
   },
   {
@@ -19384,7 +19477,10 @@
     "studio": "Rosa Film",
     "tags": {
       "romantic_tone": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "identity_reinvention": 0.4,
+      "whimsical_charm": 0.3,
+      "high_camp": 0.3
     }
   },
   {
@@ -19408,7 +19504,10 @@
     "studio": "Jack Votion Productions Inc.",
     "tags": {
       "absurdist": 0.6,
-      "betrayal": 0.3
+      "betrayal": 0.3,
+      "whimsical_charm": 0.4,
+      "criminal_mastermind": 0.3,
+      "chase_structure": 0.3
     }
   },
   {
@@ -19431,7 +19530,9 @@
     "tags": {
       "romantic_tone": 0.6,
       "nostalgia_period": 0.5,
-      "absurdist": 0.4
+      "absurdist": 0.4,
+      "whimsical_charm": 0.4,
+      "class_conflict": 0.3
     }
   },
   {
@@ -19457,7 +19558,9 @@
     "tags": {
       "forbidden_knowledge": 0.6,
       "dreamlike_surreal": 0.5,
-      "rescue_mission": 0.5
+      "rescue_mission": 0.5,
+      "twist_reveal": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -19479,7 +19582,10 @@
     "studio": "Two Cities Films",
     "tags": {
       "body_swap": 0.9,
-      "absurdist": 0.5
+      "absurdist": 0.5,
+      "whimsical_charm": 0.4,
+      "identity_reinvention": 0.3,
+      "coming_of_age": 0.3
     }
   },
   {
@@ -19503,7 +19609,9 @@
     "tags": {
       "absurdist": 0.5,
       "war_conflict": 0.4,
-      "romantic_tone": 0.4
+      "romantic_tone": 0.4,
+      "whimsical_charm": 0.4,
+      "isolation_disconnection": 0.3
     }
   },
   {
@@ -19527,7 +19635,9 @@
     "tags": {
       "systemic_corruption": 0.6,
       "legacy_and_inheritance": 0.5,
-      "justice_vs_law": 0.5
+      "justice_vs_law": 0.5,
+      "coming_of_age": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -19552,7 +19662,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "gothic": 0.4,
-      "romantic_tone": 0.3
+      "romantic_tone": 0.3,
+      "twist_reveal": 0.4,
+      "claustrophobic_tone": 0.3
     }
   },
   {
@@ -19575,7 +19687,9 @@
     "tags": {
       "gothic": 0.6,
       "forbidden_knowledge": 0.4,
-      "tense_dread": 0.4
+      "tense_dread": 0.4,
+      "claustrophobic_tone": 0.4,
+      "betrayal": 0.3
     }
   },
   {
@@ -19601,7 +19715,9 @@
     "tags": {
       "investigation_driven": 0.7,
       "systemic_corruption": 0.6,
-      "betrayal": 0.4
+      "betrayal": 0.4,
+      "twist_reveal": 0.4,
+      "moral_ambiguity": 0.3
     }
   },
   {
@@ -19625,7 +19741,9 @@
     "tags": {
       "investigation_driven": 0.6,
       "forbidden_knowledge": 0.4,
-      "slasher_structure": 0.4
+      "slasher_structure": 0.4,
+      "twist_reveal": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -19647,7 +19765,10 @@
     "studio": "Dialchi Film",
     "tags": {
       "descent_into_madness": 0.6,
-      "obsession": 0.4
+      "obsession": 0.4,
+      "revenge_quest": 0.4,
+      "tense_dread": 0.3,
+      "bleak_tone": 0.3
     }
   },
   {
@@ -19672,7 +19793,9 @@
     "tags": {
       "disaster_survival": 0.8,
       "isolation_disconnection": 0.5,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "survival_against_odds": 0.4,
+      "ensemble_cast": 0.3
     }
   },
   {
@@ -19696,7 +19819,9 @@
     "tags": {
       "investigation_driven": 0.5,
       "forbidden_knowledge": 0.4,
-      "man_vs_nature": 0.4
+      "man_vs_nature": 0.4,
+      "chase_structure": 0.4,
+      "road_journey": 0.3
     }
   },
   {
@@ -19719,7 +19844,9 @@
     "tags": {
       "forbidden_knowledge": 0.7,
       "betrayal": 0.6,
-      "obsession": 0.5
+      "obsession": 0.5,
+      "gothic": 0.4,
+      "tense_dread": 0.3
     }
   },
   {
@@ -19743,7 +19870,10 @@
     "studio": "Rubicon Film Productions Ltd.",
     "tags": {
       "romantic_tone": 0.6,
-      "isolation_disconnection": 0.4
+      "isolation_disconnection": 0.4,
+      "identity_reinvention": 0.4,
+      "tender_sincerity": 0.3,
+      "meta_fourth_wall": 0.3
     }
   },
   {
@@ -19765,7 +19895,10 @@
     "studio": "Republic Pictures",
     "tags": {
       "rivalry_driven": 0.5,
-      "justice_vs_law": 0.4
+      "justice_vs_law": 0.4,
+      "underdog_rise": 0.4,
+      "betrayal": 0.3,
+      "romantic_tone": 0.3
     }
   }
 ]
